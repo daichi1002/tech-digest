@@ -36,7 +36,7 @@ jobs:
   notify:
     # Only after the routine publishes a new digest (commit message "data: YYYY-MM-DD").
     needs: deploy
-    if: github.event_name == 'push' && startsWith(github.event.head_commit.message, 'data:')
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && startsWith(github.event.head_commit.message, 'data:'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
