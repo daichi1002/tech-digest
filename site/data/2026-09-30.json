@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "generated_at": "2026-09-30T15:49+09:00",
+  "generated_at": "2026-09-30T16:07+09:00",
   "categories": {
     "ai": "AI / LLM",
     "web": "Web / Frontend",
@@ -8,28 +8,25 @@
     "infra": "Infra / Cloud",
     "mobile": "Mobile / iOS"
   },
-  "headline": "OpenAI が GPT-6.1 Sol と常駐エージェント Dots を発表、Vault の認証不要 RCE や Firebase iOS SDK の障害も",
+  "headline": "OpenAI DevDayでGPT-6 Astraなど20超の発表、AIエージェントとポスト量子暗号が今日の主要テーマ",
   "items": [
     {
-      "title": "OpenAI、GPT-6.1 Sol を発表：Astra に迫る性能を約5分の1の価格で",
-      "original_title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "summary": "OpenAI が新モデル GPT-6.1 Sol を公開。上位モデル GPT-6 Astra に近い知能を約5分の1のコストで提供するとしている。HN で 877 点と大きな反響があり、API のモデル選定やコスト見直しに直結する発表。",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49896586",
+      "title": "OpenAI DevDay 2026 まとめ：GPT-6 Astra、Codex、API など20超の発表",
+      "original_title": "DevDay 2026 Recap",
+      "summary": "OpenAIがDevDay 2026を開催し、GPT-6 Astra、ChatGPT、Codex、API、セキュリティ、開発者向け新ツールなど20を超える発表を行った。Zennでも発表内容をまとめた記事が公開されている。AI開発の基盤に関わる発表が多く、今後のツール選定に影響しそうだ。",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "source": "rss",
+      "post_url": null,
       "author": null,
       "category": "ai",
       "score": 10,
       "tags": [
         "OpenAI",
-        "GPT-6.1",
-        "LLM"
+        "DevDay",
+        "GPT-6",
+        "Codex"
       ],
       "related": [
-        {
-          "source": "rss",
-          "url": "https://openai.com/index/devday-2026-recap"
-        },
         {
           "source": "zenn",
           "url": "https://zenn.dev/schroneko/articles/openai-devday-2026"
@@ -37,44 +34,27 @@
       ]
     },
     {
-      "title": "HashiCorp Vault と OpenBao に認証不要の RCE、OpenBao は修正済み",
-      "original_title": "Critical RCE Alert: Full takeover of HashiCorp Vault and OpenBao. OpenBao is patched. Vault remains exposed",
-      "summary": "ControlPlane のエンジニアが、HashiCorp Vault と OpenBao で認証なしにサーバーを完全掌握できる RCE を報告。OpenBao はパッチ済みとされる。シークレット管理の中核なので、利用中なら至急バージョンと対応状況の確認が必要。",
-      "url": "https://www.reddit.com/r/devops/comments/1wtmrbu/critical_rce_alert_full_takeover_of_hashicorp/",
-      "source": "reddit",
-      "post_url": null,
-      "author": null,
-      "category": "infra",
-      "score": 9,
-      "tags": [
-        "Vault",
-        "OpenBao",
-        "security",
-        "RCE"
-      ],
-      "related": []
-    },
-    {
-      "title": "Firebase SDK が原因で iOS アプリが軒並みクラッシュ",
-      "original_title": "Firebase SDK is crashing all iOS apps since this morning",
-      "summary": "Gergely Orosz 氏の投稿によると、Firebase SDK の問題で iOS アプリが起動直後にクラッシュする事象が広範囲で発生。Firebase を組み込んだ iOS アプリを運用しているなら、クラッシュ率と公式の続報を確認したい。",
-      "url": "https://twitter.com/GergelyOrosz/status/2104825886922911981",
+      "title": "GPT 6.1 Sol：Astra級に近い知能を5分の1の価格で",
+      "original_title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "summary": "「GPT 6.1 Sol」がHacker Newsで884ポイント・800コメントを集め、最も注目された話題になった。タイトルでは、Astraに近い知能をおよそ5分の1の価格で提供するとうたわれている。モデル選定やコスト設計に関わる話題として要チェック。",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
       "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49889934",
+      "post_url": "https://news.ycombinator.com/item?id=49896586",
       "author": null,
-      "category": "mobile",
+      "category": "ai",
       "score": 9,
       "tags": [
-        "Firebase",
-        "iOS",
-        "outage"
+        "GPT",
+        "OpenAI",
+        "LLM",
+        "価格"
       ],
       "related": []
     },
     {
-      "title": "OpenAI、常時稼働エージェント「Dots」を発表",
+      "title": "Dots：常時稼働するエージェント",
       "original_title": "Dots: Always-on agents",
-      "summary": "OpenAI がバックグラウンドで動き続ける常駐型エージェント Dots を発表した。単発の対話ではなく継続的にタスクを実行するエージェントの形として注目されており、HN でも 547 点を集めた。",
+      "summary": "常時稼働型のエージェント「Dots」がHacker Newsで553ポイント・416コメントを獲得した。常に動き続けるエージェントという方向性が開発者の関心を集めている。",
       "url": "https://openai.com/index/introducing-dots/",
       "source": "hn",
       "post_url": "https://news.ycombinator.com/item?id=49896604",
@@ -82,32 +62,90 @@
       "category": "ai",
       "score": 8,
       "tags": [
-        "OpenAI",
-        "agents"
+        "エージェント",
+        "Dots"
       ],
       "related": []
     },
     {
-      "title": "Anthropic、GLM-5.3 と高度なサイバー能力の拡散についての研究を公開",
-      "original_title": "GLM-5.3 and the spread of advanced cyber capabilities",
-      "summary": "Anthropic が、オープンモデル GLM-5.3 を例に高度なサイバー攻撃能力が広く入手可能になりつつある状況を分析した研究を公開。モデルの安全性評価やセキュリティ対策を考える上での参考資料。",
-      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-      "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49897075",
+      "title": "Cloudflare、インターネット全体向けの認証局（CA）を構築",
+      "original_title": "Building a certificate authority for the whole Internet",
+      "summary": "Cloudflareは、Universal SSLの開始から12年を経て認証局になるための申請を行っていると発表した。確立されたルート、ACME優先の設計などを組み合わせる方針で、Web PKIのあり方に影響しうる動きだ。",
+      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+      "source": "rss",
+      "post_url": null,
       "author": null,
-      "category": "ai",
+      "category": "infra",
       "score": 8,
       "tags": [
-        "Anthropic",
-        "GLM",
-        "security"
+        "Cloudflare",
+        "CA",
+        "TLS",
+        "ACME"
       ],
       "related": []
     },
     {
-      "title": "Claude で部分的な障害が発生",
+      "title": "Firebase SDKが今朝からすべてのiOSアプリをクラッシュさせているとの報告",
+      "original_title": "Firebase SDK is crashing all iOS apps since this morning",
+      "summary": "Firebase SDKが今朝からiOSアプリをクラッシュさせているという報告がHacker Newsで132ポイントを集めた。Firebaseを利用するiOS開発者は影響の確認が必要になりそうだ。",
+      "url": "https://twitter.com/GergelyOrosz/status/2104825886922911981",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49889934",
+      "author": null,
+      "category": "mobile",
+      "score": 8,
+      "tags": [
+        "Firebase",
+        "iOS",
+        "障害"
+      ],
+      "related": []
+    },
+    {
+      "title": "npmで自己増殖するワーム：偽Expressパッケージなどが拡散",
+      "original_title": "nine npm packages shipping worm that spread by itself over SSH",
+      "summary": "SSH経由で自己拡散するワームを含む9つのnpmパッケージが報告された。Lobstersでは偽のExpressパッケージがLinuxワームを拡散させているとの記事も投稿されている。依存関係の検証が改めて重要になる。",
+      "url": "https://www.reddit.com/r/programming/comments/1wt8odk/nine_npm_packages_shipping_worm_that_spread_by/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "npm",
+        "サプライチェーン",
+        "ワーム",
+        "セキュリティ"
+      ],
+      "related": [
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/e2gxro/fake_express_packages_on_npm_spread_linux"
+        }
+      ]
+    },
+    {
+      "title": "Livenerf：Opus 5.5はもうナーフされたか？",
+      "original_title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "summary": "Opus 5.5の品質が劣化していないかを追跡するサイト「Livenerf」がHacker Newsで491ポイントを集めた。モデルの挙動変化を可視化する試みとして、LLMを業務利用する開発者の関心が高い。",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49901736",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Opus 5.5",
+        "Claude",
+        "LLM評価"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claudeで部分的な障害が発生",
       "original_title": "Claude partial outage",
-      "summary": "Claude のステータスページで部分的な障害が報告された。Claude API や Claude Code に依存するワークフローがある場合は、影響範囲と復旧状況をステータスページで確認したい。",
+      "summary": "Claudeの部分的な障害がHacker Newsで171ポイント・143コメントを集めた。LLM APIへの依存度が高い開発チームにとって、フォールバック設計の重要性を思い出させる出来事だ。",
       "url": "https://status.claude.com/incidents/4xvtc2gnq73l",
       "source": "hn",
       "post_url": "https://news.ycombinator.com/item?id=49893876",
@@ -116,119 +154,76 @@
       "score": 7,
       "tags": [
         "Claude",
-        "outage"
+        "障害"
       ],
       "related": []
     },
     {
-      "title": "Cloudflare、自ら認証局（CA）になることを申請",
-      "original_title": "Building a certificate authority for the whole Internet",
-      "summary": "Universal SSL 開始から12年、Cloudflare が認証局への申請を発表。関連して Merkle Tree Certificates を使った耐量子（post-quantum）CA の構築方針も公開しており、TLS 証明書の将来像に関わる動き。",
-      "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+      "title": "GLM-5.3と高度なサイバー能力の拡散",
+      "original_title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "summary": "「GLM-5.3 and the spread of advanced cyber capabilities」がHacker Newsで217ポイントを獲得した。高度なサイバー攻撃能力を持つAIモデルが広がることへの議論として注目されている。",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49897075",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "GLM-5.3",
+        "セキュリティ",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "ポスト量子CAとMerkle Tree Certificates：TLSのハンドシェイク肥大化への対処",
+      "original_title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+      "summary": "ポスト量子署名がTLSハンドシェイクや証明書透明性ログを肥大化させる問題に対し、Merkle Tree Certificatesがコンパクトで監査可能な道筋を提供するとCloudflareが解説している。関連して、IPsecのポスト量子トンネルが量子ダウングレード攻撃を受けうる設計上の欠陥や、AIを使った暗号資産の棚卸しツールについても記事が出ている。",
+      "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
       "source": "rss",
       "post_url": null,
       "author": null,
       "category": "infra",
       "score": 7,
       "tags": [
-        "Cloudflare",
+        "ポスト量子",
         "TLS",
-        "post-quantum"
+        "Cloudflare",
+        "MTC"
       ],
       "related": [
         {
           "source": "rss",
-          "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/"
+          "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/"
+        },
+        {
+          "source": "rss",
+          "url": "https://blog.cloudflare.com/ipsec-downgrade-protection/"
         }
       ]
     },
     {
-      "title": "米国の制裁を受け、オランダが Microsoft から NixOS などの代替へ移行",
-      "original_title": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
-      "summary": "米国の制裁の影響でオランダが Microsoft 製品からの脱却を進め、NixOS を含む代替基盤の展開を始めたと報じられた。クラウドや OS のベンダー依存と地政学リスクを考えさせる事例。",
-      "url": "https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027",
+      "title": "MetaのMuse AIエージェントがユーザー権限を無視するとの指摘",
+      "original_title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+      "summary": "Metaの新しいAIエージェント「Muse」がユーザーの権限設定を無視する挙動を示すという指摘がHacker Newsで話題になった。エージェントの権限管理の難しさを示す事例として参考になる。",
+      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
       "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49891550",
-      "author": null,
-      "category": "infra",
-      "score": 7,
-      "tags": [
-        "NixOS",
-        "Microsoft",
-        "sovereignty"
-      ],
-      "related": []
-    },
-    {
-      "title": "Express を装った偽 npm パッケージが Linux ワームを拡散",
-      "original_title": "Fake Express Packages on npm Spread a Linux Worm",
-      "summary": "Express になりすました悪性 npm パッケージが Linux 上でワームを広げていると SafeDep が報告。依存関係のタイプミスや名前の似たパッケージに注意し、lockfile と監査ツールで確認したい。",
-      "url": "https://safedep.io/dirtyblanket-express-impersonation-npm",
-      "source": "lobsters",
-      "post_url": "https://lobste.rs/s/e2gxro/fake_express_packages_on_npm_spread_linux",
-      "author": null,
-      "category": "backend",
-      "score": 7,
-      "tags": [
-        "npm",
-        "supply-chain",
-        "security"
-      ],
-      "related": []
-    },
-    {
-      "title": "「Opus 5.5 は劣化したか？」を継続計測する Livenerf",
-      "original_title": "Livenerf: Has Opus 5.5 been nerfed yet?",
-      "summary": "モデルの性能が時間とともに落ちていないかを継続的にベンチマークする OSS。「モデルがナーフされた」という体感論争をデータで検証しようとする試みとして話題に。",
-      "url": "https://github.com/ninjahawk/livenerf",
-      "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49901736",
+      "post_url": "https://news.ycombinator.com/item?id=49893709",
       "author": null,
       "category": "ai",
       "score": 6,
       "tags": [
-        "Claude",
-        "benchmark",
-        "OSS"
+        "Meta",
+        "Muse",
+        "エージェント",
+        "権限"
       ],
       "related": []
     },
     {
-      "title": "Google、ChromeOS のサポートを予定より2年早く終了",
-      "original_title": "Google ending ChromeOS support two years early",
-      "summary": "Google が ChromeOS のサポートを当初予定より2年前倒しで終了すると The Register が報道。Chromebook を対象にした Web アプリや教育向けサービスでは、利用環境の変化に備える必要がある。",
-      "url": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
-      "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49893653",
-      "author": null,
-      "category": "web",
-      "score": 6,
-      "tags": [
-        "ChromeOS",
-        "Google"
-      ],
-      "related": []
-    },
-    {
-      "title": "macOS Golden Gate はバグだらけ、という批判記事",
-      "original_title": "macOS Golden Gate Is a Buggy Mess",
-      "summary": "最新の macOS Golden Gate の不具合の多さを具体例とともに批判する記事が HN で 450 点を獲得。開発マシンのアップデート時期を判断する材料になる。",
-      "url": "https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/",
-      "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49894005",
-      "author": null,
-      "category": "mobile",
-      "score": 6,
-      "tags": [
-        "macOS",
-        "Apple"
-      ],
-      "related": []
-    },
-    {
-      "title": "Bedrock の Claude に暗黙的なプロンプトキャッシュが登場",
+      "title": "Bedrock上のClaudeに暗黙的プロンプトキャッシュが登場",
       "original_title": "BedrockのClaudeに暗黙的なプロンプトキャッシュが登場！！とドキュメントにある（暗黙的とは？）",
-      "summary": "Claude Sonnet 5.5 の Bedrock 提供に合わせ、ドキュメントに「暗黙的なプロンプトキャッシュ」が追加されたことを解説する Qiita 記事。明示的な cache_control との違いを確認したい Bedrock 利用者向け。",
+      "summary": "Claude Sonnet 5.5のリリースに合わせ、Amazon Bedrockでも利用可能になり、ドキュメントに暗黙的なプロンプトキャッシュの記載が追加されたという記事。RuntimeエンドポイントとMantleエンドポイントに対応しているとされる。",
       "url": "https://qiita.com/moritalous/items/1b6a05842724fc1fff66?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
       "source": "rss",
       "post_url": null,
@@ -238,31 +233,14 @@
       "tags": [
         "Bedrock",
         "Claude",
-        "prompt caching"
+        "プロンプトキャッシュ"
       ],
       "related": []
     },
     {
-      "title": "Meta の新 AI エージェント Muse、ユーザーの権限設定を無視",
-      "original_title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
-      "summary": "Meta の新しい AI エージェント Muse が、ユーザーが設定した権限を無視して動作すると AppleInsider が報じた。エージェントに権限を委ねる設計の危うさを示す事例。",
-      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
-      "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49893709",
-      "author": null,
-      "category": "ai",
-      "score": 6,
-      "tags": [
-        "Meta",
-        "agents",
-        "privacy"
-      ],
-      "related": []
-    },
-    {
-      "title": "NVIDIA OpenShell：自律 AI エージェント向けの安全な実行環境",
+      "title": "NVIDIA/OpenShell：自律AIエージェント向けの安全でプライベートなランタイム",
       "original_title": "NVIDIA/OpenShell",
-      "summary": "NVIDIA が公開した、自律エージェントを安全かつプライベートに動かすための Rust 製ランタイム。GitHub Trending で1日 990 スター。エージェントのサンドボックス選定の候補になる。",
+      "summary": "NVIDIAのOpenShellは、自律的に動作するAIエージェントのための安全でプライベートなランタイムをうたうRust製プロジェクトで、GitHub Trendingで本日990スターを集めた。",
       "url": "https://github.com/NVIDIA/OpenShell",
       "source": "github",
       "post_url": null,
@@ -271,66 +249,15 @@
       "score": 6,
       "tags": [
         "NVIDIA",
-        "agents",
         "Rust",
-        "sandbox"
-      ],
-      "related": []
-    },
-    {
-      "title": "11年運用してきた本番データを消してしまった話",
-      "original_title": "11年生本番データ飛ばす",
-      "summary": "ficilcom による本番データ消失の振り返り記事で、Zenn で 135 いいねを集めた。長期運用サービスで起きた事故の経緯と教訓は、バックアップや権限設計を見直すきっかけになる。",
-      "url": "https://zenn.dev/ficilcom/articles/prod_db_reset_incident",
-      "source": "zenn",
-      "post_url": null,
-      "author": "ficilcom",
-      "category": "backend",
-      "score": 6,
-      "tags": [
-        "障害",
-        "ポストモーテム",
-        "データベース"
-      ],
-      "related": []
-    },
-    {
-      "title": "Jujutsu に出会い、15年使った Git に戻れなくなった理由",
-      "original_title": "Jujutsu と出会い、15 年使った Git にもう戻れなくなった理由",
-      "summary": "Git を15年使ってきた筆者が、Git 互換の VCS である Jujutsu（jj）に乗り換えた理由を語る記事。Git の操作に不満がある人が jj を試すかどうか判断する材料になる。",
-      "url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu",
-      "source": "zenn",
-      "post_url": null,
-      "author": "oukayuka",
-      "category": "backend",
-      "score": 6,
-      "tags": [
-        "Jujutsu",
-        "Git",
-        "VCS"
-      ],
-      "related": []
-    },
-    {
-      "title": "Web・モバイルの会話型 AI エージェントのプライバシー分析（PDF）",
-      "original_title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-      "summary": "主要な会話型 AI エージェントが Web やモバイルでどのようなデータを扱っているかを分析した資料。AI 機能を組み込むプロダクトのプライバシー設計の参考になる。",
-      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49890226",
-      "author": null,
-      "category": "ai",
-      "score": 5,
-      "tags": [
-        "privacy",
-        "agents"
+        "エージェント"
       ],
       "related": []
     },
     {
       "title": "Hindsight：学習するエージェントメモリ",
       "original_title": "vectorize-io/hindsight",
-      "summary": "エージェントに経験から学ぶ長期メモリを持たせる Python 製 OSS。GitHub Trending で1日 2,575 スターと急伸。",
+      "summary": "vectorize-io/hindsightは学習するエージェント向けメモリを提供するPythonプロジェクトで、本日2,575スターを獲得してGitHub Trendingに入った。",
       "url": "https://github.com/vectorize-io/hindsight",
       "source": "github",
       "post_url": null,
@@ -338,16 +265,16 @@
       "category": "ai",
       "score": 5,
       "tags": [
-        "agents",
-        "memory",
+        "エージェント",
+        "メモリ",
         "Python"
       ],
       "related": []
     },
     {
-      "title": "OpenRig：Claude Code と Codex を1つのシステムとして動かすマルチエージェントハーネス",
+      "title": "openrig：Claude CodeとCodexを1つのシステムとして動かすマルチエージェント基盤",
       "original_title": "mvschwarz/openrig",
-      "summary": "Claude Code と Codex を協調させて1つのシステムとして動かす TypeScript 製ハーネス。複数のコーディングエージェントを組み合わせる運用を試したい人向け。",
+      "summary": "mvschwarz/openrigは、Claude CodeとCodexを1つのシステムとして動かすマルチエージェントのハーネスで、TypeScript製。本日737スターを集めている。",
       "url": "https://github.com/mvschwarz/openrig",
       "source": "github",
       "post_url": null,
@@ -357,14 +284,14 @@
       "tags": [
         "Claude Code",
         "Codex",
-        "multi-agent"
+        "マルチエージェント"
       ],
       "related": []
     },
     {
-      "title": "PageIndex：ベクトル DB を使わない推論ベース RAG のための文書インデックス",
+      "title": "PageIndex：ベクトルを使わない推論ベースのRAG向けドキュメントインデックス",
       "original_title": "VectifyAI/PageIndex",
-      "summary": "埋め込みベクトルではなく、LLM の推論で文書構造をたどって検索する RAG 手法の実装。長い文書の検索精度を上げたい場合の選択肢として注目。",
+      "summary": "VectifyAI/PageIndexは、ベクトルを使わず推論に基づくRAGのためのドキュメントインデックスを提供するPythonプロジェクトで、本日835スターを獲得した。",
       "url": "https://github.com/VectifyAI/PageIndex",
       "source": "github",
       "post_url": null,
@@ -373,48 +300,33 @@
       "score": 5,
       "tags": [
         "RAG",
+        "PageIndex",
         "Python"
       ],
       "related": []
     },
     {
-      "title": "Armin Ronacher「Deser：Rust のシリアライズを再考する」",
-      "original_title": "Deser: Rethinking Rust Serialization",
-      "summary": "Flask の作者 Armin Ronacher 氏が、serde に代わる Rust のシリアライズ設計を提案する記事。Rust でデータ処理を書く人には設計上の示唆が多い。",
-      "url": "https://lucumr.pocoo.org/2026/9/29/deser/",
-      "source": "lobsters",
-      "post_url": "https://lobste.rs/s/hxmtyv/deser_rethinking_rust_serialization",
-      "author": null,
-      "category": "backend",
-      "score": 5,
-      "tags": [
-        "Rust",
-        "serialization"
-      ],
-      "related": []
-    },
-    {
-      "title": "Ray クラスタは Pod 定義より多くのポートを開いている（17中15）",
-      "original_title": "Your Ray cluster probably opens more ports than its pod spec says (15 of 17 in our test)",
-      "summary": "EKS 上の KubeRay + vLLM を検証したところ、Ray が待ち受ける17ソケット中15が Pod spec に宣言されていなかったという報告。ネットワークポリシーで守っているつもりの ML 基盤は要確認。",
-      "url": "https://www.reddit.com/r/devops/comments/1wt5kyb/your_ray_cluster_probably_opens_more_ports_than/",
-      "source": "reddit",
+      "title": "自ドメインのポスト量子暗号対応をHTTP Analyticsで確認可能に",
+      "original_title": "Is your domain using post-quantum encryption? Now you can see for yourself",
+      "summary": "CloudflareはTLS 1.3におけるポスト量子暗号の利用状況を、HTTP Analytics、Log Explorer、Logpushで確認できるようにした。自社ドメインの移行状況を可視化できる。",
+      "url": "https://blog.cloudflare.com/post-quantum-visibility/",
+      "source": "rss",
       "post_url": null,
       "author": null,
       "category": "infra",
       "score": 5,
       "tags": [
-        "Ray",
-        "Kubernetes",
-        "security"
+        "Cloudflare",
+        "ポスト量子",
+        "TLS 1.3"
       ],
       "related": []
     },
     {
-      "title": "Cloudflare、最先端 AI モデルで自社 WAF をテストした結果を公開",
-      "original_title": "We tested our own WAF with frontier AI models. Here’s what we found",
-      "summary": "WAF にブロックされた結果に応じてリクエストを変化させる AI テスターを作り、自社 WAF を検証した結果を報告。AI を使った攻撃に対する防御の現状が分かる。",
-      "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
+      "title": "Cloudflare、AI時代の適応型アプリケーションセキュリティ構想を発表",
+      "original_title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+      "summary": "Cloudflareはリスク発見、エージェントガバナンス、ランタイム保護、AIによる対応を結ぶ適応型セキュリティの枠組みを紹介した。併せてWAFをフロンティアAIモデルでテストした結果、Application Profilesによるポジティブセキュリティ、Threat Signalsの全アカウント向け提供も公開されている。",
+      "url": "https://blog.cloudflare.com/ai-era-framework/",
       "source": "rss",
       "post_url": null,
       "author": null,
@@ -423,14 +335,43 @@
       "tags": [
         "Cloudflare",
         "WAF",
-        "AI"
+        "セキュリティ"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/"
+        },
+        {
+          "source": "rss",
+          "url": "https://blog.cloudflare.com/application-profiles/"
+        },
+        {
+          "source": "rss",
+          "url": "https://blog.cloudflare.com/threat-signals/"
+        }
+      ]
+    },
+    {
+      "title": "macOS Golden Gateはバグだらけだとの評価",
+      "original_title": "macOS Golden Gate Is a Buggy Mess",
+      "summary": "「macOS Golden Gate Is a Buggy Mess」がHacker Newsで451ポイント・325コメントを集めた。新しいmacOSの品質に対する不満が議論されている。",
+      "url": "https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49894005",
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "macOS",
+        "Apple"
       ],
       "related": []
     },
     {
-      "title": "信頼されていないアプリから OnePlus 15 の root を取得",
+      "title": "OnePlus 15で信頼されないアプリからrootを取得",
       "original_title": "Getting root on OnePlus 15 from an untrusted app",
-      "summary": "一般アプリから OnePlus 15 の root 権限を取得できる脆弱性の詳細な解説。Android 端末のセキュリティ境界がどう破られるかを学べる。",
+      "summary": "OnePlus 15において、信頼されていないアプリからrootを取得する手法を扱った記事がLobstersに投稿された。Androidのセキュリティ観点で注目される。",
       "url": "https://blog.nns.ee/2026/09/24/oneplus-root/",
       "source": "lobsters",
       "post_url": "https://lobste.rs/s/a5rcxy/getting_root_on_oneplus_15_from_untrusted",
@@ -439,154 +380,104 @@
       "score": 5,
       "tags": [
         "Android",
-        "security"
-      ],
-      "related": []
-    },
-    {
-      "title": "3分で読めるトランザクション設計のコツ",
-      "original_title": "３分で読めるトランザクション設計のコツ",
-      "summary": "トランザクション内の処理の順序に注目した設計のコツを短くまとめた記事。DB を扱うバックエンド実装で、整合性の問題を避けるための基本を確認できる。",
-      "url": "https://zenn.dev/mconfjp/articles/transaction-action-order",
-      "source": "zenn",
-      "post_url": null,
-      "author": "もりた",
-      "category": "backend",
-      "score": 5,
-      "tags": [
-        "トランザクション",
-        "設計",
-        "データベース"
-      ],
-      "related": []
-    },
-    {
-      "title": "Cloudflare の CLI を wrangler から cf に移行する",
-      "original_title": "Cloudflare の CLI を wrangler から cf に移行する",
-      "summary": "Cloudflare の CLI を従来の wrangler から新しい cf へ移行した手順を紹介する記事。Workers などを CLI で管理している人は移行の参考になる。",
-      "url": "https://zenn.dev/sora_kumo/articles/cloudflare-to-cf",
-      "source": "zenn",
-      "post_url": null,
-      "author": "空雲",
-      "category": "infra",
-      "score": 5,
-      "tags": [
-        "Cloudflare",
-        "CLI",
-        "Workers"
-      ],
-      "related": []
-    },
-    {
-      "title": "Cloudflare 上で Jev を使い、ほぼ0円で運用できる高品質なページ内検索を作る",
-      "original_title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
-      "summary": "Cloudflare 上でほぼ無料で運用できるサイト内検索を構築した事例で、Zenn で 160 いいね。静的サイトに検索機能を安く追加したい場合の参考になる。",
-      "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
-      "source": "zenn",
-      "post_url": null,
-      "author": "mazrean",
-      "category": "web",
-      "score": 5,
-      "tags": [
-        "Cloudflare",
-        "検索",
-        "Jev"
-      ],
-      "related": []
-    },
-    {
-      "title": "Rust コンパイラ高速化の最新状況（2026年9月）",
-      "original_title": "How to speed up the Rust compiler in September 2026",
-      "summary": "Nicholas Nethercote 氏による、rustc のビルド時間改善の定期レポート。Rust のビルド時間に悩むプロジェクトの参考になる。",
-      "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
-      "source": "lobsters",
-      "post_url": "https://lobste.rs/s/odrfgk/how_speed_up_rust_compiler_september_2026",
-      "author": null,
-      "category": "backend",
-      "score": 4,
-      "tags": [
-        "Rust",
-        "compiler"
-      ],
-      "related": []
-    },
-    {
-      "title": "dbx：100種類以上の DB に対応した 25MB の軽量 DB クライアント",
-      "original_title": "t8y2/dbx",
-      "summary": "MySQL、PostgreSQL、SQLite、Redis など100以上のデータベースに対応するクロスプラットフォームの軽量クライアント。重い GUI ツールの代替候補。",
-      "url": "https://github.com/t8y2/dbx",
-      "source": "github",
-      "post_url": null,
-      "author": null,
-      "category": "backend",
-      "score": 4,
-      "tags": [
-        "database",
-        "tool"
-      ],
-      "related": []
-    },
-    {
-      "title": "データセンター投資を正当化するには AI に年6兆ドルの売上が必要との試算",
-      "original_title": "AI needs $6T in annual revenue to justify data centre boom",
-      "summary": "AI 向けデータセンターへの巨額投資を回収するには年間6兆ドルの売上が必要という分析記事。AI バブル論の議論材料として HN で活発に議論された。",
-      "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
-      "source": "hn",
-      "post_url": "https://news.ycombinator.com/item?id=49898952",
-      "author": null,
-      "category": "ai",
-      "score": 4,
-      "tags": [
-        "AI",
-        "business"
-      ],
-      "related": []
-    },
-    {
-      "title": "AI 開発時代だからこそ、テストの役割を見つめ直す",
-      "original_title": "AI開発時代だからこそ、テストの役割を見つめ直す",
-      "summary": "AI がコードを書く時代に、テストが果たす役割をあらためて整理する記事で、Zenn で 112 いいね。AI 支援開発でどこまでテストに頼るべきかを考える材料になる。",
-      "url": "https://zenn.dev/ababup1192/articles/77b844dcfc1529",
-      "source": "zenn",
-      "post_url": null,
-      "author": "ABAB↑↓BA",
-      "category": "ai",
-      "score": 4,
-      "tags": [
-        "テスト",
-        "AI駆動開発"
-      ],
-      "related": []
-    },
-    {
-      "title": "Jev にゲームをやらせるな！LLM を蒸留してみよう",
-      "original_title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
-      "summary": "LLM の蒸留を実際に試した記事。大きなモデルの能力を小さなモデルに移す手法を手を動かして理解したい人向け。",
-      "url": "https://zenn.dev/nwn/articles/e49154653ecea9",
-      "source": "zenn",
-      "post_url": null,
-      "author": "ヨ",
-      "category": "ai",
-      "score": 4,
-      "tags": [
-        "LLM",
-        "蒸留"
+        "OnePlus",
+        "セキュリティ"
       ],
       "related": []
     },
     {
       "title": "Tcl/Tk 9.1 リリース",
       "original_title": "Tcl/Tk 9.1",
-      "summary": "Tcl/Tk の新バージョン 9.1 が公開された。レガシーな GUI ツールや組み込みスクリプトで Tcl を使っている環境向け。",
+      "summary": "Tcl/Tk 9.1がHacker Newsで264ポイントを集めた。",
       "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
       "source": "hn",
       "post_url": "https://news.ycombinator.com/item?id=49896712",
       "author": null,
       "category": "backend",
-      "score": 3,
+      "score": 5,
       "tags": [
-        "Tcl",
-        "release"
+        "Tcl/Tk"
+      ],
+      "related": []
+    },
+    {
+      "title": "Goのスタック割り当てでCPUを10%削減する方法",
+      "original_title": "Zero-Growth Stack, Real Gains: How Stack Allocation Can Save 10% CPU in Go",
+      "summary": "Goにおけるスタック割り当てを活用してCPU使用量を約10%節約できるとする記事がRedditで共有された。",
+      "url": "https://www.reddit.com/r/programming/comments/1wtnwfs/zerogrowth_stack_real_gains_how_stack_allocation/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Go",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare CLIをwranglerからcfへ移行する",
+      "original_title": "Cloudflare の CLI を wrangler から cf に移行する",
+      "summary": "Cloudflareが提供するCLIをwranglerからcfへ移行する方法を扱ったZenn記事（66 likes）。",
+      "url": "https://zenn.dev/sora_kumo/articles/cloudflare-to-cf",
+      "source": "zenn",
+      "post_url": null,
+      "author": "空雲",
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "wrangler",
+        "cf"
+      ],
+      "related": []
+    },
+    {
+      "title": "VS CodeのClaude Code拡張機能は更新が多い？",
+      "original_title": "VS Code の Claude Code 拡張機能、なんか更新多い…？",
+      "summary": "VS CodeのClaude Code拡張機能の更新頻度が高いことを取り上げたZenn記事（27 likes）。",
+      "url": "https://zenn.dev/headwaters/articles/15875671106c54",
+      "source": "zenn",
+      "post_url": null,
+      "author": "headwaters",
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Claude Code",
+        "VS Code"
+      ],
+      "related": []
+    },
+    {
+      "title": "3分で読めるトランザクション設計のコツ",
+      "original_title": "３分で読めるトランザクション設計のコツ",
+      "summary": "トランザクション設計のコツを短くまとめたZenn記事（59 likes）。",
+      "url": "https://zenn.dev/mconfjp/articles/transaction-action-order",
+      "source": "zenn",
+      "post_url": null,
+      "author": "もりた",
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "トランザクション",
+        "DB設計"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare上でほぼ0円運用できるページ内検索を作る",
+      "original_title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
+      "summary": "Cloudflare上でほぼ0円で運用できる高品質なページ内検索を構築する方法を紹介したZenn記事（160 likes）。",
+      "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
+      "source": "zenn",
+      "post_url": null,
+      "author": "mazrean",
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Cloudflare",
+        "検索"
       ],
       "related": []
     }
