@@ -4,3 +4,4 @@ __pycache__/
 work/*
 !work/candidates.json
 .claude/
+encrypted.data
