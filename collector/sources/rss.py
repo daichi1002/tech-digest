@@ -5,6 +5,7 @@ import re
 import time
 
 import feedparser
+import httpx
 
 from collector import config
 
@@ -17,7 +18,14 @@ def fetch() -> list[dict]:
     since = time.time() - 86400
     items = []
     for feed_url in config.RSS_FEEDS:
-        feed = feedparser.parse(feed_url)
+        # feedparser's own fetcher has no timeout; a stalled feed would hang the whole job.
+        try:
+            r = httpx.get(feed_url, timeout=30, follow_redirects=True, headers={"User-Agent": feedparser.USER_AGENT})
+            r.raise_for_status()
+        except httpx.HTTPError as e:
+            print(f"[rss] failed: {feed_url}: {e}")
+            continue
+        feed = feedparser.parse(r.content, response_headers={**r.headers, "content-location": str(r.url)})
         if feed.bozo and not feed.entries:
             print(f"[rss] failed: {feed_url}")
             continue
