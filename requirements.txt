@@ -1,0 +1,3 @@
+anthropic>=0.70
+httpx>=0.27
+feedparser>=6.0
