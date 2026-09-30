@@ -425,7 +425,8 @@ for (const id of ["#pushBtn", "#pushBtnTab"]) {
 }
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js").catch(() => {});
+  // updateViaCache "none": always check sw.js itself against the network, never the HTTP cache.
+  navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).catch(() => {});
 }
 
 init();

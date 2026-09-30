@@ -1,7 +1,8 @@
-// Bump when app shell files change so installed apps pick up the new version.
+// App shell and data are both network-first, so deploys show on the next launch without a version bump.
+// VERSION only names the offline cache; bump it to drop old cached files.
 // Cache names are shared by every project site on daichi1002.github.io, so they carry an app prefix.
 const PREFIX = "tech-digest-";
-const VERSION = "v4";
+const VERSION = "v5";
 const SHELL = `${PREFIX}shell-${VERSION}`;
 const DATA = `${PREFIX}data`;
 // Unprefixed names used up to v2; removed once on upgrade.
@@ -28,36 +29,34 @@ self.addEventListener("activate", (e) => {
   );
 });
 
-// Data: network first so new digests show up immediately; cached copy when offline.
-async function networkFirst(req) {
-  const cache = await caches.open(DATA);
-  try {
-    const res = await fetch(req, { cache: "no-cache" });
+// Network first: always try the latest file; fall back to the cached copy when offline or when the
+// network is slower than `timeoutMs` (a slow connection still gets a page; the fetch keeps updating the cache).
+async function networkFirst(req, cacheName, timeoutMs) {
+  const cache = await caches.open(cacheName);
+  const network = fetch(req, { cache: "no-cache" }).then((res) => {
     if (res.ok) cache.put(req, res.clone());
     return res;
+  });
+  network.catch(() => {}); // if we already answered from cache, a later network failure is not an error
+  const cached = () => cache.match(req, { ignoreSearch: true });
+  try {
+    if (!timeoutMs) return await network;
+    const slow = new Promise((resolve) => setTimeout(resolve, timeoutMs, "timeout"));
+    const first = await Promise.race([network, slow]);
+    if (first !== "timeout") return first;
+    return (await cached()) || (await network);
   } catch {
-    const hit = await cache.match(req, { ignoreSearch: true });
+    const hit = await cached();
     if (hit) return hit;
     throw new Error("offline and not cached");
   }
-}
-
-// Shell: serve from cache, refresh in the background.
-async function staleWhileRevalidate(req) {
-  const cache = await caches.open(SHELL);
-  const hit = await cache.match(req, { ignoreSearch: true });
-  const fresh = fetch(req).then((res) => {
-    if (res.ok) cache.put(req, res.clone());
-    return res;
-  }).catch(() => hit);
-  return hit || fresh;
 }
 
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin || !e.request.url.startsWith(self.registration.scope)) return;
   const isData = url.pathname.includes("/data/") || url.pathname.endsWith("push-config.json");
-  e.respondWith(isData ? networkFirst(e.request) : staleWhileRevalidate(e.request));
+  e.respondWith(isData ? networkFirst(e.request, DATA) : networkFirst(e.request, SHELL, 4000));
 });
 
 self.addEventListener("push", (e) => {
