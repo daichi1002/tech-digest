@@ -7,7 +7,7 @@
    "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
    "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
    "post_url": "https://news.ycombinator.com/item?id=49896586",
-   "snippet": "882 points, 800 comments"
+   "snippet": "884 points, 800 comments"
   },
   {
    "id": 1,
@@ -23,7 +23,7 @@
    "title": "Dots: Always-on agents",
    "url": "https://openai.com/index/introducing-dots/",
    "post_url": "https://news.ycombinator.com/item?id=49896604",
-   "snippet": "552 points, 416 comments"
+   "snippet": "553 points, 416 comments"
   },
   {
    "id": 3,
@@ -55,7 +55,7 @@
    "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
    "url": "https://github.com/ninjahawk/livenerf",
    "post_url": "https://news.ycombinator.com/item?id=49901736",
-   "snippet": "490 points, 206 comments"
+   "snippet": "491 points, 210 comments"
   },
   {
    "id": 7,
@@ -95,7 +95,7 @@
    "title": "PS5 Relapse Exploit",
    "url": "https://github.com/ntfargo/Relapse-Exploit",
    "post_url": "https://news.ycombinator.com/item?id=49895304",
-   "snippet": "280 points, 168 comments"
+   "snippet": "280 points, 169 comments"
   },
   {
    "id": 12,
@@ -103,7 +103,7 @@
    "title": "Tcl/Tk 9.1",
    "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
    "post_url": "https://news.ycombinator.com/item?id=49896712",
-   "snippet": "263 points, 107 comments"
+   "snippet": "264 points, 107 comments"
   },
   {
    "id": 13,
@@ -127,7 +127,7 @@
    "title": "Ask HN: What are you reading?",
    "url": "https://news.ycombinator.com/item?id=49893157",
    "post_url": "https://news.ycombinator.com/item?id=49893157",
-   "snippet": "230 points, 491 comments"
+   "snippet": "232 points, 492 comments"
   },
   {
    "id": 16,
@@ -135,7 +135,7 @@
    "title": "GLM-5.3 and the spread of advanced cyber capabilities",
    "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
    "post_url": "https://news.ycombinator.com/item?id=49897075",
-   "snippet": "216 points, 212 comments"
+   "snippet": "217 points, 212 comments"
   },
   {
    "id": 17,
@@ -215,7 +215,7 @@
    "title": "Vermont replacing power plants with home batteries",
    "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
    "post_url": "https://news.ycombinator.com/item?id=49897993",
-   "snippet": "149 points, 121 comments"
+   "snippet": "149 points, 122 comments"
   },
   {
    "id": 27,
@@ -255,7 +255,7 @@
    "title": "NASA asked several former SR-71A staffers to help secret restart",
    "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
    "post_url": "https://news.ycombinator.com/item?id=49890733",
-   "snippet": "122 points, 115 comments"
+   "snippet": "123 points, 116 comments"
   },
   {
    "id": 32,
@@ -271,7 +271,7 @@
    "title": "Memory Companies Have Destroyed the Consumer Market",
    "url": "https://gamersnexus.net/news-features/memory-companies-have-destroyed-consumer-market",
    "post_url": "https://news.ycombinator.com/item?id=49899051",
-   "snippet": "109 points, 90 comments"
+   "snippet": "110 points, 90 comments"
   },
   {
    "id": 34,
@@ -300,18 +300,18 @@
   {
    "id": 37,
    "source": "lobsters",
-   "title": "Deser: Rethinking Rust Serialization",
-   "url": "https://lucumr.pocoo.org/2026/9/29/deser/",
-   "post_url": "https://lobste.rs/s/hxmtyv/deser_rethinking_rust_serialization",
-   "snippet": "22 points, tags: rust"
-  },
-  {
-   "id": 38,
-   "source": "lobsters",
    "title": "Aho-Corasick Algorithm",
    "url": "https://compiler.club/aho-corasick/",
    "post_url": "https://lobste.rs/s/s0x5nd/aho_corasick_algorithm",
    "snippet": "41 points, tags: compsci"
+  },
+  {
+   "id": 38,
+   "source": "lobsters",
+   "title": "Deser: Rethinking Rust Serialization",
+   "url": "https://lucumr.pocoo.org/2026/9/29/deser/",
+   "post_url": "https://lobste.rs/s/hxmtyv/deser_rethinking_rust_serialization",
+   "snippet": "22 points, tags: rust"
   },
   {
    "id": 39,
@@ -380,26 +380,26 @@
   {
    "id": 47,
    "source": "lobsters",
-   "title": "The Only Intuitive Interface Is The Nipple",
-   "url": "https://www.greenend.org.uk/rjk/misc/nipple.html",
-   "post_url": "https://lobste.rs/s/wkhrba/only_intuitive_interface_is_nipple",
-   "snippet": "1 points, tags: cogsci, historical"
-  },
-  {
-   "id": 48,
-   "source": "lobsters",
    "title": "Dirty Optimization Secrets (C for Playdate)",
    "url": "https://devforum.play.date/t/dirty-optimization-secrets-c-for-playdate/23011",
    "post_url": "https://lobste.rs/s/zyzrlh/dirty_optimization_secrets_c_for",
    "snippet": "3 points, tags: hardware"
   },
   {
-   "id": 49,
+   "id": 48,
    "source": "lobsters",
    "title": "Getting root on OnePlus 15 from an untrusted app",
    "url": "https://blog.nns.ee/2026/09/24/oneplus-root/",
    "post_url": "https://lobste.rs/s/a5rcxy/getting_root_on_oneplus_15_from_untrusted",
    "snippet": "9 points, tags: android, security"
+  },
+  {
+   "id": 49,
+   "source": "lobsters",
+   "title": "The Only Intuitive Interface Is The Nipple",
+   "url": "https://www.greenend.org.uk/rjk/misc/nipple.html",
+   "post_url": "https://lobste.rs/s/wkhrba/only_intuitive_interface_is_nipple",
+   "snippet": "1 points, tags: cogsci, historical"
   },
   {
    "id": 50,
