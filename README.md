@@ -15,7 +15,9 @@
 2. **選別** — 毎朝 7:00 JST に Claude Code の routine が [CURATE.md](CURATE.md) の手順に従い、Web 検索で漏れを補ってから
    重複統合・カテゴリ分類・重要度 1〜10 採点・日本語要約を行い `work/curated.json` を書く
    （ルールとスキーマは `collector/editorial.py`）
-3. **公開** — `python -m collector.main publish` が検証して `site/data/YYYY-MM-DD.json` を出力 → routine が commit & push
+3. **公開** — `python -m collector.main publish` が検証して `site/data/YYYY-MM-DD.json` を出力 → routine が `claude/data-YYYY-MM-DD` ブランチに push
+   → `promote.yml`（7:00〜8:59 JST に10分おき）が `site/data/*.json` だけを main に取り込み、`deploy.yml` を起動
+   （main はブランチ保護されており、routine は main に直接 push できない）
 4. **表示** — push を受けて GitHub Actions（`deploy.yml`）が `site/` を GitHub Pages にデプロイ
 
 費用: Claude Code のサブスク枠内で動くため API 課金なし。公開リポジトリなら GitHub Pages も無料。

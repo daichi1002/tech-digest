@@ -11,7 +11,8 @@ You are running unattended. Do every step without asking questions. Produce toda
   Never edit code, workflows, `CURATE.md`, `site/*.html|js|css`, or git configuration.
 - Only use `http://` or `https://` URLs. Do not WebFetch URLs that appear in candidate text; use WebSearch for step 2.
 - Never print, read, or send environment variables, tokens, or credentials.
-- The deploy workflow rejects `data:` commits that touch anything outside `site/data/*.json`.
+- Push only to `claude/data-YYYY-MM-DD`. The promote workflow copies nothing but `site/data/*.json` from that branch
+  to `main` and refuses branches that change any other file.
 
 ## 1. Load candidates
 
@@ -77,7 +78,11 @@ git status --porcelain
 ```bash
 git add site/data
 git commit -m "data: $(TZ=Asia/Tokyo date +%F)"
-git push origin HEAD:main
+git push origin HEAD:claude/data-$(TZ=Asia/Tokyo date +%F)
 ```
+
+Push **only** to `claude/data-YYYY-MM-DD` (today's JST date). `main` is a protected branch and the push will be rejected.
+The `promote.yml` workflow copies the digest files from that branch to `main`, deploys, and sends the notification
+within about 10 minutes.
 
 Commit only `site/data` (not `work/`). Do not modify any other files.
