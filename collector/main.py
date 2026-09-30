@@ -1,8 +1,8 @@
 """Daily pipeline.
 
 Routine mode (free, Claude Code subscription) — see CURATE.md:
-  python -m collector.main collect   # fetch sources -> work/candidates.json
-  (Claude Code writes work/curated.json)
+  python -m collector.main collect   # fetch sources -> work/candidates.json (run by GitHub Actions)
+  (Claude Code routine writes work/curated.json)
   python -m collector.main publish   # validate -> site/data/YYYY-MM-DD.json
 
 API mode (paid, needs ANTHROPIC_API_KEY):
@@ -89,13 +89,16 @@ def cmd_collect() -> None:
         sys.exit("[collect] no candidates collected")
     WORK_DIR.mkdir(exist_ok=True)
     listing = [{"id": i, **c} for i, c in enumerate(candidates)]
-    CANDIDATES.write_text(json.dumps(listing, ensure_ascii=False, indent=1))
+    CANDIDATES.write_text(json.dumps({"date": _today(), "candidates": listing}, ensure_ascii=False, indent=1))
     CURATED.unlink(missing_ok=True)
     print(f"[collect] wrote {CANDIDATES.relative_to(ROOT)}")
 
 
 def cmd_publish() -> None:
-    candidates = json.loads(CANDIDATES.read_text())
+    data = json.loads(CANDIDATES.read_text())
+    if data["date"] != _today():
+        sys.exit(f"[publish] candidates are from {data['date']}, not today ({_today()}); collection did not run")
+    candidates = data["candidates"]
     try:
         result = json.loads(CURATED.read_text())
     except (FileNotFoundError, json.JSONDecodeError) as e:

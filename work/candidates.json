@@ -1,0 +1,839 @@
+{
+ "date": "2026-09-30",
+ "candidates": [
+  {
+   "id": 0,
+   "source": "hn",
+   "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+   "post_url": "https://news.ycombinator.com/item?id=49896586",
+   "snippet": "882 points, 800 comments"
+  },
+  {
+   "id": 1,
+   "source": "hn",
+   "title": "Everybody’s home. No one’s coming over",
+   "url": "https://www.derekthompson.org/p/the-death-of-the-american-host",
+   "post_url": "https://news.ycombinator.com/item?id=49891295",
+   "snippet": "774 points, 689 comments"
+  },
+  {
+   "id": 2,
+   "source": "hn",
+   "title": "Dots: Always-on agents",
+   "url": "https://openai.com/index/introducing-dots/",
+   "post_url": "https://news.ycombinator.com/item?id=49896604",
+   "snippet": "552 points, 416 comments"
+  },
+  {
+   "id": 3,
+   "source": "hn",
+   "title": "DraftKings is using AI to behaviorally target chronic gamblers",
+   "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+   "post_url": "https://news.ycombinator.com/item?id=49896050",
+   "snippet": "537 points, 393 comments"
+  },
+  {
+   "id": 4,
+   "source": "hn",
+   "title": "America.gov",
+   "url": "https://america.gov/",
+   "post_url": "https://news.ycombinator.com/item?id=49893509",
+   "snippet": "508 points, 415 comments"
+  },
+  {
+   "id": 5,
+   "source": "hn",
+   "title": "How Delhi cut electricity loss from 50 to 5 percent",
+   "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+   "post_url": "https://news.ycombinator.com/item?id=49892245",
+   "snippet": "493 points, 280 comments"
+  },
+  {
+   "id": 6,
+   "source": "hn",
+   "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+   "url": "https://github.com/ninjahawk/livenerf",
+   "post_url": "https://news.ycombinator.com/item?id=49901736",
+   "snippet": "490 points, 206 comments"
+  },
+  {
+   "id": 7,
+   "source": "hn",
+   "title": "500k facial scans at UK stations yield no arrests, 1 false positive",
+   "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
+   "post_url": "https://news.ycombinator.com/item?id=49891480",
+   "snippet": "482 points, 293 comments"
+  },
+  {
+   "id": 8,
+   "source": "hn",
+   "title": "macOS Golden Gate Is a Buggy Mess",
+   "url": "https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/",
+   "post_url": "https://news.ycombinator.com/item?id=49894005",
+   "snippet": "451 points, 325 comments"
+  },
+  {
+   "id": 9,
+   "source": "hn",
+   "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+   "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+   "post_url": "https://news.ycombinator.com/item?id=49890226",
+   "snippet": "415 points, 130 comments"
+  },
+  {
+   "id": 10,
+   "source": "hn",
+   "title": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
+   "url": "https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027",
+   "post_url": "https://news.ycombinator.com/item?id=49891550",
+   "snippet": "374 points, 370 comments"
+  },
+  {
+   "id": 11,
+   "source": "hn",
+   "title": "PS5 Relapse Exploit",
+   "url": "https://github.com/ntfargo/Relapse-Exploit",
+   "post_url": "https://news.ycombinator.com/item?id=49895304",
+   "snippet": "280 points, 168 comments"
+  },
+  {
+   "id": 12,
+   "source": "hn",
+   "title": "Tcl/Tk 9.1",
+   "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
+   "post_url": "https://news.ycombinator.com/item?id=49896712",
+   "snippet": "263 points, 107 comments"
+  },
+  {
+   "id": 13,
+   "source": "hn",
+   "title": "1 in 8 cancer cases worldwide are caused by infections, study finds",
+   "url": "https://www.cbc.ca/lite/story/9.7361622",
+   "post_url": "https://news.ycombinator.com/item?id=49892120",
+   "snippet": "253 points, 132 comments"
+  },
+  {
+   "id": 14,
+   "source": "hn",
+   "title": "Jeeves. Reasoning improves Jev-like decision models",
+   "url": "https://github.com/PostHog/jeeves",
+   "post_url": "https://news.ycombinator.com/item?id=49891290",
+   "snippet": "234 points, 89 comments"
+  },
+  {
+   "id": 15,
+   "source": "hn",
+   "title": "Ask HN: What are you reading?",
+   "url": "https://news.ycombinator.com/item?id=49893157",
+   "post_url": "https://news.ycombinator.com/item?id=49893157",
+   "snippet": "230 points, 491 comments"
+  },
+  {
+   "id": 16,
+   "source": "hn",
+   "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+   "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+   "post_url": "https://news.ycombinator.com/item?id=49897075",
+   "snippet": "216 points, 212 comments"
+  },
+  {
+   "id": 17,
+   "source": "hn",
+   "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+   "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+   "post_url": "https://news.ycombinator.com/item?id=49899090",
+   "snippet": "207 points, 123 comments"
+  },
+  {
+   "id": 18,
+   "source": "hn",
+   "title": "AI needs $6T in annual revenue to justify data centre boom",
+   "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
+   "post_url": "https://news.ycombinator.com/item?id=49898952",
+   "snippet": "200 points, 295 comments"
+  },
+  {
+   "id": 19,
+   "source": "hn",
+   "title": "ChatGPT Pro 500",
+   "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+   "post_url": "https://news.ycombinator.com/item?id=49896975",
+   "snippet": "198 points, 230 comments"
+  },
+  {
+   "id": 20,
+   "source": "hn",
+   "title": "Google ending ChromeOS support two years early",
+   "url": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
+   "post_url": "https://news.ycombinator.com/item?id=49893653",
+   "snippet": "196 points, 133 comments"
+  },
+  {
+   "id": 21,
+   "source": "hn",
+   "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+   "url": "https://space.bl2.net/",
+   "post_url": "https://news.ycombinator.com/item?id=49898778",
+   "snippet": "196 points, 46 comments"
+  },
+  {
+   "id": 22,
+   "source": "hn",
+   "title": "Claude partial outage",
+   "url": "https://status.claude.com/incidents/4xvtc2gnq73l",
+   "post_url": "https://news.ycombinator.com/item?id=49893876",
+   "snippet": "171 points, 143 comments"
+  },
+  {
+   "id": 23,
+   "source": "hn",
+   "title": "Using any C++ library in Godot",
+   "url": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
+   "post_url": "https://news.ycombinator.com/item?id=49890051",
+   "snippet": "165 points, 61 comments"
+  },
+  {
+   "id": 24,
+   "source": "hn",
+   "title": "Backblaze drive stats for Q2 2026",
+   "url": "https://www.backblaze.com/blog/backblaze-drive-stats-for-q2-2026/",
+   "post_url": "https://news.ycombinator.com/item?id=49893002",
+   "snippet": "159 points, 38 comments"
+  },
+  {
+   "id": 25,
+   "source": "hn",
+   "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+   "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+   "post_url": "https://news.ycombinator.com/item?id=49893709",
+   "snippet": "154 points, 40 comments"
+  },
+  {
+   "id": 26,
+   "source": "hn",
+   "title": "Vermont replacing power plants with home batteries",
+   "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+   "post_url": "https://news.ycombinator.com/item?id=49897993",
+   "snippet": "149 points, 121 comments"
+  },
+  {
+   "id": 27,
+   "source": "hn",
+   "title": "Nicholas Polson has authored 258 academic papers in 2026 so far",
+   "url": "https://statmodeling.stat.columbia.edu/2026/08/27/258/",
+   "post_url": "https://news.ycombinator.com/item?id=49898877",
+   "snippet": "145 points, 106 comments"
+  },
+  {
+   "id": 28,
+   "source": "hn",
+   "title": "Sustainable energy without the hot air (2008)",
+   "url": "https://www.withouthotair.com/",
+   "post_url": "https://news.ycombinator.com/item?id=49892175",
+   "snippet": "142 points, 81 comments"
+  },
+  {
+   "id": 29,
+   "source": "hn",
+   "title": "We’re forgetting what darkness feels like",
+   "url": "https://www.theguardian.com/environment/2026/sep/29/night-sky-darkness-city-regulation",
+   "post_url": "https://news.ycombinator.com/item?id=49898050",
+   "snippet": "136 points, 72 comments"
+  },
+  {
+   "id": 30,
+   "source": "hn",
+   "title": "Firebase SDK is crashing all iOS apps since this morning",
+   "url": "https://twitter.com/GergelyOrosz/status/2104825886922911981",
+   "post_url": "https://news.ycombinator.com/item?id=49889934",
+   "snippet": "132 points, 72 comments"
+  },
+  {
+   "id": 31,
+   "source": "hn",
+   "title": "NASA asked several former SR-71A staffers to help secret restart",
+   "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
+   "post_url": "https://news.ycombinator.com/item?id=49890733",
+   "snippet": "122 points, 115 comments"
+  },
+  {
+   "id": 32,
+   "source": "hn",
+   "title": "Show HN: NSL – WSL for Linux",
+   "url": "https://frostyard.github.io/nsl/",
+   "post_url": "https://news.ycombinator.com/item?id=49894351",
+   "snippet": "120 points, 78 comments"
+  },
+  {
+   "id": 33,
+   "source": "hn",
+   "title": "Memory Companies Have Destroyed the Consumer Market",
+   "url": "https://gamersnexus.net/news-features/memory-companies-have-destroyed-consumer-market",
+   "post_url": "https://news.ycombinator.com/item?id=49899051",
+   "snippet": "109 points, 90 comments"
+  },
+  {
+   "id": 34,
+   "source": "hn",
+   "title": "How our vibe coded website looks like a designer made it",
+   "url": "https://railcode.dev/blog/vibe-coded-website",
+   "post_url": "https://news.ycombinator.com/item?id=49901973",
+   "snippet": "107 points, 61 comments"
+  },
+  {
+   "id": 35,
+   "source": "lobsters",
+   "title": "CoW — a stacking window manager for Wayland",
+   "url": "https://cow-wm.codeberg.page/cow/",
+   "post_url": "https://lobste.rs/s/tyivfg/cow_stacking_window_manager_for_wayland",
+   "snippet": "113 points, tags: freebsd, linux"
+  },
+  {
+   "id": 36,
+   "source": "lobsters",
+   "title": "Pining for Arc Downcasting in Rust",
+   "url": "https://wolfgirl.dev/blog/2026-09-29-pining-for-arc-downcasting-in-rust/",
+   "post_url": "https://lobste.rs/s/dayzwt/pining_for_arc_downcasting_rust",
+   "snippet": "35 points, tags: rust"
+  },
+  {
+   "id": 37,
+   "source": "lobsters",
+   "title": "Deser: Rethinking Rust Serialization",
+   "url": "https://lucumr.pocoo.org/2026/9/29/deser/",
+   "post_url": "https://lobste.rs/s/hxmtyv/deser_rethinking_rust_serialization",
+   "snippet": "22 points, tags: rust"
+  },
+  {
+   "id": 38,
+   "source": "lobsters",
+   "title": "Aho-Corasick Algorithm",
+   "url": "https://compiler.club/aho-corasick/",
+   "post_url": "https://lobste.rs/s/s0x5nd/aho_corasick_algorithm",
+   "snippet": "41 points, tags: compsci"
+  },
+  {
+   "id": 39,
+   "source": "lobsters",
+   "title": "Two Kinds of SQL Query Builders",
+   "url": "https://mechanicalrabbit.github.io/FunSQL.jl/stable/two-kinds-of-sql-query-builders/#Two-Kinds-of-SQL-Query-Builders",
+   "post_url": "https://lobste.rs/s/zknqct/two_kinds_sql_query_builders",
+   "snippet": "13 points, tags: databases"
+  },
+  {
+   "id": 40,
+   "source": "lobsters",
+   "title": "Nura (postmarketOS): The road to daily-drivable mainline phones",
+   "url": "https://postmarketos.org/blog/2026/09/29/road-to-main-category/",
+   "post_url": "https://lobste.rs/s/hnb7tb/nura_postmarketos_road_daily_drivable",
+   "snippet": "19 points, tags: linux, mobile"
+  },
+  {
+   "id": 41,
+   "source": "lobsters",
+   "title": "Hardly Promethean",
+   "url": "https://jardo.dev/hardly-promethean",
+   "post_url": "https://lobste.rs/s/dcrwg8/hardly_promethean",
+   "snippet": "12 points, tags: vibecoding"
+  },
+  {
+   "id": 42,
+   "source": "lobsters",
+   "title": "How to speed up the Rust compiler in September 2026",
+   "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+   "post_url": "https://lobste.rs/s/odrfgk/how_speed_up_rust_compiler_september_2026",
+   "snippet": "12 points, tags: compilers, rust"
+  },
+  {
+   "id": 43,
+   "source": "lobsters",
+   "title": "The Shell & Email",
+   "url": "https://www.machtiani.chat/blogs/the-shell",
+   "post_url": "https://lobste.rs/s/joqdsi/shell_email",
+   "snippet": "6 points, tags: email, show, vcs, vibecoding"
+  },
+  {
+   "id": 44,
+   "source": "lobsters",
+   "title": "AI Didn’t Make Programming Easier. It Just Made It Differently Difficult",
+   "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
+   "post_url": "https://lobste.rs/s/qhszda/ai_didn_t_make_programming_easier_it_just",
+   "snippet": "20 points, tags: vibecoding"
+  },
+  {
+   "id": 45,
+   "source": "lobsters",
+   "title": "MotifCentral - All Things Motif/Xt/Xlib",
+   "url": "https://motif-central.org/",
+   "post_url": "https://lobste.rs/s/otexs4/motifcentral_all_things_motif_xt_xlib",
+   "snippet": "27 points, tags: graphics, unix"
+  },
+  {
+   "id": 46,
+   "source": "lobsters",
+   "title": "ESPARGOS - ESP-SDR: Raw IQ Capture with Espressif's ESP32 Chips",
+   "url": "https://espargos.net/espsdr/",
+   "post_url": "https://lobste.rs/s/werm2e/espargos_esp_sdr_raw_iq_capture_with",
+   "snippet": "7 points, tags: hardware"
+  },
+  {
+   "id": 47,
+   "source": "lobsters",
+   "title": "The Only Intuitive Interface Is The Nipple",
+   "url": "https://www.greenend.org.uk/rjk/misc/nipple.html",
+   "post_url": "https://lobste.rs/s/wkhrba/only_intuitive_interface_is_nipple",
+   "snippet": "1 points, tags: cogsci, historical"
+  },
+  {
+   "id": 48,
+   "source": "lobsters",
+   "title": "Dirty Optimization Secrets (C for Playdate)",
+   "url": "https://devforum.play.date/t/dirty-optimization-secrets-c-for-playdate/23011",
+   "post_url": "https://lobste.rs/s/zyzrlh/dirty_optimization_secrets_c_for",
+   "snippet": "3 points, tags: hardware"
+  },
+  {
+   "id": 49,
+   "source": "lobsters",
+   "title": "Getting root on OnePlus 15 from an untrusted app",
+   "url": "https://blog.nns.ee/2026/09/24/oneplus-root/",
+   "post_url": "https://lobste.rs/s/a5rcxy/getting_root_on_oneplus_15_from_untrusted",
+   "snippet": "9 points, tags: android, security"
+  },
+  {
+   "id": 50,
+   "source": "lobsters",
+   "title": "How to work in a software engineering team (2022)",
+   "url": "https://kimmosaaskilahti.fi/blog/2022/02/25/how-to-work-in-a-software-engineering-team/",
+   "post_url": "https://lobste.rs/s/fmnvbk/how_work_software_engineering_team_2022",
+   "snippet": "2 points, tags: practices"
+  },
+  {
+   "id": 51,
+   "source": "lobsters",
+   "title": "Deterministic Concurrency",
+   "url": "https://www.youtube.com/watch?v=25x0UuSCKuU",
+   "post_url": "https://lobste.rs/s/wuiaba/deterministic_concurrency",
+   "snippet": "10 points, tags: distributed, video"
+  },
+  {
+   "id": 52,
+   "source": "lobsters",
+   "title": "Fake Express Packages on npm Spread a Linux Worm",
+   "url": "https://safedep.io/dirtyblanket-express-impersonation-npm",
+   "post_url": "https://lobste.rs/s/e2gxro/fake_express_packages_on_npm_spread_linux",
+   "snippet": "1 points, tags: linux, nodejs, security"
+  },
+  {
+   "id": 53,
+   "source": "github",
+   "title": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "snippet": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. / Python / 4,758 stars today"
+  },
+  {
+   "id": 54,
+   "source": "github",
+   "title": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "snippet": "OpenShell is the safe, private runtime for autonomous AI agents. / Rust / 990 stars today"
+  },
+  {
+   "id": 55,
+   "source": "github",
+   "title": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "snippet": "Hindsight: Agent Memory That Learns / Python / 2,575 stars today"
+  },
+  {
+   "id": 56,
+   "source": "github",
+   "title": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "snippet": "The open-source app everyone uses to manage agents at work / TypeScript / 2,458 stars today"
+  },
+  {
+   "id": 57,
+   "source": "github",
+   "title": "t8y2/dbx",
+   "url": "https://github.com/t8y2/dbx",
+   "snippet": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。 / Rust / 232 stars today"
+  },
+  {
+   "id": 58,
+   "source": "github",
+   "title": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "snippet": "Multi-agent harness that runs Claude Code and Codex together as one system / TypeScript / 737 stars today"
+  },
+  {
+   "id": 59,
+   "source": "github",
+   "title": "oblien/openship",
+   "url": "https://github.com/oblien/openship",
+   "snippet": "Self-hosted deployment platform / TypeScript / 437 stars today"
+  },
+  {
+   "id": 60,
+   "source": "github",
+   "title": "averygan/reclip",
+   "url": "https://github.com/averygan/reclip",
+   "snippet": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI. / HTML / 113 stars today"
+  },
+  {
+   "id": 61,
+   "source": "github",
+   "title": "cs341-illinois/coursebook",
+   "url": "https://github.com/cs341-illinois/coursebook",
+   "snippet": "Open Source Introductory Systems Programming Textbook for the University of Illinois / TeX / 572 stars today"
+  },
+  {
+   "id": 62,
+   "source": "github",
+   "title": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "snippet": "Learn it. Build it. Ship it for others. / Python / 786 stars today"
+  },
+  {
+   "id": 63,
+   "source": "github",
+   "title": "VectifyAI/PageIndex",
+   "url": "https://github.com/VectifyAI/PageIndex",
+   "snippet": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG / Python / 835 stars today"
+  },
+  {
+   "id": 64,
+   "source": "github",
+   "title": "willfaust/Madeira",
+   "url": "https://github.com/willfaust/Madeira",
+   "snippet": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT / C / 81 stars today"
+  },
+  {
+   "id": 65,
+   "source": "github",
+   "title": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "snippet": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime. / TypeScript / 696 stars today"
+  },
+  {
+   "id": 66,
+   "source": "github",
+   "title": "rakyll/hey",
+   "url": "https://github.com/rakyll/hey",
+   "snippet": "HTTP load generator, ApacheBench (ab) replacement / Go / 34 stars today"
+  },
+  {
+   "id": 67,
+   "source": "zenn",
+   "title": "AI開発時代だからこそ、テストの役割を見つめ直す",
+   "url": "https://zenn.dev/ababup1192/articles/77b844dcfc1529",
+   "author": "ABAB↑↓BA",
+   "snippet": "112 likes, tech, published 2026-09-29"
+  },
+  {
+   "id": 68,
+   "source": "zenn",
+   "title": "Cloudflare 上で Jev で作るほぼ0円運用可能な高品質なページ内検索",
+   "url": "https://zenn.dev/mazrean/articles/bd9b563ace18db",
+   "author": "mazrean",
+   "snippet": "160 likes, tech, published 2026-09-26"
+  },
+  {
+   "id": 69,
+   "source": "zenn",
+   "title": "Jujutsu と出会い、15 年使った Git にもう戻れなくなった理由",
+   "url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu",
+   "author": "oukayuka",
+   "snippet": "84 likes, tech, published 2026-09-29"
+  },
+  {
+   "id": 70,
+   "source": "zenn",
+   "title": "３分で読めるトランザクション設計のコツ",
+   "url": "https://zenn.dev/mconfjp/articles/transaction-action-order",
+   "author": "もりた",
+   "snippet": "59 likes, tech, published 2026-09-29"
+  },
+  {
+   "id": 71,
+   "source": "zenn",
+   "title": "OpenAI DevDay 2026 発表まとめ",
+   "url": "https://zenn.dev/schroneko/articles/openai-devday-2026",
+   "author": "ぬこぬこ",
+   "snippet": "76 likes, idea, published 2026-09-30"
+  },
+  {
+   "id": 72,
+   "source": "zenn",
+   "title": "Rustで作った自作OS「octox」がサンフランシスコ大学の教材になっていました",
+   "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
+   "author": "o8vm",
+   "snippet": "52 likes, tech, published 2026-09-29"
+  },
+  {
+   "id": 73,
+   "source": "zenn",
+   "title": "別会社の開発チームに AWS 環境を共有するのって大変だ",
+   "url": "https://zenn.dev/dress_code/articles/f89590d105ba5f",
+   "author": "dress_code",
+   "snippet": "35 likes, tech, published 2026-09-28"
+  },
+  {
+   "id": 74,
+   "source": "zenn",
+   "title": "11年生本番データ飛ばす",
+   "url": "https://zenn.dev/ficilcom/articles/prod_db_reset_incident",
+   "author": "ficilcom",
+   "snippet": "135 likes, tech, published 2026-09-25"
+  },
+  {
+   "id": 75,
+   "source": "zenn",
+   "title": "目を醒ませ 僕らの信頼が生成AIに侵略されてるぞ",
+   "url": "https://zenn.dev/spookies/articles/e70b80a510f5e2",
+   "author": "spookies",
+   "snippet": "44 likes, idea, published 2026-09-29"
+  },
+  {
+   "id": 76,
+   "source": "zenn",
+   "title": "大きなボトルネックをごろごろ見つける方法 - 優秀なエンジニアになる",
+   "url": "https://zenn.dev/339/articles/56ef43afde8bd2",
+   "author": "さざんかぬふ",
+   "snippet": "27 likes, idea, published 2026-09-29"
+  },
+  {
+   "id": 77,
+   "source": "zenn",
+   "title": "Cloudflare の CLI を wrangler から cf に移行する",
+   "url": "https://zenn.dev/sora_kumo/articles/cloudflare-to-cf",
+   "author": "空雲",
+   "snippet": "66 likes, tech, published 2026-09-29"
+  },
+  {
+   "id": 78,
+   "source": "zenn",
+   "title": "探索できる人は何をしているの？『Explore It!』を読んで",
+   "url": "https://zenn.dev/knowledgework/articles/6996274de49607",
+   "author": "knowledgework",
+   "snippet": "37 likes, idea, published 2026-09-28"
+  },
+  {
+   "id": 79,
+   "source": "zenn",
+   "title": "タイムズカーの不正アクセスで免許証画像が流出した人へ：考えられる被害と今日からできる対策",
+   "url": "https://zenn.dev/gzer0/articles/timescar-leak-countermeasures",
+   "author": "gzer0",
+   "snippet": "23 likes, idea, published 2026-09-30"
+  },
+  {
+   "id": 80,
+   "source": "zenn",
+   "title": "age40 - 30代でやってよかったこと",
+   "url": "https://zenn.dev/dress_code/articles/2026-09-24_age-40",
+   "author": "dress_code",
+   "snippet": "119 likes, idea, published 2026-09-24"
+  },
+  {
+   "id": 81,
+   "source": "zenn",
+   "title": "VS Code の Claude Code 拡張機能、なんか更新多い…？",
+   "url": "https://zenn.dev/headwaters/articles/15875671106c54",
+   "author": "headwaters",
+   "snippet": "27 likes, tech, published 2026-09-27"
+  },
+  {
+   "id": 82,
+   "source": "zenn",
+   "title": "人工知能と小説新人賞審査",
+   "url": "https://zenn.dev/enjoetoh/articles/ai-as-literary-judge",
+   "author": "enjoetoh",
+   "snippet": "54 likes, idea, published 2026-09-26"
+  },
+  {
+   "id": 83,
+   "source": "zenn",
+   "title": "続・データサイエンティストのためのSkills:分析手法×診断可視化セット",
+   "url": "https://zenn.dev/green_tea/articles/55d2761106ee74",
+   "author": "redtea",
+   "snippet": "48 likes, tech, published 2026-09-28"
+  },
+  {
+   "id": 84,
+   "source": "zenn",
+   "title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
+   "url": "https://zenn.dev/nwn/articles/e49154653ecea9",
+   "author": "ヨ",
+   "snippet": "74 likes, tech, published 2026-09-25"
+  },
+  {
+   "id": 85,
+   "source": "rss",
+   "feed": "The GitHub Blog",
+   "title": "Developer policy update: Transparency, state policy, and what’s ahead",
+   "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
+   "snippet": "Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog ."
+  },
+  {
+   "id": 86,
+   "source": "rss",
+   "feed": "Cloudflare Blog",
+   "title": "Using AI to chart a course for our post-quantum migration",
+   "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+   "snippet": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned so far."
+  },
+  {
+   "id": 87,
+   "source": "rss",
+   "feed": "Cloudflare Blog",
+   "title": "Building a certificate authority for the whole Internet",
+   "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+   "snippet": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum CA for the open web."
+  },
+  {
+   "id": 88,
+   "source": "rss",
+   "feed": "Cloudflare Blog",
+   "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+   "url": "https://blog.cloudflare.com/ai-era-framework/",
+   "snippet": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop."
+  },
+  {
+   "id": 89,
+   "source": "rss",
+   "feed": "Cloudflare Blog",
+   "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+   "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
+   "snippet": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at scale."
+  },
+  {
+   "id": 90,
+   "source": "rss",
+   "feed": "Cloudflare Blog",
+   "title": "We tested our own WAF with frontier AI models. Here’s what we found",
+   "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
+   "snippet": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging environment and discovered detection gaps worth fixing. Here’s how the loop worked, what got through, and what we did about it."
+  },
+  {
+   "id": 91,
+   "source": "rss",
+   "feed": "Cloudflare Blog",
+   "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
+   "url": "https://blog.cloudflare.com/threat-signals/",
+   "snippet": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules."
+  },
+  {
+   "id": 92,
+   "source": "rss",
+   "feed": "Cloudflare Blog",
+   "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
+   "url": "https://blog.cloudflare.com/post-quantum-visibility/",
+   "snippet": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption."
+  },
+  {
+   "id": 93,
+   "source": "rss",
+   "feed": "Cloudflare Blog",
+   "title": "Enforce positive security with Cloudflare Application Profiles",
+   "url": "https://blog.cloudflare.com/application-profiles/",
+   "snippet": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads."
+  },
+  {
+   "id": 94,
+   "source": "rss",
+   "feed": "Cloudflare Blog",
+   "title": "Preventing quantum downgrade attacks against IPsec",
+   "url": "https://blog.cloudflare.com/ipsec-downgrade-protection/",
+   "snippet": "A sophisticated attacker with a quantum computer can exploit a protocol design flaw to downgrade post-quantum IPsec tunnels to classical crypto. We helped the IETF develop a transcript authentication extension to prevent these attacks."
+  },
+  {
+   "id": 95,
+   "source": "rss",
+   "feed": "OpenAI News",
+   "title": "DevDay 2026 Recap",
+   "url": "https://openai.com/index/devday-2026-recap",
+   "snippet": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders."
+  },
+  {
+   "id": 96,
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "Twitter（現X）に貼ったURLのサムネイル画像、キャッシュクリアできるの知ってた？",
+   "url": "https://qiita.com/minorun365/items/f1f6a45fa9aff8d624af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "こんにちは、Claude Codeです。著者のみのるんが忙しそうだったので、代わりにこの記事を書いています。 ブログの画像を差し替えたのに、Xに貼ると古い画像のまま。投稿した直後から、カードが灰色の枠になっている。TwitterがXになってから、こういうことがよく起きます。..."
+  },
+  {
+   "id": 97,
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "BedrockのClaudeに暗黙的なプロンプトキャッシュが登場！！とドキュメントにある（暗黙的とは？）",
+   "url": "https://qiita.com/moritalous/items/1b6a05842724fc1fff66?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "Claude Sonnet 5.5が出ましたね！当たり前のようにAWSのAmazon Bedrockでも使えます。 ドキュメントもすでに更新されています。（仕事が早い！） 「RuntimeエンドポイントとMantleエンドポイントに対応、おすすめはRuntime..."
+  },
+  {
+   "id": 98,
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "【新資格】AWS Certified AI Business Strategist（AIB-C01）ベータ試験を受けてきた(コツコツ勉強できない人の感想)",
+   "url": "https://qiita.com/riz3f7/items/fe5704cc76755bb8700f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに 2026年9月29日から AWS Certified AI Business Strategist（AIB-C01） のベータ試験が受けられるようになったので受けてきました。 お祭り気分で受けてきた、コツコツお勉強できない属性の人の体験記です。 （世の中にコツコ..."
+  },
+  {
+   "id": 99,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "nine npm packages shipping worm that spread by itself over SSH",
+   "url": "https://www.reddit.com/r/programming/comments/1wt8odk/nine_npm_packages_shipping_worm_that_spread_by/",
+   "snippet": "&#32; submitted by &#32; /u/BattleRemote3157 [link] &#32; [comments]"
+  },
+  {
+   "id": 100,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "Zero-Growth Stack, Real Gains: How Stack Allocation Can Save 10% CPU in Go",
+   "url": "https://www.reddit.com/r/programming/comments/1wtnwfs/zerogrowth_stack_real_gains_how_stack_allocation/",
+   "snippet": "&#32; submitted by &#32; /u/Ok_Stomach6651 [link] &#32; [comments]"
+  },
+  {
+   "id": 101,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "Everyone Should Know SIMD",
+   "url": "https://www.reddit.com/r/programming/comments/1wtv3vb/everyone_should_know_simd/",
+   "snippet": "&#32; submitted by &#32; /u/fagnerbrack [link] &#32; [comments]"
+  },
+  {
+   "id": 102,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "In Defense of the Visual Cortex",
+   "url": "https://www.reddit.com/r/programming/comments/1wtfh4j/in_defense_of_the_visual_cortex/",
+   "snippet": "&#32; submitted by &#32; /u/Jernesstar [link] &#32; [comments]"
+  },
+  {
+   "id": 103,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "Designing High-Performance Matrix Memory Layouts in Rust",
+   "url": "https://www.reddit.com/r/programming/comments/1wtii9n/designing_highperformance_matrix_memory_layouts/",
+   "snippet": "&#32; submitted by &#32; /u/TechnologySubject259 [link] &#32; [comments]"
+  },
+  {
+   "id": 104,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "Java vs Groovy: 7 differences + what Groovy 6.0 brings",
+   "url": "https://www.reddit.com/r/programming/comments/1wtb4qi/java_vs_groovy_7_differences_what_groovy_60_brings/",
+   "snippet": "&#32; submitted by &#32; /u/henk53 [link] &#32; [comments]"
+  },
+  {
+   "id": 105,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "Custom encryption algorithm",
+   "url": "https://www.reddit.com/r/programming/comments/1wtothf/custom_encryption_algorithm/",
+   "snippet": "&#32; submitted by &#32; /u/_ILoveSaturdays [link] &#32; [comments]"
+  }
+ ]
+}

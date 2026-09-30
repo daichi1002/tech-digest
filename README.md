@@ -4,14 +4,15 @@
 
 ## 仕組み
 
-1. **収集**（`collector/sources/`）— `python -m collector.main collect` → `work/candidates.json`
+1. **収集**（`collector/sources/`）— GitHub Actions（`collect.yml`、毎朝 6:00 JST）が `python -m collector.main collect` を実行し、`work/candidates.json` をコミット
+   （routine のクラウド環境はニュースサイトへ接続できないため）
    - `hn.py` — Hacker News（Algolia API、100 点以上）
    - `lobsters.py` — Lobsters の hottest
    - `github_trending.py` — GitHub Trending（日次）
    - `zenn.py` — Zenn の日次トレンド（いいね 20 以上）
    - `rss.py` — 公式ブログ、Qiita、Reddit（RSS）
    - 過去 7 日のダイジェストに載った URL は除外
-2. **選別** — Claude Code の routine が [CURATE.md](CURATE.md) の手順に従い、Web 検索で漏れを補ってから
+2. **選別** — 毎朝 7:00 JST に Claude Code の routine が [CURATE.md](CURATE.md) の手順に従い、Web 検索で漏れを補ってから
    重複統合・カテゴリ分類・重要度 1〜10 採点・日本語要約を行い `work/curated.json` を書く
    （ルールとスキーマは `collector/editorial.py`）
 3. **公開** — `python -m collector.main publish` が検証して `site/data/YYYY-MM-DD.json` を出力 → routine が commit & push
