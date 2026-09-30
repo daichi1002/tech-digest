@@ -55,7 +55,7 @@ def collect() -> list[dict]:
     published = _recent_urls()
     seen: dict[str, dict] = {}
     for item in fetched:
-        if not item.get("url") or not item.get("title"):
+        if not editorial.safe_url(item.get("url")) or not item.get("title"):
             continue
         key = _norm(item["url"])
         if key not in seen and key not in published:

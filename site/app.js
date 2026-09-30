@@ -46,6 +46,10 @@ function toggleSaved(item) {
 function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
+// Only http(s) links reach href; anything else (javascript:, data:, …) becomes an inert "#".
+function safeUrl(url) {
+  try { const u = new URL(url); return u.protocol === "https:" || u.protocol === "http:" ? u.href : "#"; } catch { return "#"; }
+}
 function host(url) {
   try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
 }
@@ -91,8 +95,8 @@ function matches(it) {
 // ---------------------------------------------------------------------------
 function foot(it, { showCat = true } = {}) {
   const links = [];
-  if (it.post_url && it.post_url !== it.url) links.push(`<a href="${esc(it.post_url)}" target="_blank" rel="noopener">${it.source === "hn" || it.source === "lobsters" ? "Discussion" : "Post"} ↗</a>`);
-  (it.related || []).forEach((r) => links.push(`<a href="${esc(r.url)}" target="_blank" rel="noopener">+${esc(SRC_LABEL[r.source] || r.source)}</a>`));
+  if (it.post_url && it.post_url !== it.url) links.push(`<a href="${esc(safeUrl(it.post_url))}" target="_blank" rel="noopener">${it.source === "hn" || it.source === "lobsters" ? "Discussion" : "Post"} ↗</a>`);
+  (it.related || []).forEach((r) => links.push(`<a href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener">+${esc(SRC_LABEL[r.source] || r.source)}</a>`));
   const cat = categories()[it.category] || it.category;
   return `<div class="foot">
     <span class="src">${esc(SRC_LABEL[it.source] || it.source)}</span>
@@ -110,15 +114,16 @@ function saveBtn(it) {
   return `<button class="save" type="button" data-save aria-pressed="${on}" aria-label="${on ? "保存を解除" : "後で読むに保存"}" title="${on ? "保存を解除" : "後で読む"}">${STAR}</button>`;
 }
 
+const num = (n) => Number(n) || 0;
 const cls = (it, base) => `story ${base}${readSet.has(it.url) ? " read" : ""}${it.score >= 8 ? " hot" : ""}`;
-const titleLink = (it) => `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>`;
+const titleLink = (it) => `<a href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener">${esc(it.title)}</a>`;
 const orig = (it) => `<p class="orig">${esc(it.original_title)} — ${esc(host(it.url))}</p>`;
 
 function leadTpl(it) {
   return `<article class="${cls(it, "lead")} reveal" data-url="${esc(it.url)}">
     <div class="score-col">
-      <div class="big-score" aria-label="重要度 ${it.score}">${it.score}</div>
-      <div class="score-cap mono"><span>Signal ${it.score}/10</span>${meter(it.score)}</div>
+      <div class="big-score" aria-label="重要度 ${num(it.score)}">${num(it.score)}</div>
+      <div class="score-cap mono"><span>Signal ${num(it.score)}/10</span>${meter(num(it.score))}</div>
     </div>
     <div class="lead-body">
       <p class="kicker label"><span class="dot"></span>Top story · ${esc(categories()[it.category] || it.category)}</p>
@@ -133,7 +138,7 @@ function leadTpl(it) {
 
 function topTpl(it, i) {
   return `<article class="${cls(it, "top")} reveal" style="--d:${i * 70}ms" data-url="${esc(it.url)}">
-    <div class="num"><b>${it.score}</b>${meter(it.score)}</div>
+    <div class="num"><b>${num(it.score)}</b>${meter(num(it.score))}</div>
     <h3>${titleLink(it)}</h3>
     ${orig(it)}
     <p class="sum">${esc(it.summary)}</p>
@@ -144,7 +149,7 @@ function topTpl(it, i) {
 
 function rowTpl(it, i, { showCat = false } = {}) {
   return `<article class="${cls(it, "row")} reveal" style="--d:${(i % 6) * 50}ms" data-url="${esc(it.url)}">
-    <div class="idx"><b>${it.score}</b></div>
+    <div class="idx"><b>${num(it.score)}</b></div>
     <div class="row-body">
       <h3>${titleLink(it)}</h3>
       ${orig(it)}
@@ -156,10 +161,10 @@ function rowTpl(it, i, { showCat = false } = {}) {
 }
 
 function sectionTpl(no, key, title, items, { showCat = false } = {}) {
-  return `<section class="section" aria-labelledby="sec-${key}">
+  return `<section class="section" aria-labelledby="sec-${esc(key)}">
     <header class="sec-head reveal">
       <span class="sec-no">${no}</span>
-      <h2 class="sec-title" id="sec-${key}">${esc(title)}${CAT_JA[key] ? `<small>${CAT_JA[key]}</small>` : ""}</h2>
+      <h2 class="sec-title" id="sec-${esc(key)}">${esc(title)}${CAT_JA[key] ? `<small>${CAT_JA[key]}</small>` : ""}</h2>
       <span class="mono sec-count">${items.length} ${items.length === 1 ? "story" : "stories"}</span>
     </header>
     <div class="rows">${items.map((it, i) => rowTpl(it, i, { showCat })).join("")}</div>
@@ -203,7 +208,7 @@ function renderControls() {
   const count = (c) => all.filter((it) => c === "all" || it.category === c).length;
   const entries = [["all", "All"], ...Object.entries(categories())];
   $("#cats").innerHTML = entries
-    .map(([k, label], i) => `<button class="cat" data-cat="${k}" aria-pressed="${state.cat === k}" title="${esc(label)}">${i ? `<span class="no">${pad(i)}</span>` : ""}${esc(CAT_SHORT[k] || label)}<span class="n">${count(k)}</span></button>`)
+    .map(([k, label], i) => `<button class="cat" data-cat="${esc(k)}" aria-pressed="${state.cat === k}" title="${esc(label)}">${i ? `<span class="no">${pad(i)}</span>` : ""}${esc(CAT_SHORT[k] || label)}<span class="n">${count(k)}</span></button>`)
     .join("");
   $$("#signal [data-min]").forEach((b) => b.setAttribute("aria-pressed", String(Number(b.dataset.min) === state.min)));
 
@@ -292,7 +297,7 @@ async function init() {
     $("#emptyText").textContent = "データを取得できませんでした。オフラインか、まだ最初の号が発行されていません。";
     return;
   }
-  $("#date").innerHTML = state.dates.map((d) => `<option value="${d}">${d.replaceAll("-", ".")}</option>`).join("");
+  $("#date").innerHTML = state.dates.map((d) => `<option value="${esc(d)}">${esc(d.replaceAll("-", "."))}</option>`).join("");
   const initial = new URLSearchParams(location.search).get("d");
   if (initial && state.dates.includes(initial)) $("#date").value = initial;
   await loadDate($("#date").value);

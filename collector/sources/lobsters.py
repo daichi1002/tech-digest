@@ -19,14 +19,17 @@ def fetch() -> list[dict]:
     since = time.time() - 86400
     items = []
     for s in r.json():
-        if datetime.fromisoformat(s["created_at"]).timestamp() < since:
-            continue
-        items.append({
-            "source": "lobsters",
-            "title": s["title"],
-            "url": s.get("url") or s["comments_url"],
-            "post_url": s["comments_url"],
-            "snippet": f"{s['score']} points, tags: {', '.join(s.get('tags', []))}",
-        })
+        try:
+            if datetime.fromisoformat(s["created_at"]).timestamp() < since:
+                continue
+            items.append({
+                "source": "lobsters",
+                "title": s["title"],
+                "url": s.get("url") or s["comments_url"],
+                "post_url": s["comments_url"],
+                "snippet": f"{s['score']} points, tags: {', '.join(s.get('tags', []))}",
+            })
+        except (KeyError, TypeError, ValueError) as e:
+            print(f"[lobsters] skipped malformed story: {e!r}")
     print(f"[lobsters] {len(items)} items")
     return items

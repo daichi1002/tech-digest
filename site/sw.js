@@ -1,7 +1,11 @@
 // Bump when app shell files change so installed apps pick up the new version.
-const VERSION = "v2";
-const SHELL = `shell-${VERSION}`;
-const DATA = "data";
+// Cache names are shared by every project site on daichi1002.github.io, so they carry an app prefix.
+const PREFIX = "tech-digest-";
+const VERSION = "v3";
+const SHELL = `${PREFIX}shell-${VERSION}`;
+const DATA = `${PREFIX}data`;
+// Unprefixed names used up to v2; removed once on upgrade.
+const LEGACY = ["shell-v1", "shell-v2", "data"];
 const SHELL_FILES = [
   "./",
   "index.html",
@@ -19,7 +23,7 @@ self.addEventListener("install", (e) => {
 self.addEventListener("activate", (e) => {
   e.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k.startsWith("shell-") && k !== SHELL).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => (k.startsWith(`${PREFIX}shell-`) && k !== SHELL) || LEGACY.includes(k)).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
@@ -51,7 +55,7 @@ async function staleWhileRevalidate(req) {
 
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
-  if (e.request.method !== "GET" || url.origin !== location.origin) return;
+  if (e.request.method !== "GET" || url.origin !== location.origin || !e.request.url.startsWith(self.registration.scope)) return;
   const isData = url.pathname.includes("/data/") || url.pathname.endsWith("push-config.json");
   e.respondWith(isData ? networkFirst(e.request) : staleWhileRevalidate(e.request));
 });
