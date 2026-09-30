@@ -43,7 +43,9 @@ Read `collector/editorial.py`. Follow `GUIDELINES` exactly and write `work/curat
 }
 ```
 
-`id` and `merged_ids` refer to candidate ids. Write the file with a script or the file-writing tool; make sure it is valid JSON.
+`id` and `merged_ids` refer to candidate ids.
+Create `work/curated.json` with the **Write tool** (not a shell heredoc or an inline Python script), and keep
+every shell command in this task short and single-purpose (one command per step below).
 
 ## 4. Publish
 

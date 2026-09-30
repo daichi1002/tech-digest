@@ -19,6 +19,8 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -30,3 +32,20 @@ jobs:
           path: site
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  notify:
+    # Only after the routine publishes a new digest (commit message "data: YYYY-MM-DD").
+    needs: deploy
+    if: github.event_name == 'push' && startsWith(github.event.head_commit.message, 'data:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pywebpush
+      - run: python scripts/send_push.py
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_SUBSCRIPTIONS: ${{ secrets.PUSH_SUBSCRIPTIONS }}
+          SITE_URL: ${{ needs.deploy.outputs.page_url }}

@@ -26,6 +26,29 @@
 2. Settings → Pages → Source を **GitHub Actions** に設定
 3. Claude Code で毎朝の routine を作成し、プロンプトを「`CURATE.md` の手順を実行して」にする
 
+## アプリとして使う（PWA）
+
+- **iPhone**: Safari でサイトを開き、共有メニュー →「ホーム画面に追加」
+- **Android / PC の Chrome・Edge**: アドレスバーのインストールボタン
+- 既読・保存済み（☆）は端末ごとにブラウザ内へ保存される（端末間では同期しない）
+- 一度開いた日のデータはオフラインでも読める
+
+## 通知の設定（毎朝の更新時にプッシュ通知）
+
+1. 送信用の鍵を作る（1回だけ。秘密鍵は GitHub Secret `VAPID_PRIVATE_KEY` に直接保存され、画面には出ない）
+   ```bash
+   .venv/bin/pip install cryptography && .venv/bin/python scripts/setup_push.py
+   git add site/push-config.json && git commit -m "Add push public key" && git push
+   ```
+2. アプリ（iPhone はホーム画面に追加したもの）で 🔔 → 通知を許可 → 表示された JSON をコピー
+3. その JSON を Secret に登録（複数端末なら配列にまとめる）
+   ```bash
+   gh secret set PUSH_SUBSCRIPTIONS
+   ```
+   実行後にコピーした JSON を貼り付けて Ctrl-D
+
+以降、routine が `data:` コミットを push するたびに `deploy.yml` の `notify` ジョブが通知を送る。
+
 ## ローカル実行
 
 ```bash
