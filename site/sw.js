@@ -1,7 +1,7 @@
 // Bump when app shell files change so installed apps pick up the new version.
 // Cache names are shared by every project site on daichi1002.github.io, so they carry an app prefix.
 const PREFIX = "tech-digest-";
-const VERSION = "v3";
+const VERSION = "v4";
 const SHELL = `${PREFIX}shell-${VERSION}`;
 const DATA = `${PREFIX}data`;
 // Unprefixed names used up to v2; removed once on upgrade.

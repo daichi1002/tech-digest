@@ -5,6 +5,7 @@ const DEFAULT_CATS = { ai: "AI / LLM", web: "Web / Frontend", backend: "Backend"
 const CAT_SHORT = { ai: "AI", web: "Web", backend: "Backend", infra: "Infra", mobile: "Mobile" };
 const CAT_JA = { ai: "人工知能", web: "ウェブ", backend: "バックエンド", infra: "インフラ", mobile: "モバイル" };
 const MAX_READ = 3000;
+const mobile = matchMedia("(max-width: 720px)");
 const state = { data: null, dates: [], cat: "all", q: "", min: 1, view: "all" };
 
 // ---------------------------------------------------------------------------
@@ -123,7 +124,7 @@ function leadTpl(it) {
   return `<article class="${cls(it, "lead")} reveal" data-url="${esc(it.url)}">
     <div class="score-col">
       <div class="big-score" aria-label="重要度 ${num(it.score)}">${num(it.score)}</div>
-      <div class="score-cap mono"><span>Signal ${num(it.score)}/10</span>${meter(num(it.score))}</div>
+      <div class="score-cap mono"><span class="sl-en">Signal ${num(it.score)}/10</span><span class="sl">重要度</span>${meter(num(it.score))}</div>
     </div>
     <div class="lead-body">
       <p class="kicker label"><span class="dot"></span>Top story · ${esc(categories()[it.category] || it.category)}</p>
@@ -138,7 +139,7 @@ function leadTpl(it) {
 
 function topTpl(it, i) {
   return `<article class="${cls(it, "top")} reveal" style="--d:${i * 70}ms" data-url="${esc(it.url)}">
-    <div class="num"><b>${num(it.score)}</b>${meter(num(it.score))}</div>
+    <div class="num"><b>${num(it.score)}<span class="sl">重要度</span></b>${meter(num(it.score))}</div>
     <h3>${titleLink(it)}</h3>
     ${orig(it)}
     <p class="sum">${esc(it.summary)}</p>
@@ -149,7 +150,7 @@ function topTpl(it, i) {
 
 function rowTpl(it, i, { showCat = false } = {}) {
   return `<article class="${cls(it, "row")} reveal" style="--d:${(i % 6) * 50}ms" data-url="${esc(it.url)}">
-    <div class="idx"><b>${num(it.score)}</b></div>
+    <div class="idx"><b>${num(it.score)}</b><span class="sl">重要度</span></div>
     <div class="row-body">
       <h3>${titleLink(it)}</h3>
       ${orig(it)}
@@ -255,14 +256,17 @@ function renderPaper() {
 function render({ transition = false } = {}) {
   const run = () => { renderControls(); renderPaper(); };
   if (transition && document.startViewTransition && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    document.startViewTransition(run);
+    // An aborted transition still runs the update; only its animation promises reject.
+    const vt = document.startViewTransition(run);
+    vt.ready.catch(() => {});
+    vt.finished.catch(() => {});
   } else run();
 }
 
 // sticky toolbar state
 const toolbar = $("#toolbar");
 new IntersectionObserver(([e]) => toolbar.classList.toggle("stuck", !e.isIntersecting), { rootMargin: "-1px 0px 0px 0px" })
-  .observe($("#ticker"));
+  .observe($("#toolbarSentinel"));
 
 // ---------------------------------------------------------------------------
 // Data
@@ -349,6 +353,11 @@ $("#content").addEventListener("click", (e) => {
     btn.setAttribute("aria-pressed", String(on));
     btn.setAttribute("aria-label", on ? "保存を解除" : "後で読むに保存");
     if (state.view === "saved") render({ transition: true }); else renderControls();
+    return;
+  }
+  const sum = e.target.closest(".sum");
+  if (sum && mobile.matches) {
+    sum.classList.toggle("open");
     return;
   }
   if (e.target.closest("a")) {

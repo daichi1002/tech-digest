@@ -61,6 +61,7 @@
 
   <div class="ticker" id="ticker" aria-hidden="true"><div class="ticker-track" id="tickerTrack"></div></div>
 
+  <div id="toolbarSentinel" aria-hidden="true"></div>
   <div class="toolbar" id="toolbar">
     <div class="wrap toolbar-in">
       <a href="#top" class="mini-mark" aria-hidden="true" tabindex="-1">T<em>D</em></a>
@@ -77,7 +78,7 @@
           <input id="q" type="search" placeholder="検索" autocomplete="off">
         </label>
         <div id="signal" class="signal" role="group" aria-label="重要度で絞り込み">
-          <span class="signal-label mono">Signal</span>
+          <span class="signal-label mono">Signal</span><span class="signal-label-ja">重要度</span>
           <button data-min="1">All</button><button data-min="5">5+</button><button data-min="7">7+</button><button data-min="9">9+</button>
         </div>
         <button id="pushBtn" class="icon-btn bell-top" type="button" aria-label="毎朝の通知">
