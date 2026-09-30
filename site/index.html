@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="robots" content="noindex">
-  <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#141413" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="毎朝7時に届く、エンジニアのためのテックニュース朝刊。">
+  <meta name="theme-color" content="#f3efe6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f0e0c" media="(prefers-color-scheme: dark)">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Tech Digest">
@@ -13,50 +14,109 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon-192.png">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+JP:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="top">
-    <div class="wrap">
-      <div class="brand">
-        <h1>Tech Digest</h1>
-        <div class="brand-actions">
-          <button id="pushBtn" class="icon-btn" type="button" title="毎朝の通知" aria-label="毎朝の通知">🔔</button>
-          <select id="date" aria-label="日付"></select>
-        </div>
-      </div>
-      <p id="headline" class="headline"></p>
-      <div class="controls">
-        <div id="views" class="seg" role="tablist" aria-label="表示">
-          <button role="tab" data-view="all">すべて</button>
-          <button role="tab" data-view="unread">未読</button>
-          <button role="tab" data-view="saved">保存済み</button>
-        </div>
-        <div id="cats" class="chips" role="group" aria-label="カテゴリ"></div>
-        <div class="row">
-          <input id="q" type="search" placeholder="キーワード検索">
-          <label class="score">重要度 <output id="minOut">1</output>+
-            <input id="min" type="range" min="1" max="10" value="1">
-          </label>
-        </div>
-      </div>
+  <a class="skip" href="#paper">本文へ移動</a>
+
+  <div class="utility">
+    <div class="wrap utility-in">
+      <span id="issue" class="mono">Vol. 1</span>
+      <span id="dateline" class="mono dateline"></span>
+      <span id="stats" class="mono stats"></span>
     </div>
+  </div>
+
+  <header class="masthead wrap" id="masthead">
+    <div class="rule-top"></div>
+    <h1 class="wordmark" aria-label="Tech Digest">
+      <span class="wm-line"><span class="wm-a">Tech</span></span>
+      <span class="wm-line"><em class="wm-b">Digest</em></span>
+    </h1>
+    <div class="mast-side">
+      <p class="tagline">毎朝7時、エンジニアのための<br>テックニュース朝刊</p>
+      <nav class="edition" aria-label="号の切り替え">
+        <button id="prevIssue" class="ed-btn" type="button" aria-label="前の号">←</button>
+        <label class="ed-select">
+          <span class="visually-hidden">日付</span>
+          <select id="date"></select>
+        </label>
+        <button id="nextIssue" class="ed-btn" type="button" aria-label="次の号">→</button>
+      </nav>
+    </div>
+    <div class="rule-double"></div>
   </header>
 
-  <main class="wrap">
-    <div class="meta-row">
-      <p id="meta" class="meta"></p>
-      <button id="markAll" class="text-btn" type="button">表示中をすべて既読</button>
+  <section class="lede wrap" id="ledeWrap" aria-labelledby="ledeLabel">
+    <p id="ledeLabel" class="kicker"><span class="dot"></span>Today's theme</p>
+    <p id="headline" class="lede-text"></p>
+  </section>
+
+  <div class="ticker" id="ticker" aria-hidden="true"><div class="ticker-track" id="tickerTrack"></div></div>
+
+  <div class="toolbar" id="toolbar">
+    <div class="wrap toolbar-in">
+      <a href="#top" class="mini-mark" aria-hidden="true" tabindex="-1">T<em>D</em></a>
+      <div id="views" class="seg views-top" role="tablist" aria-label="表示">
+        <button role="tab" data-view="all">すべて</button>
+        <button role="tab" data-view="unread">未読</button>
+        <button role="tab" data-view="saved">保存済み</button>
+      </div>
+      <div id="cats" class="cats" role="group" aria-label="カテゴリ"></div>
+      <div class="tools">
+        <label class="search">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg>
+          <span class="visually-hidden">キーワード検索</span>
+          <input id="q" type="search" placeholder="検索" autocomplete="off">
+        </label>
+        <div id="signal" class="signal" role="group" aria-label="重要度で絞り込み">
+          <span class="signal-label mono">Signal</span>
+          <button data-min="1">All</button><button data-min="5">5+</button><button data-min="7">7+</button><button data-min="9">9+</button>
+        </div>
+        <button id="pushBtn" class="icon-btn bell-top" type="button" aria-label="毎朝の通知">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3a4.5 4.5 0 0 0-4.5 4.5v3L4 13.5h12L14.5 10.5v-3A4.5 4.5 0 0 0 10 3Z"/><path d="M8.2 16a1.9 1.9 0 0 0 3.6 0"/></svg>
+        </button>
+      </div>
     </div>
-    <ol id="list" class="list"></ol>
-    <p id="empty" class="empty" hidden>該当なし</p>
+  </div>
+
+  <main id="paper" class="paper wrap" tabindex="-1">
+    <div class="status-row">
+      <p id="meta" class="mono meta" aria-live="polite"></p>
+      <button id="markAll" class="link-btn" type="button">表示中をすべて既読にする</button>
+    </div>
+    <div id="content"></div>
+    <div id="empty" class="empty" hidden>
+      <p class="empty-mark" aria-hidden="true">§</p>
+      <p id="emptyText" class="empty-text">該当なし</p>
+    </div>
   </main>
+
+  <footer class="colophon wrap">
+    <div class="rule-double"></div>
+    <div class="colo-grid">
+      <p class="colo-mark">Tech <em>Digest</em></p>
+      <p class="colo-text">Hacker News・Lobsters・GitHub Trending・Zenn・Reddit・公式ブログから毎朝6時に収集し、Claude が選別・要約して7時に発行。</p>
+      <p class="colo-text mono"><a href="https://github.com/daichi1002/tech-digest" rel="noopener">Source on GitHub ↗</a></p>
+    </div>
+  </footer>
+
+  <nav class="tabbar" aria-label="表示の切り替え">
+    <button data-view="all" class="tab"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4h12M4 8.5h12M4 13h8"/></svg><span>すべて</span></button>
+    <button data-view="unread" class="tab"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="3.2"/><circle cx="10" cy="10" r="7"/></svg><span>未読</span><i class="badge-count" id="unreadBadge"></i></button>
+    <button data-view="saved" class="tab"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.5h8v13l-4-3-4 3z"/></svg><span>保存済み</span></button>
+    <button id="pushBtnTab" class="tab" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3a4.5 4.5 0 0 0-4.5 4.5v3L4 13.5h12L14.5 10.5v-3A4.5 4.5 0 0 0 10 3Z"/><path d="M8.2 16a1.9 1.9 0 0 0 3.6 0"/></svg><span>通知</span></button>
+  </nav>
 
   <dialog id="pushDlg">
     <form method="dialog" class="dlg">
+      <p class="kicker"><span class="dot"></span>Morning delivery</p>
       <h2>毎朝の通知</h2>
       <div id="pushBody"></div>
-      <div class="dlg-actions"><button class="text-btn" value="close">閉じる</button></div>
+      <div class="dlg-actions"><button class="btn" value="close">閉じる</button></div>
     </form>
   </dialog>
 

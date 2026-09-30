@@ -1,5 +1,5 @@
 // Bump when app shell files change so installed apps pick up the new version.
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL = `shell-${VERSION}`;
 const DATA = "data";
 const SHELL_FILES = [
