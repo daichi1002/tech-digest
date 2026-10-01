@@ -2,7 +2,7 @@
 // VERSION only names the offline cache; bump it to drop old cached files.
 // Cache names are shared by every project site on daichi1002.github.io, so they carry an app prefix.
 const PREFIX = "tech-digest-";
-const VERSION = "v5";
+const VERSION = "v6";
 const SHELL = `${PREFIX}shell-${VERSION}`;
 const DATA = `${PREFIX}data`;
 // Unprefixed names used up to v2; removed once on upgrade.

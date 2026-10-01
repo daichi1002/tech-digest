@@ -81,7 +81,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round
 .utility { border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top); }
 .utility-in { display: flex; justify-content: space-between; align-items: center; gap: 16px; height: 36px; color: var(--ink-3); }
 .utility-in > * { white-space: nowrap; }
-.dateline { color: var(--ink); }
+.dateline { color: var(--ink); min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.utility-in > :first-child { flex: none; }
 
 /* ---------- masthead ---------- */
 .masthead {
@@ -211,7 +212,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round
 .story h3 a:hover { background-size: 100% 1px; }
 .story h3 a::after { content: ""; position: absolute; inset: 0; z-index: 0; } /* whole card is clickable */
 .story .orig { margin: 6px 0 0; font: 400 12px/1.5 var(--f-sans); color: var(--ink-3); overflow-wrap: anywhere; }
-.row-body, .lead-body { min-width: 0; }
+/* grid children must not grow to their content's min width (long nowrap source titles on mobile) */
+.row-body, .lead-body, .front > *, .tops > .top, .rows > .row { min-width: 0; }
 .story .sum { margin: 12px 0 0; color: var(--ink-2); text-wrap: pretty; }
 .story .foot { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin-top: 14px; font: 500 11px/1.4 var(--f-mono); letter-spacing: .04em; color: var(--ink-3); position: relative; z-index: 1; }
 .story .foot a { text-decoration: none; border-bottom: 1px solid var(--line); }
@@ -391,7 +393,7 @@ dialog::backdrop { background: rgb(15 14 12 / .5); backdrop-filter: blur(3px); }
   .tools { margin-left: 0; flex: 1; justify-content: space-between; }
   .search, .search:focus-within { width: auto; flex: 1; max-width: 260px; }
   .toolbar.stuck .mini-mark { width: 36px; font-size: 24px; }
-  .tops { grid-template-columns: 1fr !important; }
+  .tops { grid-template-columns: minmax(0, 1fr) !important; }
   .top { border-left: 0; padding-left: 0; padding-right: 0; border-top: 1px solid var(--line); }
   .top:first-child { border-top: 0; }
   .top .save, .top:first-child .save { right: -8px; }
