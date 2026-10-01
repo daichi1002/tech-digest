@@ -2,12 +2,18 @@ name: Promote digest
 
 # The curation routine cannot push to main (main is a protected branch, and Claude Code rejects pushes
 # to protected branches), so it pushes each digest to claude/data-YYYY-MM-DD instead.
-# This workflow always runs the trusted copy from main (schedule / manual dispatch, never a push to the
-# data branch): it takes ONLY site/data/*.json from those branches, validates them with main's
-# scripts/check_data.py, commits them to main, then dispatches deploy.yml (deploy + notification).
+# This workflow always runs the trusted copy from main, never code from the data branch:
+# - pull_request_target: the routine opens a PR from its data branch; this event always uses main's
+#   workflow file, and the job never checks out or executes PR code (it only copies JSON files).
+# - schedule / manual dispatch: fallback when no PR was opened (GitHub cron is best-effort).
+# It takes ONLY site/data/*.json from those branches, validates them with main's scripts/check_data.py,
+# commits them to main, deletes the branch (which closes its PR), then dispatches deploy.yml.
 on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+    branches: [main]
   schedule:
-    - cron: "*/10 22-23 * * *" # every 10 min, 07:00–08:59 JST
+    - cron: "4-59/10 22,23 * * *" # fallback every 10 min, 07:04–08:54 JST
   workflow_dispatch:
 
 permissions:
@@ -20,6 +26,11 @@ concurrency:
 
 jobs:
   promote:
+    # For PR events, only same-repo PRs from data branches (never forks).
+    if: >-
+      github.event_name != 'pull_request_target' ||
+      (startsWith(github.head_ref, 'claude/data-') &&
+       github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

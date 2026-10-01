@@ -78,11 +78,19 @@ git status --porcelain
 ```bash
 git add site/data
 git commit -m "data: $(TZ=Asia/Tokyo date +%F)"
-git push origin HEAD:claude/data-$(TZ=Asia/Tokyo date +%F)
+git push origin "HEAD:refs/heads/claude/data-$(TZ=Asia/Tokyo date +%F)"
 ```
 
 Push **only** to `claude/data-YYYY-MM-DD` (today's JST date). `main` is a protected branch and the push will be rejected.
-The `promote.yml` workflow copies the digest files from that branch to `main`, deploys, and sends the notification
-within about 10 minutes.
+
+Then open a pull request from that branch to `main`. Opening it starts `promote.yml` right away, which copies the
+digest files to `main`, deploys, sends the notification, and deletes the branch (closing the PR). Do not merge it yourself.
+
+```bash
+gh pr create --base main --head "claude/data-$(TZ=Asia/Tokyo date +%F)" --title "data: $(TZ=Asia/Tokyo date +%F)" --body "Daily digest. Promoted automatically by promote.yml."
+```
+
+If `gh` is unavailable or the PR cannot be created, say so in your final reply and stop; a scheduled run of
+`promote.yml` will still pick up the branch.
 
 Commit only `site/data` (not `work/`). Do not modify any other files.
