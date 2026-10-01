@@ -1,0 +1,521 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T09:06+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Gemini 4 Argon がHNで話題に、Cloudflareは AI エージェント向け機能を相次いで発表",
+  "items": [
+    {
+      "title": "Gemini 4 Argon が Hacker News で大きな話題に",
+      "original_title": "Gemini 4 Argon",
+      "summary": "「Gemini 4 Argon」と題した投稿が Hacker News で867ポイント・581コメントを集め、本日の最注目トピックとなっています。詳細な仕様は候補データに含まれていないため、元記事で確認してください。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49913571",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Gemini",
+        "LLM",
+        "Hacker News"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Sonnet 5.5 の「最大30%安い」は手順のある仕事でのみ再現",
+      "original_title": "Claude Sonnet 5.5 の「最大30%安い」は、手順のある仕事でだけ再現した",
+      "summary": "Claude Sonnet 5.5 は2026-09-28に公開され、単価は Sonnet 5 と同じ $2 / $10 です。公式が謳う「タスクあたり最大30%安い」という主張を検証し、手順の決まった作業でのみ再現できたと報告する記事です。",
+      "url": "https://qiita.com/suwa_nobu/items/7067a7a0868676d350e9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Claude",
+        "Sonnet 5.5",
+        "コスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "「You said no MCP」が議論を呼ぶ",
+      "original_title": "You said no MCP",
+      "summary": "MCP（Model Context Protocol）をめぐる投稿「You said no MCP」が Hacker News で595ポイント・332コメントを獲得しました。エージェント連携の標準化に対する開発者の関心の高さがうかがえます。",
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49906637",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "MCP",
+        "エージェント",
+        "Hacker News"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI DevDay 2026 発表まとめ",
+      "original_title": "OpenAI DevDay 2026 発表まとめ",
+      "summary": "OpenAI DevDay 2026 での発表内容をまとめた Zenn の記事で、90 likes を集めています。開発者向けの最新動向を日本語で把握するのに役立ちます。",
+      "url": "https://zenn.dev/schroneko/articles/openai-devday-2026",
+      "source": "zenn",
+      "post_url": null,
+      "author": "ぬこぬこ",
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "DevDay"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI、組織的なモデル蒸留キャンペーンを阻止",
+      "original_title": "Disrupting a coordinated model-distillation campaign",
+      "summary": "OpenAI は、保護されたモデルの推論を抜き出そうとする組織的なキャンペーンを阻止したと発表しました。あわせて、敵対的な蒸留に対する防御を強化していると説明しています。",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "セキュリティ",
+        "蒸留"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare Containers、エージェント向けサンドボックスに合わせ再構築",
+      "original_title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+      "summary": "Cloudflare Containers の起動が6倍高速化され、エージェントが実行時にサンドボックスのイメージとインスタンスタイプを選べるようになりました。エージェント用サンドボックスの大規模運用を想定した刷新です。",
+      "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "Containers",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Edge Functions が V8 isolates から Firecracker MicroVMs へ移行し5倍高速に",
+      "original_title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+      "summary": "Edge Functions の実行基盤を V8 isolates から Firecracker MicroVMs に切り替え、5倍の高速化を実現したという事例が Hacker News で102ポイントを集めました。",
+      "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49912444",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Edge Functions",
+        "Firecracker",
+        "V8"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare AI Gateway に Auto Router、リクエスト複雑度でモデルを自動選択",
+      "original_title": "Cut your AI spend with AI Gateway's Auto Router",
+      "summary": "Cloudflare AI Gateway に、エッジ上の分類器でリクエストの複雑さを評価してモデルを選ぶルーターが加わりました。また User Insights にタスク・モデル・ターン・ユーザーの分類が追加され、モデルの過剰利用の把握にも使えます。",
+      "url": "https://blog.cloudflare.com/auto-router/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "AI Gateway",
+        "コスト最適化"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://blog.cloudflare.com/ai-model-overuse-user-insights/"
+        }
+      ]
+    },
+    {
+      "title": "Cloudflare Workers に組み込みエラー監視、本番障害をエージェントへ送信",
+      "original_title": "Detect and send production issues straight to your agent",
+      "summary": "Cloudflare Workers の組み込みエラー監視で、本番環境の障害をグループ化し、スタックトレースやログ、トレースをエージェントに送れるようになりました。",
+      "url": "https://blog.cloudflare.com/real-time-issue-detection/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "Workers",
+        "監視"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare、AIエージェント課金の Monetization Gateway と Pay Per Use をベータ公開",
+      "original_title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+      "summary": "Monetization Gateway beta は HTTP 402 を使ってAIエージェントの利用量に応じた課金を可能にします。Pay Per Use beta では、AI企業がパブリッシャーのコンテンツ利用を報告し、Cloudflare が請求と支払いを処理します。",
+      "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "HTTP 402",
+        "AIエージェント"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://blog.cloudflare.com/pay-per-use/"
+        }
+      ]
+    },
+    {
+      "title": "AWS：S3 Tables が Iceberg V3 全型に対応、S3 Vectors と Aurora PostgreSQL も強化",
+      "original_title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+      "summary": "Amazon S3 Tables が Apache Iceberg V3 の全データ型をサポートし、S3 Vectors はメタデータ事前フィルタリングで絞り込み検索の再現率が最大5倍に向上しました。Aurora PostgreSQL はデータレイク上の Iceberg や Parquet を直接クエリできます。",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "S3 Tables",
+        "Iceberg",
+        "Aurora"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/"
+        },
+        {
+          "source": "rss",
+          "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/"
+        }
+      ]
+    },
+    {
+      "title": "インターネットの「第二の読者」：Cloudflare 上のトラフィックの半分超が自動化",
+      "original_title": "The Internet has a second audience",
+      "summary": "Cloudflare 上のサイトに届くトラフィックの半分以上が自動化されたもので、AIエージェントが最も急成長している部分だと報告されています。",
+      "url": "https://blog.cloudflare.com/agentic-web/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "ボット",
+        "トラフィック"
+      ],
+      "related": []
+    },
+    {
+      "title": "EDG C++ フロントエンドが公開",
+      "original_title": "EDG C++ front-end goes public",
+      "summary": "EDG の C++ フロントエンドが公開されたと Hacker News で132ポイントを獲得しました。Lobsters でも EDG C/C++ Compiler Project として共有されています。",
+      "url": "https://edgcpp.org/#transition",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49913192",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "C++",
+        "コンパイラ",
+        "EDG"
+      ],
+      "related": [
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/nwdxko/edg_c_c_compiler_project"
+        }
+      ]
+    },
+    {
+      "title": "2026年9月版：Rust コンパイラを高速化する方法",
+      "original_title": "How to speed up the Rust compiler in September 2026",
+      "summary": "Rust コンパイラの高速化に関する月次の取り組みをまとめた記事で、Lobsters で66ポイントを集めました。",
+      "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/odrfgk/how_speed_up_rust_compiler_september_2026",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Rust",
+        "コンパイラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "データベースをメッセージキューにしていたが、Kafka に移行した",
+      "original_title": "We used a database as a message queue. Now we use Kafka",
+      "summary": "データベースをメッセージキューとして使っていたシステムが Kafka に移行した経緯を扱う記事が Lobsters で共有されています。",
+      "url": "https://www.tigrisdata.com/blog/quick-fdb-kafka/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/0xfpgo/we_used_database_as_message_queue_now_we",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Kafka",
+        "データベース",
+        "分散システム"
+      ],
+      "related": []
+    },
+    {
+      "title": "Jujutsu に出会い、15年使った Git に戻れなくなった理由",
+      "original_title": "Jujutsu と出会い、15 年使った Git にもう戻れなくなった理由",
+      "summary": "15年間 Git を使ってきた筆者が Jujutsu に乗り換えた理由を紹介する Zenn の記事で、99 likes を集めています。",
+      "url": "https://zenn.dev/oukayuka/articles/15years-git-then-jujutsu",
+      "source": "zenn",
+      "post_url": null,
+      "author": "oukayuka",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Jujutsu",
+        "Git"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI開発時代のテストの役割を見直す",
+      "original_title": "AI開発時代だからこそ、テストの役割を見つめ直す",
+      "summary": "AI開発時代におけるテストの役割を問い直す Zenn の記事が155 likes を集めています。関連して、API テスト中心の自動テスト戦略や、テストで検証できる仕様の書き方、テスト要求仕様（TRS）に関する記事も公開されています。",
+      "url": "https://zenn.dev/ababup1192/articles/77b844dcfc1529",
+      "source": "zenn",
+      "post_url": null,
+      "author": "ABAB↑↓BA",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "テスト",
+        "AI駆動開発"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/canary_techblog/articles/348d976da70857"
+        },
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/softbank/articles/6f98cf7c4ebfd3"
+        },
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/edash_tech_blog/articles/0d49bd338b64f0"
+        }
+      ]
+    },
+    {
+      "title": "11年生本番データ飛ばす",
+      "original_title": "11年生本番データ飛ばす",
+      "summary": "本番データを消失させた体験を扱う Zenn の記事で、137 likes を集めています。",
+      "url": "https://zenn.dev/ficilcom/articles/prod_db_reset_incident",
+      "source": "zenn",
+      "post_url": null,
+      "author": "ficilcom",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "障害",
+        "本番データ"
+      ],
+      "related": []
+    },
+    {
+      "title": "タイムズカーの不正アクセスによる免許証画像流出への対策",
+      "original_title": "タイムズカーの不正アクセスで免許証画像が流出した人へ：考えられる被害と今日からできる対策",
+      "summary": "タイムズカーの不正アクセスで免許証画像が流出した人に向け、考えられる被害と今日からできる対策を解説する Zenn の記事です。",
+      "url": "https://zenn.dev/gzer0/articles/timescar-leak-countermeasures",
+      "source": "zenn",
+      "post_url": null,
+      "author": "gzer0",
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "セキュリティ",
+        "情報漏えい"
+      ],
+      "related": []
+    },
+    {
+      "title": "mattpocock/skills：エンジニア向けエージェントスキル集",
+      "original_title": "mattpocock/skills",
+      "summary": "mattpocock/skills は、作者の .agents ディレクトリから公開されたエンジニア向けスキル集で、GitHub Trending で本日876スターを獲得しました。Shell で書かれています。",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "GitHub",
+        "Skills",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "context-mode：AIコーディングエージェント向けコンテキスト最適化",
+      "original_title": "mksglu/context-mode",
+      "summary": "context-mode は AI コーディングエージェントのコンテキストウィンドウを最適化するツールです。ツール出力をサンドボックス化して98%削減し、セッションメモリを保持すると説明されています。",
+      "url": "https://github.com/mksglu/context-mode",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "GitHub",
+        "コンテキスト",
+        "コーディングエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Qt 6.12 LTS がリリース",
+      "original_title": "Qt 6.12 LTS Released",
+      "summary": "Qt 6.12 LTS のリリースが Lobsters で共有されました。",
+      "url": "https://www.qt.io/blog/qt-6.12-released",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/3ixiwz/qt_6_12_lts_released",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Qt",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "JIT エンジンにおける Spectre-v2 攻撃：Branch Target Reuse",
+      "original_title": "Branch Target Reuse: Spectre-v2 Attacks in JIT Engines",
+      "summary": "JIT エンジンを対象とした Spectre-v2 系攻撃「Branch Target Reuse」を扱う投稿が Lobsters で共有されました。",
+      "url": "https://www.vusec.net/projects/btr/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/y3ppje/branch_target_reuse_spectre_v2_attacks",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "セキュリティ",
+        "Spectre",
+        "JIT"
+      ],
+      "related": []
+    },
+    {
+      "title": "ハニーポット観測：長年悪用されている脆弱性",
+      "original_title": "ハニーポット観測：長年悪用されている脆弱性のご紹介",
+      "summary": "三菱電機のハニーポットで観測された、公開から時間が経過した脆弱性を狙うリクエストを紹介する記事です。NVD 公開から8年以上経過した脆弱性や、公開前から悪用されていたとされるものも含まれます。",
+      "url": "https://qiita.com/melymmt/items/a0cc12d76a75c38d913c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "セキュリティ",
+        "ハニーポット",
+        "脆弱性"
+      ],
+      "related": []
+    },
+    {
+      "title": "codegraph：コードナレッジグラフを事前索引化",
+      "original_title": "colbymchenry/codegraph",
+      "summary": "codegraph は、コード変更に合わせて自動同期される事前インデックス型のコードナレッジグラフで、Claude Code や Codex、Gemini、Cursor などのエージェント向けです。",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "GitHub",
+        "ナレッジグラフ",
+        "Claude Code"
+      ],
+      "related": []
+    },
+    {
+      "title": "hyperframes：HTMLを書いて動画をレンダリング",
+      "original_title": "heygen-com/hyperframes",
+      "summary": "heygen-com/hyperframes は、HTMLを書くことで動画をレンダリングできるエージェント向けツールで、TypeScript 製です。本日349スターを獲得しました。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "GitHub",
+        "動画",
+        "TypeScript"
+      ],
+      "related": []
+    },
+    {
+      "title": "dbx：25MBの軽量クロスプラットフォームDBクライアント",
+      "original_title": "t8y2/dbx",
+      "summary": "dbx は25MBと軽量なクロスプラットフォームのデータベースクライアントで、MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB など100以上のデータベースに対応します。",
+      "url": "https://github.com/t8y2/dbx",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "GitHub",
+        "データベース",
+        "クライアント"
+      ],
+      "related": []
+    },
+    {
+      "title": "RevenueCat 導入後も自社DBの権限管理を守る設計",
+      "original_title": "RevenueCat導入しても自社DB権限管理を守り切りたいときの設計",
+      "summary": "RevenueCat を導入しつつ自社DBの権限管理を維持するための設計を紹介する記事です。決済前に購入インテントを記録することや、Webhook を待たず同期パスで権限を付与することなどの工夫が挙げられています。",
+      "url": "https://qiita.com/manrikitada/items/3e7ccd0334cd8e7ba886?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "RevenueCat",
+        "課金",
+        "設計"
+      ],
+      "related": []
+    }
+  ]
+}
