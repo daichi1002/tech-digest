@@ -4,7 +4,7 @@
 
 ## 仕組み
 
-1. **収集**（`collector/sources/`）— GitHub Actions（`collect.yml`、毎朝 5:23 / 5:53 / 6:23 JST。GitHub の定期実行は遅延・欠落があるため3回起動し、収集済みなら何もしない）が `python -m collector.main collect` を実行し、`work/candidates.json` をコミット
+1. **収集**（`collector/sources/`）— GitHub Actions（`collect.yml`、毎朝 5:23 / 5:53 / 6:23 / 8:23 JST。GitHub の定期実行は数時間遅れたり欠落したりするため4回起動し、収集済みなら何もしない）が `python -m collector.main collect` を実行し、`work/candidates.json` をコミット
    （routine のクラウド環境はニュースサイトへ接続できないため）
    - `hn.py` — Hacker News（Algolia API、100 点以上）
    - `lobsters.py` — Lobsters の hottest
@@ -12,11 +12,11 @@
    - `zenn.py` — Zenn の日次トレンド（いいね 20 以上）
    - `rss.py` — 公式ブログ、Qiita、Reddit（RSS）
    - 過去 7 日のダイジェストに載った URL は除外
-2. **選別** — 毎朝 7:30 JST に Claude Code の routine が [CURATE.md](CURATE.md) の手順に従い、Web 検索で漏れを補ってから
+2. **選別** — 毎朝 7:30 JST と 10:30 JST（収集が遅れた日の再試行。配信済みならすぐ終了）に Claude Code の routine が [CURATE.md](CURATE.md) の手順に従い、Web 検索で漏れを補ってから
    重複統合・カテゴリ分類・重要度 1〜10 採点・日本語要約を行い `work/curated.json` を書く
    （ルールとスキーマは `collector/editorial.py`）
 3. **公開** — `python -m collector.main publish` が検証して `site/data/YYYY-MM-DD.json` を出力 → routine が `claude/data-YYYY-MM-DD` ブランチに push
-   → main 向けの PR を作成。PR をきっかけに `promote.yml`（予備として 7:04〜8:54 JST に10分おきにも起動）が `site/data/*.json` だけを main に取り込み、`deploy.yml` を起動
+   → main 向けの PR を作成。PR をきっかけに `promote.yml`（予備として 7:04〜8:54 / 10:04〜11:54 JST に10分おきにも起動）が `site/data/*.json` だけを main に取り込み、`deploy.yml` を起動
    （main はブランチ保護されており、routine は main に直接 push できない）
 4. **表示** — push を受けて GitHub Actions（`deploy.yml`）が `site/` を GitHub Pages にデプロイ
 
@@ -26,7 +26,7 @@
 
 1. GitHub に**公開**リポジトリを作って push（非公開リポジトリで Pages を使うには GitHub Pro 以上が必要）
 2. Settings → Pages → Source を **GitHub Actions** に設定
-3. Claude Code で毎朝の routine を作成し、プロンプトを「`CURATE.md` の手順を実行して」にする
+3. Claude Code で毎朝の routine を作成し（スケジュール `30 22,1 * * *` = 7:30 / 10:30 JST）、プロンプトを「`CURATE.md` の手順を実行して」にする
 
 ## アプリとして使う（PWA）
 

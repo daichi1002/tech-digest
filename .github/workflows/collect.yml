@@ -2,13 +2,14 @@ name: Collect candidates
 
 # The Claude Code routine's sandbox cannot reach news sites, so collection runs here.
 # GitHub cron is best-effort (runs can be late or dropped, especially on the hour), so it is scheduled
-# three times off the hour (05:23 / 05:53 / 06:23 JST). Later runs exit early once today's candidates exist.
-# The routine curates at 07:30 JST from work/candidates.json.
+# four times off the hour (05:23 / 05:53 / 06:23 / 08:23 JST). Later runs exit early once today's candidates exist.
+# The routine curates at 07:30 JST from work/candidates.json, and retries at 10:30 JST if they were late.
 on:
   schedule:
     - cron: "23 20 * * *"
     - cron: "53 20 * * *"
     - cron: "23 21 * * *"
+    - cron: "23 23 * * *"
   workflow_dispatch:
 
 permissions:
