@@ -1,0 +1,669 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T10:37+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIエージェント基盤の競争が加速：Pi 1.0とCloudflareのエージェント／データ基盤の発表が相次ぐ",
+  "items": [
+    {
+      "title": "Pi 1.0 がリリース、AIエージェントツールキットとして注目",
+      "original_title": "Pi 1.0",
+      "summary": "Pi 1.0 がHacker Newsで646ポイントを集め話題になりました。関連リポジトリ earendil-works/pi は、統一LLM API、エージェントループ、TUI、コーディングエージェントCLIを備えたAIエージェントツールキットとしてGitHub Trendingに入っています。Pi Durable も別途公開されています。",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49926069",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Pi",
+        "AIエージェント",
+        "LLM"
+      ],
+      "related": [
+        {
+          "source": "github",
+          "url": "https://github.com/earendil-works/pi"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=49925969"
+        }
+      ]
+    },
+    {
+      "title": "Clef：オープンウェイトの意思決定モデルと新しいRLファインチューニング基盤",
+      "original_title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "summary": "Clef がオープンウェイトの decision model と、強化学習（RL）によるファインチューニング基盤を発表し、Hacker Newsで397ポイントを獲得しました。Qiitaでは別の decision model（Ollaya の laya / winnow）をAWS認定試験で評価する記事も出ており、判定用の小型モデルへの関心が高まっています。",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49923692",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Clef",
+        "オープンウェイト",
+        "RL"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare OS：会社の知識とシステムにつながるエージェント用ワークスペース",
+      "original_title": "Cloudflare OS: your company’s agent workspace, managed for you",
+      "summary": "Cloudflareは、組織の全員が使えるエージェントワークスペース「Cloudflare OS」を発表しました。会社のやり方を理解し、データやシステムに接続するもので、マネージドで提供されます。",
+      "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Cloudflare",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Workers KV Instant：p99読み取り2ms未満、グローバル複製250ms",
+      "original_title": "Introducing Workers KV Instant — powered by Quicksilver",
+      "summary": "Cloudflareは Quicksilver を基盤とした Workers KV Instant を発表しました。300以上のエッジ拠点でp99読み取りレイテンシ2ms未満、グローバル複製250msを実現し、コールドリードのペナルティを解消するとしています。",
+      "url": "https://blog.cloudflare.com/workers-kv-instant/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Cloudflare",
+        "Workers KV",
+        "エッジ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare Basin が一般提供開始：Iceberg と R2 上のサーバーレスデータ基盤",
+      "original_title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+      "summary": "Cloudflare Basin は Apache Iceberg と R2 Object Storage をベースにしたオープンなサーバーレスデータ基盤で、一般提供（GA）となりました。大規模データセットの取り込み、管理、クエリが可能です。",
+      "url": "https://blog.cloudflare.com/cloudflare-basin/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "Iceberg",
+        "R2"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare K2：サーバーレスのイベントストリーム",
+      "original_title": "Cloudflare K2: serverless event streams",
+      "summary": "Cloudflare が K2 というサーバーレスのイベントストリームを紹介し、Hacker Newsで186ポイントを集めました。Cloudflareのデータ基盤系の発表群の一つです。",
+      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49921923",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "イベントストリーム"
+      ],
+      "related": []
+    },
+    {
+      "title": "Figma が MCP アクセスをホワイトリスト制に、Pi は対象外",
+      "original_title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+      "summary": "Figma が MCP へのアクセスを許可済みクライアントに限定し、Pi は含まれないことがHacker Newsで議論になりました（171ポイント）。エージェントからのデザインツール連携の扱いに影響します。",
+      "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49922729",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Figma",
+        "MCP",
+        "Pi"
+      ],
+      "related": []
+    },
+    {
+      "title": "Android Developer Verification Program への強い批判",
+      "original_title": "Fuck Android Developer Verification Program",
+      "summary": "Android Developer Verification Program を批判する投稿がHacker Newsで309ポイント、129コメントを集めました。Androidアプリ開発者・配布者への影響が議論されています。",
+      "url": "https://twitter.com/0xcrypto/status/2105515822643114182",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49917761",
+      "author": null,
+      "category": "mobile",
+      "score": 7,
+      "tags": [
+        "Android",
+        "開発者認証"
+      ],
+      "related": []
+    },
+    {
+      "title": "Decision Model を試す：Ollaya の評価と Databricks の ai_decide",
+      "original_title": "Ollamaじゃない？ OllayaのDecision ModelをAWS認定試験で評価してみた",
+      "summary": "OllayaのDecision Model（layaとwinnow）をAWS認定試験のサンプル問題で比較検証した記事です。また、2026年9月30日のDatabricksブログでAI Functionsに ai_decide が追加されベータ提供となったことを、SQLから呼べる判定モデルとして日本語で試した記事もあります。",
+      "url": "https://qiita.com/kadzus/items/2a4d1cd931db81c8f04d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Decision Model",
+        "Databricks",
+        "SLM"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/taka_yayoi/items/5e5b4baa7781ff6008bd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "Cloudflare AI Search が一般提供に",
+      "original_title": "AI Search is now generally available",
+      "summary": "AI Search が一般提供となりました。画像のピクセルを直接埋め込んだ視覚検索、スキャンPDFへのOCR、大きなファイルの受け付けなどに対応します。",
+      "url": "https://blog.cloudflare.com/ai-search-ga/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "検索",
+        "RAG"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare Workers が ML-KEM / ML-DSA（耐量子暗号）に対応",
+      "original_title": "Support for modern cryptographic algorithms in Workers",
+      "summary": "Cloudflare Workers に、耐量子暗号アルゴリズム ML-KEM と ML-DSA のオプトイン対応が追加されました。現在すぐに試せます。",
+      "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "耐量子暗号",
+        "Workers"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS Well-Architected Agent がパブリックプレビュー",
+      "original_title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+      "summary": "AWSは AI を活用した Well-Architected Agent のパブリックプレビューを発表しました。AWS環境を分析し、状況に即した具体的な改善提案を行います。",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "Well-Architected",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "警察は iPhone の自動再起動を回避してロック端末に入れる",
+      "original_title": "Cops Can Bypass iPhone's Automatic Reboot to Get into Locked Phones",
+      "summary": "警察が iPhone の自動再起動機能を回避してロック中の端末にアクセスできるという内容の記事が、Hacker Newsで240ポイントを集めました。",
+      "url": "https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49922278",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "iPhone",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust 1.99.0 がリリース",
+      "original_title": "Announcing Rust 1.99.0",
+      "summary": "Rust 1.99.0 のリリースが発表されました（Lobstersで49ポイント）。",
+      "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/dfvxvs/announcing_rust_1_99_0",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Rust",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "33件のCVEを受け、Debian で rsync を大幅アップグレード",
+      "original_title": "Major rsync upgrade in Debian because of 33 CVEs",
+      "summary": "33件のCVEへの対応として、Debianでrsyncのメジャーアップグレードが行われました（Lobstersで26ポイント）。",
+      "url": "https://lobste.rs/s/sqyhgt/major_rsync_upgrade_debian_because_33",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/sqyhgt/major_rsync_upgrade_debian_because_33",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "rsync",
+        "Debian",
+        "CVE"
+      ],
+      "related": []
+    },
+    {
+      "title": "FTC が OpenAI や Anthropic などAI企業の製品リスクを調査",
+      "original_title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "summary": "FTCが OpenAI、Anthropic など複数のAI企業を製品リスクの観点から調査していると報じられ、Hacker Newsで198ポイントを集めました。",
+      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49921050",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "FTC",
+        "規制"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Code 2.1.286：verify という名前のスキルがコミット前に実行される",
+      "original_title": "スキルの名前を verify にするだけで、Claude Code はコミット前にそれを実行する",
+      "summary": "Claude Code 2.1.286（2026-09-30）の changelog によると、プロジェクトまたはユーザーのスキルに verify という名前のものがあると、コミット前のガイダンスが改善され実行されるようになります。",
+      "url": "https://qiita.com/suwa_nobu/items/cc0fb4a9e10100991bba?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "スキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare、AI時代の次世代Gitプラットフォーム開発コンペを開催",
+      "original_title": "We want you to build the next Git platform on Cloudflare",
+      "summary": "Cloudflareは、AIエージェントの時代に向けた次のGitプラットフォームを作るコンペを開催します。Artifacts はオープンベータで、Workers bindings などが利用できます。",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "Git",
+        "Artifacts"
+      ],
+      "related": []
+    },
+    {
+      "title": "StreetComplete の iOS 版が公開ベータに",
+      "original_title": "StreetComplete on iOS is now in public beta",
+      "summary": "StreetComplete の iOS 版が公開ベータとなり、Hacker Newsで505ポイントを集めました。",
+      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49920160",
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "iOS",
+        "StreetComplete"
+      ],
+      "related": []
+    },
+    {
+      "title": "Apple の Developer ID CA（Sub-CA）が2027年2月1日に失効",
+      "original_title": "Upcoming expiration of Developer ID Certification Authority (Sub-CA)",
+      "summary": "元の Developer ID Certification Authority（Sub-CA）は2027年2月1日に失効し、この認証局が発行した証明書はその日以降使えなくなります。対応が必要です。",
+      "url": "https://developer.apple.com/news/?id=w4atic4c",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "Apple",
+        "証明書"
+      ],
+      "related": []
+    },
+    {
+      "title": "Python 3.10 が EOL、新リリースが公開",
+      "original_title": "New Python releases are out, 3.10.x reaches EOL, (and 3.15.0 is scheduled for today)!",
+      "summary": "Python 3.10.x がEOLを迎え、新しいリリースが公開されました。Redditでは3.15.0が本日予定とされていますが、公式ブログの投稿では3.15には触れられていません。",
+      "url": "https://www.reddit.com/r/programming/comments/1wv4hph/new_python_releases_are_out_310x_reaches_eol_and/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Python",
+        "EOL"
+      ],
+      "related": []
+    },
+    {
+      "title": "WSL containers が一般提供に",
+      "original_title": "WSL containers are now generally available",
+      "summary": "WSL containers が一般提供（GA）になったことが共有されました。",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/8ckgq8/wsl_containers_are_now_generally",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "WSL",
+        "コンテナ",
+        "Windows"
+      ],
+      "related": []
+    },
+    {
+      "title": "サンドボックスは暴走エージェントを封じ込めるのに十分か",
+      "original_title": "Is sandboxing sufficient to contain rogue agents?",
+      "summary": "サンドボックスだけで暴走するAIエージェントを封じ込められるのかを論じる記事です。セキュリティの観点でエージェント運用を考える材料になります。",
+      "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/zcr7in/is_sandboxing_sufficient_contain_rogue",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "セキュリティ",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "GPT-Synopsys：フロンティアAIでチップ設計を革新",
+      "original_title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "summary": "GPT-Synopsys というチップ設計向けのフロンティアAIが発表され、Hacker Newsで163ポイントを集めました。",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49919910",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "チップ設計",
+        "Synopsys"
+      ],
+      "related": []
+    },
+    {
+      "title": "RIP, vector database",
+      "original_title": "RIP, vector database",
+      "summary": "ベクトルデータベースの役割を問い直す記事が、Hacker Newsで261ポイントを集めました。関連して、AIワークロード向けの Lance format を Iceberg の課題から考える記事も出ています。",
+      "url": "https://turbopuffer.com/blog/rip-vector-database",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49923466",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "ベクトルDB",
+        "RAG"
+      ],
+      "related": []
+    },
+    {
+      "title": "Git 3.0 の SHA-256 デフォルト化は高くつく失敗になるという主張",
+      "original_title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "summary": "Git 3.0 で予定されている SHA-256 のデフォルト化を批判する記事が、Hacker Newsで176ポイント、201コメントを集めました。",
+      "url": "https://blog.gitbutler.com/git-3-sha-256",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49924179",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Git",
+        "SHA-256"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI臭い日本語を構造から直すスキル「yomiyasu」が話題に",
+      "original_title": "AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+      "summary": "AIが書いた日本語を単語の置き換えではなく文の構造レベルで読みやすくするスキル『yomiyasu』がZennで310いいねを集めました。Qiitaでは日本語推敲スキル3つをClaudeで比較した記事も出ています。",
+      "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+      "source": "zenn",
+      "post_url": null,
+      "author": "algoartis",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "yomiyasu",
+        "スキル",
+        "日本語"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/inoyu-qiita/items/0ffe6e74ecaf3aaa8b14?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "Web 標準動向 2026年9月版",
+      "original_title": "Web 標準動向 2026年9月版",
+      "summary": "2026年9月のWeb標準の動向をまとめたZenn記事です。",
+      "url": "https://zenn.dev/cybozu_frontend/articles/web_standards_trends_202609",
+      "source": "zenn",
+      "post_url": null,
+      "author": "cybozu_frontend",
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Web標準"
+      ],
+      "related": []
+    },
+    {
+      "title": "Lance format とは：AIワークロード向けデータフォーマット",
+      "original_title": "Lance formatとは？Apache Icebergの課題から考えるAIワークロード向けのデータフォーマット",
+      "summary": "Apache Iceberg の課題から出発して、画像・音声・埋め込みベクトルなどを扱うAIワークロード向けデータフォーマット Lance format を解説する日本語記事です。",
+      "url": "https://qiita.com/yushibats/items/c98976645c61deac4872?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Lance",
+        "Iceberg"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Code / Codex の limit が減りすぎると思ったときの確認ポイント",
+      "original_title": "Claude Code / Codexで「私のlimit、減りすぎ…？」と思ったときに見る記事",
+      "summary": "Claude Code や Codex で利用上限（limit）の消費が早いと感じたときに見る記事で、Zennで27いいねでした。",
+      "url": "https://zenn.dev/tokium_dev/articles/ai-agent-usage-limit-long-sessions",
+      "source": "zenn",
+      "post_url": null,
+      "author": "tokium_dev",
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Claude Code",
+        "Codex"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI駆動開発で「設計」をテストで検証できる仕様として書く",
+      "original_title": "AI 駆動開発で「設計」はどこに書くのか ― 振る舞いをテストで検証できる「仕様」にしてみる",
+      "summary": "AI駆動開発において設計をどこに書くのかを扱い、振る舞いをテストで検証できる「仕様」として記述するアプローチを紹介するZenn記事です。",
+      "url": "https://zenn.dev/softbank/articles/6f98cf7c4ebfd3",
+      "source": "zenn",
+      "post_url": null,
+      "author": "softbank",
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "AI駆動開発",
+        "テスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIによる変更の認知負荷を減らす",
+      "original_title": "Reducing the cognitive load of AI changes",
+      "summary": "AIが生成する変更をレビューする際の認知負荷を下げる方法を扱う記事です（Lobstersで27ポイント）。",
+      "url": "https://amoffat.github.io/blog/cognitive-load.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/iwvjr0/reducing_cognitive_load_ai_changes",
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "AIコーディング",
+        "レビュー"
+      ],
+      "related": []
+    },
+    {
+      "title": "新規プロダクトのバックエンド自動テスト戦略：UT中心からAPIテスト中心へ",
+      "original_title": "新規プロダクトのバックエンド自動テスト戦略 ─UT 中心から API テスト中心へ─",
+      "summary": "新規プロダクトのバックエンド自動テストを、ユニットテスト中心からAPIテスト中心へ移す戦略を紹介するZenn記事です。",
+      "url": "https://zenn.dev/canary_techblog/articles/348d976da70857",
+      "source": "zenn",
+      "post_url": null,
+      "author": "canary_techblog",
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "テスト",
+        "API"
+      ],
+      "related": []
+    },
+    {
+      "title": "Web開発教育の衰退を論じる記事",
+      "original_title": "The death of web development education",
+      "summary": "「The death of web development education」と題した記事が、Hacker Newsで131ポイント、101コメントを集めました。",
+      "url": "https://molily.de/web-dev-education/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49927100",
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Web開発",
+        "教育"
+      ],
+      "related": []
+    },
+    {
+      "title": "IANA が example.com を変更した理由",
+      "original_title": "IANA's email about why example.com changed",
+      "summary": "IANAから届いた、example.com が変更された理由に関するメールが共有されました（Lobstersで108ポイント）。",
+      "url": "https://www.oliverdunk.com/2026/09/30/iana-reply",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/qgd17n/iana_s_email_about_why_example_com_changed",
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "IANA",
+        "DNS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rails World 2026 の全講演が公開",
+      "original_title": "All the Rails World 2026 talks are now online",
+      "summary": "Rails World 2026 の全講演がオンラインで公開されました。DHHの講演以外にも多くのセッションがあります。",
+      "url": "https://www.reddit.com/r/programming/comments/1wv3nxy/all_the_rails_world_2026_talks_are_now_online/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Rails",
+        "カンファレンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Universe 2026 の注目技術セッション10選",
+      "original_title": "10 technical talks I’m excited about at GitHub Universe 2026",
+      "summary": "AI生成コードの検証やnpm依存関係の保護などをテーマにした、GitHub Universe 2026 の技術セッション10件の紹介記事です。",
+      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "GitHub",
+        "Universe"
+      ],
+      "related": []
+    },
+    {
+      "title": "obra/superpowers：エージェント向けスキルフレームワーク",
+      "original_title": "obra/superpowers",
+      "summary": "エージェント向けのスキルフレームワークおよびソフトウェア開発方法論で、GitHub Trendingで本日476スターを獲得しました。",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "GitHub",
+        "スキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "impeccable：AIハーネスのデザイン能力を高めるデザイン言語",
+      "original_title": "pbakaus/impeccable",
+      "summary": "AIハーネスをデザインに強くするためのデザイン言語で、GitHub Trendingで本日602スターを集めました。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "GitHub",
+        "デザイン"
+      ],
+      "related": []
+    }
+  ]
+}
