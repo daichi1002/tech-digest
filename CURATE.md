@@ -16,7 +16,8 @@ You are running unattended. Do every step without asking questions. Produce toda
 
 ## 1. Load candidates
 
-Candidates are collected by GitHub Actions (`collect.yml`, 06:00 JST) because this sandbox cannot reach news sites.
+Candidates are collected by GitHub Actions (`collect.yml`, from 05:23 JST) because this sandbox cannot reach news sites.
+GitHub's scheduled runs are sometimes hours late, so this task runs twice a day (07:30 and 10:30 JST).
 Do **not** run `python -m collector.main collect` here.
 
 ```bash
@@ -26,8 +27,20 @@ python -c "import json; d=json.load(open('work/candidates.json')); print(d['date
 TZ=Asia/Tokyo date +%F
 ```
 
+First check whether today's digest is already done (by an earlier run today):
+
+```bash
+ls site/data/$(TZ=Asia/Tokyo date +%F).json
+```
+
+```bash
+git ls-remote --heads origin "claude/data-$(TZ=Asia/Tokyo date +%F)"
+```
+
+If the file exists or the branch exists, stop and report "already published: <date>". Do not send a notification.
+
 `work/candidates.json` is `{"date": "YYYY-MM-DD", "candidates": [{id, source, title, url, post_url?, snippet}, ...]}`.
-If `date` is not today's date in JST, stop and report "candidates are stale: <date>".
+If `date` is not today's date in JST, stop and report "candidates are stale: <date>" (the 10:30 JST run retries).
 
 ## 2. Fill gaps with web search (optional, at most 5 items)
 
