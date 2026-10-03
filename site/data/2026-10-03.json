@@ -1,0 +1,348 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T10:39+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIエージェント開発の実務とローカルLLMが話題、Cloudflareは可観測性を大幅強化",
+  "items": [
+    {
+      "title": "DeepSeek Harness Desktop（macOS/Windows）が登場",
+      "original_title": "DeepSeek Harness Desktop for macOS and Windows",
+      "summary": "DeepSeek Harness Desktop が macOS と Windows 向けに公開され、Hacker News で380ポイント・205コメントを集めました。DeepSeek のモデルを手元のデスクトップ環境から扱うためのアプリとして注目されています。",
+      "url": "https://www.deepseek.com/en/harness/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49929489",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "DeepSeek",
+        "デスクトップ",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "Redis作者による ds4：LLMをローカルで動かす",
+      "original_title": "From the creator of Redis; run LLM locally with ds4",
+      "summary": "Redis の作者が公開した ds4 を使ってLLMをローカル実行する取り組みが、Hacker News で120ポイントを獲得しました。クラウドに依存せず手元でモデルを動かしたいエンジニアにとって参考になる話題です。",
+      "url": "https://dwarfstar.sh/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49936575",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "ローカルLLM",
+        "ds4",
+        "Redis"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare Traces と Observability の8つの大型アップデート",
+      "original_title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+      "summary": "Cloudflare は、セキュリティルール、変換、キャッシュ、ルーティング、Workers まで含めてリクエストの流れを追跡できる Cloudflare Traces を発表しました。あわせてログ、トレース、分析、アラート、ダッシュボード、クエリにわたる8つのObservability更新も公開されています。",
+      "url": "https://blog.cloudflare.com/cloudflare-tracing/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Cloudflare",
+        "Observability",
+        "Traces"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://blog.cloudflare.com/one-observability-platform/"
+        }
+      ]
+    },
+    {
+      "title": "Supabase が Turso を買収",
+      "original_title": "Supabase is acquiring Turso",
+      "summary": "Supabase が Turso を買収すると発表され、Hacker News で189ポイントを集めました。データベース関連サービスの動向として、利用者にとって今後の統合や方針が注目されます。",
+      "url": "https://supabase.com/blog/supabase-is-acquiring-turso",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49934784",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Supabase",
+        "Turso",
+        "買収"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI がスタートアップ向けに GPT-6 ファミリーのモデルガイドを公開",
+      "original_title": "A model guide for the GPT-6 family",
+      "summary": "OpenAI が、スタートアップが GPT-6 ファミリーのモデルを選ぶ方法、推論の強度（reasoning effort）の調整、プロンプトとスキルの改善、ツール連携の進め方を解説するガイドを公開しました。",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "GPT-6",
+        "ガイド"
+      ],
+      "related": []
+    },
+    {
+      "title": "Zig v0.17.0 リリース",
+      "original_title": "Zig v0.17.0",
+      "summary": "プログラミング言語 Zig の v0.17.0 がリリースされ、Hacker News で183ポイントを獲得しました。Zig を使う開発者は変更内容の確認が必要です。",
+      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49938521",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Zig",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "Greg Kroah-Hartman 講演「LLM時代のセキュリティ」",
+      "original_title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "summary": "Linux カーネルのメンテナである Greg Kroah-Hartman による、LLM時代のセキュリティをテーマにした講演動画が Hacker News で158ポイントを集めました。",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49929391",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "セキュリティ",
+        "LLM",
+        "Linux"
+      ],
+      "related": []
+    },
+    {
+      "title": "エージェント型コーディングの「四騎士」",
+      "original_title": "The Four Horsemen of Agentic Coding",
+      "summary": "「The Four Horsemen of Agentic Coding」と題した記事が Hacker News で105ポイント・80コメントを集めました。エージェント型コーディングの課題や論点を整理した内容として議論されています。",
+      "url": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49934511",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "エージェント",
+        "コーディング"
+      ],
+      "related": []
+    },
+    {
+      "title": "git の post-checkout フックで認証情報を狙う攻撃の事例",
+      "original_title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
+      "summary": "Lobsters で、git の post-checkout フックを使って認証情報を盗み取ろうとする攻撃の標的になった体験談が共有されました。信頼できないリポジトリをチェックアウトする際の注意喚起として参考になります。",
+      "url": "https://frankwiles.com/posts/i-got-targeted/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/cd5gdk/i_got_targeted_trying_get_your",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "git"
+      ],
+      "related": []
+    },
+    {
+      "title": "日本企業で続く不正アクセスの公表",
+      "original_title": "日本企業「ハッキングされないでくれ」ランキング",
+      "summary": "2026年9月末から、生活に近いサービスの不正アクセス公表が続いています。タイムズカーは9月25日に不正アクセスを検知し、退会済みの人や入会手続きを終えなかった人も対象に含まれると伝えられています。",
+      "url": "https://qiita.com/konaito/items/16a6d2c5da7d144efe95?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "不正アクセス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare、アカウント不正利用を調査する新ダッシュボード",
+      "original_title": "Follow the thread: a new dashboard to investigate account abuse",
+      "summary": "不正行為者がAIを使ってステートレスなセキュリティチェックを回避するケースが増えているとして、Cloudflare は Account Abuse Protection の新しいダッシュボードを発表しました。",
+      "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Quick Tunnels がメール認証に対応",
+      "original_title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+      "summary": "cloudflared のコマンドに --allowed-mail を付けるだけで、許可したメールアドレスのユーザーだけが Quick Tunnel にアクセスできるようになりました。開発中のプロジェクトを手軽に限定公開できます。",
+      "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "cloudflared"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI Gateway 経由の Web Search API を導入",
+      "original_title": "Introducing Web Search API via AI Gateway",
+      "summary": "Cloudflare AI Gateway が、Ceramic.ai、Exa などとの提携によりネイティブな Web 検索 API 連携に対応しました。",
+      "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "AI Gateway",
+        "検索"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Code Mods でモデルルーターを構築",
+      "original_title": "Claude Code ModsとJevでモデルルーターを構築（サブスクで使えるゾ！！）",
+      "summary": "Claude Code に追加された Mods という機能を使い、モデルルーターを構築する試みを紹介した記事です。サブスクリプションの範囲で使えるとされています。",
+      "url": "https://qiita.com/moritalous/items/8b663db633dde3c49d62?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "Mods"
+      ],
+      "related": []
+    },
+    {
+      "title": "「ユニットテスト不要論」を考える",
+      "original_title": "ユニットテストは不要なのか?",
+      "summary": "AI時代にはユニットテストの価値が下がるという意見が、英語圏のXから日本語圏にも広まり、XやZennで議論されています。テスト全体の否定ではなく、AIが作る意味のないテストへの批判が中心とされています。",
+      "url": "https://qiita.com/aganesy/items/fac4efe52b9f5b34fb33?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "テスト",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "オブザーバビリティのAIエージェントをどう評価するか",
+      "original_title": "オブザーバビリティのAIエージェントをどう評価するか",
+      "summary": "Zenn で、オブザーバビリティ領域のAIエージェントの評価方法を扱った記事が公開されました。21いいねを獲得しています。",
+      "url": "https://zenn.dev/ymotongpoo/articles/20261001-agent-eval-loop",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Yoshi Yamaguchi",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "AIエージェント",
+        "評価",
+        "オブザーバビリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust の Generic Const Args を解説",
+      "original_title": "Generic Const Args and You",
+      "summary": "Lobsters で、Rust の Generic Const Args に関する解説記事が共有されました。Rust の機能の動向を追う開発者向けの話題です。",
+      "url": "https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/6jcvdn/generic_const_args_you",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Rust"
+      ],
+      "related": []
+    },
+    {
+      "title": "Docker レイヤーに潜む設計上の妥協",
+      "original_title": "The hidden design compromises of Docker layers",
+      "summary": "Lobsters で、Docker のレイヤー構造に隠れた設計上のトレードオフを論じた記事が共有されました。",
+      "url": "https://loige.co/hidden-design-compromises-of-docker-layers/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/uuu6us/hidden_design_compromises_docker_layers",
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Docker",
+        "コンテナ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Ruby on Rails を Lambda Web Adapter で動かす",
+      "original_title": "【AWS】Ruby on RailsアプリケーションをLambda Web Adapterで動かしてみた",
+      "summary": "AWS の Lambda Web Adapter を使って Ruby on Rails アプリケーションを動かしてみた体験を紹介する記事です。",
+      "url": "https://qiita.com/PDC-Kurashinak/items/b56cd95751c9f70327cb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "AWS",
+        "Lambda",
+        "Rails"
+      ],
+      "related": []
+    },
+    {
+      "title": "Bedrock Guardrails で個人情報を伏せたら「みりん」が人名扱いに",
+      "original_title": "Amazon Bedrock Guardrailsで個人情報を伏せたら、「みりん」が人名になった話（2026年版）",
+      "summary": "音声で買い物をするデモを作る際、生成AIに渡す前に名前や電話番号を伏せる目的で Amazon Bedrock Guardrails を試した記事です。「みりん」が人名として扱われた事例が紹介されています。",
+      "url": "https://qiita.com/ntaka329/items/260b76e087ee593998d3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "個人情報"
+      ],
+      "related": []
+    }
+  ]
+}
