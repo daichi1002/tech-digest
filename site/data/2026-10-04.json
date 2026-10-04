@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T10:39+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Aleph Alphaの主権型オープンウェイトLLM「Kolibri」が注目を集め、Opus 5.5の活用法やAIエージェント系ツールも話題に",
+  "items": [
+    {
+      "title": "Aleph Alpha、主権型オープンウェイトモデル「Kolibri」を公開",
+      "original_title": "Kolibri: A Sovereign Open-Weight Model",
+      "summary": "Hacker Newsで472ポイントを集めた「Kolibri: A Sovereign Open-Weight Model」は、Aleph Alphaによるドイツ発の主権型オープンウェイトLLMです。関連する仕組みの解説記事やテクニカルレポート(PDF)も同時に話題になっており、欧州発のオープンモデルの動向として注目されます。",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49942706",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Kolibri",
+        "Aleph Alpha",
+        "オープンウェイト",
+        "LLM"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=49943034"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=49946069"
+        }
+      ]
+    },
+    {
+      "title": "ClaudeとClaude Codeで Opus 5.5 を使いこなすためのガイド",
+      "original_title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "summary": "「Getting the most out of Opus 5.5 in Claude and Claude Code」がHacker Newsで128ポイントを獲得し、86件のコメントが付きました。Claude Codeを日常的に使うエンジニアにとって、Opus 5.5の活用方法を確認できる資料として注目されています。",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49946567",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Claude Code",
+        "Opus 5.5",
+        "Anthropic"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust 1.99(2026年10月1日リリース)で実務に効く変更点を整理",
+      "original_title": "Rust 1.99が来たので、実務で使えそうな変更と気をつけたいところを拾ってみる",
+      "summary": "Rust 1.99.0が2026年10月1日にリリースされました。派手な新文法ではなく地味な更新ですが、FFI、raw pointer、メモリ所有権、unsafe、ファイルシステム、Cargo周りを扱う人に関わる変更を実務目線で拾った解説記事です。",
+      "url": "https://qiita.com/DwarfM42/items/b4a78fdbf38129ee2fcd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Rust",
+        "Cargo",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "Go 1.27のJSON v2移行で何が壊れるか",
+      "original_title": "Go JSON v2 Migration: What Breaks in Go 1.27",
+      "summary": "Go 1.27で導入されるJSON v2へ、encoding/jsonから移行する際に壊れる点をまとめた記事がLobstersとRedditで共有されています。Goでencoding/jsonを使っているプロジェクトは、アップグレード前に確認しておきたい内容です。",
+      "url": "https://importstatic.com/go/go-json-v2-migration",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/par7rv/go_json_v2_migration_what_breaks_go_1_27",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Go",
+        "JSON v2",
+        "Go 1.27"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1wwifin/go_json_v2_in_go_127_what_breaks_when_you_migrate/"
+        }
+      ]
+    },
+    {
+      "title": "FTL: クラウド向けの新しいオペレーティングシステム",
+      "original_title": "FTL: A new operating system for clouds",
+      "summary": "「FTL: A new operating system for clouds」がHacker Newsで139ポイントを集め、57件のコメントが付きました。クラウド環境を想定した新しいOSとして紹介されています。",
+      "url": "https://ftl-os.org/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49944912",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "OS",
+        "クラウド"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare OHTTP gateway",
+      "original_title": "Cloudflare OHTTP gateway",
+      "summary": "Cloudflare OHTTP gatewayがHacker Newsで182ポイント、86コメントを集めました。CloudflareのOHTTPゲートウェイに関する話題で、インフラやプライバシー関連の実装に関心がある方向けです。",
+      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49941091",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "OHTTP"
+      ],
+      "related": []
+    },
+    {
+      "title": "cloudflare-os: Cloudflare Workers上のエージェント用ワークスペース",
+      "original_title": "cloudflare/cloudflare-os",
+      "summary": "GitHub Trendingに登場したcloudflare/cloudflare-osは、Cloudflare Workers上に構築されたエージェント用ワークスペースです。ドキュメント作成、アプリ構築、社内のコンテキストやシステムを使ったエージェント実行ができるとされています。",
+      "url": "https://github.com/cloudflare/cloudflare-os",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare Workers",
+        "エージェント",
+        "TypeScript"
+      ],
+      "related": []
+    },
+    {
+      "title": "anthropics/claude-code がGitHub Trendingに登場",
+      "original_title": "anthropics/claude-code",
+      "summary": "ターミナル上で動作し、コードベースを理解してルーチン作業の実行などを支援するエージェント型コーディングツールClaude CodeのリポジトリがGitHub Trendingに入りました。",
+      "url": "https://github.com/anthropics/claude-code",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "GitHub"
+      ],
+      "related": []
+    },
+    {
+      "title": "caveman: 原始人口調でトークンを約65%削減するコーディングエージェント用スキル",
+      "original_title": "JuliusBrussee/caveman",
+      "summary": "JuliusBrussee/cavemanは、コーディングエージェント向けのスキルとプロキシで、原始人のような話し方にすることでトークンを65%削減すると紹介されています。Go製で、この日505スターを獲得しました。",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "トークン削減",
+        "エージェント",
+        "Go"
+      ],
+      "related": []
+    },
+    {
+      "title": "ponytail: AIエージェントを「最も怠惰なシニア開発者」のように考えさせる",
+      "original_title": "DietrichGebert/ponytail",
+      "summary": "DietrichGebert/ponytailは「書かないコードが最良のコード」という考えでAIエージェントに考えさせるツールで、JavaScript製です。この日1,289スターを集めました。",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "AIエージェント",
+        "JavaScript"
+      ],
+      "related": []
+    },
+    {
+      "title": "ECC: スキル・メモリ・セキュリティを備えたエージェントハーネス最適化システム",
+      "original_title": "affaan-m/ECC",
+      "summary": "affaan-m/ECCは、スキル、instincts、メモリ、セキュリティ、リサーチファースト開発を備えたエージェントハーネスの性能最適化システムで、Claude CodeやCodexなどで利用できると紹介されています。",
+      "url": "https://github.com/affaan-m/ECC",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "エージェント",
+        "Claude Code",
+        "Codex"
+      ],
+      "related": []
+    },
+    {
+      "title": "claude-mem: エージェントのセッションをまたぐ永続コンテキスト",
+      "original_title": "thedotmack/claude-mem",
+      "summary": "thedotmack/claude-memは、エージェントがセッション中に行った内容を記録しAIで圧縮して、関連する情報を後のセッションに注入する仕組みです。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "メモリ",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Effect-TS/effect: 本番向けTypeScriptアプリケーション構築ライブラリ",
+      "original_title": "Effect-TS/effect",
+      "summary": "Effect-TS/effectは、本番運用レベルのアプリケーションをTypeScriptで構築するためのライブラリで、この日302スターを獲得してGitHub Trendingに入りました。",
+      "url": "https://github.com/Effect-TS/effect",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "TypeScript",
+        "Effect"
+      ],
+      "related": []
+    },
+    {
+      "title": "ReactのuseUpdateEffectは、1つのuseEffect内でrefを立てる実装だとStrictModeで壊れる",
+      "original_title": "【React】「1つのuseEffect内でrefを立てる」useUpdateEffectはStrictModeで壊れる",
+      "summary": "初回マウント時は実行せず依存配列が変わったときだけ実行するカスタムフックuseUpdateEffectについて、ネットでよく見かける「1つのuseEffect内でrefを立てる」実装がStrictModeでは壊れることを解説した記事です。",
+      "url": "https://qiita.com/shun123/items/b7a01b3d7379274d3ebc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "React",
+        "StrictMode",
+        "useEffect"
+      ],
+      "related": []
+    },
+    {
+      "title": "Kubernetesでノードが物理障害でNotReadyになってからPodが再スケジュールされるまで",
+      "original_title": "Kubernetesノードが物理障害でNotReadyになってからPodが再スケジュールされるまで",
+      "summary": "Kubernetesには自己修復の仕組みがありますが、ノード障害の発生からPodが別ノードに再スケジュールされるまでにどのような状態遷移を経るのかを整理した記事です。",
+      "url": "https://qiita.com/yosshi_/items/7ed4f99fbe9b96e360e3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Kubernetes",
+        "障害対応"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust製自作OS「octox」がサンフランシスコ大学の教材に",
+      "original_title": "Rustで作った自作OS「octox」がサンフランシスコ大学の教材になっていました",
+      "summary": "Rustで作られた自作OS「octox」が、サンフランシスコ大学の教材として使われていたことを紹介するZenn記事で、113いいねを集めています。",
+      "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
+      "source": "zenn",
+      "post_url": null,
+      "author": "o8vm",
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Rust",
+        "OS"
+      ],
+      "related": []
+    },
+    {
+      "title": "input type=password の maxlength=20 は有害であり、ログインできなかった理由",
+      "original_title": "<input type=\"password\" maxlength=\"20\"> is considered harmful, and why I couldn't login into Vanguard",
+      "summary": "パスワード入力欄に maxlength=\"20\" を設定することは有害だと主張し、その結果ログインできなくなった体験を扱った記事がRedditで共有されています。",
+      "url": "https://www.reddit.com/r/programming/comments/1ww842a/input_typepassword_maxlength20_is_considered/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "HTML",
+        "パスワード",
+        "UX"
+      ],
+      "related": []
+    }
+  ]
+}
