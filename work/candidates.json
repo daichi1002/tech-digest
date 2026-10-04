@@ -1,462 +1,489 @@
 {
- "date": "2026-10-04",
+ "date": "2026-10-05",
  "candidates": [
   {
    "id": 0,
    "source": "hn",
-   "title": "Extra Big Ass Intelligence",
-   "url": "https://www.extrabigassintelligence.com/",
-   "post_url": "https://news.ycombinator.com/item?id=49941114",
-   "snippet": "476 points, 114 comments"
+   "title": "Tell HN: Bob Cringely has died",
+   "url": "https://news.ycombinator.com/item?id=49949438",
+   "post_url": "https://news.ycombinator.com/item?id=49949438",
+   "snippet": "789 points, 168 comments"
   },
   {
    "id": 1,
    "source": "hn",
-   "title": "Kolibri: A Sovereign Open-Weight Model",
-   "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-   "post_url": "https://news.ycombinator.com/item?id=49942706",
-   "snippet": "472 points, 285 comments"
+   "title": "We're going to need default hard budget caps on pretty much everything",
+   "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+   "post_url": "https://news.ycombinator.com/item?id=49949235",
+   "snippet": "581 points, 297 comments"
   },
   {
    "id": 2,
    "source": "hn",
-   "title": "Newgrounds.com – A community of games, music, and art",
-   "url": "https://www.newgrounds.com/",
-   "post_url": "https://news.ycombinator.com/item?id=49940394",
-   "snippet": "432 points, 127 comments"
+   "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+   "url": "https://github.com/Niko1221/Strata",
+   "post_url": "https://news.ycombinator.com/item?id=49953495",
+   "snippet": "545 points, 269 comments"
   },
   {
    "id": 3,
    "source": "hn",
-   "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
-   "url": "https://tej.as/blog/aleph-alpha-kolibri",
-   "post_url": "https://news.ycombinator.com/item?id=49943034",
-   "snippet": "409 points, 11 comments"
+   "title": "Why don't more developers “use the platform”?",
+   "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+   "post_url": "https://news.ycombinator.com/item?id=49950554",
+   "snippet": "272 points, 280 comments"
   },
   {
    "id": 4,
    "source": "hn",
-   "title": "Things that apparently cause cancer",
-   "url": "https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer",
-   "post_url": "https://news.ycombinator.com/item?id=49940219",
-   "snippet": "203 points, 73 comments"
+   "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+   "url": "https://github.com/omlahore/RemoveMacAI",
+   "post_url": "https://news.ycombinator.com/item?id=49957116",
+   "snippet": "261 points, 146 comments"
   },
   {
    "id": 5,
    "source": "hn",
-   "title": "ADHD, autism or complex trauma? [pdf]",
-   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/30CC4826561366615BFAEC807CDE28A7/S0007125026108046a.pdf/adhd-autism-or-complex-trauma-the-complicated-nature-of-the-question.pdf",
-   "post_url": "https://news.ycombinator.com/item?id=49946403",
-   "snippet": "196 points, 203 comments"
+   "title": "Car is a smartphone on wheels. Here's who's listening",
+   "url": "https://automatictransmission.khoury.northeastern.edu/",
+   "post_url": "https://news.ycombinator.com/item?id=49954882",
+   "snippet": "202 points, 131 comments"
   },
   {
    "id": 6,
    "source": "hn",
-   "title": "Hole Punch: Sling your spaceship around gravitational fields",
-   "url": "https://notoriousbfg.com/hole-punch/",
-   "post_url": "https://news.ycombinator.com/item?id=49946393",
-   "snippet": "188 points, 49 comments"
+   "title": "Improper redaction reveals Google Data Center water and electricity usage",
+   "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+   "post_url": "https://news.ycombinator.com/item?id=49957068",
+   "snippet": "176 points, 252 comments"
   },
   {
    "id": 7,
    "source": "hn",
-   "title": "Cloudflare OHTTP gateway",
-   "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-   "post_url": "https://news.ycombinator.com/item?id=49941091",
-   "snippet": "182 points, 86 comments"
+   "title": "In Ukraine, distributed renewables foil Russia's assaults",
+   "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
+   "post_url": "https://news.ycombinator.com/item?id=49951881",
+   "snippet": "162 points, 180 comments"
   },
   {
    "id": 8,
    "source": "hn",
-   "title": "An Update on Orion for Linux and Windows",
-   "url": "https://blog.kagi.com/update-orion-linux-windows",
-   "post_url": "https://news.ycombinator.com/item?id=49941447",
-   "snippet": "175 points, 101 comments"
+   "title": "Religious scholars met with Anthropic",
+   "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+   "post_url": "https://news.ycombinator.com/item?id=49950052",
+   "snippet": "155 points, 391 comments"
   },
   {
    "id": 9,
    "source": "hn",
-   "title": "The Escalation of War in Ethiopia",
-   "url": "https://www.africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia",
-   "post_url": "https://news.ycombinator.com/item?id=49943451",
-   "snippet": "143 points, 154 comments"
+   "title": "We're working on a new RuneScape MMO",
+   "url": "https://play.runescape.com/4",
+   "post_url": "https://news.ycombinator.com/item?id=49949588",
+   "snippet": "148 points, 87 comments"
   },
   {
    "id": 10,
    "source": "hn",
-   "title": "FTL: A new operating system for clouds",
-   "url": "https://ftl-os.org/",
-   "post_url": "https://news.ycombinator.com/item?id=49944912",
-   "snippet": "139 points, 57 comments"
+   "title": "Show HN: AI search for every photo and every frame of video on macOS",
+   "url": "https://github.com/allenv0/SCM",
+   "post_url": "https://news.ycombinator.com/item?id=49952111",
+   "snippet": "132 points, 62 comments"
   },
   {
    "id": 11,
    "source": "hn",
-   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-   "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
-   "post_url": "https://news.ycombinator.com/item?id=49946567",
-   "snippet": "128 points, 86 comments"
+   "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+   "url": "https://github.com/PowderworksCode/headstart",
+   "post_url": "https://news.ycombinator.com/item?id=49951218",
+   "snippet": "122 points, 30 comments"
   },
   {
    "id": 12,
    "source": "hn",
-   "title": "City building games have a Soul Problem pt.2",
-   "url": "https://www.radical-elements.com/minor-epiphanies/city-building-games-have-a-soul-problem-pt2",
-   "post_url": "https://news.ycombinator.com/item?id=49945323",
-   "snippet": "126 points, 120 comments"
+   "title": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
+   "url": "https://gamehistory.org/5k-magazines/",
+   "post_url": "https://news.ycombinator.com/item?id=49952029",
+   "snippet": "102 points, 16 comments"
   },
   {
    "id": 13,
-   "source": "hn",
-   "title": "Kolibri – Tech Report [pdf]",
-   "url": "https://aleph-alpha.com/downloads/tech-report.pdf",
-   "post_url": "https://news.ycombinator.com/item?id=49946069",
-   "snippet": "109 points, 5 comments"
+   "source": "lobsters",
+   "title": "Rust's derive often implies inline",
+   "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
+   "post_url": "https://lobste.rs/s/dldhpw/rust_s_derive_often_implies_inline",
+   "snippet": "59 points, tags: rust"
   },
   {
    "id": 14,
-   "source": "hn",
-   "title": "I Quit OpenAI Because Its Culture Is Broken",
-   "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
-   "post_url": "https://news.ycombinator.com/item?id=49944227",
-   "snippet": "104 points, 150 comments"
+   "source": "lobsters",
+   "title": "ncdu: NCurses Disk Usage (an updated fork)",
+   "url": "https://github.com/rcalixte/ncdu",
+   "post_url": "https://lobste.rs/s/dsoh2w/ncdu_ncurses_disk_usage_updated_fork",
+   "snippet": "9 points, tags: release, zig"
   },
   {
    "id": 15,
    "source": "lobsters",
-   "title": "BSides Orlando 2026 Badge",
-   "url": "https://github.com/bsidesorlando/2026-badge",
-   "post_url": "https://lobste.rs/s/opwgtj/bsides_orlando_2026_badge",
-   "snippet": "1 points, tags: hardware, security"
+   "title": "grubby: static site generator for git repos written in Ruby",
+   "url": "https://git.btxx.org/grubby",
+   "post_url": "https://lobste.rs/s/xpyahx/grubby_static_site_generator_for_git",
+   "snippet": "14 points, tags: ruby, vcs"
   },
   {
    "id": 16,
    "source": "lobsters",
-   "title": "Upstream Rust maintenance report",
-   "url": "https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html",
-   "post_url": "https://lobste.rs/s/cdkmaf/upstream_rust_maintenance_report",
-   "snippet": "7 points, tags: compilers, performance, rust"
+   "title": "The complement of true is true, except when it's false",
+   "url": "https://dryperspective.github.io/posts/complement-of-true/",
+   "post_url": "https://lobste.rs/s/4bzoft/complement_true_is_true_except_when_it_s",
+   "snippet": "26 points, tags: c++"
   },
   {
    "id": 17,
    "source": "lobsters",
-   "title": "Go JSON v2 Migration: What Breaks in Go 1.27",
-   "url": "https://importstatic.com/go/go-json-v2-migration",
-   "post_url": "https://lobste.rs/s/par7rv/go_json_v2_migration_what_breaks_go_1_27",
-   "snippet": "0 points, tags: go"
+   "title": "Iroh global content discovery",
+   "url": "https://www.iroh.computer/blog/iroh-global-content-discovery",
+   "post_url": "https://lobste.rs/s/eoibah/iroh_global_content_discovery",
+   "snippet": "10 points, tags: distributed"
   },
   {
    "id": 18,
-   "source": "github",
-   "title": "DietrichGebert/ponytail",
-   "url": "https://github.com/DietrichGebert/ponytail",
-   "snippet": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. / JavaScript / 1,289 stars today"
+   "source": "lobsters",
+   "title": "Self-hosted HTTP tunnels with SSH and nginx",
+   "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+   "post_url": "https://lobste.rs/s/jba52r/self_hosted_http_tunnels_with_ssh_nginx",
+   "snippet": "7 points, tags: networking"
   },
   {
    "id": 19,
-   "source": "github",
-   "title": "affaan-m/ECC",
-   "url": "https://github.com/affaan-m/ECC",
-   "snippet": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. / JavaScript / 954 stars today"
+   "source": "lobsters",
+   "title": "Hacking the Go compiler to efficiently map IPv4 to IPv6",
+   "url": "https://vincent.bernat.ch/en/blog/2026-go-netip-addrto6",
+   "post_url": "https://lobste.rs/s/ul9krj/hacking_go_compiler_efficiently_map_ipv4",
+   "snippet": "8 points, tags: compilers, go"
   },
   {
    "id": 20,
-   "source": "github",
-   "title": "Effect-TS/effect",
-   "url": "https://github.com/Effect-TS/effect",
-   "snippet": "Build production-ready applications in TypeScript / TypeScript / 302 stars today"
+   "source": "lobsters",
+   "title": "Flatpak from the CLI sucks",
+   "url": "https://kowalski7cc.xyz/blog/flatpak-from-the-cli-sucks/",
+   "post_url": "https://lobste.rs/s/lnmgaw/flatpak_from_cli_sucks",
+   "snippet": "21 points, tags: linux, rant"
   },
   {
    "id": 21,
-   "source": "github",
-   "title": "JuliusBrussee/caveman",
-   "url": "https://github.com/JuliusBrussee/caveman",
-   "snippet": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman. / Go / 505 stars today"
+   "source": "lobsters",
+   "title": "Protocol-aware recovery for consensus-based storage (2018)",
+   "url": "https://www.usenix.org/system/files/conference/fast18/fast18-alagappan.pdf",
+   "post_url": "https://lobste.rs/s/4bzboj/protocol_aware_recovery_for_consensus",
+   "snippet": "4 points, tags: databases, distributed, pdf"
   },
   {
    "id": 22,
-   "source": "github",
-   "title": "Panniantong/Agent-Reach",
-   "url": "https://github.com/Panniantong/Agent-Reach",
-   "snippet": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. / Python / 1,683 stars today"
+   "source": "lobsters",
+   "title": "Our RISC-V emulator PasRISCV",
+   "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
+   "post_url": "https://lobste.rs/s/rsx2a6/our_risc_v_emulator_pasriscv",
+   "snippet": "15 points, tags: games, virtualization"
   },
   {
    "id": 23,
-   "source": "github",
-   "title": "pingdotgg/t3code",
-   "url": "https://github.com/pingdotgg/t3code",
-   "snippet": "TypeScript / 251 stars today"
+   "source": "lobsters",
+   "title": "Thoreau BASIC",
+   "url": "https://thoreaubasic.com/",
+   "post_url": "https://lobste.rs/s/x5ug70/thoreau_basic",
+   "snippet": "2 points, tags: retrocomputing, vibecoding"
   },
   {
    "id": 24,
-   "source": "github",
-   "title": "thedotmack/claude-mem",
-   "url": "https://github.com/thedotmack/claude-mem",
-   "snippet": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More / TypeScript / 218 stars today"
+   "source": "lobsters",
+   "title": "Improving and Stabilizing the racoon2 IKE Daemon in NetBSD",
+   "url": "https://blog.netbsd.org/tnf/entry/gsoc2026_racoon2",
+   "post_url": "https://lobste.rs/s/wbpt5y/improving_stabilizing_racoon2_ike",
+   "snippet": "4 points, tags: netbsd"
   },
   {
    "id": 25,
    "source": "github",
-   "title": "cloudflare/cloudflare-os",
-   "url": "https://github.com/cloudflare/cloudflare-os",
-   "snippet": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems. / TypeScript / 84 stars today"
+   "title": "tester-army/e2e",
+   "url": "https://github.com/tester-army/e2e",
+   "snippet": "Next generation e2e testing framework for web and mobile apps. / TypeScript / 344 stars today"
   },
   {
    "id": 26,
    "source": "github",
-   "title": "addyosmani/agent-skills",
-   "url": "https://github.com/addyosmani/agent-skills",
-   "snippet": "Production-grade engineering skills for AI coding agents. / JavaScript / 305 stars today"
+   "title": "coreyhaines31/marketingskills",
+   "url": "https://github.com/coreyhaines31/marketingskills",
+   "snippet": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. / JavaScript / 270 stars today"
   },
   {
    "id": 27,
    "source": "github",
-   "title": "earendil-works/pi",
-   "url": "https://github.com/earendil-works/pi",
-   "snippet": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI / TypeScript / 408 stars today"
+   "title": "earthtojake/text-to-cad",
+   "url": "https://github.com/earthtojake/text-to-cad",
+   "snippet": "Give your agent CAD superpowers. / Python / 75 stars today"
   },
   {
    "id": 28,
    "source": "github",
-   "title": "getsentry/sentry",
-   "url": "https://github.com/getsentry/sentry",
-   "snippet": "Developer-first error tracking and performance monitoring / Python / 211 stars today"
+   "title": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "snippet": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. / Python / 979 stars today"
   },
   {
    "id": 29,
    "source": "github",
-   "title": "anthropics/claude-code",
-   "url": "https://github.com/anthropics/claude-code",
-   "snippet": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. / TypeScript / 127 stars today"
+   "title": "getsentry/sentry",
+   "url": "https://github.com/getsentry/sentry",
+   "snippet": "Developer-first error tracking and performance monitoring / Python / 152 stars today"
   },
   {
    "id": 30,
    "source": "github",
-   "title": "jamwithai/production-agentic-rag-course",
-   "url": "https://github.com/jamwithai/production-agentic-rag-course",
-   "snippet": "Python / 192 stars today"
+   "title": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "snippet": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. / Python / 361 stars today"
   },
   {
    "id": 31,
    "source": "github",
-   "title": "meituan-longcat/LongCat-Video",
-   "url": "https://github.com/meituan-longcat/LongCat-Video",
-   "snippet": "Python / 43 stars today"
+   "title": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "snippet": "TypeScript / 492 stars today"
   },
   {
    "id": 32,
    "source": "github",
-   "title": "OpenCut-app/OpenCut",
-   "url": "https://github.com/OpenCut-app/OpenCut",
-   "snippet": "The open-source CapCut alternative / TypeScript / 234 stars today"
+   "title": "caddyserver/caddy",
+   "url": "https://github.com/caddyserver/caddy",
+   "snippet": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS / Go / 226 stars today"
   },
   {
    "id": 33,
-   "source": "zenn",
-   "title": "Rustで作った自作OS「octox」がサンフランシスコ大学の教材になっていました",
-   "url": "https://zenn.dev/o8vm/articles/3934806424cd85",
-   "author": "o8vm",
-   "snippet": "113 likes, tech, published 2026-09-29"
+   "source": "github",
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "snippet": "Production-grade engineering skills for AI coding agents. / JavaScript / 336 stars today"
   },
   {
    "id": 34,
-   "source": "zenn",
-   "title": "テスト要求仕様（TRS）を書いてみたら、テスト設計が楽になった話",
-   "url": "https://zenn.dev/edash_tech_blog/articles/0d49bd338b64f0",
-   "author": "edash_tech_blog",
-   "snippet": "65 likes, tech, published 2026-09-29"
+   "source": "github",
+   "title": "garrytan/gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "snippet": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA / TypeScript / 121 stars today"
   },
   {
    "id": 35,
-   "source": "zenn",
-   "title": "実務において敵対的レビューはどの程度有効なのか",
-   "url": "https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef",
-   "author": "edash_tech_blog",
-   "snippet": "28 likes, tech, published 2026-10-01"
+   "source": "github",
+   "title": "OpenCut-app/OpenCut",
+   "url": "https://github.com/OpenCut-app/OpenCut",
+   "snippet": "The open-source CapCut alternative / TypeScript / 512 stars today"
   },
   {
    "id": 36,
-   "source": "zenn",
-   "title": "目を醒ませ 僕らの信頼が生成AIに侵略されてるぞ",
-   "url": "https://zenn.dev/spookies/articles/e70b80a510f5e2",
-   "author": "spookies",
-   "snippet": "75 likes, idea, published 2026-09-29"
+   "source": "github",
+   "title": "antirez/ds4",
+   "url": "https://github.com/antirez/ds4",
+   "snippet": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm / C / 211 stars today"
   },
   {
    "id": 37,
    "source": "zenn",
-   "title": "大きなボトルネックをごろごろ見つける方法 - 優秀なエンジニアになる",
-   "url": "https://zenn.dev/339/articles/56ef43afde8bd2",
-   "author": "さざんかぬふ",
-   "snippet": "47 likes, idea, published 2026-09-29"
+   "title": "実務において敵対的レビューはどの程度有効なのか",
+   "url": "https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef",
+   "author": "edash_tech_blog",
+   "snippet": "43 likes, tech, published 2026-10-01"
   },
   {
    "id": 38,
    "source": "zenn",
-   "title": "別会社の開発チームに AWS 環境を共有するのって大変だ",
-   "url": "https://zenn.dev/dress_code/articles/f89590d105ba5f",
-   "author": "dress_code",
-   "snippet": "41 likes, tech, published 2026-09-28"
+   "title": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通",
+   "url": "https://zenn.dev/qnighy/articles/json-ambiguity",
+   "author": "Masaki Hara",
+   "snippet": "20 likes, tech, published 2026-10-04"
   },
   {
    "id": 39,
    "source": "zenn",
-   "title": "探索できる人は何をしているの？『Explore It!』を読んで",
-   "url": "https://zenn.dev/knowledgework/articles/6996274de49607",
-   "author": "knowledgework",
-   "snippet": "44 likes, idea, published 2026-09-28"
+   "title": "テスト要求仕様（TRS）を書いてみたら、テスト設計が楽になった話",
+   "url": "https://zenn.dev/edash_tech_blog/articles/0d49bd338b64f0",
+   "author": "edash_tech_blog",
+   "snippet": "73 likes, tech, published 2026-09-29"
   },
   {
    "id": 40,
    "source": "zenn",
-   "title": "続・データサイエンティストのためのSkills:分析手法×診断可視化セット",
-   "url": "https://zenn.dev/green_tea/articles/55d2761106ee74",
-   "author": "redtea",
-   "snippet": "58 likes, tech, published 2026-09-28"
+   "title": "目を醒ませ 僕らの信頼が生成AIに侵略されてるぞ",
+   "url": "https://zenn.dev/spookies/articles/e70b80a510f5e2",
+   "author": "spookies",
+   "snippet": "79 likes, idea, published 2026-09-29"
   },
   {
    "id": 41,
-   "source": "rss",
-   "feed": "Qiita - 人気の記事",
-   "title": "【React】「1つのuseEffect内でrefを立てる」useUpdateEffectはStrictModeで壊れる",
-   "url": "https://qiita.com/shun123/items/b7a01b3d7379274d3ebc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに 「初回マウント時は実行せず、依存配列が変わったときだけ実行したい」という場面で、useUpdateEffect のようなカスタムフックを自作することがあります。 ネットでよく見かける実装は「1つの useEffect の中で ref を立てる」形ですが、この実装..."
+   "source": "zenn",
+   "title": "完全版 Claude Mods 入門 | Claude Codeを自由にカスタマイズする",
+   "url": "https://zenn.dev/nogu66/articles/claude-mods-complete-guide",
+   "author": "nogu",
+   "snippet": "25 likes, tech, published 2026-10-02"
   },
   {
    "id": 42,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "【富山最速！？】AWS Certified AI Business Strategist（AIB-C01）合格体験記",
-   "url": "https://qiita.com/ssakita/items/7e170a448da18d440357?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに 2026年10月2日に、AWS Certified AI Business Strategist（AIB-C01）のベータ試験を受けてきました。宇宙最速は厳しかったので、地元富山での最速を目指しました（真偽は不明）。 結果は716点で、無事合格でした。合格ライン..."
+   "title": "API キーはどこから漏れるのか？ 自分のサイトに来た .env 探し 1,566 件と、公開事例を 7 つの経路に分けてみた",
+   "url": "https://qiita.com/songchong/items/02672765fe53f911a1a0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "「API キーが漏れた」と聞くと、悪意のある誰かに盗まれた場面を思い浮かべがちです。実際に多いのは、鍵を置いた場所が思ったより広く見えていた、という漏れ方です。 この記事では、公開されている報告と事例、そして私たちのサイトに実際に届いたアクセスの記録から、API キーが漏..."
   },
   {
    "id": 43,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "AIが企画構想をご提案して自力完成 日本語プログラミング言語Mind９GUIミニゲームアプリ（後編）",
-   "url": "https://qiita.com/mylifewithviolin/items/2636e56ef0d0cbc46f0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに 日本語プログラミング言語Mindのバージョン９でAI仕様駆動開発とVibeコーディングのハイブリッド（っぽいこと）を行ってみます。 本記事はその後編で、前編でAIが提案したMind９GUIミニゲームアプリの企画構想の３つの案のうちの１つのソースコード完成（正常実..."
+   "title": "「シークレットスキャン」とは？漏れた API キー、誰が止めてくれるのか？ 業務システム 65 件と GitHub・GitLab を調べてみた",
+   "url": "https://qiita.com/songchong/items/5ee39ef5b71510e36c2a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "API キーをうっかり GitHub に公開してしまったら、誰かが気づいて止めてくれるのでしょうか。GitHub には「シークレットスキャン」という仕組みがあります。ただ、その仕組みで自分の使っているシステムの鍵まで守られるのか、自分で何か設定する必要があるのかは、あまり..."
   },
   {
    "id": 44,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "Kubernetesノードが物理障害でNotReadyになってからPodが再スケジュールされるまで",
-   "url": "https://qiita.com/yosshi_/items/7ed4f99fbe9b96e360e3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに Kubernetesには自己修復の仕組みがあるため、ノードに障害が発生してもPodは別のノードへ再スケジュールされ、大きな問題にはならないと考えている方は多いと思います。 ただ、実際に障害が発生してからPodが再スケジュールされるまでにどのような状態遷移を経るの..."
+   "title": "ゴールシークプロンプトとは ― AIに質問させて成果物を作る方法を、テンプレートと実例で解説",
+   "url": "https://qiita.com/nogataka/items/3bd4598ddf5c3e9c2b3e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに AIに仕事を頼むとき、指示を全部書こうとして手が止まることはないでしょうか。書き漏らした条件は、AIが推測で埋めます。その推測が、出力のズレとして返ってきます。 ゴールシークプロンプトは、この困りごとへの一つの答えです。指示を書き切る代わりに、AIから質問しても..."
   },
   {
    "id": 45,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "2026年10月3日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-   "url": "https://qiita.com/ennagara128/items/a23a18e206916a4b95dc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 0から学ぶセキュリティの基礎 〜CSRF編〜 ..."
+   "title": "結局、Looped Transformerってなんや？",
+   "url": "https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "何かと最近見かける Looped Transformer。 仕組み自体はかなり単純です。しかし、論文を追ってみると「同じTransformerを何回も使う」だけでは終わりません。 少なくとも僕は、名前だけ見て Transformerの同じ層を何回か通すやつでしょ くらい..."
   },
   {
    "id": 46,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "Rust 1.99が来たので、実務で使えそうな変更と気をつけたいところを拾ってみる",
-   "url": "https://qiita.com/DwarfM42/items/b4a78fdbf38129ee2fcd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "Rust 1.99.0 が2026年10月1日にリリースされました。 今回は新文法ドーン！みたいな派手なアップデートではありません。 ただ、中身を見ると、 FFI raw pointer メモリ所有権 unsafe ファイルシステム Cargo あたりを触る人には、地味..."
+   "title": "LLMのJSON Schemaを厳しくしても業務検証を消せない理由",
+   "url": "https://qiita.com/TechStudioLab/items/0bbf128791023cc90893?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "Structured OutputsでJSON Schemaに一致する出力を得られるなら、アプリ側のvalidationも消せそうに見えます。消せるのは、主に「JSONとして壊れている」「必須キーがない」「enum外の値が来る」といった形式上の失敗です。 start_da..."
   },
   {
    "id": 47,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "Prisma/Drizzleをセットアップしschema.prismaが作成されなかった件",
-   "url": "https://qiita.com/o68606007/items/3d6261ea6c480f16042c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに ORMの一つであるPrisma/Drizzleを利用するさいに困ったことがありました。 問題 セットアップは以下の記事を参考に行っていました。 Prismaのセットアップは以下のようになっていました。 ・Prismaをインストール ↓ ・Prismaをセ..."
+   "title": "某星人が3年間戦った戦場へ、いざ参らん。.atcoder2",
+   "url": "https://qiita.com/tanekei/items/d3d322e2136a4d9659fc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに 2026/10/3のABC478で入緑したのでそれまでにやったことと何をすればいいと思うかを中心に書いていこうと思います。 入緑までのAC数 586です。入茶までのAC数が218(入茶記事に書いてあります）なので茶色時代に解いた問題数は368です。 htt..."
   },
   {
    "id": 48,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "【Go】累乗の計算",
-   "url": "https://qiita.com/nogizakapython/items/bbac61e1e3061e3a31c4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに Golangで累乗のプログラムを実装したときに、いろいろ勉強になった事項があったので記事にしました プログラミング課題 以下のプログラミングの問題を考えます 整数 A = 202、B = 134、C = 107 とします。（A + B) * C の2乗を計算..."
+   "title": "最近プロジェクトマネジメントで感じたこと",
+   "url": "https://qiita.com/shirakurak/items/ee7565d212fd3ae1adcb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "最近のプロジェクトマネジメント業務を振り返って、学びの言語化をします。3つ大事だと思ったことを書きます。 この記事は、AI を使っていません（AI 使ってたら、もっとそれっぽいタイトルになる）。 1. 大きな問題を防ぐために、小さな問題を出し続ける プロジェクトでは、あ..."
   },
   {
    "id": 49,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "【ServiceNow】Build Agent に\"設計書\"を渡したら、ホロスコープ占いアプリが本気の仕上がりになった🔮(前編)",
-   "url": "https://qiita.com/j45delight/items/59c989d4d9413660badc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに この記事は、#BuildWithBuildAgentTokyo への参加記事です。 前編と後編に分けて書きます。 前編(この記事): 作ったもの、進め方、AI 解説を組み込むまで 後編: エラーとの格闘、デザインの作り込み、反省 ServiceNow の B..."
+   "title": "JAWS-UG 新潟支部にて 「AgentCoreで実践するハーネスエンジニアリング」というタイトルで登壇しました",
+   "url": "https://qiita.com/yakumo_09/items/106cc9768d5b1c78225e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに AgentCore でエージェントを作るとき、プロンプトは頑張って書いても、ツールの渡し方や記憶のさせ方、権限、ログの取り方は「動いたからそのまま」になりがちなんですよね。 この「モデルの周り」を設計する考え方が、最近よく聞くハーネスエンジニアリングです。 この..."
   },
   {
    "id": 50,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "Qiita 15周年の隠しメッセージを、Elixir で取りに行った",
-   "url": "https://qiita.com/torifukukaiou/items/2a5a53094b05488e9f66?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに Qiita が15周年を迎えました。公式ブログの 15周年のお知らせ に、「Qiita のどこかにささやかなメッセージを用意した」という趣旨の「お祝い隠しメッセージ」の話があります。 おそらくこれのことだろう、と思って調べてみました。 見つけ方 開発者コンソー..."
+   "title": "マンガを作るワークフローの全貌（2026年9月時点）",
+   "url": "https://qiita.com/yuji_yasuhara/items/08ee1072f5038f4a12d0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "この文章は 人間が書いています。 完成したマンガを先に読みたい人は この記事のいちばん最後にあります。 はじめに AIの力でマンガを描きやすくなりましたが、思い通りの結果を得るには様々な工夫が必要です。おそらくそれは、この先AIが進化してもそんなに変わらないのではない..."
   },
   {
    "id": 51,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "ReferenceError: document is not defined",
-   "url": "https://qiita.com/J-T_ky2g/items/64b3c1b139bc5948e83b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに vitestを書き始めた 問題 通常のNode.js環境で動いているからdomを解釈できない 解決 jsdomを使って解決 終わりに 参考にさせて頂きました"
+   "title": "AI生成コードを本番環境へデプロイする前に実施すべきセキュリティチェックリストと対策実装例",
+   "url": "https://qiita.com/blinkgroup_jp/items/01a1126412b5b7b9b1c2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "読者が抱える課題 GitHub CopilotやChatGPTなどの生成AIツールは、開発効率を向上させる一方で、脆弱性を含むコードを出力することがあります。AIが提案したコードをそのまま本番環境に投入すると、SQLインジェクション、クロスサイトスクリプティング（XSS）..."
   },
   {
    "id": 52,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "<input type=\"password\" maxlength=\"20\"> is considered harmful, and why I couldn't login into Vanguard",
-   "url": "https://www.reddit.com/r/programming/comments/1ww842a/input_typepassword_maxlength20_is_considered/",
-   "snippet": "&#32; submitted by &#32; /u/tanin47 [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "【Linux初心者向け】コマンドの成功・失敗を確認する方法｜$?と&&・||を実例で解説",
+   "url": "https://qiita.com/reo_infraengineer/items/1c52821dc01e48fd2ccc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "こんにちは、Reoです。 現在はフリーランスのインフラエンジニアとして働きながら、インフラ特化の学習サービス「InfraDojo（インフラ道場）」を運営しています。 Linuxでコマンドを実行したあと、 「何も表示されなかったけど、成功したの？」 「前の処理が失敗したら、次..."
   },
   {
    "id": 53,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Skip List Data structure",
-   "url": "https://www.reddit.com/r/programming/comments/1wwfp40/skip_list_data_structure/",
-   "snippet": "&#32; submitted by &#32; /u/Comfortable-Fan-580 [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "マルチエージェントを自律的に運用する -振る舞い劣化の隔離と回復-",
+   "url": "https://qiita.com/kougi/items/3660c6c137868d106597?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに:マルチエージェント時代の新しい障害 AIエージェントを複数組み合わせて業務を回す「マルチエージェント」が、少しずつ現実的になってきました。Agentic Webやマルチエージェントによる創発なども注目されています。これらが現実化されていくと、マルチエージェントで..."
   },
   {
    "id": 54,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Go JSON v2 in Go 1.27: what breaks when you migrate from encoding/json",
-   "url": "https://www.reddit.com/r/programming/comments/1wwifin/go_json_v2_in_go_127_what_breaks_when_you_migrate/",
-   "snippet": "&#32; submitted by &#32; /u/Efficient_File [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "Claudeで日本語スキルを使うよりもGemini使ったほうが早いなって思った話",
+   "url": "https://qiita.com/ku_suke/items/73897fccd97f931deb09?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "Qiitaのトレンド記事でおもしろいのがあったので日曜深夜なのに言及したところ結構反応がありました。 この記事は日本語のAI臭さを消すスキルの比較記事なんですが、個人的にいま日本語を最終アウトプットにするサービスを作っていて、このあたりの部分は苦労したので「やはりモデ..."
   },
   {
    "id": 55,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Hybrid Core Allocation: From Overallocation to Reliable Sharing",
-   "url": "https://www.reddit.com/r/programming/comments/1wwzeu7/hybrid_core_allocation_from_overallocation_to/",
-   "snippet": "&#32; submitted by &#32; /u/Ok_Stomach6651 [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "Error: Error evaluating Node.js code CssSyntaxError: tailwindcss:: \"./typography\" is not exportedエラーが出る",
+   "url": "https://qiita.com/takahiro_honda/items/611a617b86ea332c496d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに Next.js と Tailwind CSS v4 で作っているブログに、Typography プラグイン（@tailwindcss/typography）を導入しようとしたところ、ビルドエラーが発生しました。 備忘録として残します。 問題 globals.c..."
   },
   {
    "id": 56,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Making a mathematical model for better Indic keyboards",
-   "url": "https://www.reddit.com/r/programming/comments/1wx0bai/making_a_mathematical_model_for_better_indic/",
-   "snippet": "&#32; submitted by &#32; /u/ZoneZealousideal4073 [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "具体・抽象トレーニングに参加して学んだこと",
+   "url": "https://qiita.com/like-mountain/items/e8334382a5fc84e0d64e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに 2026年9月27日に、具体・抽象トレーニングのイベントに参加してきました。 学んだことと感じたことをまとめておきます。 抽象とは 抜き出すことと捨てることは、セット。 抽象とは、物事の中から共通する部分を抜き出すこと 「捨象」という言葉もあって、こち..."
   },
   {
    "id": 57,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "From SSH to REST: A Security-Driven Modernization of Slack’s EMR Data Pipelines",
-   "url": "https://www.reddit.com/r/programming/comments/1wx02m9/from_ssh_to_rest_a_securitydriven_modernization/",
-   "snippet": "&#32; submitted by &#32; /u/Ok_Stomach6651 [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "「エンジニア不要論の真実！」を読んでみて",
+   "url": "https://qiita.com/taki-umi/items/1ab4bce268e4aa6e7794?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "プログラミングスクールJISOUを運営している渡邉 臣さん（@Sicut_study ）の以下記事を読んで率直に思った今の心境や、学び・気づいたこと、ネクストアクションをアウトプットします。 まず、自分はどんな人間なのか エンジニア歴は8年ほどで、現在はエンジニアチ..."
   },
   {
    "id": 58,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "Finding 552 MiB in the Miden prover with Ying",
-   "url": "https://www.reddit.com/r/programming/comments/1wwxncp/finding_552_mib_in_the_miden_prover_with_ying/",
-   "snippet": "&#32; submitted by &#32; /u/redixhumayun [link] &#32; [comments]"
+   "title": "Red, green and mud: fixing color mixing in Total Draw",
+   "url": "https://www.reddit.com/r/programming/comments/1wxd33z/red_green_and_mud_fixing_color_mixing_in_total/",
+   "snippet": "I went into a bit of a rabbit hole of gamma-based color blending vs linear-based color blending vs perceptual-based color blending for my drawing app Total Draw, so I decided to create a blog post about it. &#32; submitted by &#32; /u/Rupour [link] &#32; [comments]"
+  },
+  {
+   "id": 59,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "\"8-pinski\" - EIGHT(!) bytes intro for MSDOS",
+   "url": "https://www.reddit.com/r/programming/comments/1wxoefa/8pinski_eight_bytes_intro_for_msdos/",
+   "snippet": "&#32; submitted by &#32; /u/double-happiness [link] &#32; [comments]"
+  },
+  {
+   "id": 60,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "Your Xiaomi phone may be sending you phishing notifications.",
+   "url": "https://www.reddit.com/r/programming/comments/1wxr63h/your_xiaomi_phone_may_be_sending_you_phishing/",
+   "snippet": "TLDR: the ads on Xiaomi phone can imitate icons of apps you already have installed. In my case some phishing &quot;spotify casino&quot; app was shown as if it was a legit notification. This fake notification lead to the actual spotify app settings when clicking 'more' on the notifications. It seems that MIUI has some whitelisted apps (i.e their system ads application ) that can show notifications "
+  },
+  {
+   "id": 61,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "Metal as a Service (MaaS): DIY server-management at scale",
+   "url": "https://www.reddit.com/r/programming/comments/1wxfaeo/metal_as_a_service_maas_diy_servermanagement_at/",
+   "snippet": "&#32; submitted by &#32; /u/Ok_Stomach6651 [link] &#32; [comments]"
   }
  ]
 }
