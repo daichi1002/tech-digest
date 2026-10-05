@@ -1,0 +1,378 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T10:39+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "ローカルで動かす大型LLMとAIエージェント開発の実務、そして鍵漏洩・生成コードのセキュリティが話題",
+  "items": [
+    {
+      "title": "Qwen 3.8 Flash Next (125B) をRTX 4090のコンシューマ機で100T/s動作させる",
+      "original_title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "summary": "Qwen 3.8 Flash Next (125B) をRTX 4090で動かし、100T/sの生成速度を出す方法がHacker Newsで545ポイントを集めました。大規模モデルのローカル実行が現実的になりつつあることを示す話題です。",
+      "url": "https://github.com/Niko1221/Strata",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49953495",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Qwen",
+        "ローカルLLM",
+        "RTX 4090"
+      ],
+      "related": []
+    },
+    {
+      "title": "antirez/ds4: DeepSeek 4 Flash/PRO向けローカル推論エンジン",
+      "original_title": "antirez/ds4",
+      "summary": "antirez氏によるDeepSeek 4 FlashおよびPRO向けのローカル推論エンジンで、Metal、CUDA、ROCmに対応します。C言語実装で、GitHub Trendingで本日211スターを獲得しました。",
+      "url": "https://github.com/antirez/ds4",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "DeepSeek",
+        "推論エンジン",
+        "C"
+      ],
+      "related": []
+    },
+    {
+      "title": "あらゆるものにデフォルトのハード予算上限が必要だ",
+      "original_title": "We're going to need default hard budget caps on pretty much everything",
+      "summary": "クラウドなどの従量課金サービスに、デフォルトで厳格な予算上限を設けるべきだという主張で、Hacker Newsで581ポイント、297コメントの議論になりました。意図せぬ高額請求への対策として関心の高いテーマです。",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49949235",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "クラウド",
+        "コスト管理",
+        "課金"
+      ],
+      "related": []
+    },
+    {
+      "title": "APIキーはどこから漏れるのか：.env探索1,566件と公開事例の7経路、シークレットスキャンの実態",
+      "original_title": "API キーはどこから漏れるのか？ 自分のサイトに来た .env 探し 1,566 件と、公開事例を 7 つの経路に分けてみた",
+      "summary": "自サイトに届いた.env探索アクセス1,566件と公開事例をもとに、APIキーの漏洩経路を7つに分類した記事です。関連記事では、GitHubやGitLabのシークレットスキャンが業務システム65件の鍵を守れるのかを調べています。",
+      "url": "https://qiita.com/songchong/items/02672765fe53f911a1a0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "セキュリティ",
+        "APIキー",
+        "シークレットスキャン"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/songchong/items/5ee39ef5b71510e36c2a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "AI生成コードを本番デプロイする前のセキュリティチェックリストと対策実装例",
+      "original_title": "AI生成コードを本番環境へデプロイする前に実施すべきセキュリティチェックリストと対策実装例",
+      "summary": "GitHub CopilotやChatGPTが出力するコードにはSQLインジェクションやXSSなどの脆弱性が含まれることがあるとして、本番投入前に確認すべきチェックリストと対策の実装例を紹介する記事です。",
+      "url": "https://qiita.com/blinkgroup_jp/items/01a1126412b5b7b9b1c2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "生成AI",
+        "チェックリスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "LLMのJSON Schemaを厳しくしても業務検証を消せない理由",
+      "original_title": "LLMのJSON Schemaを厳しくしても業務検証を消せない理由",
+      "summary": "Structured OutputsでJSON Schemaに一致する出力を得られても、消せるのはJSONの破損、必須キー欠落、enum外の値といった形式上の失敗が主だと整理した記事です。アプリ側の業務検証が引き続き必要な理由を解説しています。",
+      "url": "https://qiita.com/TechStudioLab/items/0bbf128791023cc90893?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Structured Outputs",
+        "JSON Schema",
+        "validation"
+      ],
+      "related": []
+    },
+    {
+      "title": "完全版 Claude Mods 入門：Claude Codeを自由にカスタマイズする",
+      "original_title": "完全版 Claude Mods 入門 | Claude Codeを自由にカスタマイズする",
+      "summary": "Claude Codeを自由にカスタマイズするClaude Modsの入門記事で、Zennで25いいねを集めています。Claude Codeの拡張に関心のある開発者向けの内容です。",
+      "url": "https://zenn.dev/nogu66/articles/claude-mods-complete-guide",
+      "source": "zenn",
+      "post_url": null,
+      "author": "nogu",
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "Claude Mods",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "AgentCoreで実践するハーネスエンジニアリングと、マルチエージェント運用での振る舞い劣化の隔離・回復",
+      "original_title": "JAWS-UG 新潟支部にて 「AgentCoreで実践するハーネスエンジニアリング」というタイトルで登壇しました",
+      "summary": "AgentCoreでエージェントを作る際のツールの渡し方、記憶、権限、ログといった「モデルの周り」を設計するハーネスエンジニアリングの登壇レポートです。関連記事では、マルチエージェント運用で起きる振る舞い劣化の隔離と回復を扱っています。",
+      "url": "https://qiita.com/yakumo_09/items/106cc9768d5b1c78225e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AgentCore",
+        "ハーネスエンジニアリング",
+        "マルチエージェント"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/kougi/items/3660c6c137868d106597?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "Rustのメタデータを早期に出力するとビルド/チェックが最大2倍高速に",
+      "original_title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "summary": "Rustでメタデータを早期に出力することで、ビルドやチェックが最大2倍高速になるとの話題で、Hacker Newsで122ポイントを集めました。関連してLobstersでは、Rustのderiveがinlineを暗に含むという話題も出ています。",
+      "url": "https://github.com/PowderworksCode/headstart",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49951218",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Rust",
+        "ビルド高速化",
+        "コンパイラ"
+      ],
+      "related": [
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/dldhpw/rust_s_derive_often_implies_inline"
+        }
+      ]
+    },
+    {
+      "title": "なぜ多くの開発者は「プラットフォームを使う」ことをしないのか",
+      "original_title": "Why don't more developers “use the platform”?",
+      "summary": "フレームワークに頼らずWebプラットフォーム標準の機能を使うことがなぜ広まらないのかを問う記事で、Hacker Newsで272ポイント、280コメントの議論になりました。",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49950554",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Web標準",
+        "フロントエンド",
+        "議論"
+      ],
+      "related": []
+    },
+    {
+      "title": "実務において敵対的レビューはどの程度有効なのか",
+      "original_title": "実務において敵対的レビューはどの程度有効なのか",
+      "summary": "AIを使った開発における敵対的レビューが実務でどの程度有効かを検討したZenn記事で、43いいねを集めています。",
+      "url": "https://zenn.dev/edash_tech_blog/articles/4577f7d4780bef",
+      "source": "zenn",
+      "post_url": null,
+      "author": "edash_tech_blog",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "コードレビュー",
+        "AI開発",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "結局、Looped Transformerってなんや？",
+      "original_title": "結局、Looped Transformerってなんや？",
+      "summary": "最近よく見かけるLooped Transformerについて、仕組みは単純だが論文を追うと「同じTransformerを何回も使う」だけでは終わらない、という観点から解説する記事です。",
+      "url": "https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Looped Transformer",
+        "論文",
+        "Transformer"
+      ],
+      "related": []
+    },
+    {
+      "title": "JSONの仕様と実装差異に潜む罠を実装比較で解説",
+      "original_title": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通",
+      "summary": "シンプルで明快なJSONにも、実装ごとに微妙な差異が生じる罠がいくつかあるとして、実装の比較を通じて解説する記事です。",
+      "url": "https://zenn.dev/qnighy/articles/json-ambiguity",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Masaki Hara",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "JSON",
+        "仕様",
+        "実装差異"
+      ],
+      "related": []
+    },
+    {
+      "title": "Next.js + Tailwind CSS v4でTypographyプラグイン導入時の「./typography is not exported」エラー",
+      "original_title": "Error: Error evaluating Node.js code CssSyntaxError: tailwindcss:: \"./typography\" is not exportedエラーが出る",
+      "summary": "Next.jsとTailwind CSS v4のブログに@tailwindcss/typographyを導入した際に発生したCssSyntaxErrorの備忘録です。globals.cssまわりのエラー対処を扱っています。",
+      "url": "https://qiita.com/takahiro_honda/items/611a617b86ea332c496d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Tailwind CSS",
+        "Next.js",
+        "エラー対処"
+      ],
+      "related": []
+    },
+    {
+      "title": "テスト要求仕様（TRS）を書いたらテスト設計が楽になった話",
+      "original_title": "テスト要求仕様（TRS）を書いてみたら、テスト設計が楽になった話",
+      "summary": "テスト要求仕様（TRS）を書いてみたところテスト設計が楽になったという体験談で、Zennで73いいねを集めています。",
+      "url": "https://zenn.dev/edash_tech_blog/articles/0d49bd338b64f0",
+      "source": "zenn",
+      "post_url": null,
+      "author": "edash_tech_blog",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "テスト設計",
+        "TRS",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "tester-army/e2e: Webとモバイル向けの次世代E2Eテストフレームワーク",
+      "original_title": "tester-army/e2e",
+      "summary": "WebおよびモバイルアプリのE2Eテストを対象としたTypeScript製フレームワークで、GitHub Trendingで本日344スターを獲得しました。",
+      "url": "https://github.com/tester-army/e2e",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "E2Eテスト",
+        "TypeScript",
+        "GitHub Trending"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIコーディングエージェント向けスキル集がGitHub Trendingで人気",
+      "original_title": "addyosmani/agent-skills",
+      "summary": "addyosmani/agent-skillsはAIコーディングエージェント向けの実運用レベルのエンジニアリングスキル集で、336スターを獲得しました。マーケティング用のmarketingskillsやgstackなど、Claude Code向けスキル集も同時にトレンド入りしています。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "agent-skills",
+        "Claude Code",
+        "GitHub Trending"
+      ],
+      "related": [
+        {
+          "source": "github",
+          "url": "https://github.com/coreyhaines31/marketingskills"
+        },
+        {
+          "source": "github",
+          "url": "https://github.com/garrytan/gstack"
+        }
+      ]
+    },
+    {
+      "title": "caddyserver/caddy: 自動HTTPS対応のHTTP/1-2-3サーバー",
+      "original_title": "caddyserver/caddy",
+      "summary": "自動HTTPSを備え拡張可能なマルチプラットフォームのHTTP/1・2・3対応Webサーバーで、Go製です。GitHub Trendingで本日226スターを獲得しました。",
+      "url": "https://github.com/caddyserver/caddy",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Caddy",
+        "Go",
+        "Webサーバー"
+      ],
+      "related": []
+    },
+    {
+      "title": "macOS 27でApple Intelligenceをオフにしてディスク容量を取り戻す",
+      "original_title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "summary": "macOS 27でApple Intelligenceを無効にすると、そのぶんのディスク容量を取り戻せるという話題で、Hacker Newsで261ポイントを集めました。",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49957116",
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "macOS 27",
+        "Apple Intelligence",
+        "ストレージ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Xiaomi端末がフィッシング通知を表示する可能性",
+      "original_title": "Your Xiaomi phone may be sending you phishing notifications.",
+      "summary": "Xiaomi端末の広告が、既にインストール済みのアプリのアイコンを模倣できるという報告です。投稿者の環境では、フィッシング目的とみられる「spotify casino」アプリがSpotifyのように表示されたとしています。",
+      "url": "https://www.reddit.com/r/programming/comments/1wxr63h/your_xiaomi_phone_may_be_sending_you_phishing/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "Xiaomi",
+        "フィッシング",
+        "Android"
+      ],
+      "related": []
+    }
+  ]
+}
