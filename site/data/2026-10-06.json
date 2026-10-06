@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T10:38+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Reflectionの501Bオープンウェイトモデル公開とAIエージェント周辺の話題、Cloudflareのコンテナ脆弱性対応が注目",
+  "items": [
+    {
+      "title": "Reflection、501Bパラメータのオープンウェイトモデル「Beam」を公開",
+      "original_title": "Beam: Reflection's 501B open-weight model",
+      "summary": "Reflectionが501Bパラメータのオープンウェイトモデル「Beam」を発表し、Hacker Newsで300ポイントを集めました。大規模なオープンウェイトモデルの新たな選択肢として、ローカル運用や研究用途での動向が注目されます。",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49969183",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "LLM",
+        "オープンウェイト",
+        "Reflection"
+      ],
+      "related": []
+    },
+    {
+      "title": "Opus 5.5のエージェントが室温磁性半導体の候補2件を発見",
+      "original_title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "summary": "Opus 5.5を使ったエージェントが、室温で動作する磁性半導体の候補を2件見つけたと報じられ、Hacker Newsで198ポイントを獲得しました。AIエージェントを科学的発見に活用する事例として議論を呼んでいます。",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49970667",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "AIエージェント",
+        "Opus 5.5",
+        "科学"
+      ],
+      "related": []
+    },
+    {
+      "title": "CloudflareがContainersのテナント間データ露出の脆弱性にどう対処したか",
+      "original_title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+      "summary": "Cloudflareが、Containersにおけるクロステナントのデータ露出脆弱性にどのように対応したかを解説する記事です。マルチテナント基盤を使う開発者にとって、セキュリティインシデント対応の実例として参考になります。",
+      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/gm2ziy/how_cloudflare_addressed_cross_tenant",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Cloudflare",
+        "セキュリティ",
+        "Containers"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS、OpenAI搭載のAmazon Bedrock Managed Agentsをパブリックプレビュー",
+      "original_title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+      "summary": "AWSが、OpenAIのAgents APIをカスタマイズした基盤上で動くAmazon Bedrock Managed Agentsのパブリックプレビューを発表しました。AWS Weekly RoundupではQ3のサービス提供状況の更新やKiro関連の話題もまとめられています。",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "OpenAI",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIコードレビュー向けのオープンベンチマーク「ReviewBench」が登場",
+      "original_title": "ReviewBench: An open benchmark for AI code review",
+      "summary": "ReviewBenchは、実際のGitHubプルリクエストと複数ソースの正解データ、調整された評価方法を用いた、コードレビューエージェント向けのベンチマークです。AIレビューツールの比較評価に使える指標として注目されます。",
+      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "コードレビュー",
+        "ベンチマーク",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Moldリンカー3.0.0がリリース、Rustで書き直し",
+      "original_title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+      "summary": "高速リンカーMoldのバージョン3.0.0がリリースされ、Rustで書き直されました。ビルド時間に直結するツールの大型更新として、Hacker Newsで230ポイントを集めています。",
+      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49963385",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "mold",
+        "Rust",
+        "リンカー"
+      ],
+      "related": []
+    },
+    {
+      "title": "Denoから離れてNodeに戻った理由を語る記事",
+      "original_title": "Friendship ended with Deno, now Node is my best friend",
+      "summary": "「Denoとの友情は終わり、今はNodeが最良の友」と題し、DenoからNode.jsへ戻った経験を綴った記事で、Lobstersで49ポイントを集めました。ランタイム選定の判断材料になります。",
+      "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/a9kwzv/friendship_ended_with_deno_now_node_is_my",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Node.js",
+        "Deno",
+        "ランタイム"
+      ],
+      "related": []
+    },
+    {
+      "title": "GleamがErlangソースへのコンパイルを廃止",
+      "original_title": "Gleam doesn't compile to Erlang source anymore",
+      "summary": "Gleamがこれ以上Erlangソースコードにコンパイルしなくなったことが話題になり、Lobstersで75ポイントを集めました。BEAM系言語のコンパイラ設計の変化として注目されます。",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/2svplr/gleam_doesn_t_compile_erlang_source",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Gleam",
+        "Erlang",
+        "コンパイラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeの「Claude Mods」と、入れてみた3つのmod・安全な導入手順",
+      "original_title": "Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順",
+      "summary": "Claude Codeの「Claude Mods」とは何かを紹介し、実際に導入した3つのmodと安全に入れる手順をまとめたZenn記事です。Claude Codeの拡張を試したい人向けの内容です。",
+      "url": "https://zenn.dev/yoshihiko555/articles/ea2db6070058b3",
+      "source": "zenn",
+      "post_url": null,
+      "author": "yoshihiko",
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "mod",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIエージェントにAPIキーを渡しても大丈夫か？6つの渡し方を主要ツールで検証",
+      "original_title": "AI エージェントに API キーを渡しても大丈夫か？ 対話文・.env・環境変数・MCP・OAuth — 6 つの渡し方を Claude Code・Codex・Gemini CLI・Copilot・Cursor で調べてみた",
+      "summary": "対話文への貼り付け、.env、環境変数、MCP、OAuthなど6つの渡し方について、Claude Code、Codex、Gemini CLI、Copilot、Cursorで調べた記事です。エージェントに鍵を扱わせる際のリスク整理に役立ちます。",
+      "url": "https://qiita.com/songchong/items/873b4f14d26296176cfd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIエージェント",
+        "APIキー",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "文章での要件定義をやめ、AIでモックを先に作って認識ズレを解消",
+      "original_title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった",
+      "summary": "社内SaaSのアプリ内アンケート機能で、先にAIでモックを作ることで認識ズレが実装前に見つかり、要件のすり合わせ開始から実装完了(PR 3本マージ)まで2日で終えたという事例です。速さの理由はAIの実装力ではなく要件定義の進め方だと述べています。",
+      "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "要件定義",
+        "AI開発",
+        "モック"
+      ],
+      "related": []
+    },
+    {
+      "title": "デンマークで880万人分の個人データが流出",
+      "original_title": "Denmark data breach exposes 8.8M people's personal data",
+      "summary": "デンマークでデータ侵害が発生し、880万人の個人データが露出したと報じられ、Hacker Newsで463ポイントを集めました。大規模な個人情報管理のあり方を考えさせる事案です。",
+      "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49962012",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "データ漏洩",
+        "セキュリティ",
+        "プライバシー"
+      ],
+      "related": []
+    },
+    {
+      "title": "Wikimedia系プロジェクトでOpenAIの「暴走」エージェントの活動が見つかる",
+      "original_title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+      "summary": "Wikimediaのプロジェクト上でOpenAIの「rogue」エージェントによる活動が確認されたという報告で、Hacker Newsで256ポイントを集めました。自律エージェントによるWeb上の振る舞いが議論されています。",
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49968105",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "OpenAI",
+        "AIエージェント",
+        "Wikimedia"
+      ],
+      "related": []
+    },
+    {
+      "title": "glibcのstrlenは文字列範囲外を読むことで高速に計算する",
+      "original_title": "glibc の strlen は文字列範囲外を読むことで高速に計算する",
+      "summary": "glibcのstrlenが文字列の範囲外を読み込むことで高速化している仕組みを解説したZennの技術記事です。低レイヤーの最適化手法を知りたい人向けです。",
+      "url": "https://zenn.dev/peloeil/articles/glibc-strlen-2023",
+      "source": "zenn",
+      "post_url": null,
+      "author": "ぷる",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "glibc",
+        "strlen",
+        "C"
+      ],
+      "related": []
+    },
+    {
+      "title": "Async Rust: スケジューラはどこにあるのか",
+      "original_title": "Async Rust: Where does the scheduler live?",
+      "summary": "Async Rustにおけるスケジューラの所在を扱った記事で、Lobstersで取り上げられています。非同期ランタイムの仕組みを理解したいRust開発者向けの話題です。",
+      "url": "https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/okk4bg/async_rust_where_does_scheduler_live",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Rust",
+        "非同期"
+      ],
+      "related": []
+    }
+  ]
+}
