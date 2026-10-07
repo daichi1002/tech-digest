@@ -1,0 +1,281 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T10:39+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Mistral Large 4が公開されHNで大反響、Polars 2.0リリースやAIエージェント向けGit基盤、DNSルート鍵の更新にも注目",
+  "items": [
+    {
+      "title": "Mistral Large 4 が公開（愛称「Le Chonk」）",
+      "original_title": "Mistral Large 4",
+      "summary": "Mistral Large 4 が公開され、Hacker News で1500ポイント超・900件超のコメントを集める大きな話題になりました。別の投稿では「Le Chonk」という愛称で紹介されています。LLM の選択肢を比較している開発者は動向を確認しておく価値があります。",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49977979",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Mistral",
+        "LLM",
+        "Mistral Large 4"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=49978116"
+        }
+      ]
+    },
+    {
+      "title": "Polars 2.0 がリリース",
+      "original_title": "Polars 2.0",
+      "summary": "Polars 2.0 がリリースされ、Hacker News と Reddit の双方で話題になっています。メジャーバージョンアップのため、Polars を利用しているデータ処理基盤では変更点の確認が必要です。",
+      "url": "https://pola.rs/posts/release-polars-2/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49977177",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "Polars",
+        "データ処理",
+        "リリース"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1wzf37b/release_of_polars_20/"
+        }
+      ]
+    },
+    {
+      "title": "GitHub、エージェント規模の開発に向けた Git インフラを再構築",
+      "original_title": "Building Git infrastructure for agent-scale development",
+      "summary": "GitHub は、サービスを稼働させたまま Git インフラを作り直し、エージェント規模のソフトウェア開発を支える基盤を構築していると発表しました。AI エージェントによる開発が増える中での GitHub の方向性を示す内容です。",
+      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "GitHub",
+        "Git",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "10月11日にDNSルートの鍵署名鍵が KSK-2024 へ切り替わる",
+      "original_title": "The keys to the Internet change on October 11. Are you ready?",
+      "summary": "2026年10月11日、DNS ルートの鍵署名鍵（KSK）が新しい KSK-2024 に切り替わります。記事では、この変更が意味することと、RFC 8509 のトラストアンカーセンチネルを使って準備状況を確認する方法が紹介されています。DNSSEC 検証を行う運用者は確認が必要です。",
+      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "DNS",
+        "DNSSEC",
+        "KSK-2024",
+        "RFC 8509"
+      ],
+      "related": []
+    },
+    {
+      "title": "EmbeddingGemma 2：軽量なオープン・マルチモーダル埋め込みモデル",
+      "original_title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "summary": "EmbeddingGemma 2 は、オープンで軽量なマルチモーダル埋め込みモデルとして公開されました。Hacker News で190ポイント超を集めています。埋め込みモデルを探している開発者は動向を確認しておく価値があります。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49980487",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "EmbeddingGemma",
+        "埋め込み",
+        "マルチモーダル"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Code 2.1.290：WebFetch が10万字以降を黙って切り捨てる問題を修正",
+      "original_title": "Claude Code の WebFetch は、長いページの10万字より後ろを読まずに「書いていない」と答えていた",
+      "summary": "Claude Code 2.1.290（2026-10-05）の changelog に、WebFetch がページ本文の10万字より後ろを黙って切り捨てていた問題の修正が記載されています。長いページでは、後半を読まないまま「書いていない」と答えることがあったという解説記事です。",
+      "url": "https://qiita.com/suwa_nobu/items/35a1824f5b1d41caa10f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "WebFetch",
+        "changelog"
+      ],
+      "related": []
+    },
+    {
+      "title": "「Open Source as We Know It Is Dead」が議論に",
+      "original_title": "Open Source as We Know It Is Dead",
+      "summary": "「Open Source as We Know It Is Dead」という記事が Hacker News で100ポイント超を獲得し、議論になっています。オープンソースのあり方に関する問題提起として注目されています。",
+      "url": "https://jross.me/open-source-as-we-know-it-is-dead/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49973839",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "OSS",
+        "議論"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenTPU：AIが開発したオープンソースのAIアクセラレータ",
+      "original_title": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "summary": "OpenTPU は、AI によって開発されたオープンソースの AI アクセラレータです。Hacker News で200ポイント超・270件超のコメントを集め、AI 支援によるハードウェア設計への関心の高さがうかがえます。",
+      "url": "https://github.com/FeSens/openTPU",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49980715",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "OpenTPU",
+        "AIアクセラレータ",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "DeepSeek の DeepGEMM：GPU向けのクリーンで高効率な BLAS カーネルライブラリ",
+      "original_title": "deepseek-ai/DeepGEMM",
+      "summary": "deepseek-ai/DeepGEMM は、GPU 向けのクリーンで効率的な BLAS カーネルライブラリで、CUDA で実装されています。GitHub Trending で本日363スターを獲得しました。",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "DeepSeek",
+        "CUDA",
+        "GPU",
+        "GitHub Trending"
+      ],
+      "related": []
+    },
+    {
+      "title": "morluto/rea：エージェントでアプリの挙動からネイティブバイナリまでリバースエンジニアリング",
+      "original_title": "morluto/rea",
+      "summary": "morluto/rea は、エージェントを使ってアプリの挙動からネイティブバイナリまであらゆるものをリバースエンジニアリングするための TypeScript 製ツールです。GitHub Trending で本日2,963スターを集めました。",
+      "url": "https://github.com/morluto/rea",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "エージェント",
+        "リバースエンジニアリング",
+        "TypeScript",
+        "GitHub Trending"
+      ],
+      "related": []
+    },
+    {
+      "title": "Nova 2.5 Sonic が登場、東京リージョンでも利用可能に",
+      "original_title": "(新登場)Nova 2.5 Sonic爆誕：東京リージョンにもきている",
+      "summary": "Nova 2.5 Sonic が登場し、バージニア北部だけでなく東京リージョンでも利用できることを確認した速報記事です。AWS マネジメントコンソール上で実際に触った内容が紹介されています。",
+      "url": "https://qiita.com/yama3133/items/5ce2572730be29eb89fe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AWS",
+        "Nova 2.5 Sonic",
+        "東京リージョン"
+      ],
+      "related": []
+    },
+    {
+      "title": "Azure Firewall Explicit Proxy を実機検証、ドキュメントにない挙動をまとめ",
+      "original_title": "Azure Firewall Explicit Proxyを実機検証してわかった、ドキュメントに書いていない挙動まとめ",
+      "summary": "2026年8月に GA となった Azure Firewall の Explicit Proxy 機能を実機で検証した記事です。既定では透過型プロキシとして動作する Azure Firewall について、ドキュメントに書かれていない挙動がまとめられています。",
+      "url": "https://qiita.com/kiyoshi_sugawara/items/3c1ae01b9332ba3ef0da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Azure",
+        "Azure Firewall",
+        "Explicit Proxy"
+      ],
+      "related": []
+    },
+    {
+      "title": "Chrome、ccTLD レジストリのハイジャックへの対応を公表",
+      "original_title": "Chrome's Response to Recent ccTLD Registry Hijacks",
+      "summary": "「Chrome's Response to Recent ccTLD Registry Hijacks」と題した記事が Lobsters で共有されています。最近発生した ccTLD レジストリのハイジャックに対する Chrome の対応を扱ったセキュリティ関連の話題です。",
+      "url": "https://blog.google/security/chromes-response-to-recent-cctld-registry-hijacks/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/4fop73/chrome_s_response_recent_cctld_registry",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Chrome",
+        "セキュリティ",
+        "ccTLD"
+      ],
+      "related": []
+    },
+    {
+      "title": "arm64 固有のミスコンパイル2件が curl にバグを引き起こす",
+      "original_title": "Two arm64-specific miscompiles induce bugs in curl",
+      "summary": "「Two arm64-specific miscompiles induce bugs in curl」と題した記事が Lobsters で共有されています。arm64 に固有の2つのミスコンパイルが curl にバグを生じさせたという、コンパイラとセキュリティに関わる話題です。",
+      "url": "https://mastodon.social/@bagder/117392573268225646",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/fu57cb/two_arm64_specific_miscompiles_induce",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "curl",
+        "arm64",
+        "コンパイラ",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "ComfyUI v0.39.0 がリリース",
+      "original_title": "ComfyUI v0.39.0 released",
+      "summary": "ComfyUI の v0.39.0 がリリースされたことが Reddit で共有されています。",
+      "url": "https://www.reddit.com/r/programming/comments/1wyyuft/comfyui_v0390_released/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "ComfyUI",
+        "リリース"
+      ],
+      "related": []
+    }
+  ]
+}
