@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Claude Haiku 5.5とGPT-6が話題に、AIエージェント向けツールとセキュリティ関連の動きも活発",
+  "items": [
+    {
+      "title": "Claude Haiku 5.5 が公開",
+      "original_title": "Claude Haiku 5.5",
+      "summary": "「Claude Haiku 5.5」がHacker Newsで636ポイント、321コメントを集め、本日最も注目された話題の一つとなった。軽量モデルの新世代として、コストや速度を重視する用途での選択肢になるか注目される。",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49996437",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Claude",
+        "Haiku",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "GPT‑6 と「Intelligent UI for everyone」",
+      "original_title": "GPT‑6 and Intelligent UI for everyone",
+      "summary": "「GPT‑6 and Intelligent UI for everyone」という発表がHacker Newsで467ポイント、240コメントを集めた。モデルの進化に加え、UIのあり方にも踏み込んだ内容として議論されている。",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49996425",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "GPT-6",
+        "OpenAI",
+        "UI"
+      ],
+      "related": []
+    },
+    {
+      "title": "GoogleなどのTLS証明書の偽造版をハッカーが入手",
+      "original_title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+      "summary": "ハッカーがGoogleをはじめとする大手サービスの偽造TLS証明書を入手したと報じられ、Hacker Newsで137ポイントを集めた。証明書の信頼性とWebインフラの安全性に関わる問題として注視すべき話題。",
+      "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49988230",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "TLS",
+        "セキュリティ",
+        "証明書"
+      ],
+      "related": []
+    },
+    {
+      "title": "MetaとMicrosoft、従業員のClaude利用を抑制へ",
+      "original_title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "summary": "MetaとMicrosoftが従業員によるClaude AIの利用を減らす措置を取ると報じられ、Hacker Newsで253ポイント、248コメントの議論となった。企業内でのAIコーディングツール利用方針に関わる動きとして注目される。",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49997161",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude",
+        "Meta",
+        "Microsoft"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHubでGit操作・Pull Request・Actionsに障害（解消済み）",
+      "original_title": "Incident with Git Operations, Pull Requests and Actions – Resolved",
+      "summary": "GitHubでGit Operations、Pull Requests、Actionsに関するインシデントが発生し、解消された。Hacker Newsで223ポイント、176コメントを集めており、CI/CDへの影響を懸念する声が出ている。",
+      "url": "https://www.githubstatus.com/incidents/djlmxz2zd0j7",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49994027",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "GitHub",
+        "障害",
+        "GitHub Actions"
+      ],
+      "related": []
+    },
+    {
+      "title": "ChromeでJPEG XLを提供開始へ",
+      "original_title": "Shipping JPEG XL in Chrome",
+      "summary": "「Shipping JPEG XL in Chrome」がHacker Newsで473ポイント、304コメントを集めた。Chromeでの対応が進めば、Web上の画像フォーマット選択に影響する可能性がある。",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49991227",
+      "author": null,
+      "category": "web",
+      "score": 7,
+      "tags": [
+        "JPEG XL",
+        "Chrome",
+        "画像"
+      ],
+      "related": []
+    },
+    {
+      "title": "Strands Decider 2B：小型のオープンソース意思決定モデル",
+      "original_title": "Strands Decider 2B: a small, open-source, decision model",
+      "summary": "「Strands Decider 2B」は小型のオープンソース意思決定モデルで、Hacker Newsで274ポイントを集めた。関連するハンズオン記事によると、2026/10/1にAWSから発表され、文章を生成せず用意した選択肢から選ぶ形で動作する。",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49987076",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Strands Decider",
+        "AWS",
+        "オープンソース"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/har1101/items/cf5e734358e09f2410d0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "Docker Agent",
+      "original_title": "Docker Agent",
+      "summary": "「Docker Agent」がHacker Newsで165ポイント、79コメントを集めた。Dockerによるエージェント関連の取り組みとして関心を集めている。",
+      "url": "https://github.com/docker/docker-agent",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=49996259",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Docker",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "curlに未公開の脆弱性が22件",
+      "original_title": "Twenty-two pending curl vulnerabilities",
+      "summary": "Lobstersで「Twenty-two pending curl vulnerabilities」が共有された。curlに対応待ちの脆弱性が22件あるとされ、今後のリリースとアップデートに注意が必要。",
+      "url": "https://daniel.haxx.se/blog/2026/10/07/twenty-two-pending-curl-vulnerabilities/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/lu8hl9/twenty_two_pending_curl_vulnerabilities",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "curl",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude CodeのExploreサブエージェントがHaikuから本体と同じモデルに変更、戻すと費用21〜35%減",
+      "original_title": "Claude Code の Explore は、いつの間にか Haiku から本体と同じモデルに変わっていた。戻すと費用は21〜35%減",
+      "summary": "Claude CodeのExploreサブエージェントは登場時はHaikuで動いていたが、いつの間にか本体と同じモデルに変わっていたという。元に戻すと費用が21〜35%減るとの報告。",
+      "url": "https://qiita.com/suwa_nobu/items/be41c19295ef0e58e7f2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "コスト",
+        "サブエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "cloudflare/security-audit-skill：多段階セキュリティ監査用のコーディングエージェントスキル",
+      "original_title": "cloudflare/security-audit-skill",
+      "summary": "GitHub Trendingで、Cloudflareが公開したコーディングエージェント用スキルが本日576スターを獲得した。独立に検証された機械可読な結果を出力する、多段階のセキュリティ監査を行う。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "セキュリティ",
+        "エージェントスキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare上で構築した根拠重視のエージェント型セキュリティ運用基盤",
+      "original_title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "summary": "Cloudflare Managed Defenseは、Workersとグローバルなネットワークテレメトリ上に構築した専門AIエージェント群でセキュリティアラートを分析する。決定的な処理とそれ以外を分離する設計を採っている。",
+      "url": "https://blog.cloudflare.com/agentic-security-operations/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "Workers",
+        "セキュリティ運用"
+      ],
+      "related": []
+    },
+    {
+      "title": "Adobe Photoshopのクリーンルーム再実装をRustで（オープンソース）",
+      "original_title": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+      "summary": "Lobstersで、Adobe PhotoshopをクリーンルームでRustにより再実装したオープンソースプロジェクトが共有された。タグにvibecodingが付いている。",
+      "url": "https://github.com/storytold/photocraft",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/qn61ip/open_source_clean_room_reimplementation",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Rust",
+        "Photoshop",
+        "オープンソース"
+      ],
+      "related": []
+    },
+    {
+      "title": "Python 3.15はどれくらい速いか",
+      "original_title": "How fast is Python 3.15?",
+      "summary": "Lobstersで「How fast is Python 3.15?」が共有された。Python 3.15の性能を検証する内容で、パフォーマンスタグが付いている。",
+      "url": "https://blog.miguelgrinberg.com/post/how-fast-is-python-3-15",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/se6wbx/how_fast_is_python_3_15",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Python",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "SAVEPOINTがPostgresのキューを静かに遅くした",
+      "original_title": "How savepoints quietly throttled our Postgres queue",
+      "summary": "Redditで「How savepoints quietly throttled our Postgres queue」が共有された。PostgresでのSAVEPOINT利用がキューの性能を低下させた事例として参考になる。",
+      "url": "https://www.reddit.com/r/programming/comments/1x02iea/how_savepoints_quietly_throttled_our_postgres/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "PostgreSQL",
+        "SAVEPOINT",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Actionsをやめても、ツールのインストールはGitHubに依存し続ける",
+      "original_title": "Moving off GitHub Actions doesn't get you off GitHub: your tool installs still depend on it",
+      "summary": "Redditで「Moving off GitHub Actions doesn't get you off GitHub」が共有された。CI基盤を移しても、ツールのインストールがGitHubに依存し続けるという指摘。",
+      "url": "https://www.reddit.com/r/programming/comments/1wzxplb/moving_off_github_actions_doesnt_get_you_off/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "GitHub Actions",
+        "CI",
+        "依存関係"
+      ],
+      "related": []
+    },
+    {
+      "title": "バッチと集約によるストリーミングHTMLの高速化",
+      "original_title": "Faster streaming HTML with batches and aggregates",
+      "summary": "Lobstersで「Faster streaming HTML with batches and aggregates」が共有された。ストリーミングHTMLをバッチと集約で高速化する手法を扱うWeb関連の記事。",
+      "url": "https://andersmurphy.com/2026/09/29/faster-streaming-html-with-batches-and-aggregates.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/lon2jj/faster_streaming_html_with_batches",
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "HTML",
+        "ストリーミング",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "cmux：AIコーディングエージェント向けのGhosttyベースmacOSターミナル",
+      "original_title": "manaflow-ai/cmux",
+      "summary": "GitHub Trendingで、縦型タブと通知を備え、AIコーディングエージェントでのマルチタスクを想定したオープンソースのmacOSターミナルcmuxが話題になった。",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Ghostty",
+        "macOS",
+        "ターミナル"
+      ],
+      "related": []
+    }
+  ]
+}
