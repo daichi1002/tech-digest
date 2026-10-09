@@ -1,0 +1,419 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T10:39+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "OpenAIの数学論文3件取り下げと収益見通しの下方修正、AIによる開発の話題が目立つ一日",
+  "items": [
+    {
+      "title": "OpenAI、数学に関する3件の成果・論文を取り下げ",
+      "original_title": "OpenAI Withdraws 3 Math Papers",
+      "summary": "OpenAIが3本の数学論文（数学的結果）を取り下げたと報じられ、Hacker Newsで合計500ポイント超、多数のコメントを集めています。AIによる数学的成果の検証の信頼性に関わる話題として注目されています。",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50003107",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "OpenAI",
+        "数学",
+        "論文取り下げ"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50002650"
+        }
+      ]
+    },
+    {
+      "title": "OpenAIの年間収益ランレートは従来示唆された水準より200億ドル少ないと報道",
+      "original_title": "OpenAI annualised revenues $20B less than previously signalled",
+      "summary": "OpenAIの年換算収益が、これまでに示唆されていた額より200億ドル少ないとする記事がHacker Newsで346ポイントを獲得しました。AI業界の収益見通しを考える上で重要な話題です。",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50008187",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "収益"
+      ],
+      "related": []
+    },
+    {
+      "title": "TypeScriptのコンパイラ・型チェッカー・LSPをLLMでRustに移植",
+      "original_title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "summary": "TypeScriptのコンパイラ、チェッカー、LSPをLLMによってRustへ移植したというプロジェクトがHacker Newsで109ポイント、200件超のコメントを集めています。LLMによる大規模なコード移植の可能性と課題を考える材料になります。",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50000676",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "TypeScript",
+        "Rust",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "Opus 5.5に1つのプロンプトと6時間を与えて『見えない都市』を可視化",
+      "original_title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "summary": "Opus 5.5に1回のプロンプトと6時間を与え、『見えない都市』の可視化を行わせた事例がHacker Newsで347ポイントを集めました。長時間のエージェント的作業でモデルが何を生み出せるかを示す実例です。",
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50004790",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Opus 5.5",
+        "生成AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "GoogleがPythonの型チェッカーとしてPyreflyを採用",
+      "original_title": "Adopting Pyrefly as the Python type checker at Google",
+      "summary": "GoogleでPythonの型チェッカーにPyreflyを採用した経緯を紹介する記事がr/programmingで共有されました。大規模Pythonコードベースにおける型チェックの選択肢として注目されます。",
+      "url": "https://www.reddit.com/r/programming/comments/1x0p1v8/adopting_pyrefly_as_the_python_type_checker_at/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Python",
+        "Pyrefly",
+        "型チェック"
+      ],
+      "related": []
+    },
+    {
+      "title": "2027年2月から証明書の有効期間が64日に",
+      "original_title": "64-Day Certificate Lifetimes Coming Feb 2027",
+      "summary": "2027年2月からTLS証明書の有効期間が64日になるという内容の記事がLobstersで共有されました。",
+      "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/dcrosf/64_day_certificate_lifetimes_coming_feb",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "証明書",
+        "セキュリティ",
+        "DevOps"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeを使って未知の惑星を見つけたと主張する投稿",
+      "original_title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "summary": "Claude Codeを使って、これまで知られていなかった惑星を見つけたと主張する投稿がHacker Newsで104ポイントを獲得しています。AIコーディングツールの科学データ解析への応用例として議論されています。",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50002665",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "天文"
+      ],
+      "related": []
+    },
+    {
+      "title": "Navier-Stokes問題：LeanによるAI自動形式化の検証は正しい命名を保証しない",
+      "original_title": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+      "summary": "AIによる自動形式化をLeanで検証しても、形式化された内容が元の問題を正しく表している保証にはならないと論じる記事です。OpenAIの数学成果取り下げの話題とも関連する、AI生成の数学の検証に関する論点です。",
+      "url": "https://arxiv.org/abs/2610.08144",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/axmhji/navier_stokes_lost_translation_why_lean",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Lean",
+        "形式検証",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "俺のAIプログラミング手法（2026/10/05）",
+      "original_title": "俺のAIプログラミング手法(2026/10/05)",
+      "summary": "Zennで749いいねを集めた、筆者自身のAIを使ったプログラミング手法をまとめた技術記事です。AIコーディングの実践的な進め方の参考になります。",
+      "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
+      "source": "zenn",
+      "post_url": null,
+      "author": "mizchi",
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIプログラミング",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "jujutsu (jj) 0.46.0 リリース",
+      "original_title": "jujutsu (jj) 0.46.0",
+      "summary": "Git互換のバージョン管理システムjujutsu (jj) の0.46.0がリリースされました。Lobstersで37ポイントを集めています。",
+      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.46.0",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/nz3b1h/jujutsu_jj_0_46_0",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "jj",
+        "VCS",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "レビューの口伝を40ルールに棚卸ししてAIレビューに載せた",
+      "original_title": "レビューの口伝を40ルールに棚卸ししてAIレビューに載せた",
+      "summary": "チーム内で口伝されていたコードレビューの観点を40のルールに整理し、AIレビューに組み込んだ事例を紹介するZennの技術記事です。",
+      "url": "https://zenn.dev/edash_tech_blog/articles/c52409a3d6fa12",
+      "source": "zenn",
+      "post_url": null,
+      "author": "edash_tech_blog",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "コードレビュー",
+        "AIレビュー"
+      ],
+      "related": []
+    },
+    {
+      "title": "オブジェクト指向UIデザインをAgent Skill化し、Claudeが作るUIの変化を検証",
+      "original_title": "オブジェクト指向UIデザインをAgent Skillにして、Claudeが作るUIはどう変わるかの検証",
+      "summary": "オブジェクト指向UIデザインをAgent Skillとして定義すると、Claudeが生成するUIがどう変わるかを検証したZennの記事です。",
+      "url": "https://zenn.dev/emuni/articles/ooui-agent-skill",
+      "source": "zenn",
+      "post_url": null,
+      "author": "emuni",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Agent Skill",
+        "Claude",
+        "UI"
+      ],
+      "related": []
+    },
+    {
+      "title": "GraphRAGをゼロから詳しく解説する（ナレッジグラフ・オントロジー）",
+      "original_title": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
+      "summary": "ナレッジグラフやオントロジーを軸に、GraphRAGを基礎から解説するZennの技術記事です。",
+      "url": "https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c",
+      "source": "zenn",
+      "post_url": null,
+      "author": "テッツォ",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "GraphRAG",
+        "RAG"
+      ],
+      "related": []
+    },
+    {
+      "title": "mattpocock/skills：エンジニア向けのスキル集",
+      "original_title": "mattpocock/skills",
+      "summary": "mattpocock氏が自身の .agents ディレクトリから公開した「Skills for Real Engineers」で、GitHub Trendingで本日1,774スターを獲得しています。",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Skills",
+        "GitHub Trending"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust製ゲームエンジンBevy 0.20 リリース",
+      "original_title": "Bevy 0.20",
+      "summary": "Rust製ゲームエンジンBevyの0.20がリリースされました。",
+      "url": "https://bevy.org/news/bevy-0-20/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/3gikyb/bevy_0_20",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Bevy",
+        "Rust",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "読み取り中心のワークロードにおけるRwLockの性能コスト",
+      "original_title": "The Performance Cost of RwLock in Our Read-Heavy Workload",
+      "summary": "読み取りが多いワークロードでRwLockを使った際の性能コストを扱ったRust関連の記事です。",
+      "url": "https://pranitha.dev/posts/rwlock-vs-lockfree/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/pioj21/performance_cost_rwlock_our_read_heavy",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Rust",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Go 1.27のsimdパッケージ：ドット積ベンチマーク",
+      "original_title": "Go simd Package in 1.27: Dot Product Benchmark",
+      "summary": "Go 1.27のsimdパッケージを使ったドット積のベンチマークを紹介する記事です。",
+      "url": "https://www.reddit.com/r/programming/comments/1x0iwgh/go_simd_package_in_127_dot_product_benchmark/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Go",
+        "SIMD",
+        "ベンチマーク"
+      ],
+      "related": []
+    },
+    {
+      "title": "Zerobrew：Homebrewのより高速な代替",
+      "original_title": "Zerobrew: A faster alternative to Homebrew",
+      "summary": "Homebrewのより高速な代替をうたうZerobrewがHacker Newsで104ポイントを集めました。",
+      "url": "https://github.com/zerobrewhq/zerobrew",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50001580",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Zerobrew",
+        "Homebrew"
+      ],
+      "related": []
+    },
+    {
+      "title": "4時間蓄電池の設置コストは世界中でガスタービンより安い",
+      "original_title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
+      "summary": "4時間型の蓄電池は世界のあらゆる地域でガスタービンより安く設置できるという記事で、Hacker Newsで214ポイントを集めています。",
+      "url": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50007519",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "蓄電池",
+        "エネルギー"
+      ],
+      "related": []
+    },
+    {
+      "title": "Hetzner Cloudネットワークスタックの歴史",
+      "original_title": "The history of the Hetzner Cloud network stack",
+      "summary": "Hetzner Cloudのネットワークスタックの変遷を振り返る記事です。",
+      "url": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/aco14q/history_hetzner_cloud_network_stack",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Hetzner",
+        "ネットワーク"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS AI LeagueでBedrock AgentCoreを使ってハマった6つのこと",
+      "original_title": "【AWS AI League】Bedrock AgentCore でAIエージェントを作ってハマった6つのこと",
+      "summary": "72時間のAWS AI League Agentic AIチャレンジに参加し、Bedrock AgentCoreでAIエージェントを作る中で詰まった6点を共有する記事です。",
+      "url": "https://qiita.com/AyaKunisawa/items/4e1d87e075a3bae93f40?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AWS",
+        "Bedrock AgentCore"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare Radarのリデザインの裏側",
+      "original_title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+      "summary": "Cloudflareが、リアルタイムのトラフィックや障害データをジャーナリストや技術者以外にも分かりやすくするためにRadarを再設計した経緯を紹介しています。",
+      "url": "https://blog.cloudflare.com/radar-redesign/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "Radar",
+        "デザイン"
+      ],
+      "related": []
+    },
+    {
+      "title": "APIについての愚痴（A rant about APIs）",
+      "original_title": "A rant about APIs",
+      "summary": "API設計をめぐる不満をまとめた記事で、LobstersとRedditの両方で共有されています。",
+      "url": "https://dev.clintonblackburn.com/2026/10/08/a-rant-about-apis.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/jiphkt/rant_about_apis",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "API",
+        "設計"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1x0jd0m/a_rant_about_apis/"
+        }
+      ]
+    },
+    {
+      "title": "バグバウンティ研究者が調査対象の機能を選ぶ方法",
+      "original_title": "How one bug bounty researcher chooses the features they investigate",
+      "summary": "Cybersecurity Awareness Monthの開始に合わせ、GitHub Bug Bountyチームが研究者@vaib25vickyの手法や経験を紹介する記事です。",
+      "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "GitHub",
+        "バグバウンティ",
+        "セキュリティ"
+      ],
+      "related": []
+    }
+  ]
+}
