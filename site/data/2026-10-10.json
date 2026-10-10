@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T10:39+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Cloudflareが Deno を買収・チーム統合、AI業界では大型資金調達とモデル更新が相次ぐ",
+  "items": [
+    {
+      "title": "Cloudflare が Deno を買収",
+      "original_title": "Cloudflare acquires Deno",
+      "summary": "Cloudflare による Deno の買収が発表され、Hacker News で1000ポイント超の注目を集めました。Cloudflare の公式ブログによると、Deno チームは Workers と Durable Objects のセルフホストを大幅に簡素化し、同じプリミティブをより多くの場所で使えるようにするために加わります。Lobsters では、この件は単なる PR ではなくニュースだとする議論も出ています。",
+      "url": "https://deno.com/blog/cloudflare",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50019911",
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "Cloudflare",
+        "Deno",
+        "Workers",
+        "買収"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://blog.cloudflare.com/deno-joins-cloudflare/"
+        },
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/8rrtma/cloudflare_shutting_down_deno_is_news_not"
+        }
+      ]
+    },
+    {
+      "title": "Python 3.15 がリリース",
+      "original_title": "Python 3.15",
+      "summary": "Python 3.15.0 のリリースが Hacker News と Reddit で話題になっています。Python を使うバックエンド開発者は、アップグレード前に公式のリリース情報を確認しておくとよいでしょう。",
+      "url": "https://www.python.org/downloads/release/python-3150/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50021127",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "Python",
+        "リリース"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1x1pypx/python_release_python_3150/"
+        }
+      ]
+    },
+    {
+      "title": "Typesafe AI が評価額75億ドルで8.7億ドルを調達",
+      "original_title": "Typesafe AI raises $870M at $7.5B",
+      "summary": "Typesafe AI が評価額75億ドルで8億7000万ドルを調達したと報じられ、Hacker News で議論になっています。AI 関連スタートアップへの資金流入が続いていることを示すニュースです。",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50023450",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "資金調達",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "意思決定モデル Clef ファミリーに Clef-omni を追加",
+      "original_title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "summary": "Clef-omni が発表され、音声・動画・画像・テキストを単一のパイプラインでネイティブに処理できるようになりました。あわせて高速化された Clef と、低価格の Clef-flash も提供されます。Hacker News では Microsoft-Decision-1 という高速な意思決定向けモデルも話題になっています。",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Clef-omni",
+        "マルチモーダル",
+        "LLM"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50024913"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI が「研究情報の不適切な取り扱い」で安全性研究者3名を解雇",
+      "original_title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "summary": "OpenAI が研究情報の不適切な取り扱いを理由に、安全性研究者3名を解雇したと報じられています。Hacker News で200件のコメントが付くなど、AI 安全性をめぐる組織運営への関心の高さがうかがえます。",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50018350",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "OpenAI",
+        "AI安全性"
+      ],
+      "related": []
+    },
+    {
+      "title": "Workers と Durable Objects でオンデマンドの CPU・メモリプロファイリングが可能に",
+      "original_title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "summary": "Cloudflare Workers と Durable Objects で、オンデマンドの CPU・メモリプロファイリングが利用可能になりました。インタラクティブなフレームグラフを直接生成できるため、パフォーマンス調査がしやすくなります。",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "Workers",
+        "プロファイリング"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Code 2.1.293 で Explore サブエージェントが Haiku 5.5 に、費用は34〜43%減",
+      "original_title": "Claude Code の Explore を Haiku にする設定は、2.1.293 に上げるだけで Haiku 5.5 になった。費用は34〜43%減",
+      "summary": "Claude Code 2.1.293（2026-10-07）に上げるだけで、Explore サブエージェントが Haiku 5.5 で動くようになったという報告です。筆者によると費用は34〜43%減りました。Zenn でも、Haiku 5.5 を機に Sonnet 以下のサブエージェントを見直した記事が公開されています。",
+      "url": "https://qiita.com/suwa_nobu/items/837c03e66ba03ee636ea?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "Haiku 5.5",
+        "コスト"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/genda_jp/articles/haiku-5-5-subagent-roles"
+        }
+      ]
+    },
+    {
+      "title": "Yandex のデータセンターが48時間で2件目の被害",
+      "original_title": "Yandex Takes a Second Data Center Hit in 48 Hours",
+      "summary": "Yandex のデータセンターが48時間のうちに2件目の被害を受けたと報じられ、Hacker News で277件のコメントが付きました。詳細は元記事で確認してください。",
+      "url": "https://united24media.com/war-in-ukraine/yandex-takes-a-second-data-center-hit-in-48-hours-now-its-biggest-russian-site-is-damaged-23277",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50020927",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "データセンター",
+        "障害"
+      ],
+      "related": []
+    },
+    {
+      "title": "C言語における未定義動作の削減",
+      "original_title": "Reducing undefined behavior in the C language",
+      "summary": "C言語の未定義動作を減らす取り組みについての記事が Hacker News で議論になっています。システム系の開発者にとって関心の高いテーマです。",
+      "url": "https://lwn.net/Articles/1095811/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50015074",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "C",
+        "未定義動作"
+      ],
+      "related": []
+    },
+    {
+      "title": "MXC: サンドボックス化されたコード実行システム",
+      "original_title": "MXC - a sandboxed code execution system",
+      "summary": "MXC というサンドボックス化されたコード実行システムが Hacker News で紹介され、180ポイントを集めました。AI エージェントの実行環境などで関心が高まる分野です。",
+      "url": "https://github.com/microsoft/mxc",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50016489",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "サンドボックス",
+        "MXC"
+      ],
+      "related": []
+    },
+    {
+      "title": "Unison Cloud がオープンソース化",
+      "original_title": "Unison Cloud is now open source",
+      "summary": "Unison Cloud がオープンソースとして公開されたことが Lobsters で共有されました。",
+      "url": "https://www.unison-lang.org/blog/unison-cloud-open-source/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/zubabn/unison_cloud_is_now_open_source",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Unison",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "TypeScript コンパイラに Go の defer を追加する",
+      "original_title": "Adding Go's defer to the TypeScript Compiler",
+      "summary": "Go の defer を TypeScript コンパイラに追加する試みについての記事が Reddit で共有されています。",
+      "url": "https://www.reddit.com/r/programming/comments/1x18013/adding_gos_defer_to_the_typescript_compiler/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "TypeScript",
+        "defer"
+      ],
+      "related": []
+    },
+    {
+      "title": "CSS の text-box で文字を上下中央に揃える",
+      "original_title": "CSSの`text-box`で文字を上下中央に揃えたい",
+      "summary": "CSS の text-box プロパティを使って文字を上下中央に揃える方法を扱った Zenn の記事です。",
+      "url": "https://zenn.dev/chot/articles/be424332489e7a",
+      "source": "zenn",
+      "post_url": null,
+      "author": "chot",
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "CSS",
+        "text-box"
+      ],
+      "related": []
+    },
+    {
+      "title": "return await は付けても同じ？ try 内では catch と finally の動作が変わる",
+      "original_title": "return await は付けても付けなくても同じ？ try の中では catch と finally の動きが変わる",
+      "summary": "async 関数で return await を付ける場合と付けない場合の違いを解説した記事です。try の中では catch と finally の動きが変わる点が取り上げられています。",
+      "url": "https://qiita.com/ennagara128/items/6abdd7057d7b50dba194?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "JavaScript",
+        "async/await"
+      ],
+      "related": []
+    },
+    {
+      "title": "Amazon Bedrock 経由で OpenAI モデルに送った文の保持期間を検証",
+      "original_title": "「最大30日」と回答する前に、Amazon BedrockでOpenAIのモデルに送った文がどこに何日残るか確かめた話（2026年版）",
+      "summary": "「AI 事業者に送った文は不正利用監視のため最大30日保存される」という回答案を、Amazon Bedrock で OpenAI のモデルを使った場合に当てはまるのかを実際に確かめた記事です。セキュリティ確認で役立つ内容です。",
+      "url": "https://qiita.com/ntaka329/items/1ad9131353e51c5b99fd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Bedrock",
+        "OpenAI",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "SwiftUI 向けエージェントスキル SwiftUI-Agent-Skill",
+      "original_title": "twostraws/SwiftUI-Agent-Skill",
+      "summary": "Claude Code や Codex などの AI ツールで使える SwiftUI 向けのエージェントスキルが GitHub Trending に登場しました。",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "SwiftUI",
+        "エージェントスキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "LiteLLM: Rust コア搭載の AI ゲートウェイ",
+      "original_title": "BerriAI/litellm",
+      "summary": "BerriAI/litellm は、100以上の LLM API を OpenAI 互換形式で呼び出せる AI ゲートウェイです。コスト追跡、ガードレール、負荷分散に対応し、Rust コアと Python SDK で構成されています。",
+      "url": "https://github.com/BerriAI/litellm",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "LiteLLM",
+        "AIゲートウェイ"
+      ],
+      "related": []
+    }
+  ]
+}
