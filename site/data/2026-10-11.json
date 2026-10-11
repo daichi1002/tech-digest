@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T10:39+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "DenoのCloudflare参画やNvidiaによるReflection AI買収協議など、AI・ランタイム周辺の再編が目立つ一日",
+  "items": [
+    {
+      "title": "DenoがCloudflareに参画",
+      "original_title": "Deno is joining Cloudflare",
+      "summary": "CloudflareがDenoのチームを獲得したと報じられています。Denoは1年間のセキュリティアップデートとバグ修正のみを提供するとされており、既存ユーザーは今後の移行方針を検討する必要があります。JavaScriptランタイムの勢力図に影響しうるニュースです。",
+      "url": "https://www.reddit.com/r/programming/comments/1x23sn2/deno_is_joining_cloudflare/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 9,
+      "tags": [
+        "Deno",
+        "Cloudflare",
+        "JavaScript"
+      ],
+      "related": []
+    },
+    {
+      "title": "Nvidiaが米オープンモデル企業Reflection AIの買収を協議",
+      "original_title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "summary": "Nvidiaが、米国の「オープン」モデルを手がけるスタートアップReflection AIの買収に向けて協議中と伝えられています。オープンモデル分野でのGPUベンダーの動きとして注目されます。Hacker Newsでは101ポイントを集めています。",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50035886",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "Reflection AI",
+        "オープンモデル"
+      ],
+      "related": []
+    },
+    {
+      "title": "Telegram Desktopの脆弱性で任意ユーザーのファイルが盗取可能に",
+      "original_title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "summary": "Telegram Desktopに、任意のユーザーのファイルを盗み出せる脆弱性が見つかったと報じられました。Hacker Newsで398ポイントと大きな反響を集めています。利用者はクライアントを最新版へ更新することが重要です。",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50029123",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Telegram",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "DuckDB 2.0が速い理由",
+      "original_title": "Why DuckDB 2.0 is faster",
+      "summary": "DuckDB 2.0が高速である理由を解説する記事がHacker Newsで117ポイントを集めています。分析用DBの性能改善に関心のあるエンジニアにとって参考になる内容です。",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50035530",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "DuckDB",
+        "データベース",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Bitwardenがデュアルライセンスモデルを導入",
+      "original_title": "Bitwarden Dual License Model",
+      "summary": "パスワード管理のBitwardenがデュアルライセンスモデルを採用したことが話題になり、Hacker Newsで329ポイント・242コメントを集めました。セルフホストやOSS利用への影響を確認しておく価値があります。",
+      "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50033407",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Bitwarden",
+        "ライセンス",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Haiku 5.5を機にSonnet以下のサブエージェント構成を見直した",
+      "original_title": "Haiku 5.5 を機に Sonnet 以下で動かしていたサブエージェントを見直した",
+      "summary": "Haiku 5.5の登場を受けて、これまでSonnet以下で動かしていたサブエージェントの割り当てを見直したという実践記事です。Zennで48 likesを集めています。エージェント運用のモデル選定の参考になります。",
+      "url": "https://zenn.dev/genda_jp/articles/haiku-5-5-subagent-roles",
+      "source": "zenn",
+      "post_url": null,
+      "author": "genda_jp",
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude",
+        "サブエージェント",
+        "Haiku"
+      ],
+      "related": []
+    },
+    {
+      "title": "Talorys: Cloudflare無料枠で動くセルフホスト型パーソナルAIエージェント",
+      "original_title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "summary": "TalorysはCloudflareの無料枠上で動作するセルフホスト型のパーソナルAIエージェントとして紹介されています。Hacker Newsで230ポイントを獲得しました。低コストでエージェントを動かす例として参考になります。",
+      "url": "https://github.com/rociiu/talorys",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50031614",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIエージェント",
+        "Cloudflare",
+        "セルフホスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "context-mode: AIコーディングエージェント向けコンテキスト最適化",
+      "original_title": "mksglu/context-mode",
+      "summary": "context-modeはAIコーディングエージェントのコンテキストウィンドウを最適化するツールです。ツール出力をサンドボックス化して98%削減し、セッションメモリを保持するとされています。GitHub Trendingに入っています。",
+      "url": "https://github.com/mksglu/context-mode",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "GitHub",
+        "コンテキスト",
+        "コーディングエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "macOSが公式Unixレジストリから削除",
+      "original_title": "Apple/macOS removed from official Unix registry",
+      "summary": "Apple/macOSが公式のUnixレジストリから削除されたことがHacker Newsで話題になり、235ポイント・212コメントを集めました。Unix認証の扱いについて関心を呼んでいます。",
+      "url": "https://www.opengroup.org//openbrand/register/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50031653",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "macOS",
+        "Unix",
+        "Apple"
+      ],
+      "related": []
+    },
+    {
+      "title": "コンテンツに合わせてサイズが決まるiframe",
+      "original_title": "Iframes that finally fit their content",
+      "summary": "「Iframes that finally fit their content」と題した記事がLobstersで紹介されています。CSSとWebに関する話題で、iframeの高さをコンテンツに合わせる手法を扱っています。",
+      "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/ka6d0y/iframes_finally_fit_their_content",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "CSS",
+        "iframe",
+        "Web"
+      ],
+      "related": []
+    },
+    {
+      "title": "TypeScriptコンパイラにGoのdeferを追加する",
+      "original_title": "Adding Go's defer to the TypeScript Compiler",
+      "summary": "TypeScriptコンパイラにGo言語のdeferを追加する試みがLobstersで紹介されています。コンパイラ実装や言語機能の拡張に関心のあるエンジニア向けの話題です。",
+      "url": "https://healeycodes.com/adding-defer-to-the-typescript-compiler",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/skpliy/adding_go_s_defer_typescript_compiler",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "TypeScript",
+        "Go",
+        "コンパイラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "NumPy 2.5でnp.searchsortedが最大25倍高速化",
+      "original_title": "Making np.searchsorted up to 25× Faster in NumPy 2.5",
+      "summary": "NumPy 2.5でnp.searchsortedを最大25倍高速化したという記事がLobstersで紹介されています。数値計算のパフォーマンスに関わる改善です。",
+      "url": "https://blog.scientific-python.org/numpy/searchsorted/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/fbs3k7/making_np_searchsorted_up_25x_faster",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "NumPy",
+        "Python",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "AndroidでMMIコードを1クリックで実行できる問題",
+      "original_title": "1-click MMI execution in Android",
+      "summary": "「1-click MMI execution in Android」と題した、Androidのセキュリティに関する記事がLobstersで紹介されています。モバイルのセキュリティ動向として確認しておきたい話題です。",
+      "url": "https://karansaini.com/mmi-android/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/txa6dj/1_click_mmi_execution_android",
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "Android",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "WebSocketをデフォルトで選ばない：WebSocket・SSE・ロングポーリングの比較",
+      "original_title": "Stop reaching for WebSockets by default: WebSockets vs SSE vs Long Polling",
+      "summary": "リアルタイム通信は一律の解がなく、サーバーからの一方向通知で足りる場面でWebSocketを選ぶのはよくある間違いだと指摘する記事です。WebSocket、SSE、ロングポーリングを比較しています。",
+      "url": "https://www.reddit.com/r/programming/comments/1x2r88r/stop_reaching_for_websockets_by_default/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "WebSocket",
+        "SSE",
+        "システム設計"
+      ],
+      "related": []
+    },
+    {
+      "title": "Satori GCをMSBuild SDKとして公開",
+      "original_title": "Satori GCをMSBuild SDKとして公開しました！",
+      "summary": "高スループット・短い停止時間・低リソース消費が特徴のSatori GCを、手軽に導入できるMSBuild SDKとして公開したという記事です。.csprojに設定を加えて利用する方法が紹介されています。",
+      "url": "https://qiita.com/hez2010/items/7334840a4e96851f5a0b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        ".NET",
+        "GC",
+        "MSBuild"
+      ],
+      "related": []
+    },
+    {
+      "title": "Microsoftセキュリティの実践ベストプラクティス",
+      "original_title": "Microsoft セキュリティ、これをやってください！～ 実践ベストプラクティス",
+      "summary": "2026年9月下旬以降、国内でサイバー攻撃による被害が相次いでいることを背景に、Microsoft環境で実施すべきセキュリティ対策をまとめた記事です。侵入経路としてネットワーク機器の脆弱性やフィッシングメールが挙げられています。",
+      "url": "https://qiita.com/carol0226/items/bdb16dbd5c16a2c43ad5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Microsoft",
+        "セキュリティ",
+        "ベストプラクティス"
+      ],
+      "related": []
+    }
+  ]
+}
