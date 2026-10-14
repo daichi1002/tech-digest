@@ -1,0 +1,362 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Gemini 4 Argon が話題を独占、Anthropic のソース管理刷新や Rust borrow checker のバグなど開発基盤の話題も",
+  "items": [
+    {
+      "title": "Gemini 4 Argon が登場、ロボティクス向けも公開",
+      "original_title": "Gemini 4 Argon",
+      "summary": "Hacker News で「Gemini 4 Argon」が905ポイント・701コメントと本日最大の注目を集めました。関連してロボティクス向けの「Gemini 4 Argon for Robotics」も話題になっています。主要モデルの新世代として、LLM選定や利用方針に影響する可能性があります。",
+      "url": "https://deepmind.google/models/gemini/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50073879",
+      "author": null,
+      "category": "ai",
+      "score": 10,
+      "tags": [
+        "Gemini",
+        "LLM",
+        "Google"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50074869"
+        }
+      ]
+    },
+    {
+      "title": "Rust の borrow checker で11年来の unsoundness バグが発見",
+      "original_title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "summary": "Rust の borrow checker に11年間存在していた unsoundness バグが見つかったという報告が、654ポイントを集めました。メモリ安全性を支える中核機能に関わる話題で、Rust 利用者は詳細と修正状況を確認しておく価値があります。",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50069499",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "Rust",
+        "borrow checker",
+        "安全性"
+      ],
+      "related": []
+    },
+    {
+      "title": "Anthropic におけるソース管理の再設計",
+      "original_title": "Redesigning source control at Anthropic",
+      "summary": "「Redesigning source control at Anthropic」が475ポイント・471コメントを集めました。AI時代の開発体制でのソース管理の在り方を扱う内容とみられ、大規模開発のワークフロー設計の参考になります。",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50073633",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Anthropic",
+        "ソース管理",
+        "開発基盤"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS Weekly Roundup：Claude Haiku 5.5 と Amazon Nova 2.5 Sonic など",
+      "original_title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
+      "summary": "AWS の週次まとめで、Prime Day 2026 の指標公開に加え、Claude Haiku 5.5 と Amazon Nova 2.5 Sonic などの話題が取り上げられました。AWS 上でのモデル利用を検討している場合の最新情報源になります。",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "AWS",
+        "Claude Haiku 5.5",
+        "Amazon Nova"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS Lambda Web Functions が登場、Hono での利用例も",
+      "original_title": "AWS Lambda Web Functions",
+      "summary": "AWS Lambda Web Functions が Hacker News で101ポイントを獲得し、Hono から使ってみる国内の解説記事も公開されました。Lambda 上でコンテナを動かす用途を中心に、サーバーレスのWeb開発への影響が注目されます。",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50069318",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "AWS Lambda",
+        "Hono",
+        "サーバーレス"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/Kanahiro/items/9cefcba4acc5e6ce11c0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "Google が「Gemini Agent」を発表、24時間自律稼働",
+      "original_title": "【速報】Google「Gemini Agent」発表！24/7自律稼働とマルチモデルの革新",
+      "summary": "2026年10月9日（日本時間）、Google の「Gemini at Work 2026」で企業の業務プロセス向け「Gemini Agent」が発表されたと紹介されています。24時間自律稼働とマルチモデル対応が特徴として挙げられています。",
+      "url": "https://qiita.com/tomokoro/items/8dea93c905606efed82d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Gemini Agent",
+        "Google",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub のシークレット検出モデル：ノイズを減らしつつ検出を拡大",
+      "original_title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "summary": "GitHub がコンテキストを考慮するシークレット分類器を紹介しました。重み付き受容率が11.5%向上し、スキャン実行時間の中央値が86%短縮されたとしています。",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "GitHub",
+        "セキュリティ",
+        "シークレット検出"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare D1 が数百万のデータベースへスケールする仕組み",
+      "original_title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "summary": "Cloudflare が D1 のコントロールプレーンの設計を解説しました。データプレーンのクエリをエッジに保ったまま、数百万のデータベースを管理する構成が紹介されています。",
+      "url": "https://blog.cloudflare.com/d1-control-plane/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "D1",
+        "アーキテクチャ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Character.ai が Chapter 11 を申請",
+      "original_title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+      "summary": "Character.ai が自主的に連邦破産法第11章を申請したと報じられ、Hacker News で複数の投稿が注目されました。AIコンパニオン領域の事業環境を考える上で重要なニュースです。",
+      "url": "https://blog.character.ai/an-update-on-character-ai/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50068036",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Character.ai",
+        "破産",
+        "AI業界"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50069942"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code で Shift-JIS ファイルを編集すると日本語が壊れる問題",
+      "original_title": "Shift-JIS のファイルを Claude Code で1か所直したら、日本語が全部壊れて戻せなくなった",
+      "summary": "Claude Code で Shift-JIS のファイルを1か所直したところ日本語が全部壊れた、という体験記です。2.1.296（2026-10-09）の changelog に非 ASCII 文字の置換に関する修正が記載されていると紹介されています。レガシー文字コードを扱う方は注意が必要です。",
+      "url": "https://qiita.com/suwa_nobu/items/365d2561809fe1da8541?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "Shift-JIS",
+        "文字コード"
+      ],
+      "related": []
+    },
+    {
+      "title": "EmbeddingGemma 2 を音声認識モデルへ転用",
+      "original_title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+      "summary": "EmbeddingGemma 2 を speech-to-text モデルに仕立てた取り組みが380ポイントを集めました。埋め込みモデルを別タスクへ転用する事例として参考になります。",
+      "url": "https://eg2.haku.sh/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50069971",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "EmbeddingGemma",
+        "音声認識"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIモデルは任意の能力を証明可能な形で隠せる",
+      "original_title": "AI models can provably hide arbitrary capabilities",
+      "summary": "「AI models can provably hide arbitrary capabilities」が271ポイントを集めました。モデル評価や安全性検証の限界に関わる議論として注目されています。",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50065692",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "AI安全性",
+        "モデル評価"
+      ],
+      "related": []
+    },
+    {
+      "title": "HN 投稿後にAIボットのトラフィックが殺到",
+      "original_title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "summary": "HN に投稿した後、自分のサイトにAIボットのアクセスが大量に押し寄せたという報告が225ポイントを集めました。個人サイト運営者にとってボット対策を考える材料になります。",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50073221",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "AIボット",
+        "トラフィック"
+      ],
+      "related": []
+    },
+    {
+      "title": "Thunderbird for iOS が登場",
+      "original_title": "Thunderbird for iOS",
+      "summary": "Thunderbird の iOS 版が306ポイントを集めました。iOS で使えるメールクライアントの選択肢が増えたニュースです。",
+      "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50072913",
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "Thunderbird",
+        "iOS"
+      ],
+      "related": []
+    },
+    {
+      "title": "xtool：Linux/Windows からも iOS アプリをビルド・配備",
+      "original_title": "xtool-org/xtool",
+      "summary": "GitHub Trending の xtool は、SwiftPM を使い Linux、Windows、macOS で iOS アプリをビルド・デプロイできるクロスプラットフォームの Xcode 代替です。本日1,182スターを獲得しました。",
+      "url": "https://github.com/xtool-org/xtool",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "xtool",
+        "Swift",
+        "iOS"
+      ],
+      "related": []
+    },
+    {
+      "title": "uv-build を使わないよう求める提言",
+      "original_title": "A plea not to use uv-build",
+      "summary": "Lobsters で「A plea not to use uv-build」が話題になりました。Python のビルドバックエンド選定に関する議論で、タグは devops と python です。",
+      "url": "https://blogs.gentoo.org/mgorny/2026/10/12/a-plea-not-to-use-uv-build/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/73ssw1/plea_not_use_uv_build",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "uv",
+        "Python"
+      ],
+      "related": []
+    },
+    {
+      "title": "Creusot 0.14.0 リリース：Rust の契約を形式証明",
+      "original_title": "Creusot 0.14.0 release - Contracts for Rust, formally proved",
+      "summary": "Rust 向けの契約・形式検証ツール Creusot の 0.14.0 がリリースされました。Rust コードを形式的に証明する取り組みの新版です。",
+      "url": "https://devlog.creusot.rs/v0-14-0/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/6tbd2o/creusot_0_14_0_release_contracts_for_rust",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Creusot",
+        "Rust",
+        "形式検証"
+      ],
+      "related": []
+    },
+    {
+      "title": "vercel-labs/skills：オープンなエージェントスキルツール",
+      "original_title": "vercel-labs/skills",
+      "summary": "Vercel Labs の skills は、npx skills で使えるオープンなエージェントスキル用ツールです。TypeScript 製で、本日187スターを獲得しました。",
+      "url": "https://github.com/vercel-labs/skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Vercel",
+        "agent skills",
+        "TypeScript"
+      ],
+      "related": []
+    },
+    {
+      "title": "良いテストの書き方と見分け方：『単体テストの考え方/使い方』",
+      "original_title": "良いテストを書き、良いテストを見分ける ─『単体テストの考え方/使い方』のエッセンス",
+      "summary": "書籍『単体テストの考え方/使い方』のエッセンスをもとに、良いテストを書き、見分ける観点をまとめた Zenn 記事です。31 likes を集めました。",
+      "url": "https://zenn.dev/nexta_/articles/unit-testing-principles-essence",
+      "source": "zenn",
+      "post_url": null,
+      "author": "nexta_",
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "単体テスト",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "なぜ text-embedding-3-small は最新モデル後も使われ続けるのか",
+      "original_title": "なぜOpenAIのtext-embedding-3-smallは、最新モデルが出ても使われ続けているのか",
+      "summary": "OpenRouter の月間ランキングで text-embedding-3-small が月間約6億6,000万リクエストで首位だったことを受け、その理由を考察する記事です。EmbeddingGemma 2 と Gemini Embedding 2 の比較記事の続編です。",
+      "url": "https://qiita.com/quan_le/items/a33e331a2d7a42891f49?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "埋め込み",
+        "OpenAI"
+      ],
+      "related": []
+    }
+  ]
+}
