@@ -1,0 +1,438 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIエージェントの封じ込め・監視の不備が議論に。GitLabの最大深刻度の脆弱性やLedgerの不正チップも話題",
+  "items": [
+    {
+      "title": "GitLabが最大深刻度のコード実行脆弱性を警告",
+      "original_title": "GitLab warns of max severity code execution vulnerability",
+      "summary": "GitLabが、最大深刻度に分類されるコード実行の脆弱性について警告を出したと報じられています。GitLabを自前運用している場合は、公式の告知を確認して早めにパッチ適用の要否を判断する必要があります。",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/tehays/gitlab_warns_max_severity_code_execution",
+      "author": null,
+      "category": "backend",
+      "score": 9,
+      "tags": [
+        "GitLab",
+        "セキュリティ",
+        "脆弱性"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIによるハッキング報告は封じ込めと監視の失敗が原因だと専門家が指摘",
+      "original_title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "summary": "AIによるハッキングの報告について、専門家は原因が封じ込めと監視の失敗にあると指摘しています。Hacker Newsで800ポイント超と大きな反響があり、AIエージェントを運用する際の権限分離や監視設計を考えるうえで注目されています。",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50091788",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "AI",
+        "セキュリティ",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Ledgerがウォレット暗号資産盗難の背後にスパイチップの埋め込みがあったと認める",
+      "original_title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "summary": "Ledgerは、ウォレットからの暗号資産盗難の背景にスパイチップの埋め込みがあったことを認めたと報じられています。関連してLedger製ウォレットに誰がバックドアを仕込んでいるのかを問う記事もHacker Newsで議論されており、ハードウェアのサプライチェーンの信頼性が改めて問われています。",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/cwota8/ledger_confirms_spy_chip_implant_behind",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "Ledger",
+        "暗号資産",
+        "サプライチェーン",
+        "セキュリティ"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50084838"
+        }
+      ]
+    },
+    {
+      "title": "OpenCode 2.0 が公開",
+      "original_title": "OpenCode 2.0",
+      "summary": "OpenCode 2.0が公開され、Hacker Newsで191ポイントを集めました。AIコーディングツール系のOSSの新メジャーバージョンとして、開発者の関心を集めています。",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50094994",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "OpenCode",
+        "AIコーディング"
+      ],
+      "related": []
+    },
+    {
+      "title": "Anthropicが社内向けモノレポ用ソース管理システム「Scion」とコードレビューツール「Antique」を設計",
+      "original_title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "summary": "Anthropicが社内向けに、モノレポのソース管理システム「Scion」とコードレビューツール「Antique」を設計したことが話題になっています。ScionがMononokeに強く影響を受けているという議論もHacker Newsで行われており、大規模開発の開発基盤という観点で注目されています。",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50094694",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Anthropic",
+        "Scion",
+        "モノレポ",
+        "ソース管理"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1x5spis/anthropic_designs_new_inhouse_monorepo_source/"
+        }
+      ]
+    },
+    {
+      "title": "Linus TorvaldsによるLLM支援パッチシリーズの初投稿",
+      "original_title": "Linus Torvalds's first LLM-assisted patch series",
+      "summary": "Linus Torvaldsが初めてLLMの支援を受けて作成したパッチシリーズが話題になっています。Linuxカーネルのメンテナー自身がLLMを開発に取り入れた事例として、Hacker Newsで議論になりました。",
+      "url": "https://lwn.net/Articles/1100449/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50090842",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Linux",
+        "LLM",
+        "Linus Torvalds"
+      ],
+      "related": []
+    },
+    {
+      "title": "Go 1.27でHTTP/1のコネクション再利用が改善",
+      "original_title": "Better HTTP/1 connection reuse in Go 1.27",
+      "summary": "Go 1.27でHTTP/1のコネクション再利用が改善されるという解説記事が公開されました。net/httpを使うGoのバックエンド開発者にとって、次期リリースの挙動変更として押さえておきたい内容です。",
+      "url": "https://go.dev/blog/http-connection-reuse",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50090369",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Go",
+        "HTTP/1",
+        "net/http"
+      ],
+      "related": []
+    },
+    {
+      "title": "pg_vectorsearch: pgvectorのIVFFlatやHNSWより高速をうたうインデックス",
+      "original_title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "summary": "pg_vectorsearchは、pgvectorのIVFFlatおよびHNSWより高速だとされるインデックスです。PostgreSQLでベクトル検索を行う構成の選択肢として注目されています。",
+      "url": "https://github.com/timescale/pg_vectorsearch",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50086165",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "PostgreSQL",
+        "pgvector",
+        "ベクトル検索"
+      ],
+      "related": []
+    },
+    {
+      "title": "Mozillaが「Firefox Enterprise」を発表",
+      "original_title": "Introducing Firefox Enterprise",
+      "summary": "Firefox Enterpriseの紹介記事が公開され、Lobstersで話題になりました。企業向けのブラウザ提供という点で、ブラウザ選定に関わる開発者や管理者にとって注目の発表です。",
+      "url": "https://blog.mozilla.org/en/firefox/introducing-firefox-enterprise/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/7xg9rm/introducing_firefox_enterprise",
+      "author": null,
+      "category": "web",
+      "score": 7,
+      "tags": [
+        "Firefox",
+        "ブラウザ",
+        "エンタープライズ"
+      ],
+      "related": []
+    },
+    {
+      "title": "「パスキーは罠ではない」という主張が議論に",
+      "original_title": "Passkeys are not a trap",
+      "summary": "「Passkeys are not a trap」と題した記事がHacker Newsで400ポイント超、586コメントの大きな議論になりました。パスキーの導入を検討するWeb開発者にとって、賛否の論点を知る材料になります。",
+      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50088935",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "パスキー",
+        "認証",
+        "WebAuthn"
+      ],
+      "related": []
+    },
+    {
+      "title": "Googleが、サインイン中の全アカウントを電話番号でひそかに関連付けているとの指摘",
+      "original_title": "Google is silently linking your phone number across all signed-in accounts",
+      "summary": "Googleがサインインしている複数アカウントを電話番号で暗黙に関連付けていると指摘する記事が話題になりました。アカウント設計やプライバシー設定を考えるうえで注意したい話題です。",
+      "url": "https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50090349",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "Google",
+        "プライバシー",
+        "アカウント"
+      ],
+      "related": []
+    },
+    {
+      "title": "AOSPのソース公開が遅く、開発者がライブラリを逆アセンブルしてバグ報告する事態に",
+      "original_title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "summary": "AOSPのソースコードリリースが遅れており、開発者がライブラリを逆アセンブルしてバグを報告している状況が報じられています。Androidアプリ開発者やプラットフォーム側に関わる開発者にとって影響のある話題です。",
+      "url": "https://github.com/android/ndk/issues/2260",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50083130",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "Android",
+        "AOSP",
+        "オープンソース"
+      ],
+      "related": []
+    },
+    {
+      "title": "Yandex障害：通信が止まる代わりに悪意あるボットが移動したことがデータで判明",
+      "original_title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
+      "summary": "Yandexの障害に関するデータ分析で、通信が完全に止まるのではなく悪意あるボットが別の場所へ移動したことが示されたとされています。大規模障害時のトラフィック挙動を考える参考になります。",
+      "url": "https://blog.cloudflare.com/yandex-outage/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50094673",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Yandex",
+        "障害",
+        "ボット"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub 2026年9月の可用性レポート",
+      "original_title": "GitHub availability report: September 2026",
+      "summary": "GitHubは2026年9月の可用性レポートを公開しました。9月にはGitHubのサービス全体でパフォーマンス低下を招いたインシデントが2件発生したと報告されています。",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "GitHub",
+        "可用性",
+        "インシデント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare Hyperdrive：MySQLのクエリ結果キャッシュに潜んでいた珍しいバグの調査",
+      "original_title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "summary": "CloudflareがHyperdriveにMySQL対応を追加する過程で、クエリ結果をキャッシュする際のプロトコル上の微妙なバグを発見しました。0.001%の頻度でしか起きないエラーをどう突き止めたかが解説されています。",
+      "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "Hyperdrive",
+        "MySQL"
+      ],
+      "related": []
+    },
+    {
+      "title": "スター履歴APIを2,500リクエストから24へ：stargazer取得なしで再構築",
+      "original_title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "summary": "新しいリポジトリのスター履歴APIは、個々のユーザーを特定せず、無制限のデータベース処理も必要とせずにトレンドを返す仕組みになりました。そのための設計上のトレードオフが解説されています。",
+      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "GitHub",
+        "API設計",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Code 2.1.295のonFailure: \"block\"で守りのフックが止まるように",
+      "original_title": "Claude Code の守りのフックは、台本が壊れると黙って通す。2.1.295 の onFailure で止まった",
+      "summary": "Claude Code 2.1.295（2026-10-08）のchangelogに、コマンドおよびHTTPフックに対するonFailure: \"block\"が追加されたと記されています。フックが起動できなかった場合などに黙って通す挙動を避けられるようになる点を、実際に試した記事です。",
+      "url": "https://qiita.com/suwa_nobu/items/afde8d73a48eb7badb71?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "フック",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "2026年Stack Overflow調査：64%の開発者がStack Overflowへの訪問を減らしたと回答",
+      "original_title": "Where do you go for help when you're stuck now? Survey says 64% of developers visit Stack Overflow less for simple questions",
+      "summary": "2026年のStack Overflow調査によると、開発者の83%がオンラインで答えを探し、70%がAIエージェントに質問し、64%がStack Overflowを訪れる頻度が減ったと答えています。開発者の情報収集がAIへ移っている状況がうかがえます。",
+      "url": "https://www.reddit.com/r/programming/comments/1x5uh6j/where_do_you_go_for_help_when_youre_stuck_now/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Stack Overflow",
+        "開発者調査",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "ZXC 0.15.0：展開速度がZstandardの2倍をうたう圧縮ライブラリ",
+      "original_title": "Zxc 0.15.0 - decompression 2x faster than Zstandard",
+      "summary": "ZXC 0.15.0が公開され、展開速度がZstandardの2倍だと紹介されています。超高速な展開に特化した可逆圧縮として、展開性能が重要な用途で注目されます。",
+      "url": "https://www.reddit.com/r/programming/comments/1x5nxzy/zxc_0150_decompression_2x_faster_than_zstandard/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "ZXC",
+        "圧縮",
+        "Zstandard"
+      ],
+      "related": [
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/mf3tmv/zxc_lossless_compression_built_for_ultra"
+        }
+      ]
+    },
+    {
+      "title": "Rustのborrow checkerに11年間残っていたバグを再現",
+      "original_title": "Rust Borrow Checker Bug: 11 Years in the Compiler, Reproduced",
+      "summary": "Rustコンパイラに11年間存在していたborrow checkerのバグを再現したという記事が共有されました。Rustの安全性保証の限界を知る材料として関心を集めています。",
+      "url": "https://www.reddit.com/r/programming/comments/1x5rern/rust_borrow_checker_bug_11_years_in_the_compiler/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Rust",
+        "borrow checker",
+        "コンパイラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "NetflixがKueueでバッチ計算を簡素化した事例",
+      "original_title": "How Netflix Simplified Batch Compute with Kueue",
+      "summary": "NetflixがKueueを用いてバッチ計算を簡素化した事例が紹介されています。Kubernetes上でバッチワークロードを扱うチームの参考になる内容です。",
+      "url": "https://www.reddit.com/r/programming/comments/1x63fdq/how_netflix_simplified_batch_compute_with_kueue/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Netflix",
+        "Kueue",
+        "Kubernetes"
+      ],
+      "related": []
+    },
+    {
+      "title": "ハッシュ関数を知らずにハッシュテーブルを攻撃するブラックボックスHashDoS",
+      "original_title": "Black-Box HashDoS: Attacking Hash Tables Without Knowing the Hash Function",
+      "summary": "使われているハッシュ関数が分からない状態でハッシュテーブルを攻撃する、ブラックボックスHashDoSに関する記事が共有されました。ハッシュテーブルを使うサーバー実装の堅牢性を考える材料になります。",
+      "url": "https://www.reddit.com/r/programming/comments/1x5w7hh/blackbox_hashdos_attacking_hash_tables_without/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "HashDoS",
+        "セキュリティ",
+        "データ構造"
+      ],
+      "related": []
+    },
+    {
+      "title": "パッケージマネージャーには整合性の問題がある",
+      "original_title": "Package managers have an integrity problem",
+      "summary": "パッケージマネージャーの整合性(integrity)に問題があると論じる記事がLobstersで共有されました。サプライチェーン対策の観点で読んでおきたい話題です。",
+      "url": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/lmx2hi/package_managers_have_integrity_problem",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "パッケージマネージャー",
+        "サプライチェーン",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "UAF（use-after-free）がRCEにつながった事例",
+      "original_title": "A UAF turned RCE",
+      "summary": "use-after-freeの脆弱性がリモートコード実行に至った事例を紹介する記事がLobstersで共有されました。メモリ安全性の重要性を示す具体例です。",
+      "url": "https://daniel.haxx.se/blog/2026/10/14/a-uaf-turned-rce/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/g46xkj/uaf_turned_rce",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "UAF",
+        "RCE",
+        "セキュリティ"
+      ],
+      "related": []
+    }
+  ]
+}
