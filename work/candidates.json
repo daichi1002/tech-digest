@@ -1,755 +1,762 @@
 {
- "date": "2026-10-15",
+ "date": "2026-10-16",
  "candidates": [
   {
    "id": 0,
    "source": "hn",
-   "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
-   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-   "post_url": "https://news.ycombinator.com/item?id=50091788",
-   "snippet": "803 points, 424 comments"
+   "title": "Muse Spark Open",
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "post_url": "https://news.ycombinator.com/item?id=50107379",
+   "snippet": "552 points, 306 comments"
   },
   {
    "id": 1,
    "source": "hn",
-   "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-   "url": "https://typeof.net/Iosevka/",
-   "post_url": "https://news.ycombinator.com/item?id=50084240",
-   "snippet": "690 points, 285 comments"
+   "title": "Online ads weaponised to deliver ‘zero-click’ spyware, researchers say",
+   "url": "https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say",
+   "post_url": "https://news.ycombinator.com/item?id=50103000",
+   "snippet": "496 points, 1 comments"
   },
   {
    "id": 2,
    "source": "hn",
-   "title": "How Amazon pushes up prices all across the Internet",
-   "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-   "post_url": "https://news.ycombinator.com/item?id=50084757",
-   "snippet": "689 points, 578 comments"
+   "title": "Wayland desktop for Linux with skeuomorphic design",
+   "url": "https://github.com/fyzugx/DEsk",
+   "post_url": "https://news.ycombinator.com/item?id=50103338",
+   "snippet": "462 points, 182 comments"
   },
   {
    "id": 3,
    "source": "hn",
-   "title": "Things to know when you get cancer – 2026 Edition",
-   "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
-   "post_url": "https://news.ycombinator.com/item?id=50093568",
-   "snippet": "571 points, 153 comments"
+   "title": "Neural networks are clean",
+   "url": "https://already-clean.goodfire.com/",
+   "post_url": "https://news.ycombinator.com/item?id=50105647",
+   "snippet": "444 points, 163 comments"
   },
   {
    "id": 4,
    "source": "hn",
-   "title": "ICE Planning $100M 'Nightmare' Domestic Spy Program",
-   "url": "https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/",
-   "post_url": "https://news.ycombinator.com/item?id=50090246",
-   "snippet": "479 points, 280 comments"
+   "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+   "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+   "post_url": "https://news.ycombinator.com/item?id=50101813",
+   "snippet": "351 points, 507 comments"
   },
   {
    "id": 5,
    "source": "hn",
-   "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
-   "url": "https://github.com/android/ndk/issues/2260",
-   "post_url": "https://news.ycombinator.com/item?id=50083130",
-   "snippet": "479 points, 234 comments"
+   "title": "I know why the mathematicians weep",
+   "url": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
+   "post_url": "https://news.ycombinator.com/item?id=50103630",
+   "snippet": "326 points, 529 comments"
   },
   {
    "id": 6,
    "source": "hn",
-   "title": "Passkeys are not a trap",
-   "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
-   "post_url": "https://news.ycombinator.com/item?id=50088935",
-   "snippet": "409 points, 586 comments"
+   "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+   "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+   "post_url": "https://news.ycombinator.com/item?id=50097369",
+   "snippet": "282 points, 75 comments"
   },
   {
    "id": 7,
    "source": "hn",
-   "title": "Google is silently linking your phone number across all signed-in accounts",
-   "url": "https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/",
-   "post_url": "https://news.ycombinator.com/item?id=50090349",
-   "snippet": "331 points, 88 comments"
+   "title": "Steam Client is now faster than Epic's new vibe coded launcher",
+   "url": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+   "post_url": "https://news.ycombinator.com/item?id=50105635",
+   "snippet": "254 points, 261 comments"
   },
   {
    "id": 8,
    "source": "hn",
-   "title": "Felix Rieseberg Homepage",
-   "url": "https://felixrieseberg.com/",
-   "post_url": "https://news.ycombinator.com/item?id=50082470",
-   "snippet": "270 points, 102 comments"
+   "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
+   "url": "https://libreboot.org/news/libreboot2610.html",
+   "post_url": "https://news.ycombinator.com/item?id=50102923",
+   "snippet": "243 points, 138 comments"
   },
   {
    "id": 9,
    "source": "hn",
-   "title": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
-   "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/",
-   "post_url": "https://news.ycombinator.com/item?id=50092730",
-   "snippet": "254 points, 182 comments"
+   "title": "Show HN: Unfenced – Land for sale that borders public land",
+   "url": "https://unfenced.land/",
+   "post_url": "https://news.ycombinator.com/item?id=50102247",
+   "snippet": "242 points, 164 comments"
   },
   {
    "id": 10,
    "source": "hn",
-   "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-   "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "post_url": "https://news.ycombinator.com/item?id=50092664",
-   "snippet": "239 points, 186 comments"
+   "title": "Jev meets the Trolley Problem",
+   "url": "https://zachlandes.com/trolley-problem/",
+   "post_url": "https://news.ycombinator.com/item?id=50106023",
+   "snippet": "236 points, 109 comments"
   },
   {
    "id": 11,
    "source": "hn",
-   "title": "Switzerland proposes banning profiling-based ads to minors",
-   "url": "https://www.admin.ch/en/newnsb/NMn5s24l8NjQ",
-   "post_url": "https://news.ycombinator.com/item?id=50087328",
-   "snippet": "237 points, 144 comments"
+   "title": "I designed a nose guard for my dog and gave it away. Now 500 dogs wear one",
+   "url": "https://snoutcover.com/one-year",
+   "post_url": "https://news.ycombinator.com/item?id=50105344",
+   "snippet": "230 points, 118 comments"
   },
   {
    "id": 12,
    "source": "hn",
-   "title": "Anthropic's Scion is heavily inspired by Mononoke",
-   "url": "https://sunshowers.io/posts/anthropic-mononoke/",
-   "post_url": "https://news.ycombinator.com/item?id=50094694",
-   "snippet": "201 points, 87 comments"
+   "title": "An Israeli firm is sending zero-click spyware through online ads",
+   "url": "https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware",
+   "post_url": "https://news.ycombinator.com/item?id=50106676",
+   "snippet": "228 points, 9 comments"
   },
   {
    "id": 13,
    "source": "hn",
-   "title": "Suicide rates highest ever among middle-aged men",
-   "url": "https://www.telegraph.co.uk/news/2026/10/13/suicide-rates-highest-ever-among-middle-aged-men/",
-   "post_url": "https://news.ycombinator.com/item?id=50093180",
-   "snippet": "195 points, 241 comments"
+   "title": "Krea 3 – An image model built for editing at scale",
+   "url": "https://www.krea.ai/krea-3",
+   "post_url": "https://news.ycombinator.com/item?id=50105648",
+   "snippet": "225 points, 75 comments"
   },
   {
    "id": 14,
    "source": "hn",
-   "title": "OpenCode 2.0",
-   "url": "https://anoma.ly/notes/opencode-2-0/",
-   "post_url": "https://news.ycombinator.com/item?id=50094994",
-   "snippet": "191 points, 68 comments"
+   "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+   "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+   "post_url": "https://news.ycombinator.com/item?id=50104654",
+   "snippet": "215 points, 175 comments"
   },
   {
    "id": 15,
    "source": "hn",
-   "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
-   "url": "https://github.com/timescale/pg_vectorsearch",
-   "post_url": "https://news.ycombinator.com/item?id=50086165",
-   "snippet": "182 points, 47 comments"
+   "title": "Why We're Banning AI",
+   "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+   "post_url": "https://news.ycombinator.com/item?id=50108131",
+   "snippet": "215 points, 168 comments"
   },
   {
    "id": 16,
    "source": "hn",
-   "title": "Better HTTP/1 connection reuse in Go 1.27",
-   "url": "https://go.dev/blog/http-connection-reuse",
-   "post_url": "https://news.ycombinator.com/item?id=50090369",
-   "snippet": "180 points, 29 comments"
+   "title": "More on Anthropic's Scion ripping off Mononoke",
+   "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+   "post_url": "https://news.ycombinator.com/item?id=50106738",
+   "snippet": "214 points, 67 comments"
   },
   {
    "id": 17,
    "source": "hn",
-   "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
-   "url": "https://blog.cloudflare.com/yandex-outage/",
-   "post_url": "https://news.ycombinator.com/item?id=50094673",
-   "snippet": "174 points, 55 comments"
+   "title": "Celebrating 70 Years of Fortran",
+   "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+   "post_url": "https://news.ycombinator.com/item?id=50104726",
+   "snippet": "198 points, 88 comments"
   },
   {
    "id": 18,
    "source": "hn",
-   "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
-   "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
-   "post_url": "https://news.ycombinator.com/item?id=50088430",
-   "snippet": "168 points, 166 comments"
+   "title": "Why are we even doing all this?",
+   "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+   "post_url": "https://news.ycombinator.com/item?id=50109707",
+   "snippet": "156 points, 124 comments"
   },
   {
    "id": 19,
    "source": "hn",
-   "title": "How the Military Will Hack the Election",
-   "url": "https://www.kenklippenstein.com/p/how-the-military-will-hack-the-election",
-   "post_url": "https://news.ycombinator.com/item?id=50092847",
-   "snippet": "161 points, 76 comments"
+   "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+   "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+   "post_url": "https://news.ycombinator.com/item?id=50108872",
+   "snippet": "152 points, 61 comments"
   },
   {
    "id": 20,
    "source": "hn",
-   "title": "Amsterdam police confiscates server left-wing ISP A/I at American request",
-   "url": "https://www.nrc.nl/nieuws/2026/10/14/politie-amsterdam-neemt-op-amerikaans-verzoek-server-in-beslag-van-italiaanse-internetdienstverlener-a-i-a4938960",
-   "post_url": "https://news.ycombinator.com/item?id=50090084",
-   "snippet": "155 points, 112 comments"
+   "title": "What I Self-Host",
+   "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+   "post_url": "https://news.ycombinator.com/item?id=50109715",
+   "snippet": "151 points, 76 comments"
   },
   {
    "id": 21,
    "source": "hn",
-   "title": "Why do LLM pelicans look like this?",
-   "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
-   "post_url": "https://news.ycombinator.com/item?id=50090443",
-   "snippet": "149 points, 130 comments"
+   "title": "Overdose Offsets: Why Every Bag of Fentanyl I Sell Is Net Life-Positive",
+   "url": "https://morewrong.lol/?post=overdose-offsets-why-every-bag-of-fentanyl-i-sell-is-net-life-positive",
+   "post_url": "https://news.ycombinator.com/item?id=50097880",
+   "snippet": "126 points, 30 comments"
   },
   {
    "id": 22,
    "source": "hn",
-   "title": "Why is every rationalist blog post way too long?",
-   "url": "https://alexwennerberg.com/blog/2026-10-13-long.html",
-   "post_url": "https://news.ycombinator.com/item?id=50083028",
-   "snippet": "149 points, 120 comments"
+   "title": "C++26 Contracts: Introduction to Preconditions and Postconditions",
+   "url": "https://www.cppstories.com/2026/cpp26_contracts/",
+   "post_url": "https://news.ycombinator.com/item?id=50103164",
+   "snippet": "120 points, 110 comments"
   },
   {
    "id": 23,
    "source": "hn",
-   "title": "Apple Keynote now showing ads in its UI",
-   "url": "https://mastodon.social/@marioguzman/117436264149891011",
-   "post_url": "https://news.ycombinator.com/item?id=50087524",
-   "snippet": "143 points, 155 comments"
+   "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+   "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+   "post_url": "https://news.ycombinator.com/item?id=50109375",
+   "snippet": "117 points, 99 comments"
   },
   {
    "id": 24,
    "source": "hn",
-   "title": "Starlink limit hits Ukraine's drones",
-   "url": "https://defence24.com/geopolitics/starlink-limit-hits-ukraines-drones-the-battlefield-depends-on-spacex",
-   "post_url": "https://news.ycombinator.com/item?id=50084622",
-   "snippet": "141 points, 148 comments"
+   "title": "AI was great until it was not",
+   "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+   "post_url": "https://news.ycombinator.com/item?id=50100791",
+   "snippet": "116 points, 77 comments"
   },
   {
    "id": 25,
    "source": "hn",
-   "title": "TV4 postpones show after AI agent erases edited material",
-   "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
-   "post_url": "https://news.ycombinator.com/item?id=50085323",
-   "snippet": "138 points, 78 comments"
+   "title": "Siri is so bad at everything",
+   "url": "https://www.reddit.com/r/apple/comments/1x6gz83/siri_is_so_bad_at_everything/",
+   "post_url": "https://news.ycombinator.com/item?id=50104465",
+   "snippet": "114 points, 102 comments"
   },
   {
    "id": 26,
    "source": "hn",
-   "title": "Americans' social activity has steeply declined in the past 30 years",
-   "url": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years",
-   "post_url": "https://news.ycombinator.com/item?id=50089921",
-   "snippet": "137 points, 202 comments"
+   "title": "E Ink Kaleido 4",
+   "url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
+   "post_url": "https://news.ycombinator.com/item?id=50108229",
+   "snippet": "105 points, 63 comments"
   },
   {
    "id": 27,
    "source": "hn",
-   "title": "America didn't lose its rare earth industry, it sold it",
-   "url": "https://www.lawfaremedia.org/article/america-didn-t-lose-its-rare-earth-industry.-it-sold-it",
-   "post_url": "https://news.ycombinator.com/item?id=50091875",
-   "snippet": "132 points, 63 comments"
+   "title": "Show HN: Flipflop – Iroh-powered persistent tunnels for filesharing",
+   "url": "https://github.com/andunieee/flipflop",
+   "post_url": "https://news.ycombinator.com/item?id=50099136",
+   "snippet": "102 points, 59 comments"
   },
   {
    "id": 28,
-   "source": "hn",
-   "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
-   "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/",
-   "post_url": "https://news.ycombinator.com/item?id=50084838",
-   "snippet": "126 points, 149 comments"
+   "source": "lobsters",
+   "title": "JPEG XL vs AVIF for web use-cases",
+   "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+   "post_url": "https://lobste.rs/s/uejdwj/jpeg_xl_vs_avif_for_web_use_cases",
+   "snippet": "36 points, tags: compsci, web"
   },
   {
    "id": 29,
-   "source": "hn",
-   "title": "Tesla's Robotaxis Blow Through School Zones, NHTSA Petition Alleges",
-   "url": "https://www.extremetech.com/cars/teslas-robotaxis-blow-through-school-zones-nhtsa-petition-alleges",
-   "post_url": "https://news.ycombinator.com/item?id=50090662",
-   "snippet": "126 points, 87 comments"
+   "source": "lobsters",
+   "title": "Sunsetting decomp.dev",
+   "url": "https://decomp.dev/",
+   "post_url": "https://lobste.rs/s/kaerns/sunsetting_decomp_dev",
+   "snippet": "53 points, tags: games, reversing, vibecoding"
   },
   {
    "id": 30,
-   "source": "hn",
-   "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
-   "url": "https://typesafe.ai/blog/jev-1-14",
-   "post_url": "https://news.ycombinator.com/item?id=50095353",
-   "snippet": "120 points, 43 comments"
+   "source": "lobsters",
+   "title": "My C23 Conventions",
+   "url": "https://abner.page/post/c23-conventions-1/",
+   "post_url": "https://lobste.rs/s/umdbht/my_c23_conventions",
+   "snippet": "33 points, tags: c"
   },
   {
    "id": 31,
-   "source": "hn",
-   "title": "Submarine cable resilience",
-   "url": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience/",
-   "post_url": "https://news.ycombinator.com/item?id=50089229",
-   "snippet": "120 points, 43 comments"
+   "source": "lobsters",
+   "title": "Haxy on Haxy",
+   "url": "https://try.haxy.net/haxy:haxy",
+   "post_url": "https://lobste.rs/s/bcaopz/haxy_on_haxy",
+   "snippet": "45 points, tags: practices, vcs, zig"
   },
   {
    "id": 32,
-   "source": "hn",
-   "title": "Show HN: I built a tool to track what AI leaders say and how their views change",
-   "url": "https://blumify.io/people",
-   "post_url": "https://news.ycombinator.com/item?id=50081151",
-   "snippet": "115 points, 76 comments"
+   "source": "lobsters",
+   "title": "The Costa GUI",
+   "url": "https://costa.jacobpalm.dk",
+   "post_url": "https://lobste.rs/s/uqugjk/costa_gui",
+   "snippet": "36 points, tags: retrocomputing"
   },
   {
    "id": 33,
-   "source": "hn",
-   "title": "Linus Torvalds's first LLM-assisted patch series",
-   "url": "https://lwn.net/Articles/1100449/",
-   "post_url": "https://news.ycombinator.com/item?id=50090842",
-   "snippet": "110 points, 92 comments"
+   "source": "lobsters",
+   "title": "Microsoft Defender for Linux",
+   "url": "https://techcommunity.microsoft.com/blog/microsoftdefenderatpblog/secure-linux-desktops-with-microsoft-defender/4560822",
+   "post_url": "https://lobste.rs/s/46dcms/microsoft_defender_for_linux",
+   "snippet": "19 points, tags: linux"
   },
   {
    "id": 34,
-   "source": "hn",
-   "title": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord",
-   "url": "https://strafe.chat/",
-   "post_url": "https://news.ycombinator.com/item?id=50082021",
-   "snippet": "101 points, 79 comments"
+   "source": "lobsters",
+   "title": "End-to-end encrypted relays for OCapN",
+   "url": "https://spritely.institute/news/end-to-end-encrypted-relays-for-ocapn.html",
+   "post_url": "https://lobste.rs/s/yxnovw/end_end_encrypted_relays_for_ocapn",
+   "snippet": "20 points, tags: distributed"
   },
   {
    "id": 35,
    "source": "lobsters",
-   "title": "Introducing Firefox Enterprise",
-   "url": "https://blog.mozilla.org/en/firefox/introducing-firefox-enterprise/",
-   "post_url": "https://lobste.rs/s/7xg9rm/introducing_firefox_enterprise",
-   "snippet": "98 points, tags: browsers, release, web"
+   "title": "Forgejo v17.0 is available",
+   "url": "https://forgejo.org/2026-10-release-v17-0/",
+   "post_url": "https://lobste.rs/s/vemho2/forgejo_v17_0_is_available",
+   "snippet": "12 points, tags: release, vcs"
   },
   {
    "id": 36,
    "source": "lobsters",
-   "title": "What I Self-Host | Aspirational Self Hosting Guide",
-   "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
-   "post_url": "https://lobste.rs/s/j4tlzg/what_i_self_host_aspirational_self",
-   "snippet": "32 points, tags: devops, linux, osdev, web"
+   "title": "sslx: A fast, modern alternative to OpenSSL's CLI",
+   "url": "https://github.com/glincker/sslx",
+   "post_url": "https://lobste.rs/s/p7tf7i/sslx_fast_modern_alternative_openssl_s",
+   "snippet": "14 points, tags: security, vibecoding"
   },
   {
    "id": 37,
    "source": "lobsters",
-   "title": "Plasma 6.8 released (KDE's 30th birthday)",
-   "url": "https://kde.org/announcements/plasma/6/6.8.0/",
-   "post_url": "https://lobste.rs/s/d1c8zn/plasma_6_8_released_kde_s_30th_birthday",
-   "snippet": "57 points, tags: linux, release"
+   "title": "Haxy.net is live! — HAXY (git forge) devlog",
+   "url": "https://youtu.be/89yAiqYEwKg",
+   "post_url": "https://lobste.rs/s/o0ixth/haxy_net_is_live_haxy_git_forge_devlog",
+   "snippet": "21 points, tags: vcs, video"
   },
   {
    "id": 38,
    "source": "lobsters",
-   "title": "Fancy Curl Sites",
-   "url": "https://nytpu.com/gemlog/2026-03-18",
-   "post_url": "https://lobste.rs/s/zitobg/fancy_curl_sites",
-   "snippet": "47 points, tags: web"
+   "title": "About time",
+   "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
+   "post_url": "https://lobste.rs/s/ipyrkv/about_time",
+   "snippet": "6 points, tags: science"
   },
   {
    "id": 39,
    "source": "lobsters",
-   "title": "Factor 0.102 now available",
-   "url": "https://re.factorcode.org/2026/10/factor-0-102-now-available.html",
-   "post_url": "https://lobste.rs/s/a4ljnh/factor_0_102_now_available",
-   "snippet": "27 points, tags: concatenative, release"
+   "title": "Gleam case exhaustiveness, as a fan",
+   "url": "https://oyster.pckt.blog/gleam-case-exhaustiveness-as-a-fan-fd4whyp",
+   "post_url": "https://lobste.rs/s/vyo9n2/gleam_case_exhaustiveness_as_fan",
+   "snippet": "7 points, tags: compilers, gleam"
   },
   {
    "id": 40,
    "source": "lobsters",
-   "title": "Fixing C Strings With String Views",
-   "url": "https://eliasebner.com/blog/guides/fixing-strings-in-c/",
-   "post_url": "https://lobste.rs/s/5j4bwx/fixing_c_strings_with_string_views",
-   "snippet": "5 points, tags: c"
+   "title": "Remote Attestation Should Not Be Tolerated",
+   "url": "https://lumi.codeberg.page/blog/remote-attestation.html",
+   "post_url": "https://lobste.rs/s/s8bo3z/remote_attestation_should_not_be",
+   "snippet": "24 points, tags: culture, security"
   },
   {
    "id": 41,
    "source": "lobsters",
-   "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-   "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-   "post_url": "https://lobste.rs/s/cwota8/ledger_confirms_spy_chip_implant_behind",
-   "snippet": "30 points, tags: cryptography, security"
+   "title": "Furifont: furigana built into the font",
+   "url": "https://furifont.antfu.me/",
+   "post_url": "https://lobste.rs/s/ixoasm/furifont_furigana_built_into_font",
+   "snippet": "17 points, tags: design, vibecoding"
   },
   {
    "id": 42,
    "source": "lobsters",
-   "title": "GitLab warns of max severity code execution vulnerability",
-   "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-   "post_url": "https://lobste.rs/s/tehays/gitlab_warns_max_severity_code_execution",
-   "snippet": "18 points, tags: security, vcs"
+   "title": "The geometric model of maintenance",
+   "url": "https://entropicthoughts.com/geometric-model-of-maintenance",
+   "post_url": "https://lobste.rs/s/bpvpbe/geometric_model_maintenance",
+   "snippet": "15 points, tags: programming"
   },
   {
    "id": 43,
    "source": "lobsters",
-   "title": "Awesome Gaming on Linux Without Cheating",
-   "url": "https://onlineservices.epicgames.com/news/introducing-easy-anti-cheat-linux-v2",
-   "post_url": "https://lobste.rs/s/x9fqa4/awesome_gaming_on_linux_without_cheating",
-   "snippet": "17 points, tags: games, linux, security"
+   "title": "Religious Studies In Software Engineering",
+   "url": "https://tombh.co.uk/religious-studies-in-software-engineering",
+   "post_url": "https://lobste.rs/s/ivsn8e/religious_studies_software_engineering",
+   "snippet": "10 points, tags: culture, philosophy"
   },
   {
    "id": 44,
    "source": "lobsters",
-   "title": "yet another place where a linux man page is inaccurate",
-   "url": "https://sebsite.pw/w/20261014-initstate.html",
-   "post_url": "https://lobste.rs/s/tsjuje/yet_another_place_where_linux_man_page_is",
-   "snippet": "27 points, tags: c, linux"
+   "title": "Everyone is doing Git on S3 wrong",
+   "url": "https://enroute.sh/blog/everyone-is-doing-git-on-s3-wrong",
+   "post_url": "https://lobste.rs/s/ydo1wi/everyone_is_doing_git_on_s3_wrong",
+   "snippet": "7 points, tags: distributed, performance, vcs"
   },
   {
    "id": 45,
    "source": "lobsters",
-   "title": "Apple: Switch to Safari (from Chrome)",
-   "url": "https://www.apple.com/safari/switch/",
-   "post_url": "https://lobste.rs/s/dyypvf/apple_switch_safari_from_chrome",
-   "snippet": "28 points, tags: browsers"
+   "title": "ArenaAllocators don't play nicely with ArrayLists",
+   "url": "https://www.openmymind.net/Arena-Allocators-and-ArrayLists/",
+   "post_url": "https://lobste.rs/s/huk6zu/arenaallocators_don_t_play_nicely_with",
+   "snippet": "6 points, tags: zig"
   },
   {
    "id": 46,
    "source": "lobsters",
-   "title": "ZXC: Lossless compression built for ultra-fast decode",
-   "url": "https://libzxc.org/",
-   "post_url": "https://lobste.rs/s/mf3tmv/zxc_lossless_compression_built_for_ultra",
-   "snippet": "8 points, tags: compsci, vibecoding"
+   "title": "rust-djinn: You Should Specify Your Code Unambiguously (and Prove That You Did)",
+   "url": "https://henniger.dev/post/djinn/",
+   "post_url": "https://lobste.rs/s/mr7pk9/rust_djinn_you_should_specify_your_code",
+   "snippet": "5 points, tags: plt, rust, vibecoding"
   },
   {
    "id": 47,
-   "source": "lobsters",
-   "title": "My Game's Procedural Dialogue System",
-   "url": "https://www.youtube.com/watch?v=NaW0d7Tghw0",
-   "post_url": "https://lobste.rs/s/stmtap/my_game_s_procedural_dialogue_system",
-   "snippet": "17 points, tags: games, video"
+   "source": "github",
+   "title": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "snippet": "Reverse engineer anything with agents, from app behavior down to native binaries. / TypeScript / 32,282 stars today"
   },
   {
    "id": 48,
-   "source": "lobsters",
-   "title": "The DelightQL Query Language",
-   "url": "https://delightql.org",
-   "post_url": "https://lobste.rs/s/ireiaf/delightql_query_language",
-   "snippet": "3 points, tags: databases, rust, show, vibecoding"
+   "source": "github",
+   "title": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "snippet": "Official, Anthropic-managed directory of high quality Claude Code Plugins. / Python / 525 stars today"
   },
   {
    "id": 49,
-   "source": "lobsters",
-   "title": "A UAF turned RCE",
-   "url": "https://daniel.haxx.se/blog/2026/10/14/a-uaf-turned-rce/",
-   "post_url": "https://lobste.rs/s/g46xkj/uaf_turned_rce",
-   "snippet": "13 points, tags: security"
+   "source": "github",
+   "title": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "snippet": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard. / Python / 1,091 stars today"
   },
   {
    "id": 50,
-   "source": "lobsters",
-   "title": "Compiler bootstrapping depends on more than you might think",
-   "url": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges",
-   "post_url": "https://lobste.rs/s/6vs8a0/compiler_bootstrapping_depends_on_more",
-   "snippet": "15 points, tags: compilers"
+   "source": "github",
+   "title": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "snippet": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman. / Go / 530 stars today"
   },
   {
    "id": 51,
-   "source": "lobsters",
-   "title": "ito - build terminal ui in lua",
-   "url": "https://uji.sh/ito",
-   "post_url": "https://lobste.rs/s/9lqyul/ito_build_terminal_ui_lua",
-   "snippet": "2 points, tags: lua, rust, show, vibecoding"
+   "source": "github",
+   "title": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "snippet": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. / Python / 3,027 stars today"
   },
   {
    "id": 52,
-   "source": "lobsters",
-   "title": "OpenFatigue™ — Open is the new closed",
-   "url": "https://openfatigue.ai/",
-   "post_url": "https://lobste.rs/s/plbei0/openfatigue_open_is_new_closed",
-   "snippet": "20 points, tags: ai, satire, vibecoding"
+   "source": "github",
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "snippet": "An agentic skills framework & software development methodology that works. / Shell / 688 stars today"
   },
   {
    "id": 53,
-   "source": "lobsters",
-   "title": "Package managers have an integrity problem",
-   "url": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
-   "post_url": "https://lobste.rs/s/lmx2hi/package_managers_have_integrity_problem",
-   "snippet": "6 points, tags: security"
+   "source": "github",
+   "title": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "snippet": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated / TypeScript / 224 stars today"
   },
   {
    "id": 54,
    "source": "github",
-   "title": "morluto/rea",
-   "url": "https://github.com/morluto/rea",
-   "snippet": "Reverse engineer anything with agents, from app behavior down to native binaries. / TypeScript / 41,187 stars today"
+   "title": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "snippet": "Ghidra is a software reverse engineering (SRE) framework / Java / 1,366 stars today"
   },
   {
    "id": 55,
    "source": "github",
-   "title": "debpalash/VoiceStudio",
-   "url": "https://github.com/debpalash/VoiceStudio",
-   "snippet": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. / Python / 3,547 stars today"
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "snippet": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. / JavaScript / 1,015 stars today"
   },
   {
    "id": 56,
    "source": "github",
-   "title": "nvm-sh/nvm",
-   "url": "https://github.com/nvm-sh/nvm",
-   "snippet": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions. / Shell / 70 stars today"
+   "title": "lightseekorg/tokenspeed",
+   "url": "https://github.com/lightseekorg/tokenspeed",
+   "snippet": "TokenSpeed is a speed-of-light LLM inference engine. / Python / 25 stars today"
   },
   {
    "id": 57,
    "source": "github",
-   "title": "K-Dense-AI/scientific-agent-skills",
-   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-   "snippet": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard. / Python / 146 stars today"
+   "title": "xerj-org/xerj",
+   "url": "https://github.com/xerj-org/xerj",
+   "snippet": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work. / Rust / 725 stars today"
   },
   {
    "id": 58,
-   "source": "github",
-   "title": "HKUDS/CLI-Anything",
-   "url": "https://github.com/HKUDS/CLI-Anything",
-   "snippet": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/ / Python / 94 stars today"
+   "source": "zenn",
+   "title": "改めて考える、AIエンジニアリングの今",
+   "url": "https://zenn.dev/r_kaga/articles/2fd185c50cea7c",
+   "author": "r.kagaya",
+   "snippet": "31 likes, tech, published 2026-10-15"
   },
   {
    "id": 59,
-   "source": "github",
-   "title": "ifixai-ai/iFixAi",
-   "url": "https://github.com/ifixai-ai/iFixAi",
-   "snippet": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds. / Python / 2,143 stars today"
+   "source": "zenn",
+   "title": "レポ：mixi2のインターンに参加しました！",
+   "url": "https://zenn.dev/riochin/articles/mixi2-intern-2026",
+   "author": "Riochin",
+   "snippet": "25 likes, idea, published 2026-10-15"
   },
   {
    "id": 60,
-   "source": "github",
-   "title": "vxcontrol/pentagi",
-   "url": "https://github.com/vxcontrol/pentagi",
-   "snippet": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks / Go / 1,070 stars today"
+   "source": "zenn",
+   "title": "『現場で役立つシステム設計の原則』を読んで学んだこと、実践したこと、これからやりたいこと",
+   "url": "https://zenn.dev/wwwave/articles/38b8284f96bd9e",
+   "author": "wwwave",
+   "snippet": "29 likes, tech, published 2026-10-14"
   },
   {
    "id": 61,
-   "source": "github",
-   "title": "rust-lang/rust",
-   "url": "https://github.com/rust-lang/rust",
-   "snippet": "Empowering everyone to build reliable and efficient software. / Rust / 205 stars today"
+   "source": "zenn",
+   "title": "Gemini 4 Argonの日本語性能を検証してみた",
+   "url": "https://zenn.dev/algoartis/articles/19bb1705ea4b16",
+   "author": "algoartis",
+   "snippet": "26 likes, tech, published 2026-10-14"
   },
   {
    "id": 62,
-   "source": "github",
-   "title": "ntdevlabs/tiny11builder",
-   "url": "https://github.com/ntdevlabs/tiny11builder",
-   "snippet": "WinUI app for building smaller, customized Windows 11 images. / C# / 194 stars today"
+   "source": "zenn",
+   "title": "WAF でブロックする前に確かめていること",
+   "url": "https://zenn.dev/azunyan/articles/7a105969d7d16c",
+   "author": "えみり〜",
+   "snippet": "66 likes, tech, published 2026-10-10"
   },
   {
    "id": 63,
-   "source": "github",
-   "title": "NationalSecurityAgency/ghidra",
-   "url": "https://github.com/NationalSecurityAgency/ghidra",
-   "snippet": "Ghidra is a software reverse engineering (SRE) framework / Java / 1,002 stars today"
-  },
-  {
-   "id": 64,
    "source": "zenn",
    "title": "モバイルアプリ開発でノートPCを持ち歩かなくなった話",
    "url": "https://zenn.dev/yasi/articles/mobile-dev-from-phone-with-claude",
    "author": "yasi",
-   "snippet": "27 likes, tech, published 2026-10-12"
+   "snippet": "31 likes, tech, published 2026-10-12"
+  },
+  {
+   "id": 64,
+   "source": "rss",
+   "feed": "The GitHub Blog",
+   "title": "The next developer interface is ambient intelligence",
+   "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+   "snippet": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog ."
   },
   {
    "id": 65,
    "source": "rss",
    "feed": "The GitHub Blog",
-   "title": "GitHub availability report: September 2026",
-   "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
-   "snippet": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog ."
+   "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+   "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
+   "snippet": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog ."
   },
   {
    "id": 66,
    "source": "rss",
-   "feed": "The GitHub Blog",
-   "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
-   "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
-   "snippet": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog ."
+   "feed": "Cloudflare Blog",
+   "title": "A fully programmable secure web gateway",
+   "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
+   "snippet": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform."
   },
   {
    "id": 67,
    "source": "rss",
    "feed": "Cloudflare Blog",
-   "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
-   "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
-   "snippet": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available."
+   "title": "Deploy with Void",
+   "url": "https://blog.cloudflare.com/deploy-with-void/",
+   "snippet": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare."
   },
   {
    "id": 68,
    "source": "rss",
-   "feed": "AWS News Blog",
-   "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-   "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
-   "snippet": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running."
+   "feed": "Cloudflare Blog",
+   "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+   "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+   "snippet": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike."
   },
   {
    "id": 69,
    "source": "rss",
    "feed": "OpenAI News",
-   "title": "Amp puts AI agents to work beyond code with OpenAI models",
-   "url": "https://openai.com/index/amp-beyond-coding",
-   "snippet": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT."
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "snippet": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research."
   },
   {
    "id": 70,
    "source": "rss",
    "feed": "OpenAI News",
-   "title": "SentinelOne cuts malware analysis from weeks to hours",
-   "url": "https://openai.com/index/sentinelone",
-   "snippet": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats."
+   "title": "Teaching students to think and learn through questions",
+   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "snippet": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
   },
   {
    "id": 71,
    "source": "rss",
-   "feed": "OpenAI News",
-   "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-   "url": "https://openai.com/index/third-moment-research",
-   "snippet": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
+   "feed": "Qiita - 人気の記事",
+   "title": "Jevにウォーリーを探させたら0.4秒で見つけやがった!!",
+   "url": "https://qiita.com/kikuziro/items/c1b47d4bfaa64960ca18?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "先にタイトル詐欺についてお詫び申し上げます。正確には\"ウォーリーを探せ\"ではなく\"ウォーリーを探せっぽい画像\"から探させた検証になります。実際の\"ウォーリーをさがせ\"はもっと難しいので同じ結果にはならないかもしれません 📸 Jevの画像対応 Jevで画像入力が使え..."
   },
   {
    "id": 72,
    "source": "rss",
-   "feed": "OpenAI News",
-   "title": "How Block is building AI-powered security with OpenAI technology",
-   "url": "https://openai.com/index/block-ai-powered-security",
-   "snippet": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes."
+   "feed": "Qiita - 人気の記事",
+   "title": "重複率0%でも安心できない？Cucumberのステップ定義に潜む重複を見つける",
+   "url": "https://qiita.com/figueiredoluiz/items/6337f9c909fe0f60e7c2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに CukeDedupは、Cucumber/Gherkinプロジェクトのステップ定義を静的解析し、重複や曖昧さ、再利用の可能性、未使用の定義を見つける CLI ツールです。Rust で書いていて、MITライセンスで GitHub に公開しています。 設定ファイルは不..."
   },
   {
    "id": 73,
    "source": "rss",
-   "feed": "OpenAI News",
-   "title": "The EU’s next chapter in AI is agentic",
-   "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-   "snippet": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value."
+   "feed": "Qiita - 人気の記事",
+   "title": "AI時代においてようやくプログラミング言語の格差は無くなった",
+   "url": "https://qiita.com/ikuosaito1989/items/63094edc3b4bb423f265?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "Rails World 2026にてDHH氏は 「実はRubyより好きなプログラミング言語があることに気づいた。それは英語だ。」 と発言した。 プログラマーの幸福を最大化するというコンセプトでフレームワークを作った人が、プログラミングはAIに置き換わって人間のやるべきことは..."
   },
   {
    "id": 74,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "【2026年10月 最新版】AIモデル徹底比較 | GPT-6.1 Sol  / Claude Opus 5.5  / Claude Sonnet 5.5 / Gemini 4 Argon",
-   "url": "https://qiita.com/nuco_d/items/9d4f86c185dda6fd24a7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに 本記事では、Gemini 4 Argon、GPT-6.1 Sol、Claude Opus 5.5、Claude Sonnet 5.5 の4モデルを、スペック・公式ベンチマーク・料金の3つの観点で比較します。 記載している数値は、すべて2026年10月13日時点の..."
+   "title": "ついに来た！New RelicのAPI Keyに最終利用日時・無効化・チーム所有者が追加されたので棚卸ししてみた",
+   "url": "https://qiita.com/seamoooooo/items/431c4a6be67c605c36be?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "New RelicのAPI Keys画面に、ずっと欲しかった3つの機能がついに追加されました！User keyの最終利用日時（Last used）、キーの無効化と再有効化（Deactivate / Activate）、Ingest keyへのチーム所有者（Owning te..."
   },
   {
    "id": 75,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "Claude Code の守りのフックは、台本が壊れると黙って通す。2.1.295 の onFailure で止まった",
-   "url": "https://qiita.com/suwa_nobu/items/afde8d73a48eb7badb71?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "Claude Code 2.1.295（2026-10-08）の changelog に、こう書かれています。 Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, ti..."
+   "title": "【AWS】AWS Lambda Web Functionsから考えるAWS Lambdaとは何なのか",
+   "url": "https://qiita.com/ymd65536/items/3bc00ba77b87808bda9b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "記事のポイント AWS Lambdaはイベント駆動のFaaSとして登場し、AWSのサービス同士をつなぐコンポーネントとしても利用されてきた Lambda Web FunctionsやMicroVMsの登場により、AWS Lambdaは関数だけでなくHTTPサーバーや独立..."
   },
   {
    "id": 76,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "Select AI入門：多言語からAI Ready Data、SQL＋RAGまで整理してみてみた",
-   "url": "https://qiita.com/shirok/items/3661216f00cc9f5629cb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "Select AIを使うと、日本語などの自然言語からSQLを生成し、Oracle Databaseのデータを調べることができます。 ただ、実際に使ってみると、いろいろ気になってきます。 「日本語以外でも問い合わせできるのか？」 「AIは、どのテーブルを使うか、どの列でJO..."
+   "title": "AI時代、何をもってソフトウェアの品質を担保するのか",
+   "url": "https://qiita.com/acsuzuki/items/a1f4533a4d7c724c097f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "最近は、Claude CodeやCodexなどを使ってAIにコードを書かせることが当たり前になってきました。 そんな中で皆さんは、何をもって「システムの品質が担保されている」と考えるでしょうか。 以前はどうやって品質を説明していたか ちょっと昔のシステム開発では、以下のよ..."
   },
   {
    "id": 77,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "システム設計視点の行動経済学 全40回 総復習",
-   "url": "https://qiita.com/maskot1977/items/302b3769d31507d3a1da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "このシリーズ第1〜30回の詳細は全30回総復習記事を参照してください。本記事では第31〜40回（Arc V）を重点的に取り上げ、全40回を統合的に振り返ります。 user: 「システム設計視点の行動経済学」シリーズが第40回まで完結しました。以前の全30回総復習..."
+   "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 29",
+   "url": "https://qiita.com/maskot1977/items/8da6708ef44b79634c4c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: 本動画のタイトルおよび解説されている主な内容は以下の通りです。 動画タイトル 「人手不足なのに給料が上がらないバグ : Pythonで学ぶマクロ経済学入門 Podca..."
   },
   {
    "id": 78,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "2026年10月14日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-   "url": "https://qiita.com/ennagara128/items/e391cf5cb052cf432685?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 サイバーセキュリティを勉強するなら今？おすすめ..."
+   "title": "Gemini 4 Argonでロボットアームを動かしてみた",
+   "url": "https://qiita.com/kentaro_kawamura/items/118144a5e0c707de12dd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに 2026年10月13日、Googleから新たなAIモデル「Gemini 4 Argon」が発表されました。 Geminiといえば、テキストチャットやコード生成、マルチモーダルな画像・動画理解など、さまざまな用途で活用されています。 今回のGemini 4 Arg..."
   },
   {
    "id": 79,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "底辺校1年生が2ヶ月(実質)で入茶しました",
-   "url": "https://qiita.com/ikneg/items/54abb56d67ffe3c830d0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "どうも、iknegです。 ほとんど1ヶ月前に正式に入茶したので、記事にします。 私のスペックについて 底辺校に通う高校1年生です。 国数英の中だと国数が得意です(どちらも8月の模試で45程度ですが...) なぜかjmoの予選くらいだと偏差値45のくせに3完できるし、都立..."
+   "title": "【個人開発】無機質なToDo管理にサヨナラ！「タスク娘」を爆誕させた話（この記事もGemini 4 Argonで生成しました）",
+   "url": "https://qiita.com/satoshot/items/3308a7e025cd9f049813?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "⚡ はじめに：この記事の種明かし 実はこの記事の構成案からキャッチコピー、技術解説のドラフトに至るまで、Googleの最新モデル 「Gemini 4 Argon」 に私の開発コンテキスト（設計思想や普段のワークフロー）を読み込ませて共同執筆しています！ 「タスク娘」とい..."
   },
   {
    "id": 80,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "【30分点検】.gitignoreに入れたはずの.envが漏れていないか、5か所で確かめる手順",
-   "url": "https://qiita.com/bpr_prot/items/737b00640527aba10dc2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "秘密の鍵が漏れる経路を5か所に分けて、点検するコマンドと、見つかったときの順番をまとめました。 GitHubでコードを管理し、Next.jsをVercelなどへ載せている個人開発者を想定しています。SupabaseやFirebase、Stripe、OpenAIやAnthro..."
+   "title": "MS2109でHDMIキャプチャボードを自作する",
+   "url": "https://qiita.com/ikkolab/items/e6aadd18a1e0f461a844?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "基板や配線の写真、回路図、より詳しい解説は自分のサイトのブログに載せています。画像つきで見たい方はこちらをどうぞ。 https://ikko-labs.com/blog/ms2109でhdmiキャプチャボードを自作した記録 はじめに MacroSilicon M..."
   },
   {
    "id": 81,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "【Linux初心者向け】historyとCtrl＋Rで、前に使ったコマンドを探す",
-   "url": "https://qiita.com/reo_infraengineer/items/34a77aae8cefe9a828d7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "こんにちは、Reoです。 フリーランスのインフラエンジニアとして働きながら、学習サービス「InfraDojo（インフラ道場）」を運営しています。 「さっき使ったコマンドを、もう一度入力したい」 「オプションまで思い出せない……」 そんなときは、コマンドの履歴から探す方法があ..."
+   "title": "「プロトタイプ温泉」の解説記事をGoogle検索のAIが生成した記録",
+   "url": "https://qiita.com/ockeghem/items/59cfe08bb99643b3e55b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "JavaScriptに固有の脆弱性としてプロトタイプ汚染というものがあり、徳丸本3版でも取り上げる予定ですが、ふと「プロトタイプ汚染は『プロトタイプおんせん』とtypoしそうだな」という着想を得て、「プロトタイプ温泉 JavaScript」というキーワードでGoogle検索..."
   },
   {
    "id": 82,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Zxc 0.15.0 - decompression 2x faster than Zstandard",
-   "url": "https://www.reddit.com/r/programming/comments/1x5nxzy/zxc_0150_decompression_2x_faster_than_zstandard/",
-   "snippet": "&#32; submitted by &#32; /u/pollop-12345 [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "プロンプトエンジニアリングについて",
+   "url": "https://qiita.com/masa-miya/items/de9f808d43627005d063?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "生成AIを業務で活用する際、プロンプトエンジニアリングは重要な技術の一つです。 同じAIモデルでも、指示の与え方によって回答の品質や安定性が変わるケースがあります。 プロンプトは長く詳細に書けばよいわけではなく、目的に応じて必要な情報を伝えることが大切です。 本記事では、代..."
   },
   {
    "id": 83,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Where do you go for help when you're stuck now? Survey says 64% of developers visit Stack Overflow less for simple questions",
-   "url": "https://www.reddit.com/r/programming/comments/1x5uh6j/where_do_you_go_for_help_when_youre_stuck_now/",
-   "snippet": "The 2026 Stack Overflow survey reports that 83% of developers search online for answers and 70% ask an AI agent, and 64% say they visit Stack Overflow less for simple questions. When you're stuck as a learner, where do you start: search, an AI tool, a forum, a friend? Has the order changed in the past year, and what do you do to make sure you actually learn the answer? Source (first comment): Stac"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "PHP の max() と min() に NAN が混ざると、引数の順番と PHP のバージョンで答えが変わります【7.4 / 8.0 / 8.3 / 8.4 で実測】",
+   "url": "https://qiita.com/Rapls/items/cf90b3757fbfdaf44bd4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "PHP の max() と min() に NAN が混ざると、答えが引数の順番で変わります。同じ順番でも、PHP のバージョンによって答えが逆になりました。PHP 7.4.33、8.0.30、8.3.6、8.4.21 で測った結果です。 式 7.4.33 8.0.3..."
   },
   {
    "id": 84,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "kcgi: minimal CGI and FastCGI library for C/C++",
-   "url": "https://www.reddit.com/r/programming/comments/1x5nds0/kcgi_minimal_cgi_and_fastcgi_library_for_cc/",
-   "snippet": "&#32; submitted by &#32; /u/BrewedDoritos [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "初めての海外出張で Microsoft Ignite 2026 へ！参加1か月前の準備リストと予習メモ",
+   "url": "https://qiita.com/KoheiKushida/items/6ccd10e037ea7e405e22?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "1.はじめに 2026年11月17日〜20日に、アメリカ・サンフランシスコで開催される Microsoft Ignite 2026（以降、MS Ignite）に、現地参加することになりました。 そして、これが私にとって初めての海外出張です。 MS Ignite は、世界中..."
   },
   {
    "id": 85,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Why I Love AI (No, Not That Kind)",
-   "url": "https://www.reddit.com/r/programming/comments/1x5tyjg/why_i_love_ai_no_not_that_kind/",
-   "snippet": "&#32; submitted by &#32; /u/Iamsodarncool [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "いつも一番に食べ終わるあなたへ：会話のロードバランシング入門",
+   "url": "https://qiita.com/redwings_a/items/d79b4f94f7244da2cb98?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "「みんな食べ終わるの遅いなぁ……」 飲み会、会食、ランチなど、複数人でテーブルを囲む場面は職場でもある程度あるかと思います。 そんな時、あなたは大体どのタイミングで食べ終わりますか？ 私は最後に食べ終わることが多いです。 咀嚼が特別遅いわけではありません。話題を振って、相..."
   },
   {
    "id": 86,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "Ensuring Similar Computational Resources to Stateful Workloads Running on a Diverse Server Fleet",
-   "url": "https://www.reddit.com/r/programming/comments/1x5q4tz/ensuring_similar_computational_resources_to/",
-   "snippet": "&#32; submitted by &#32; /u/Ok_Stomach6651 [link] &#32; [comments]"
+   "title": "BIPM announces the end of leap seconds",
+   "url": "https://www.reddit.com/r/programming/comments/1x6uhya/bipm_announces_the_end_of_leap_seconds/",
+   "snippet": "&#32; submitted by &#32; /u/BoppreH [link] &#32; [comments]"
   },
   {
    "id": 87,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "A C++ Trick Question - Blog Post",
-   "url": "https://www.reddit.com/r/programming/comments/1x62x6p/a_c_trick_question_blog_post/",
-   "snippet": "&#32; submitted by &#32; /u/MegaGreenLightning [link] &#32; [comments]"
+   "title": "How Stripe uses graph search and state machines to auto-remediate a global database fleet",
+   "url": "https://www.reddit.com/r/programming/comments/1x6fqck/how_stripe_uses_graph_search_and_state_machines/",
+   "snippet": "&#32; submitted by &#32; /u/Ok_Stomach6651 [link] &#32; [comments]"
   },
   {
    "id": 88,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "Black-Box HashDoS: Attacking Hash Tables Without Knowing the Hash Function",
-   "url": "https://www.reddit.com/r/programming/comments/1x5w7hh/blackbox_hashdos_attacking_hash_tables_without/",
-   "snippet": "&#32; submitted by &#32; /u/nightcracker [link] &#32; [comments]"
+   "title": "Faster, Better, Stronger is not a Strategy",
+   "url": "https://www.reddit.com/r/programming/comments/1x6y26l/faster_better_stronger_is_not_a_strategy/",
+   "snippet": "&#32; submitted by &#32; /u/SerCeMan [link] &#32; [comments]"
   },
   {
    "id": 89,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "How Netflix Simplified Batch Compute with Kueue",
-   "url": "https://www.reddit.com/r/programming/comments/1x63fdq/how_netflix_simplified_batch_compute_with_kueue/",
-   "snippet": "&#32; submitted by &#32; /u/Ok_Stomach6651 [link] &#32; [comments]"
+   "title": "Spring Boot Connection Pools: 20 vs 2 Idle PostgreSQL Connections",
+   "url": "https://www.reddit.com/r/programming/comments/1x6tmjo/spring_boot_connection_pools_20_vs_2_idle/",
+   "snippet": "&#32; submitted by &#32; /u/fykup [link] &#32; [comments]"
   },
   {
    "id": 90,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "Bug Blindness",
-   "url": "https://www.reddit.com/r/programming/comments/1x65o6n/bug_blindness/",
-   "snippet": "&#32; submitted by &#32; /u/Ok_Stomach6651 [link] &#32; [comments]"
+   "title": "First Steps into Frames in Python",
+   "url": "https://www.reddit.com/r/programming/comments/1x6erkt/first_steps_into_frames_in_python/",
+   "snippet": "&#32; submitted by &#32; /u/dfbaggins [link] &#32; [comments]"
   },
   {
    "id": 91,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "Rust Borrow Checker Bug: 11 Years in the Compiler, Reproduced",
-   "url": "https://www.reddit.com/r/programming/comments/1x5rern/rust_borrow_checker_bug_11_years_in_the_compiler/",
-   "snippet": "&#32; submitted by &#32; /u/huseyinbabal [link] &#32; [comments]"
+   "title": "Do you still need to drain the response body in Go 1.27?",
+   "url": "https://www.reddit.com/r/programming/comments/1x6a1vp/do_you_still_need_to_drain_the_response_body_in/",
+   "snippet": "&#32; submitted by &#32; /u/Efficient_File [link] &#32; [comments]"
   },
   {
    "id": 92,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "Das UI-Framework für Java & Spring",
-   "url": "https://www.reddit.com/r/programming/comments/1x5w07k/das_uiframework_für_java_spring/",
-   "snippet": "&#32; submitted by &#32; /u/IntelligentDay4375 [link] &#32; [comments]"
+   "title": "From Pixel Art to Packet Sniffing: A Programmer’s Guide to Flipper Zero Programming and App…",
+   "url": "https://www.reddit.com/r/programming/comments/1x6qy8l/from_pixel_art_to_packet_sniffing_a_programmers/",
+   "snippet": "&#32; submitted by &#32; /u/derjanni [link] &#32; [comments]"
   },
   {
    "id": 93,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "Can I offer you a nice CI Pipeline in this trying time?",
-   "url": "https://www.reddit.com/r/programming/comments/1x5xzr0/can_i_offer_you_a_nice_ci_pipeline_in_this_trying/",
-   "snippet": "TL; DR - A bone dry technical article about continuous integration, of little interest to non-programmers. &#32; submitted by &#32; /u/sgr_nz [link] &#32; [comments]"
+   "title": "Cooldown or compromise: the three-day rule for npm and PyPI",
+   "url": "https://www.reddit.com/r/programming/comments/1x6kh7q/cooldown_or_compromise_the_threeday_rule_for_npm/",
+   "snippet": "&#32; submitted by &#32; /u/actually_NOLAN [link] &#32; [comments]"
   },
   {
    "id": 94,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "Anthropic designs new in-house monorepo source control system \"Scion\", code review tool \"Antique\", designed for massive scale",
-   "url": "https://www.reddit.com/r/programming/comments/1x5spis/anthropic_designs_new_inhouse_monorepo_source/",
-   "snippet": "&#32; submitted by &#32; /u/CircumspectCapybara [link] &#32; [comments]"
+   "title": "Layered vs Hexagonal vs Onion vs Clean Architecture | Visually Explained",
+   "url": "https://www.reddit.com/r/programming/comments/1x6hi5q/layered_vs_hexagonal_vs_onion_vs_clean/",
+   "snippet": "I hope you find this resource useful and that it helps you better understand things when working on new projects! &#32; submitted by &#32; /u/correctMeIfImcorrect [link] &#32; [comments]"
+  },
+  {
+   "id": 95,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "yet another place where a linux man page is inaccurate",
+   "url": "https://www.reddit.com/r/programming/comments/1x6d3zd/yet_another_place_where_a_linux_man_page_is/",
+   "snippet": "&#32; submitted by &#32; /u/lelanthran [link] &#32; [comments]"
   }
  ]
 }
