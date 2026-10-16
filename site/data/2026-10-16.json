@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T10:39+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "広告経由のゼロクリックスパイウェア報道とGemini 4 Argon発表後の実践検証が話題",
+  "items": [
+    {
+      "title": "オンライン広告がゼロクリックのスパイウェア配布に悪用されたと研究者が報告",
+      "original_title": "Online ads weaponised to deliver ‘zero-click’ spyware, researchers say",
+      "summary": "研究者らが、ターゲティング広告がゼロクリック型の傭兵スパイウェア配布経路として悪用されていると報告しました。関連記事ではイスラエルの企業が広告経由でスパイウェアを送っているとされ、Hacker Newsでも大きな議論になっています。広告配信経路のセキュリティ対策を見直すきっかけになりそうです。",
+      "url": "https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50103000",
+      "author": null,
+      "category": "backend",
+      "score": 9,
+      "tags": [
+        "セキュリティ",
+        "スパイウェア",
+        "広告"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50101813"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50106676"
+        }
+      ]
+    },
+    {
+      "title": "Gemini 4 Argonでロボットアームを動かしてみた",
+      "original_title": "Gemini 4 Argonでロボットアームを動かしてみた",
+      "summary": "2026年10月13日にGoogleが新AIモデル「Gemini 4 Argon」を発表したことを受け、ロボットアームの制御を試した検証記事です。関連してZennでは日本語性能の検証記事も公開されており、新モデルの実用性を探る動きが広がっています。",
+      "url": "https://qiita.com/kentaro_kawamura/items/118144a5e0c707de12dd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Gemini 4 Argon",
+        "Google",
+        "ロボット"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/algoartis/articles/19bb1705ea4b16"
+        }
+      ]
+    },
+    {
+      "title": "Muse Spark Open が公開、Hacker Newsで注目",
+      "original_title": "Muse Spark Open",
+      "summary": "「Muse Spark Open」がHacker Newsで552ポイント、306コメントを集め、当日最も注目された話題の一つとなりました。候補データに詳細は含まれないため、内容は元記事で確認が必要です。",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50107379",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Muse Spark",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "LFM2.5-24B-A2B：高速なオンデバイスエージェント向けモデル",
+      "original_title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "summary": "オンデバイスで高速に動くエージェントを想定したモデル「LFM2.5-24B-A2B」が公開され、Hacker Newsで282ポイントを獲得しました。ローカル実行型のエージェント開発に関心がある人は要チェックです。",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50097369",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "オンデバイス",
+        "LLM",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Void：Viteフルスタックアプリ向けのOSS SDK/CLIとセルフホスト基盤",
+      "original_title": "Deploy with Void",
+      "summary": "Cloudflareが、フルスタックのViteアプリを構築しCloudflareへデプロイするためのオープンソースSDK・CLI・セルフホスト型プラットフォーム「Void」を紹介しました。Vite中心の開発をCloudflareに載せたい開発者に関係します。",
+      "url": "https://blog.cloudflare.com/deploy-with-void/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 7,
+      "tags": [
+        "Vite",
+        "Cloudflare",
+        "デプロイ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Krea 3：大規模な編集向けに作られた画像モデル",
+      "original_title": "Krea 3 – An image model built for editing at scale",
+      "summary": "Krea 3は大規模な編集作業を想定して作られた画像生成モデルとして紹介され、Hacker Newsで225ポイントを集めました。画像編集ワークフローへの組み込みを検討する際の選択肢になります。",
+      "url": "https://www.krea.ai/krea-3",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50105648",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "画像生成",
+        "Krea"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare Gateway/DLPがWorkersで完全にプログラム可能に",
+      "original_title": "A fully programmable secure web gateway",
+      "summary": "Cloudflare GatewayとData Loss Preventionが、フルスタック統合を通じてCloudflare Workersの柔軟性を取り込み、セキュアWebゲートウェイを自在にプログラムできるようになったと発表されました。",
+      "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "ゼロトラスト",
+        "Workers"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS Lambda Web Functionsから考える、AWS Lambdaとは何か",
+      "original_title": "【AWS】AWS Lambda Web Functionsから考えるAWS Lambdaとは何なのか",
+      "summary": "Lambda Web FunctionsやMicroVMsの登場により、AWS Lambdaは単なる関数実行だけでなくHTTPサーバーや独立した実行環境としても使われつつある、という整理記事です。",
+      "url": "https://qiita.com/ymd65536/items/3bc00ba77b87808bda9b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "Lambda",
+        "サーバーレス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Stripeがグラフ探索とステートマシンでグローバルDBフリートを自動修復",
+      "original_title": "How Stripe uses graph search and state machines to auto-remediate a global database fleet",
+      "summary": "Stripeがグラフ探索とステートマシンを使い、グローバルに展開したデータベース群の障害を自動的に修復している事例が紹介されています。大規模DB運用の自動化設計の参考になります。",
+      "url": "https://www.reddit.com/r/programming/comments/1x6fqck/how_stripe_uses_graph_search_and_state_machines/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Stripe",
+        "データベース",
+        "SRE"
+      ],
+      "related": []
+    },
+    {
+      "title": "クールダウンか侵害か：npm・PyPIの「3日ルール」",
+      "original_title": "Cooldown or compromise: the three-day rule for npm and PyPI",
+      "summary": "npmとPyPIのパッケージ更新を公開直後に取り込まず、数日置く「3日ルール」を扱った記事です。サプライチェーン攻撃への対策として検討する価値があります。",
+      "url": "https://www.reddit.com/r/programming/comments/1x6kh7q/cooldown_or_compromise_the_threeday_rule_for_npm/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "npm",
+        "PyPI",
+        "サプライチェーン"
+      ],
+      "related": []
+    },
+    {
+      "title": "C++26 Contracts：事前条件と事後条件の入門",
+      "original_title": "C++26 Contracts: Introduction to Preconditions and Postconditions",
+      "summary": "C++26のContractsにおける事前条件(precondition)と事後条件(postcondition)を紹介する入門記事で、Hacker Newsで120ポイントを集めました。",
+      "url": "https://www.cppstories.com/2026/cpp26_contracts/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50103164",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "C++26",
+        "Contracts"
+      ],
+      "related": []
+    },
+    {
+      "title": "Forgejo v17.0 リリース",
+      "original_title": "Forgejo v17.0 is available",
+      "summary": "セルフホスト可能なGitフォージ「Forgejo」のv17.0がリリースされました。Lobstersで話題になっています。",
+      "url": "https://forgejo.org/2026-10-release-v17-0/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/vemho2/forgejo_v17_0_is_available",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Forgejo",
+        "Git"
+      ],
+      "related": []
+    },
+    {
+      "title": "CloudflareとOpenAIが連携しAIによるコンテンツ発見を改善",
+      "original_title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+      "summary": "CloudflareとOpenAIが協力し、AIが有用なコンテンツを見つけ、更新に追随し、無駄なリクエストを減らせるようにする取り組みを紹介しています。サイト運営者とユーザー双方の体験向上が狙いです。",
+      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "OpenAI",
+        "クローラー"
+      ],
+      "related": []
+    }
+  ]
+}
