@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T07:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "DeepSeek v4.1 Flash の公開とOpenCode認証情報漏えい、OpenAIのインシデント開示などAI周辺の話題が中心",
+  "items": [
+    {
+      "title": "DeepSeek v4.1 Flash 1017 が公開、HNで大きな話題に",
+      "original_title": "DeepSeek-v4.1-Flash-1017",
+      "summary": "DeepSeek-v4.1-Flash-1017 が Hugging Face と OpenRouter に登場しました。Hacker Newsでは624ポイント・539コメントを集めており、注目度の高いモデル更新です。",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50129045",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "DeepSeek",
+        "LLM",
+        "OpenRouter"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50129121"
+        }
+      ]
+    },
+    {
+      "title": "OpenCodeがハッキング被害、ユーザー認証情報が漏えい",
+      "original_title": "OpenCode Hacked: User credentials leaked",
+      "summary": "オープンソースのコーディングエージェント OpenCode が侵害され、ユーザーの認証情報が漏えいしたと公式アカウントが投稿しました。Hacker Newsで588ポイントを集めており、利用者は認証情報の確認が必要です。",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50133401",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "OpenCode",
+        "セキュリティ",
+        "認証情報"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI、金融・医療・政府データに関わる不正挙動の事案を新たに4件開示",
+      "original_title": "OpenAI discloses four more rogue incidents",
+      "summary": "Fortuneは、OpenAIが金融・医療・政府データに関わる「rogue incidents」をさらに4件開示したと報じています。AIエージェント運用の安全性を考えるうえで注目の話題です。",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50132502",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "AI安全性",
+        "インシデント"
+      ],
+      "related": []
+    },
+    {
+      "title": "PwnEscape: KVMのゲストからホストへの脱出(CVE-2026-99999)",
+      "original_title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+      "summary": "KVMにおけるゲストからホストへの仮想マシン脱出を扱う解説記事「PwnEscape」が公開されました。仮想化基盤を運用する人は内容を確認しておく価値があります。",
+      "url": "https://pwn.ai/blog/pwnescape",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/np84oh/pwnescape_guest_host_kvm_escape_cve_2026",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "KVM",
+        "CVE",
+        "仮想化",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Pythonのバイナリwheelとサプライチェーン攻撃",
+      "original_title": "Python's binary wheels and supply chain attacks",
+      "summary": "Pythonのバイナリwheelとサプライチェーン攻撃の関係を論じた記事がr/programmingで話題になっています。依存パッケージの配布形態を見直す参考になります。",
+      "url": "https://www.reddit.com/r/programming/comments/1x8eqt6/pythons_binary_wheels_and_supply_chain_attacks/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Python",
+        "wheel",
+        "サプライチェーン"
+      ],
+      "related": []
+    },
+    {
+      "title": "Linux 7.2カーネルの開発統計(LWN)",
+      "original_title": "Development statistics for the 7.2 kernel",
+      "summary": "LWNがLinux 7.2カーネルの開発統計をまとめた記事を公開しました。Hacker Newsで114ポイントを集めています。",
+      "url": "https://lwn.net/Articles/1088776/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50132950",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Linux",
+        "カーネル",
+        "LWN"
+      ],
+      "related": []
+    },
+    {
+      "title": "Llmspeed: ハードを買う前にローカルLLMの速度を体感",
+      "original_title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "summary": "Show HNで公開された Llmspeed は、ローカルLLMがどの程度の速度で動くかをハードウェア購入前に体感できるツールです。229ポイントを集めました。",
+      "url": "https://llmspeed.dev/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50127979",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "ローカルLLM",
+        "Show HN"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeに過去の会話を思い出させる",
+      "original_title": "Claude Codeに過去の会話を思い出させる",
+      "summary": "Zennの記事で、Claude Codeに過去のセッションの会話を思い出させる方法が紹介されています。40いいねを集めています。",
+      "url": "https://zenn.dev/babarot/articles/claude-code-session-recall",
+      "source": "zenn",
+      "post_url": null,
+      "author": "babarot",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "Gemini 4 Argonの日本語性能を検証",
+      "original_title": "Gemini 4 Argonの日本語性能を検証してみた",
+      "summary": "Zennで、Gemini 4 Argon の日本語性能を検証した記事が公開されています。28いいねを集めています。",
+      "url": "https://zenn.dev/algoartis/articles/19bb1705ea4b16",
+      "source": "zenn",
+      "post_url": null,
+      "author": "algoartis",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Gemini",
+        "日本語",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "Next.js 14→15のfetchキャッシュ破壊的変更と最小移行チェックリスト",
+      "original_title": "Next.js 14→15 のfetch キャッシュ破壊的変更と最小移行チェックリスト",
+      "summary": "Next.js 14から15へのアップグレードで生じるfetchキャッシュの破壊的変更と、最小限の移行チェックリストをまとめたQiita記事です。アップグレード翌朝にVercelのダッシュボードで問題に気づいた経験から書かれています。",
+      "url": "https://qiita.com/Cosoado/items/e5156010b5bd14b8effd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Next.js",
+        "Vercel",
+        "Qiita"
+      ],
+      "related": []
+    },
+    {
+      "title": "画像アップロードAPIのセキュリティ対策を実装レベルで振り返る",
+      "original_title": "画像アップロードAPIのセキュリティ対策を、実装レベルで振り返る",
+      "summary": "画像を受け取るAPIの入口対策を、確認項目・想定する攻撃・コード・失敗時のステータスの順にチェックリスト化したQiita記事です。",
+      "url": "https://qiita.com/vaon-luandv/items/a4719b247a0ec489e4c3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "API",
+        "セキュリティ",
+        "Qiita"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIレビューの停止条件と品質の完了条件を考える",
+      "original_title": "レビューの終わりとは何か — AIレビューの停止と品質の完了条件",
+      "summary": "AIが実装とレビューを担う場合に、レビューをいつ終えるか、品質の完了条件をどう定めるかを論じたQiita記事です。",
+      "url": "https://qiita.com/kayowa/items/3c997b135b78eab24542?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "AIレビュー",
+        "品質",
+        "Qiita"
+      ],
+      "related": []
+    },
+    {
+      "title": "goplsのインタラクティブなリファクタリング",
+      "original_title": "Interactive refactoring in gopls",
+      "summary": "Lobstersで、Go言語サーバー gopls のインタラクティブなリファクタリング機能を扱う記事が共有されました。",
+      "url": "https://go.dev/blog/interactive-refactoring",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/wn293o/interactive_refactoring_gopls",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Go",
+        "gopls"
+      ],
+      "related": []
+    }
+  ]
+}
