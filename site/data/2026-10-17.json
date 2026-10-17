@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T10:41+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIエージェント開発の運用課題（コードレビュー・OSSのPR問題）と、暗号・OS・インフラ周りの話題が目立つ一日",
+  "items": [
+    {
+      "title": "Claude Codeチームのコードレビューの進め方",
+      "original_title": "How the Claude Code team does code review",
+      "summary": "「How the Claude Code team does code review」がHacker Newsで173ポイント・167コメントを集めました。AIコーディングツールを開発するチーム自身がどのようにコードレビューを行っているかを扱う記事で、AI支援開発におけるレビュー運用を考えるうえで参考になります。",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50122951",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Claude Code",
+        "コードレビュー",
+        "AI開発"
+      ],
+      "related": []
+    },
+    {
+      "title": "ClaudeがECDSA曲線の由来を解明、NIST楕円曲線シードのバウンティも成立",
+      "original_title": "Claude reveals ECDSA curve origins",
+      "summary": "「Claude reveals ECDSA curve origins」がHacker Newsで533ポイントを獲得しました。関連してLobstersでは「NIST Elliptic Curves Seeds Bounty Has Been Claimed」としてNIST楕円曲線のシードに関する懸賞金が請求されたことが話題になっています。暗号分野でのAI活用とその検証に関心が集まっています。",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50122800",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "暗号",
+        "ECDSA",
+        "NIST",
+        "Claude"
+      ],
+      "related": [
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/ddtqtn/nist_elliptic_curves_seeds_bounty_has"
+        }
+      ]
+    },
+    {
+      "title": "有名OSSがPRを閉じ始めた：何が起きていてどう向き合うか",
+      "original_title": "有名 OSS が PR を閉じはじめた。何が起きていて、どう向き合うか",
+      "summary": "Zennで48いいねを集めた記事で、有名OSSプロジェクトがプルリクエストを閉じ始めている状況を取り上げ、その背景と向き合い方を論じています。LobstersでもAI支援によるカーネルへの貢献やAI生成コンテンツの氾濫が議論されており、OSSのメンテナンス負荷は共通の課題です。",
+      "url": "https://zenn.dev/hand_dot/articles/ecb391d4322330",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Kyohei Fukuda",
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "OSS",
+        "Pull Request",
+        "AI生成コード"
+      ],
+      "related": []
+    },
+    {
+      "title": "Linus TorvaldsがAI支援によるカーネル貢献について語る",
+      "original_title": "Linus Torvalds on AI-assisted kernel contributions",
+      "summary": "Lobstersで81ポイントを集めた「Linus Torvalds on AI-assisted kernel contributions」は、Linuxカーネルへの貢献におけるAI支援の扱いに関する話題です。カーネルのような大規模OSSがAIによる貢献をどう受け止めるかを知る材料になります。",
+      "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/xiq59t/linus_torvalds_on_ai_assisted_kernel",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Linux",
+        "カーネル",
+        "AI支援開発"
+      ],
+      "related": []
+    },
+    {
+      "title": "Postgres 19、AIレビュワーが人間の対応能力を超えるバグを発見し延期",
+      "original_title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "summary": "「Postgres 19 delayed after AI reviewers find more bugs than humans can fix」がHacker Newsで167ポイントを獲得しました。AIレビュワーが検出したバグが人間の修正能力を上回り、Postgres 19のリリースが延期されたという内容です。",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50119991",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "PostgreSQL",
+        "AIレビュー",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenBSDカーネルの37年前のバグを悪用する「Big Fish」",
+      "original_title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+      "summary": "「Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD」は、OpenBSDカーネルに37年間存在したバグの悪用を扱う記事で、Hacker Newsで154ポイントを集めました。長年見過ごされた脆弱性の事例として注目されています。",
+      "url": "https://calif.io/research/big-fish",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50118977",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "OpenBSD",
+        "カーネル",
+        "脆弱性"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust 1.99.1 リリース",
+      "original_title": "Announcing Rust 1.99.1",
+      "summary": "Rust 1.99.1の公開がLobstersで告知されました（30ポイント）。Rustユーザーはリリースノートで内容を確認してください。",
+      "url": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/ttcx5k/announcing_rust_1_99_1",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Rust",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "Apple ML Research：Muse SparkをMac Studio上でMLXにより公開動作",
+      "original_title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "summary": "「Apple ML Research: Muse Spark Open with MLX on Mac Studio」がHacker Newsで244ポイントを集めました。AppleのMLXを使い、Mac Studio上でMuse Sparkを動かす取り組みです。ローカルLLM実行環境としてのMacに関心のある方向けの話題です。",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50118320",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "MLX",
+        "Apple",
+        "ローカルLLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "MacのウィンドウをiPhone・iPadで利用可能に／App Reviewガイドライン更新",
+      "original_title": "Any window from your Mac, on your iPhone and iPad",
+      "summary": "「Any window from your Mac, on your iPhone and iPad」がHacker Newsで245ポイントを集めました。また、Appleは新機能や方針変更に対応するためApp Reviewガイドラインを改訂したと発表しています。iOS開発者はガイドラインの変更点を確認しておくとよいでしょう。",
+      "url": "https://github.com/Saffsanity/sill",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50112739",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "iOS",
+        "Apple",
+        "App Review"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://developer.apple.com/news/?id=92th7e5i"
+        }
+      ]
+    },
+    {
+      "title": "Verified botの継続的な説明責任の仕組み",
+      "original_title": "Continuous accountability for Verified bots",
+      "summary": "「Continuous accountability for Verified bots」では、ボットの身元確認だけではボットが責任ある振る舞いをする保証にならないとして、継続的に評価する仕組みを導入すると説明されています。",
+      "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "ボット",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "RPKIがインターネット経路の70%を保護",
+      "original_title": "RPKI now protects 70% of internet routes",
+      "summary": "「RPKI now protects 70% of internet routes」がHacker Newsで219ポイントを獲得しました。経路ハイジャック対策であるRPKIの普及が、全経路の70%に達したという話題です。",
+      "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50112330",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "RPKI",
+        "BGP",
+        "ネットワーク"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeで消したファイルは/rewindで戻らない：見分け方は「No code changes」",
+      "original_title": "Claude Code に頼んで消したファイルは、/rewind で戻らなかった。見分け方はメニューの「No code changes」",
+      "summary": "Claude Codeの/rewind（入力欄が空のときにEscを2回でも開く）でどこまで戻せるかを、5通りの方法でファイルを変更させて検証した記事です。Claudeに頼んで消したファイルは戻らず、メニューの「No code changes」表示で見分けられるとしています。",
+      "url": "https://qiita.com/suwa_nobu/items/18c8456c7a594b24a737?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "rewind"
+      ],
+      "related": []
+    },
+    {
+      "title": "iroh 1.0への道のり",
+      "original_title": "The road to iroh 1.0",
+      "summary": "Lobstersで41ポイントを集めた「The road to iroh 1.0」は、ネットワーキングライブラリirohの1.0に向けた歩みを扱っています。",
+      "url": "https://www.iroh.computer/blog/the-road-to-iroh-1-0",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/6laoto/road_iroh_1_0",
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "iroh",
+        "ネットワーク"
+      ],
+      "related": []
+    },
+    {
+      "title": "Ubuntu 26.10（Stonking Stingray）リリース",
+      "original_title": "Ubuntu 26.10 (Stonking Stingray) released",
+      "summary": "Lobstersで、Ubuntu 26.10（コードネーム Stonking Stingray）のリリースが共有されました。",
+      "url": "https://lists.ubuntu.com/archives/ubuntu-announce/2026-October/000330.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/61ujum/ubuntu_26_10_stonking_stingray_released",
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Ubuntu",
+        "Linux",
+        "リリース"
+      ],
+      "related": []
+    }
+  ]
+}
