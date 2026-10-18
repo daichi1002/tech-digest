@@ -1,0 +1,408 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T07:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIエージェントとClaude Code活用の実践知が話題に集中、DeepSeekの検索APIやGemini4リリースも注目",
+  "items": [
+    {
+      "title": "DeepSeekが検索・フェッチAPIを提供、成功リクエスト1000件あたり$0.75",
+      "original_title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "summary": "DeepSeekの検索とフェッチ機能が、成功したリクエスト1000件あたり$0.75という価格で公開され、Hacker Newsで515ポイントを集めました。AIエージェントがWeb情報を取得する際のコストを左右する話題として注目されています。",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50138531",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "DeepSeek",
+        "API",
+        "検索",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "Gemini4 Argonがリリース、プロジェクト運用方法を見直した事例",
+      "original_title": "Gemini4がリリースされて、プロジェクトの運用方法を変えた話",
+      "summary": "GoogleからGemini4 Argonがリリースされ、Google AI Proプランの契約者はAntigravityおよびチャットで利用できるようになりました。この記事では、これまでGemini3.1 Proで行っていた運用を変更した経験が紹介されています。",
+      "url": "https://qiita.com/SolitaireEgg/items/820295021d314f050ec1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Gemini",
+        "Google",
+        "Antigravity"
+      ],
+      "related": []
+    },
+    {
+      "title": "Webサイトが相次いでAIエージェントを締め出している",
+      "original_title": "Websites are closing their doors to AI agents",
+      "summary": "「Websites are closing their doors to AI agents」と題する記事がHacker Newsで131ポイントを獲得し、124件のコメントが付きました。AIエージェントによるアクセスとサイト運営側の対応の変化を示す話題です。",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50141657",
+      "author": null,
+      "category": "web",
+      "score": 8,
+      "tags": [
+        "AIエージェント",
+        "Web",
+        "アクセス制御"
+      ],
+      "related": []
+    },
+    {
+      "title": "Anthropic提案のAI安全法案、発動条件は死者50人または損害10億ドル",
+      "original_title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "summary": "Anthropicが提案したAI安全法案は、50人の死者または$1Bの損害が発生した場合にのみ適用される内容だと報じられ、Hacker Newsで議論になっています。AI規制の設計に関わる動きです。",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50141429",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Anthropic",
+        "AI規制",
+        "安全性"
+      ],
+      "related": []
+    },
+    {
+      "title": "Anthropicにおける雇用のあり方はどう変わっているか",
+      "original_title": "How employment is changing at Anthropic",
+      "summary": "「How employment is changing at Anthropic」がHacker Newsで104ポイント、188コメントを集めました。AI企業内部での働き方の変化を扱う話題として議論されています。",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50139873",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Anthropic",
+        "雇用",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "Show HN: AIが書いたコードについて出荷前にクイズを出すフック「Sphinx」",
+      "original_title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "summary": "Sphinxは、AIが生成したコードの内容について出荷前に開発者へクイズを出すフックとして紹介され、Hacker Newsで237ポイントを獲得しました。AI生成コードの理解度を担保する試みです。",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50137950",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Sphinx",
+        "AIコーディング",
+        "フック"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeで.envを読ませない設定がどこまで効くのか48回試した",
+      "original_title": "Claude Codeの.envを読ませない設定がどこまで効くのか試してみた",
+      "summary": "Claude Codeのpermissions.denyで.envを読ませない設定について、公式ドキュメントに止まらないケースもあると書かれていることを受け、偽のキーを置いて48回検証した記事です。機密情報の扱いを考える上で参考になります。",
+      "url": "https://qiita.com/yakumo_09/items/5a86ca330b449db0e6bc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "セキュリティ",
+        "permissions"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeの1応答あたりの文脈を476kから115kへ削減した実測",
+      "original_title": "Claude Code の1応答あたりの文脈を476kから115kへ ― handoff → /clear → pickup と「判断役に読ませない」の実測",
+      "summary": "handoff、/clear、pickupの手順と「判断役に読ませない」工夫によって、Claude Codeの1応答あたりの文脈を476kから115kに減らした実測を紹介する記事です。",
+      "url": "https://qiita.com/kotaro_ai_lab/items/7d8a1264b227f2ccef29?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "コンテキスト",
+        "/clear"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIに指示を守らせるための6原則と、重要な指示の置き場所の比較",
+      "original_title": "【2026年版】今日から使える AI との会話術 — Claude・Gemini・Codex に指示を守らせる 6 つの原則",
+      "summary": "Claude・Gemini・Codexに指示を守らせる6つの原則をまとめた記事と、資料・命令・指示の並び順を8通り試した検証記事です。Anthropic・Google・OpenAIの手引きで重要な指示を置く位置の助言が異なる点が出発点になっています。",
+      "url": "https://qiita.com/songchong/items/351a939e2e1b673c2929?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "プロンプト",
+        "Claude",
+        "Gemini",
+        "Codex"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/songchong/items/542892c6d4c569c9c15f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "Lobsters、vibecodingタグが「有害」になったとの議論",
+      "original_title": "It's enough - vibecoding tag crossed from useless to harmful",
+      "summary": "「It's enough - vibecoding tag crossed from useless to harmful」がLobstersで226ポイントを集めました。同タグでは「The Brain Sandwich」や「My obituary for programming」といった投稿も並び、vibecodingを巡る議論が続いています。",
+      "url": "https://lobste.rs/s/ggpwfi/it_s_enough_vibecoding_tag_crossed_from",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/ggpwfi/it_s_enough_vibecoding_tag_crossed_from",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "vibecoding",
+        "Lobsters",
+        "議論"
+      ],
+      "related": [
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/k5omum/brain_sandwich"
+        },
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/wtobpt/my_obituary_for_programming"
+        }
+      ]
+    },
+    {
+      "title": "Lambdaが3種類に。Web FunctionsとMicroVMsを含め全部試してみた",
+      "original_title": "Lambdaが3種類になったみたいなので、全部試してみた",
+      "summary": "10月にLambda Web Functions、6月にMicroVMsが登場し、Lambdaが3種類になったことを受けて、3つすべてを試した記事です。",
+      "url": "https://qiita.com/maeda-kazutoshi/items/4674e080c2ce3d53c809?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "Lambda",
+        "Web Functions",
+        "MicroVMs"
+      ],
+      "related": []
+    },
+    {
+      "title": "Namecheapが全ドメインを差し押さえ・無効化したとの報告",
+      "original_title": "Namecheap just seized and disabled all my domains",
+      "summary": "「Namecheap just seized and disabled all my domains」という投稿がHacker Newsで325ポイント、158コメントを集めました。ドメインレジストラへの依存リスクを考えさせる話題です。",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50142866",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Namecheap",
+        "ドメイン",
+        "レジストラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "macOS 15.8.2でOpenGLが動かなくなる",
+      "original_title": "macOS 15.8.2 Breaks OpenGL",
+      "summary": "「macOS 15.8.2 Breaks OpenGL」がHacker Newsで227ポイント、231コメントを集めました。macOSのアップデートによりOpenGLに影響が出たとの報告です。",
+      "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50141909",
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "macOS",
+        "OpenGL"
+      ],
+      "related": []
+    },
+    {
+      "title": "Javaのsealed classesと網羅的パターンマッチング",
+      "original_title": "Java sealed classes and exhaustive pattern matching",
+      "summary": "Javaのsealed classesと網羅的パターンマッチングを扱った記事が、Hacker Newsで120ポイントを獲得しました。",
+      "url": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50141579",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Java",
+        "sealed classes",
+        "パターンマッチ"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending: Claude Code公式プラグイン集とCursorプラグイン仕様",
+      "original_title": "anthropics/claude-plugins-official",
+      "summary": "Anthropic管理のClaude Code公式プラグインディレクトリ(anthropics/claude-plugins-official)が本日1,187スターを集めました。cursor/pluginsはCursorのプラグイン仕様と公式プラグインを扱うリポジトリで、351スターです。",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "Cursor",
+        "プラグイン"
+      ],
+      "related": [
+        {
+          "source": "github",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "title": "GitHub Trending: オープンソースのコーディングエージェント opencode",
+      "original_title": "anomalyco/opencode",
+      "summary": "anomalyco/opencodeはオープンソースのコーディングエージェントで、TypeScript製です。本日1,417スターを獲得しトレンド入りしました。",
+      "url": "https://github.com/anomalyco/opencode",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "opencode",
+        "コーディングエージェント",
+        "TypeScript"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending: コーディングエージェント向け長期記憶ツール ai-memory",
+      "original_title": "akitaonrails/ai-memory",
+      "summary": "akitaonrails/ai-memoryは、エージェント型コーディングCLI向けの長期記憶と、ベンダー間の引き継ぎを支援するRust製ツールです。本日513スターを獲得しました。",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "ai-memory",
+        "Rust",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending: android/skills",
+      "original_title": "android/skills",
+      "summary": "Androidに関するKotlinのリポジトリandroid/skillsが、本日381スターを獲得してトレンド入りしました。",
+      "url": "https://github.com/android/skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "Android",
+        "Kotlin"
+      ],
+      "related": []
+    },
+    {
+      "title": "Slackにおけるアクセシビリティ自動テスト",
+      "original_title": "Automated Accessibility Testing at Slack",
+      "summary": "Slackのアクセシビリティ自動テストの取り組みを紹介する記事がRedditで共有されました。",
+      "url": "https://www.reddit.com/r/programming/comments/1x966u5/automated_accessibility_testing_at_slack/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "アクセシビリティ",
+        "Slack",
+        "テスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "Viteの「Cannot find native binding」エラーの解決方法",
+      "original_title": "【Vite】ビルド時に出た Error: Cannot find native binding. npm has a bug related to optional dependenciesを解決",
+      "summary": "Vite 8.3.0、Node.js 24.22.0、npm 11.19.1の環境で、npm run dev時に出る「Cannot find native binding. npm has a bug related to optional dependencies」エラーの解決方法をまとめた記事です。",
+      "url": "https://qiita.com/ryu0947/items/03af280e053c5d967168?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Vite",
+        "npm",
+        "Node.js"
+      ],
+      "related": []
+    },
+    {
+      "title": "chakra-ui v3でuseDisclosureを使わずDrawerを制御する",
+      "original_title": "chakra-ui v3ではuseDisclosureを使わずDrawerを制御する",
+      "summary": "chakra-ui v3でuseDisclosureによるDrawer制御がうまく動かなかった問題に対し、公式の例を流用して解決した方法を紹介する記事です。",
+      "url": "https://qiita.com/J-T_ky2g/items/49976b1033f985cd2e5b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 3,
+      "tags": [
+        "chakra-ui",
+        "React",
+        "Drawer"
+      ],
+      "related": []
+    },
+    {
+      "title": "async/awaitとPromise(then)の違いを出力順で比べる",
+      "original_title": "async/await と Promise(then) の違いを、出力順で比べてみた",
+      "summary": "JavaScriptの非同期処理を学ぶ筆者が、async/awaitとPromise(then)の違いを出力順で比較して整理した記事です。",
+      "url": "https://qiita.com/mmsbox/items/e1a201822b51b753e2ca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 3,
+      "tags": [
+        "JavaScript",
+        "Promise",
+        "async/await"
+      ],
+      "related": []
+    }
+  ]
+}
