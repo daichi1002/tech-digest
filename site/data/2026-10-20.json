@@ -1,0 +1,480 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Linux 7.3 リリースと GitHub Actions 障害、各社の新モデル公開が相次ぐ一日",
+  "items": [
+    {
+      "title": "Linux 7.3 がリリース",
+      "original_title": "Linux 7.3",
+      "summary": "Linux 7.3 の公開が Hacker News で大きな注目を集め、579 ポイント・275 コメントを獲得した。カーネルの新バージョンは OS やインフラ運用に携わるエンジニアにとって動向を押さえておきたい話題だ。",
+      "url": "https://lwn.net/Articles/1101143/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50149392",
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "Linux",
+        "カーネル"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Actions・Pages・Webhooks で可用性低下",
+      "original_title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
+      "summary": "GitHub が Actions、Pages、Webhooks の可用性低下を報告した。Reddit ではジョブが queued のまま止まるとの声が上がっており、CI/CD に GitHub Actions を使うチームは影響を確認する必要がある。",
+      "url": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50153934",
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "GitHub Actions",
+        "障害"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xa0z6c/github_actions_is_down_once_again/"
+        }
+      ]
+    },
+    {
+      "title": "Mistral が時系列基盤モデル Timestral を公開",
+      "original_title": "Timestral: Mistral's time-series foundation models",
+      "summary": "Mistral が時系列データ向けの基盤モデル群 Timestral を発表し、Hacker News で 528 ポイントを集めた。LLM 以外の領域へモデル提供を広げる動きとして注目される。",
+      "url": "https://mistral.ai/news/timestral/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50150434",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Mistral",
+        "時系列",
+        "基盤モデル"
+      ],
+      "related": []
+    },
+    {
+      "title": "MiniMax M3.1 Flash が登場",
+      "original_title": "MiniMax M3.1 Flash",
+      "summary": "MiniMax の新モデル M3.1 Flash が Hacker News で 338 ポイント・150 コメントを集めた。Flash 系の軽量モデルが相次いでおり、モデル選定の比較材料になる。",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50154540",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "MiniMax",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 1017 (Max) が話題に",
+      "original_title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "summary": "DeepSeek V4.1 Flash 1017 (Max) が Hacker News で 186 ポイント・90 コメントを集めた。DeepSeek の継続的なモデル更新を追う開発者にとって確認したい話題だ。",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50148452",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "DeepSeek",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "Mercury 3: 拡散モデルを大規模に適用",
+      "original_title": "Mercury 3: Diffusion at scale",
+      "summary": "「Mercury 3: Diffusion at scale」が Hacker News で 211 ポイントを獲得した。拡散(diffusion)方式を大規模に扱うモデルとして議論されている。",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50155245",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Mercury",
+        "diffusion"
+      ],
+      "related": []
+    },
+    {
+      "title": "Plex の脆弱性が悪用され、暗号資産マイナーが設置される",
+      "original_title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
+      "summary": "Plex の脆弱性が実際の攻撃で悪用され、cryptominer を仕込まれる被害が出ている。Plex を自前運用している場合は、更新状況の確認が必要だ。",
+      "url": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50152321",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Plex",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "NetScaler Gateway の脆弱性 CVE-2026-88771 への備え",
+      "original_title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+      "summary": "CVE-2026-88771 により、認証前に NetScaler Gateway 上でコマンドを実行される恐れがある。記事はパッチ適用に時間がかかる現実を踏まえ、サインイン時の判断で守る対策を解説している。",
+      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "NetScaler",
+        "CVE",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "CERN と Mistral が戦略的パートナーシップの意向表明に署名",
+      "original_title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "summary": "CERN と Mistral が戦略的パートナーシップを築くための意向表明(statement of intent)に署名した。Hacker News で 308 ポイントを集めている。",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50153630",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Mistral",
+        "CERN"
+      ],
+      "related": []
+    },
+    {
+      "title": "Let's Encrypt がドメイン検証の remote perspective を2つ追加",
+      "original_title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "summary": "Let's Encrypt はドメイン検証に用いる remote perspective を新たに2つ追加する。証明書発行の検証を複数地点から行う仕組みの強化にあたる。",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50150809",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Let's Encrypt",
+        "TLS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Ask HN: 理解できない AI 製コードをどう出荷するか",
+      "original_title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "summary": "AI が書いたコードを理解しきれないまま出荷することにどう向き合うかを問うスレッドで、361 コメントと活発に議論されている。AI コーディングの運用上の課題を示す話題だ。",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50151036",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIコーディング",
+        "開発プロセス"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Copilot アプリのセッションを VS Code で継続する方法",
+      "original_title": "How to continue a GitHub Copilot app session in VS Code",
+      "summary": "GitHub Copilot アプリのエージェントセッションを、会話やコード変更、作業コンテキストを失わずに VS Code へ移す方法が紹介されている。",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "GitHub Copilot",
+        "VS Code"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI コードレビュアーの推論コストを 68% 削減した事例",
+      "original_title": "Cutting our inference bill by 68% by being obsessive about optimization",
+      "summary": "AI コードレビュアーの1回あたりコストが倍増したのを受け、トークン使用量を調べ、プロンプトキャッシュとモデルルーティングで推論費用を68%削減した事例。",
+      "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "プロンプトキャッシュ",
+        "コスト最適化"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare が抽出系モデル Clairic を発表",
+      "original_title": "Introducing Clairic, a new System One class of extraction models",
+      "summary": "Cloudflare は System One クラスの抽出モデル Clairic を発表した。非構造データからの抽出・計算・推定・予測が可能とされている。",
+      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "Clairic"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI が低リソースなプログラミング言語での性能改善に取り組む",
+      "original_title": "Advancing coding in low‑resource programming languages",
+      "summary": "OpenAI は ChatGPT の低リソースなプログラミング言語での性能向上を進めており、ソフトウェアエンジニアリング、SQLite、COBOL 移行に関する新たな評価を用意した。",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "OpenAI",
+        "COBOL",
+        "評価"
+      ],
+      "related": []
+    },
+    {
+      "title": "Deno のコミュニティフォーク Ende が始動",
+      "original_title": "Beginning of the Ende (a community Deno fork)",
+      "summary": "Deno のコミュニティフォーク「Ende」の始まりが Lobsters で共有された。JavaScript ランタイムのエコシステム動向として注目できる。",
+      "url": "https://blog.webb.page/WM-105",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/8ejwsp/beginning_ende_community_deno_fork",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Deno",
+        "Ende",
+        "JavaScript"
+      ],
+      "related": []
+    },
+    {
+      "title": "PostgreSQL 19 で revert が続く",
+      "original_title": "The reverts will continue until morale improves [PostgreSQL 19]",
+      "summary": "「The reverts will continue until morale improves [PostgreSQL 19]」が Hacker News と Reddit で話題になった。PostgreSQL 19 の開発状況に関する記事だ。",
+      "url": "https://www.reddit.com/r/programming/comments/1xa9h5w/the_reverts_will_continue_until_morale_improves/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "PostgreSQL"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50156206"
+        }
+      ]
+    },
+    {
+      "title": "pcodec が ClickHouse に統合、DoubleDelta より15%小さく2倍高速",
+      "original_title": "Pcodec is awesome! 15% smaller and 2x faster than ClickHouse's DoubleDelta",
+      "summary": "pcodec が ClickHouse にマージされた。投稿者の IoT データセットでは、ClickHouse の DoubleDelta と比べて15%小さく、2倍高速だったという。",
+      "url": "https://www.reddit.com/r/programming/comments/1x9rgpj/pcodec_is_awesome_15_smaller_and_2x_faster_than/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "ClickHouse",
+        "pcodec",
+        "圧縮"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS Weekly Roundup: Lambda Web Functions など",
+      "original_title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
+      "summary": "AWS の週次まとめ。AWS Lambda Web Functions や Vercel Marketplace での Amazon S3 提供などが取り上げられ、既存コードを公開するまでの距離を縮める更新が中心だった。",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AWS",
+        "Lambda",
+        "S3"
+      ],
+      "related": []
+    },
+    {
+      "title": "Ruby gem 作者がすべてのリポジトリをアーカイブ",
+      "original_title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
+      "summary": "ある開発者が「もう Ruby gem の開発に関心がない」として全リポジトリをアーカイブした。Hacker News で 409 ポイント・389 コメントと議論が盛り上がっている。",
+      "url": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50154518",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Ruby",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Android アプリが macOS 上でネイティブ動作",
+      "original_title": "Android apps running native on macOS",
+      "summary": "Android アプリを macOS 上でネイティブに動かす取り組みが Hacker News で 234 ポイントを集めた。",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50154624",
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "Android",
+        "macOS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Tor VPN ベータ版: Android 向け自前 VPN 開発で得た知見",
+      "original_title": "Tor VPN Beta: What we've learned building our own VPN for Android from scratch",
+      "summary": "Tor プロジェクトが Android 向けにゼロから作った VPN のベータ版について、開発で学んだことをまとめた記事。",
+      "url": "https://blog.torproject.org/tor-vpn-beta/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/s3w7hd/tor_vpn_beta_what_we_ve_learned_building",
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "Tor",
+        "Android",
+        "VPN"
+      ],
+      "related": []
+    },
+    {
+      "title": "tmux と Claude Code: セッション管理と send-keys の限界",
+      "original_title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "summary": "tmux のセッションと send-keys を使って Claude Code を扱う方法とその限界を扱った記事。Hacker News で 146 ポイントを集めた。",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50148855",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "tmux",
+        "Claude Code"
+      ],
+      "related": []
+    },
+    {
+      "title": "Harness Engineering 101: LLM が脳、ハーネスが体",
+      "original_title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "summary": "LLM を「脳」、それを動かす周辺機構(ハーネス)を「体」と捉えるハーネスエンジニアリングの入門記事。",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50151390",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "エージェント",
+        "ハーネス"
+      ],
+      "related": []
+    },
+    {
+      "title": "コネクタも API も無いサービスを Claude Code に操作させる",
+      "original_title": "コネクタも API も無いサービスを、Claude Code に操作させる",
+      "summary": "コネクタや API が提供されていないサービスを Claude Code に操作させる方法を紹介した Zenn の記事(25 likes)。",
+      "url": "https://zenn.dev/edash_tech_blog/articles/6250fc61ccf009",
+      "source": "zenn",
+      "post_url": null,
+      "author": "edash_tech_blog",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "自動化"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI が書いた139件のテストの重複を静的解析で調べる",
+      "original_title": "AIが書いた139件のテストは本当に別物か、Vitestの重複を静的解析で調べた",
+      "summary": "コーディングエージェントが生成したテストが互いにどれだけ別物かを、Vitest のテストの重複を静的解析で調べて検証した記事。",
+      "url": "https://qiita.com/figueiredoluiz/items/9dae44b202aec123d7c4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Vitest",
+        "テスト",
+        "静的解析"
+      ],
+      "related": []
+    },
+    {
+      "title": "auto_explain で遅い SQL の実行計画を取得し New Relic で確認",
+      "original_title": "PostgreSQLで遅いSQLの実行計画を自動で取得しNew Relicで確認する - auto_explainの活用方法",
+      "summary": "PostgreSQL の auto_explain で遅い SQL の実測付き実行計画を自動取得し、New Relic で確認する方法の紹介。",
+      "url": "https://qiita.com/kobadain/items/e57c61375be6006dfe27?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "PostgreSQL",
+        "New Relic"
+      ],
+      "related": []
+    },
+    {
+      "title": "NextAuth を使わず Google 連携をスクラッチ実装して OAuth 2.0 を理解する",
+      "original_title": "NextAuthを使わずにGoogle連携をスクラッチ実装して、OAuth 2.0の仕組みを理解した",
+      "summary": "NextAuth を使わずに Google ログインをスクラッチ実装し、OAuth 2.0 の仕組みを学んだ記事。実際にアプリを動かしながら理解することを勧めている。",
+      "url": "https://qiita.com/keikeigo/items/7d2eb02a9588e4deeb22?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "OAuth",
+        "認証"
+      ],
+      "related": []
+    }
+  ]
+}
