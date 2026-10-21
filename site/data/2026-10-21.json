@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "eMudhra中間CA証明書の侵害がFirefox・Go・Cloudflareの対応に波及、Google Cloud障害やTypeScript 7.1 Betaも話題",
+  "items": [
+    {
+      "title": "eMudhraの中間CAが侵害、Firefoxなど各社が対応",
+      "original_title": "EMudhra Intermediate CA Compromise",
+      "summary": "eMudhraの中間CA証明書が侵害された問題が話題になっています。Cloudflareは、8つの中間証明書が弱い鍵を使っていたことが判明したとして緩和策を展開しており、Firefoxも利用者保護の対応を公表しました。TLS証明書の信頼に関わる問題のため、各ブラウザや言語ランタイムの対応状況の確認が重要です。",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50166579",
+      "author": null,
+      "category": "infra",
+      "score": 10,
+      "tags": [
+        "セキュリティ",
+        "TLS",
+        "証明書",
+        "Firefox",
+        "Cloudflare"
+      ],
+      "related": [
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/gqyvn5/protecting_firefox_users_following"
+        },
+        {
+          "source": "rss",
+          "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xb32yj/emudhra_intermediate_ca_compromise/"
+        }
+      ]
+    },
+    {
+      "title": "Go、不信任とされた8つのSPKIを含む証明書チェーンを拒否へ",
+      "original_title": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "summary": "Goは、distrustedとされた8つのSPKIを含む証明書チェーンを拒否するようになります。Redditでは「8つのCA鍵をブロックする緊急アップデート」として共有されており、eMudhra中間CAの問題に関連する対応とみられます。GoでTLSクライアントやサーバーを運用している場合は、アップデート内容の確認が必要です。",
+      "url": "https://github.com/golang/go/issues/82345",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50160877",
+      "author": null,
+      "category": "backend",
+      "score": 9,
+      "tags": [
+        "Go",
+        "セキュリティ",
+        "TLS"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xarfxg/go_issues_emergency_update_blocking_eight_ca_keys/"
+        }
+      ]
+    },
+    {
+      "title": "Google Cloudの障害で欧州の銀行などほぼ全業務に影響",
+      "original_title": "Google Cloud outage affects almost all banking and other operations in Europe",
+      "summary": "Google Cloudで障害が発生し、欧州の銀行をはじめとするほぼすべての業務に影響したと報じられています。クラウド単一障害点への依存リスクを改めて示す事例です。Hacker Newsで300ポイント超を集めています。",
+      "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50163961",
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "Google Cloud",
+        "障害",
+        "クラウド"
+      ],
+      "related": []
+    },
+    {
+      "title": "TypeScript 7.1 Betaが発表",
+      "original_title": "Announcing TypeScript 7.1 Beta",
+      "summary": "TypeScript 7.1のBetaが発表されました。Redditのr/programmingに公式アナウンスが共有されています。詳細な変更点は元記事で確認してください。",
+      "url": "https://www.reddit.com/r/programming/comments/1xaz5ur/announcing_typescript_71_beta/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 9,
+      "tags": [
+        "TypeScript",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "Tsrs: TypeScriptをRustに移植するプロジェクト",
+      "original_title": "Tsrs: A Port of TypeScript to Rust",
+      "summary": "TypeScriptをRustへ移植するプロジェクト「Tsrs」がHacker Newsで325ポイントを集め注目されています。TypeScriptツールチェーンの高速化に関心がある人には要チェックです。",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50165953",
+      "author": null,
+      "category": "web",
+      "score": 8,
+      "tags": [
+        "TypeScript",
+        "Rust"
+      ],
+      "related": []
+    },
+    {
+      "title": "Voxtral 3が公開",
+      "original_title": "Voxtral 3",
+      "summary": "Voxtral 3がHacker Newsで473ポイントを獲得し話題になっています。音声系モデルの新バージョンとみられ、詳細は元記事を確認してください。",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50168396",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Voxtral",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "GoogleがPyTorch向けTPUネイティブバックエンド「TorchTPU」をOSS化",
+      "original_title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "summary": "Googleが、TPU向けのネイティブPyTorchバックエンド「TorchTPU」をオープンソースとして公開しました。PyTorchでTPUを利用する選択肢が広がる動きです。",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50169053",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "PyTorch",
+        "TPU",
+        "Google",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "DeepInfer: DeepSeekモデル向け高性能推論フレームワーク",
+      "original_title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "summary": "DeepSeekモデル向けの高性能推論フレームワーク「DeepInfer」がHacker Newsで2000ポイント超と大きな注目を集めています。LLM推論基盤を扱う人は動向を追う価値があります。",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50163277",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "DeepSeek",
+        "推論",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS、ECS向けフルマネージドのイングレス「Amazon ECS Gateway」を発表",
+      "original_title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
+      "summary": "AWSがAmazon ECS Gatewayを発表しました。コンテナ化されたワークロードのイングレスネットワーキングを簡素化する、アカウントレベルの新しいリソースです。",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "AWS",
+        "ECS",
+        "コンテナ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Google Threat Intelligence Group、一時的なサプライチェーン改ざんを調査",
+      "original_title": "Google Threat Intelligence Group: Investigating Ephemeral Supply Chain Tampering",
+      "summary": "Google Threat Intelligence Groupが「Ephemeral Supply Chain Tampering」と題する調査結果を公開し、Redditで共有されています。サプライチェーン攻撃対策に関わるため、元記事の確認をおすすめします。",
+      "url": "https://www.reddit.com/r/programming/comments/1xarzjw/google_threat_intelligence_group_investigating/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "セキュリティ",
+        "サプライチェーン"
+      ],
+      "related": []
+    },
+    {
+      "title": "PHPで重大なセキュリティリリースが予告される",
+      "original_title": "Upcoming Critical PHP Security Release",
+      "summary": "PHPの重大なセキュリティリリースが近く公開される予定だとLobstersで共有されています。PHPを運用している場合は、リリース情報に備えておくとよいでしょう。",
+      "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/ekxoyt/upcoming_critical_php_security_release",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "PHP",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenBSD 8.0がリリース",
+      "original_title": "OpenBSD 8.0",
+      "summary": "OpenBSD 8.0が公開され、Hacker Newsで465ポイントを集めました。",
+      "url": "https://www.openbsd.org/80.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50160494",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "OpenBSD",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "chakra-ui検証中にSnykでタイポスクワッティングの悪意あるリポジトリを発見",
+      "original_title": "chakra-ui v2を検証用に使う前の確認をしていたら、タイポスクワッティングを狙う悪意のあるリポジトリをsnykで見つけた話",
+      "summary": "chakra-ui v2を検証用に使う前にSnykで確認していたところ、インストールする開発者を狙ったタイポスクワッティングのパッケージが見つかったという体験記です。コマンドは手打ちせず公式ドキュメントから実行することが対策として挙げられています。",
+      "url": "https://qiita.com/J-T_ky2g/items/863c78a49602100cfe4d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "npm",
+        "chakra-ui"
+      ],
+      "related": []
+    },
+    {
+      "title": "Chromium(V8)のArray.prototype.fillを最大約7倍高速化",
+      "original_title": "Chromium(V8)のArray.prototype.fillを最大約7倍高速化した",
+      "summary": "Chromium(V8)のArray.prototype.fillを最大約7倍高速化したという取り組みがZennで紹介されています。",
+      "url": "https://zenn.dev/dinii/articles/5b8edc7856c25b",
+      "source": "zenn",
+      "post_url": null,
+      "author": "dinii",
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "V8",
+        "Chromium",
+        "JavaScript",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Oxlint + Oxfmtで規約をコード化するモノレポ運用",
+      "original_title": "Oxlint + Oxfmt で規約をコード化するモノレポ運用",
+      "summary": "Oxlint と Oxfmt を使い、コーディング規約をコードとして管理するモノレポ運用についてのZenn記事です。",
+      "url": "https://zenn.dev/reality_tech/articles/oxc-monorepo-20261006",
+      "source": "zenn",
+      "post_url": null,
+      "author": "reality_tech",
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Oxlint",
+        "モノレポ",
+        "リンター"
+      ],
+      "related": []
+    },
+    {
+      "title": "Jepsen: Orkes Conductor 5.3.2の検証",
+      "original_title": "Jepsen: Orkes Conductor 5.3.2",
+      "summary": "分散システムの検証で知られるJepsenが、Orkes Conductor 5.3.2を対象にした分析を公開しました。",
+      "url": "https://jepsen.io/analyses/orkes-conductor-5.3.2",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/42zgmq/jepsen_orkes_conductor_5_3_2",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Jepsen",
+        "分散システム",
+        "データベース"
+      ],
+      "related": []
+    }
+  ]
+}
