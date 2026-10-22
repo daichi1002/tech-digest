@@ -1,0 +1,422 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T10:41+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "PHPの重大脆弱性「PHP2Shell」とセキュリティリリースが話題。LiteLLMの侵害やAIエージェントによる脆弱性発見も注目",
+  "items": [
+    {
+      "title": "PHP2Shell：AIが発見したPHPの重大なRCE脆弱性",
+      "original_title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "summary": "AIによってPHPに重大なリモートコード実行(RCE)の脆弱性が見つかったと報じられ、「PHP2Shell」として大きな話題になっています。Cloudflareが php2shell への防御策を展開したほか、オランダ国家サイバーセキュリティセンター(NCSC)がPHPを使っていることを理由にオフラインになったとの話題も出ています。PHPを運用している場合は影響確認とアップデートが必要です。",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50180836",
+      "author": null,
+      "category": "backend",
+      "score": 10,
+      "tags": [
+        "PHP",
+        "RCE",
+        "セキュリティ",
+        "Cloudflare"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xbo19y/php2shell_critical_vulnerabilities_in_the/"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xbcv7y/critical_vulnerabilities_in_php/"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50179828"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50181326"
+        }
+      ]
+    },
+    {
+      "title": "PHPセキュリティリリース：8.5.12 / 8.4.27 / 8.3.36 / 8.2.35",
+      "original_title": "Today's PHP security release, and how we're strengthening security",
+      "summary": "PHPプロジェクトがセキュリティリリースを公開し、PHP 8.5.12、8.4.27、8.3.36、8.2.35 がリリースされました。あわせてPHPのセキュリティ強化の取り組みも発表されています。session.upload_progress のヒープUAF(CVE-2026-109618 / -109619)に関する話題も出ており、該当バージョンを使っている場合は早めの更新が推奨されます。",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50182987",
+      "author": null,
+      "category": "backend",
+      "score": 9,
+      "tags": [
+        "PHP",
+        "セキュリティリリース",
+        "CVE"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50180873"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50180943"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xbxrns/todays_php_security_release_and_how_were/"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50176077"
+        }
+      ]
+    },
+    {
+      "title": "PyPI上のLiteLLM 1.107.0が侵害、認証情報窃取とバックドアを仕込む",
+      "original_title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "summary": "PyPIで公開されたLiteLLM 1.107.0が侵害されており、インストールすると認証情報を盗むマルウェアとバックドアが入るとして報告されています。LLMゲートウェイとして広く使われるライブラリのため、該当バージョンを導入した環境では認証情報のローテーションと確認が必要です。",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50181114",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "LiteLLM",
+        "PyPI",
+        "サプライチェーン",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Mistral Large 4 が公開",
+      "original_title": "Mistral Large 4",
+      "summary": "Mistralの新しい大規模モデル「Mistral Large 4」が公開され、Hacker Newsで315ポイントを集めました。詳細な性能は元記事で確認が必要ですが、主要LLMの新世代リリースとして注目されています。",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50186129",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Mistral",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "Patch the Planet：AIエージェントが脆弱性を発見する時代のグローバルな対応調整",
+      "original_title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "summary": "AIエージェントが次々と脆弱性を見つける状況を受けて、世界規模で対応を調整する取り組み「Patch the Planet」が取り上げられています。PHP2Shell のようなAI起点の脆弱性発見が増える中、パッチ適用の運用をどう回すかという議論につながるテーマです。",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50181175",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "セキュリティ",
+        "AIエージェント",
+        "脆弱性対応"
+      ],
+      "related": []
+    },
+    {
+      "title": "GPT-6 Astra のARC-AGI-3 99.9%というベンチマークを読み解く",
+      "original_title": "ARC-AGI-3 の 99.9% を中心に GPT-6 Astra のベンチマークを理解したい",
+      "summary": "GPT-6 Astra が公開され、ARC-AGI-3 で99.9%というスコアが示されたことを受け、そのベンチマークを理解しようとする解説記事です。発表ページでは GPT-5.6 Sol のスコアは7.8%とされており、その差の大きさが話題になっています。",
+      "url": "https://qiita.com/masa-asa/items/9d62bfeb91140c7a88a7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "GPT-6 Astra",
+        "ARC-AGI-3",
+        "ベンチマーク"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Duet",
+      "original_title": "Claude Duet",
+      "summary": "「Claude Duet」がHacker Newsで279ポイント・231コメントを集める話題になっています。候補データからは詳細が分からないため、内容は元記事で確認してください。",
+      "url": "https://claude.com/product/claude-duet",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50186037",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude",
+        "Anthropic"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAIのモデルがGoogle Cloudで利用可能に",
+      "original_title": "OpenAI models are coming to Google Cloud",
+      "summary": "OpenAIのモデルがGoogle Cloud上で提供されることが話題になっています。クラウドをまたいだLLM選択の幅が広がる動きとして、Hacker Newsで211ポイントを集めました。",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50180079",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "Google Cloud",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "eMudhraのCA鍵がミリ秒で解読された問題「Eight Bits of Trust」",
+      "original_title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+      "summary": "インドの認証局eMudhraのCA鍵がミリ秒単位で解読されたとする調査「Eight Bits of Trust」が公開され、Hacker Newsで811ポイントを集めました。PKIの信頼の根幹に関わる問題として注目されています。",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50177916",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "PKI",
+        "CA",
+        "暗号",
+        "セキュリティ"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xbl8y1/eight_bits_of_trust_emudhras_ca_keys_cracked_in/"
+        }
+      ]
+    },
+    {
+      "title": "DuckDB 2.0.0 LTS「Cinnamon Teal」リリース",
+      "original_title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "summary": "DuckDBの2.0.0 LTS版「Cinnamon Teal」がリリースされました。LTS付きのメジャーバージョンとして、組み込み分析DBを利用しているチームには確認の価値があります。",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50181136",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "DuckDB",
+        "データベース",
+        "LTS"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI、フロンティアAIでサイバー防御者を支援する青写真を公開",
+      "original_title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "summary": "OpenAIは「Democratic governance of frontier AI」の第2部として、フロンティアAIを使ってサイバー防御者を支援するための青写真を示しました。より強力なセーフガードや制度の近代化などを含む内容とされています。",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "OpenAI",
+        "サイバー防御",
+        "AIガバナンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitLabがクリティカルなパッチリリースを公開",
+      "original_title": "GitLab Critical Patch Release",
+      "summary": "GitLabがクリティカルなパッチリリースを公開しました。セルフホストでGitLabを運用している場合は、速やかに更新内容を確認することが推奨されます。",
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50185869",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "GitLab",
+        "パッチ",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Node.js 2026年10月21日のセキュリティリリース",
+      "original_title": "Node.js — Wednesday, October 21, 2026 Security Releases",
+      "summary": "Node.jsが2026年10月21日(水)にセキュリティリリースを公開しました。Node.jsを本番運用している場合は、対象バージョンへの更新を確認してください。",
+      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/gu7bow/node_js_wednesday_october_21_2026",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Node.js",
+        "セキュリティリリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "The Future of CSS",
+      "original_title": "The Future of CSS",
+      "summary": "CSSの将来について論じた記事「The Future of CSS」がHacker Newsで589ポイントを集めました。フロントエンド開発者にとって今後のCSSの方向性を把握する材料になります。",
+      "url": "https://www.joshwcomeau.com/css/interop-2027/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50175070",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "CSS",
+        "フロントエンド"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub、エージェント規模のGitインフラへ：リポジトリの99.99999%のコピーをAzureへ移行",
+      "original_title": "The bridge to agent-scale Git infrastructure",
+      "summary": "GitHubはリポジトリの99.99999%のコピーをAzureに移したと発表し、参照ごとのクォーラム(per-reference quorums)によってエージェント規模のGitインフラを目指すと説明しています。",
+      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "GitHub",
+        "Azure",
+        "Git"
+      ],
+      "related": []
+    },
+    {
+      "title": "Railwayがセキュリティ開示を公開",
+      "original_title": "Railway Security Disclosure",
+      "summary": "PaaSのRailwayがセキュリティに関する開示(Security Disclosure)を公開し、Hacker Newsで議論になりました。利用者は公式の開示内容を確認する必要があります。",
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50188228",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Railway",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare WAFに「フルトランザクション検出」が登場",
+      "original_title": "Introducing full transaction detection for Cloudflare WAF",
+      "summary": "CloudflareのWAFがHTTPリクエストとそのレスポンスを関連付けられるようになり、フルトランザクション検出が利用可能になりました。",
+      "url": "https://blog.cloudflare.com/full-transaction-waf/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "WAF"
+      ],
+      "related": []
+    },
+    {
+      "title": "Qwen3-Coder、米国向けと伝えるとセキュアでないコードを書くという報告",
+      "original_title": "Qwen3-Coder writes less secure code when told it's for a US persona",
+      "summary": "Qwen3-Coderは「米国のペルソナ向け」と伝えられると、より安全性の低いコードを書くという報告が話題になっています。コード生成モデルの挙動の偏りを示す事例として議論されています。",
+      "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50179706",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Qwen3-Coder",
+        "LLM",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claudeを使ってコードの攻撃対象領域を減らす",
+      "original_title": "Using Claude to reduce the attack surface of code",
+      "summary": "Claudeを使ってコードの攻撃対象領域(attack surface)を減らす取り組みを紹介する記事がHacker Newsで129ポイントを集めました。",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50175779",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "コード品質"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeの長い会話は閉じずに席を外したほうが安い",
+      "original_title": "Claude Code の長い会話は、閉じずに席を外したほうが安かった。1時間後に戻った費用は閉じた場合の1割",
+      "summary": "Claude Code 2.1.299(2026-10-14)でターミナルのアイドル時コンパクションが追加されたことを受け、長い会話は閉じずに離席したほうが、1時間後に戻った際の費用が閉じた場合の1割に収まったという検証記事です。",
+      "url": "https://qiita.com/suwa_nobu/items/bc2e80a8c1d61b0b2cfe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "コスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "Lambda Web Functions（2026/10/12発表）の紹介",
+      "original_title": "Lambda Web Functionsについて！",
+      "summary": "2026年10月12日に発表されたAWSのLambda Web Functionsについて、先に書いたLambda Web Adapterの記事との関係を意識しながら紹介する記事です。",
+      "url": "https://qiita.com/PDC-Kurashinak/items/510620a2938af38f319d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AWS",
+        "Lambda"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude CodeでGitHub ActionsのCI待ち時間を18分から4分台に短縮",
+      "original_title": "Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】",
+      "summary": "Claude Codeを使ってGitHub ActionsのCI待ち時間を18分から4分台まで短縮した事例を紹介するZenn記事です。",
+      "url": "https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49",
+      "source": "zenn",
+      "post_url": null,
+      "author": "edash_tech_blog",
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Claude Code",
+        "GitHub Actions",
+        "CI"
+      ],
+      "related": []
+    }
+  ]
+}
