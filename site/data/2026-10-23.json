@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T10:41+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "PHP2Shell（PHPの緊急脆弱性）への対応が最大の話題。eMudhraのCA事業撤退など証明書まわりの動きも注目",
+  "items": [
+    {
+      "title": "PHP2Shell：公開前の10月17日にAmazonが悪用を確認、各社が対応状況をまとめ",
+      "original_title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+      "summary": "PHPの緊急脆弱性「PHP2Shell」（CVE-2026-109618 / CVE-2026-109619）について、Amazonの脅威インテリジェンスが公開前の10月17日に悪用を確認したと報告しています。Zennでは PHP本体・Linux・レンタルサーバ・KUSANAGI などの対応状況をまとめた速報記事や、確認ツール、検知・防御の解説記事も出ています。PHPを運用している場合はパッチ適用状況の確認が急務です。",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50194070",
+      "author": null,
+      "category": "backend",
+      "score": 10,
+      "tags": [
+        "PHP",
+        "PHP2Shell",
+        "CVE",
+        "セキュリティ"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/tyamadadd/articles/c02a27af771dd2"
+        },
+        {
+          "source": "rss",
+          "url": "https://qiita.com/kotowazaman/items/aab621d31a8501617eb4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        },
+        {
+          "source": "rss",
+          "url": "https://qiita.com/hokutoh/items/2beff120afb168bdec1c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        },
+        {
+          "source": "rss",
+          "url": "https://qiita.com/Elu_72b/items/acbf3ba68785e90202b3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        },
+        {
+          "source": "rss",
+          "url": "https://qiita.com/takao-shimizu/items/6aa0a1e48debecb01ef7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        },
+        {
+          "source": "rss",
+          "url": "https://qiita.com/takao-shimizu/items/37006609b3265d265d0a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "eMudhra がグローバルのSSL/TLS証明書事業から撤退を発表",
+      "original_title": "eMudhra to exit global SSL/TLS certificate business",
+      "summary": "eMudhra が世界向けのSSL/TLS証明書事業から撤退するとプレスリリースで発表し、Hacker Newsで大きな議論になっています。関連して mitmproxy に --emudhra オプションが追加され、eMudhra の1FA OTPログインの完全なバイパスや、中間認証局の侵害に関するCVE-2026-111943も話題です。証明書の発行元や信頼チェーンの確認が必要になる可能性があります。",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50195110",
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "TLS",
+        "証明書",
+        "eMudhra",
+        "CVE"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50189232"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50199757"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50192900"
+        }
+      ]
+    },
+    {
+      "title": "Node.js が脆弱性10件を修正するセキュリティリリースを公開（10月21日）",
+      "original_title": "【緊急】Node.jsの重大脆弱性に対応するセキュリティアップデートを安全に適用する方法",
+      "summary": "Node.jsプロジェクトが2026年10月21日に、10件の脆弱性を修正するセキュリティリリースを公開しました。Qiitaの記事では、このアップデートを安全に適用する方法が解説されています。Node.jsを本番で使っている場合は、該当バージョンへの更新計画を確認してください。",
+      "url": "https://qiita.com/superdora-cloud/items/8cad27487cd0e67d088c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 8,
+      "tags": [
+        "Node.js",
+        "セキュリティ",
+        "アップデート"
+      ],
+      "related": []
+    },
+    {
+      "title": "Linuxカーネルの複数の脆弱性が誤ってパブリックなメーリングリストに投稿される",
+      "original_title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "summary": "Phoronixによると、Linuxカーネルの複数の脆弱性情報が誤ってLKMLの公開メーリングリストに投稿されました。Hacker Newsでも議論されており、脆弱性の扱われ方に関する新しい傾向として注目されています。",
+      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50193804",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Linux",
+        "カーネル",
+        "脆弱性"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS Continuum for code vulnerabilities が一般提供開始",
+      "original_title": "AWS Continuum for code vulnerabilities is now generally available",
+      "summary": "AWS Continuum for code vulnerabilities は、AIでコードの脆弱性を自動的に検出・検証・優先順位付けし、レビュー可能な修正をプルリクエストとして提示する新しいセキュリティサービスで、一般提供が始まりました。",
+      "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "AWS",
+        "セキュリティ",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "DuckDB 2.0.0 LTS「Cinnamon Teal」が発表",
+      "original_title": "Announcing DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "summary": "DuckDBが 2.0.0 の LTS リリース「Cinnamon Teal」を公式ブログで発表しました。LTSとして長期サポートされる版であり、DuckDBを利用しているプロジェクトは移行を検討する節目になります。",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/dcvs3u/announcing_duckdb_2_0_0_lts_cinnamon_teal",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "DuckDB",
+        "データベース",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI CLI が GitHub で公開される",
+      "original_title": "OpenAI CLI",
+      "summary": "openai/openai-cli リポジトリが公開され、Hacker Newsで228ポイントを集めました。OpenAIのAPIをコマンドラインから扱うためのツールとして注目されています。",
+      "url": "https://github.com/openai/openai-cli",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50191507",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "CLI"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenShell：自律AIエージェント群のための安全でプライベートなランタイム",
+      "original_title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "summary": "OpenShell は、自律的なAIエージェントの群れを安全かつプライベートに動かすためのランタイムとして紹介されています。Hacker Newsで259ポイントを獲得しました。",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50198675",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIエージェント",
+        "ランタイム",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "DNSリゾルバ Quad9 がフランスから撤退",
+      "original_title": "Quad9 (DNS Resolver) to Exit France",
+      "summary": "Quad9 が公式ブログで、フランスでのサービス提供から撤退することを発表しました。Hacker Newsで921ポイントと大きな反響があり、DNSリゾルバをQuad9に頼っている場合は影響を確認する価値があります。",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50195959",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "DNS",
+        "Quad9"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare が公開した、マルチフェーズのセキュリティ監査用コーディングエージェントSkill",
+      "original_title": "cloudflare/security-audit-skill",
+      "summary": "cloudflare/security-audit-skill は、独立して検証された機械可読な指摘を出す、多段階のセキュリティ監査用のコーディングエージェント向けSkillです。GitHub Trendingに入っています。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "Skill",
+        "セキュリティ監査"
+      ],
+      "related": []
+    },
+    {
+      "title": "コーディングエージェントの「指示書・Skill・Hooks」の役割分担",
+      "original_title": "コーディングエージェントの「指示書・Skill・Hooks」役割分担",
+      "summary": "Claude CodeやCodexなどのコーディングエージェントにおいて、振る舞いを調整する仕組みである指示書・Skill・Hooksの役割分担を整理した記事です。",
+      "url": "https://qiita.com/acshu_moriyama/items/0d35781c10fe8d436b5c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "Skill",
+        "Hooks"
+      ],
+      "related": []
+    },
+    {
+      "title": "MCPサーバーの基本と、TypeScript の最小実装・Firestore 連携の事例",
+      "original_title": "MCPサーバーを5分で作る — TypeScript + @modelcontextprotocol/sdk の最小実装",
+      "summary": "TypeScriptと @modelcontextprotocol/sdk を使って5分でMCPサーバーを作る最小実装の紹介記事です。別の記事では、MCPサーバーの仕組みの基本と、FirestoreをAIエージェントから調べられるようにした事例が紹介されています。",
+      "url": "https://qiita.com/joinclass/items/60abfc1f42358424b26f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "MCP",
+        "TypeScript",
+        "Firestore"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/sugumura/items/d52a567f7450b5539665?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "Arc ブラウザへの別れ",
+      "original_title": "A farewell to Arc browser",
+      "summary": "Arc の公式サイトに「A farewell to Arc browser」という告知が掲載され、Hacker Newsで216ポイントを集めて議論になっています。",
+      "url": "https://arc.net/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50197601",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Arc",
+        "ブラウザ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Header Accordions：HTTP/3サーバーに対するQPACK増幅攻撃",
+      "original_title": "Header Accordions: QPACK amplification attacks against HTTP/3 servers",
+      "summary": "HTTP/3のヘッダ圧縮であるQPACKを悪用した増幅攻撃「Header Accordions」を扱った記事で、Lobstersのセキュリティタグで共有されています。",
+      "url": "https://foxio.io/blog/header-accordions-qpack-amplification-attacks-against-http-3-servers",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/l2l50n/header_accordions_qpack_amplification",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "HTTP/3",
+        "QPACK",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Crystal 1.22 がリリース",
+      "original_title": "Crystal 1.22",
+      "summary": "プログラミング言語 Crystal の 1.22.0 がリリースされました。Hacker Newsで167ポイントを獲得しています。",
+      "url": "https://crystal-lang.org/2026/10/12/1.22.0-released/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50194938",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Crystal",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "バイブコーディングを6週間続けたらMacの起動が20分かかるようになった",
+      "original_title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
+      "summary": "バイブコーディングを6週間続けた結果、Macの起動に20分かかるようになったという体験談がZennに投稿されています。",
+      "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
+      "source": "zenn",
+      "post_url": null,
+      "author": "singularity",
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "バイブコーディング",
+        "Mac"
+      ],
+      "related": []
+    }
+  ]
+}
