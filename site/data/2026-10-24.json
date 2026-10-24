@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "PHP2Shell（PHPの重大な脆弱性）への対応が世界的に広がり、セキュリティ運用に注目が集まる一日",
+  "items": [
+    {
+      "title": "PHP2Shell緊急対策：PHPの重大脆弱性（CVE-2026-109618/109619）",
+      "original_title": "PHP2Shell緊急対策：日本国内向けサイトで海外IPを全部弾く、即効性のあるIPフィルタ防御",
+      "summary": "2026年10月21日に公開されたPHPの重大な脆弱性PHP2Shell（CVE-2026-109618 / CVE-2026-109619）は、CVSSv4.0スコア9.2で、PHP 5.4以降のほぼすべてのバージョンに影響します。Redditでは、この2件の重大バグを受けて政府がサイトを停止した経緯が解説されています。Zennではレンタルサーバ等の対応状況まとめや、国内向けサイトで海外IPを遮断する応急策が紹介されています。",
+      "url": "https://qiita.com/Hiro884/items/27a98c86ef17b70df7ed?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 10,
+      "tags": [
+        "PHP",
+        "脆弱性",
+        "PHP2Shell",
+        "セキュリティ"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/tyamadadd/articles/c02a27af771dd2"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xdihhk/the_attack_php2shell_explained_visually_from_the/"
+        }
+      ]
+    },
+    {
+      "title": "Kimi K3.1 Pro / K3.1 Pro Highspeed が登場",
+      "original_title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "summary": "Kimi K3.1 Pro と K3.1 Pro Highspeed が公開され、Hacker Newsで628ポイントと大きな話題になっています。関連投稿ではKimi K3.1がArtificial Analysisでスコア55を記録し、Pareto線上に位置すると報告されています。",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50212065",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Kimi",
+        "LLM",
+        "ベンチマーク"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50213337"
+        }
+      ]
+    },
+    {
+      "title": "Railway、10月21日のセキュリティインシデントの暫定報告を公開",
+      "original_title": "Railway Preliminary Report: Oct 21st Security Incident",
+      "summary": "RailwayがOct 21st Security Incidentに関する暫定報告（Preliminary Report）を公開しました。devops・セキュリティ分野のインシデント報告として、インフラ利用者は内容の確認が推奨されます。",
+      "url": "https://blog.railway.com/p/preliminary-report-october-security-incident",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/hq3tu8/railway_preliminary_report_oct_21st",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Railway",
+        "インシデント",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "eMudhra、Mozillaのルート調査の期限を無視／CA侵害に関するプレスリリースを公表",
+      "original_title": "eMudhra ignored Mozilla Root investigation deadline; blames social media",
+      "summary": "認証局eMudhraが、Mozilla Root調査の期限を守らず、その理由をソーシャルメディアのせいにしたと報じられています。同社はCA侵害（CA Compromise）に関するプレスリリースも出しており、Hacker NewsとRedditで議論されています。",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50210067",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "eMudhra",
+        "Mozilla",
+        "CA",
+        "PKI"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xd9rwe/emudhras_press_release_on_the_ca_compromise/"
+        }
+      ]
+    },
+    {
+      "title": "OpenSSL 4.1.0 リリース",
+      "original_title": "OpenSSL 4.1.0",
+      "summary": "OpenSSL 4.1.0 が公開されました。多くのサービスが依存する基盤ライブラリのリリースであり、Hacker Newsで180ポイントを集めています。",
+      "url": "https://github.com/openssl/openssl/releases/tag/openssl-4.1.0",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50208099",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "OpenSSL",
+        "リリース",
+        "暗号"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI、フロンティアモデル訓練環境の防御強化について解説",
+      "original_title": "Securing our frontier model training environment",
+      "summary": "OpenAIは、フロンティアモデルの訓練・評価環境の封じ込め（containment）をどう強化したかを説明しています。オフライン環境や高い計算資源を使ったレッドチーミングなどが含まれます。",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "セキュリティ",
+        "レッドチーミング"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI、10億人超のChatGPTを支えるストレージのスケーリング（Part II）",
+      "original_title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "summary": "OpenAIが、Habitatをマルチテナンシー、グローバルキャッシュ、Azure Cosmos DBでスケールさせ、ChatGPTの読み取りを12倍高速化した取り組みを解説しています。",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "Cosmos DB",
+        "スケーリング"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare、地理的に制限された鍵管理にポスト量子暗号を導入",
+      "original_title": "Bringing post-quantum cryptography to geographically fenced key management",
+      "summary": "Cloudflareの新しいポスト量子対応GeoKey Managerは、地理的に制限された復号鍵を「harvest now, decrypt later」攻撃から保護します。データ主権を厳格に守りつつ暗号スタックを再設計した内容が紹介されています。",
+      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "ポスト量子暗号",
+        "鍵管理"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare、Pingoraで大容量ファイル配信のrange request問題を解消",
+      "original_title": "Origin Range Requests: Serving large files without range-request tuning",
+      "summary": "単純なバイト範囲キャッシュは、小さなリクエストでも原点帯域を大量に浪費することがあります。Cloudflareは部分取得を自動調整するようPingoraのキャッシュ構成を作り直し、R2のp99レイテンシを半減させました。",
+      "url": "https://blog.cloudflare.com/origin-range-requests/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "Pingora",
+        "R2",
+        "キャッシュ"
+      ],
+      "related": []
+    },
+    {
+      "title": "VS Code 1.142 に「Interactive Canvases」が登場",
+      "original_title": "【速報】VS Code 1.142 に Canvas が来た！チャットの横でエージェントと同じ画面を触れる「Interactive Canvases」を整理してみた",
+      "summary": "VS Code 1.142でCanvasが追加され、チャットの横でエージェントと同じ画面を操作できるInteractive Canvasesが利用できるとZennで紹介されています。",
+      "url": "https://qiita.com/shahin0809/items/81e6a6737b2254bdc6ed?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "VS Code",
+        "GitHub Copilot",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Next.jsの脆弱性にDependabotが反応しなかった理由とAdvisory Databaseまでの流れ",
+      "original_title": "Next.js の脆弱性に Dependabot が反応しなかったので、GitHub Advisory Database までの流れを追った",
+      "summary": "Next.jsの脆弱性に対してDependabotが反応しなかったため、GitHub Advisory Databaseに反映されるまでの流れを追った記事です。関連して、脆弱性管理の仕組みを整えた事例も共有されています。",
+      "url": "https://zenn.dev/rakko_inc/articles/dependabot-cve-to-pr-flow",
+      "source": "zenn",
+      "post_url": null,
+      "author": "rakko_inc",
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Next.js",
+        "Dependabot",
+        "脆弱性管理"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/dress_code/articles/be5550254695cd"
+        }
+      ]
+    },
+    {
+      "title": "New Relic「Security RX Agent」がパブリックプレビューに",
+      "original_title": "Security RX Agentがパブリックプレビューになったので、試してみた。",
+      "summary": "Security RXが見つけた脆弱性をAIが分析し、修正計画入りのGitHub Issueを作成します。そこからコーディングエージェントに繋げる流れを試した記事です。",
+      "url": "https://qiita.com/seamoooooo/items/db67af6b63029ba32eea?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "New Relic",
+        "Security RX",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "UUIDv7は思ったような性質を持っていない",
+      "original_title": "UUIDv7 doesn't have the properties you think it does",
+      "summary": "「UUIDv7は多くの人が想定する性質を持っていない」と指摘する記事がLobstersで話題です。分散システムとPythonに関連するタグが付いています。",
+      "url": "https://alexsci.com/blog/uuidv7-is-weird/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/kcyzco/uuidv7_doesn_t_have_properties_you_think",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "UUIDv7",
+        "分散システム",
+        "Python"
+      ],
+      "related": []
+    },
+    {
+      "title": "15万ドルのLookerをHTMLファイル群で置き換えられるか",
+      "original_title": "Can we replace a $150k Looker with a bucket of HTML files?",
+      "summary": "高額なBIツールLookerを、HTMLファイルの集まりで置き換えられるかを検討した記事がHacker Newsで105ポイントを集めています。",
+      "url": "https://david.lequin.dev/blog/bi-software-is-dead/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50212320",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Looker",
+        "BI",
+        "コスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "pgrustのエントリーは不正だとして削除を求める指摘",
+      "original_title": "Remove pgrust: the entry is cheating (per-query kernels and result caching)",
+      "summary": "pgrustのエントリーがクエリごとのカーネルと結果キャッシュを使っており不正（cheating）だとして、削除を求める投稿がHacker Newsで議論されています。",
+      "url": "https://github.com/ClickHouse/ClickBench/pull/2165",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50205816",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "pgrust",
+        "ベンチマーク",
+        "データベース"
+      ],
+      "related": []
+    },
+    {
+      "title": "Dockerは奇妙だ（Docker is weird）",
+      "original_title": "Docker is weird",
+      "summary": "「Docker is weird」と題した記事がHacker Newsで813ポイント・342コメントと大きな反響を集めています。Redditにも同記事が投稿されています。",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50202681",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Docker",
+        "コンテナ"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xdef0p/code_and_cake_docker_is_weird/"
+        }
+      ]
+    },
+    {
+      "title": "スウェーデン政府機関、ChatGPTとClaudeの利用を禁止へ",
+      "original_title": "Swedish government offices to ban ChatGPT and Claude",
+      "summary": "スウェーデンの政府機関がChatGPTとClaudeの利用を禁止すると報じられ、Hacker Newsで314ポイントを集めています。",
+      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50207405",
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "政府"
+      ],
+      "related": []
+    },
+    {
+      "title": "Codexの承認待ちをDiscordに通知するツールを作った",
+      "original_title": "Codexに「承認待ちをDiscordに通知してほしい」と相談して、通知ツールを作ってみた",
+      "summary": "Codexに作業を任せた際、承認待ちや入力待ちのタイミングをスマホで気づけるよう、Discord通知ツールを作った体験記です。",
+      "url": "https://qiita.com/shota_hirano/items/5aa037294434003db2db?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Codex",
+        "Discord",
+        "通知"
+      ],
+      "related": []
+    }
+  ]
+}
