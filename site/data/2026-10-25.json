@@ -1,0 +1,365 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T07:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Node.js・Python等のHTTP/Brotliライブラリを狙うRCE脆弱性(http2shell系)が話題、Claude Code活用記事も多数",
+  "items": [
+    {
+      "title": "Node2ShellがHTTP2Shellに進化、多くのHTTPライブラリ・アプリに影響",
+      "original_title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "summary": "Aikidoが、Node2ShellがHTTP2Shellへ進化し、多数のHTTPライブラリやアプリに影響が及ぶと報告しています。関連してNode.js・Python等に存在するBrotliデコーダのRCE(CVE-2026-111497)も議論されており、Node・Pythonを使うバックエンド開発者は影響範囲の確認が必要です。",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50219177",
+      "author": null,
+      "category": "backend",
+      "score": 9,
+      "tags": [
+        "security",
+        "RCE",
+        "Node.js",
+        "Python"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50216791"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xe7dp8/broccoli2shell_brotli_decoder_rce_cve2026111497/"
+        }
+      ]
+    },
+    {
+      "title": "インド政府サイトが失効済みeMudhra証明書を配信",
+      "original_title": "Indian government sites are serving revoked eMudhra certificates",
+      "summary": "インドの政府系サイトが、失効済みのeMudhra証明書を提供し続けていると指摘されています。ZennでもeMudhraの中間CA証明書の秘密鍵を探る試みが紹介されており、証明書の失効管理とPKI運用の重要性を考える材料になります。",
+      "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/zug8xv/indian_government_sites_are_serving",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "security",
+        "TLS",
+        "PKI"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/herumi/articles/search_bad_emudhra_key"
+        }
+      ]
+    },
+    {
+      "title": "uvとtyの統合 (Astral)",
+      "original_title": "Bringing uv and ty together",
+      "summary": "Astralが公式ブログで「Bringing uv and ty together」を公開しました。Pythonのパッケージ管理ツールuvと型チェッカーtyの連携に関する内容で、Python開発のツールチェーンに関わる動向です。",
+      "url": "https://astral.sh/blog/uv-ty-integration",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/dfieqa/bringing_uv_ty_together",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Python",
+        "uv",
+        "ty",
+        "Astral"
+      ],
+      "related": []
+    },
+    {
+      "title": "OBS Studio 33 がリリース",
+      "original_title": "OBS Studio 33",
+      "summary": "OBS Studio 33.0.0のリリースがGitHubで公開され、Hacker Newsで435ポイントを集めました。配信・録画ツールのメジャーバージョン更新として注目されています。",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50218430",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "OBS",
+        "release"
+      ],
+      "related": []
+    },
+    {
+      "title": "Apple Security Research Device のページ",
+      "original_title": "Apple Security Research Device",
+      "summary": "Appleのセキュリティ研究者向けデバイスのページがHacker Newsで168ポイントを集め、議論になっています。iOSのセキュリティ研究に関わる話題です。",
+      "url": "https://security.apple.com/research-device/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50217903",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "Apple",
+        "iOS",
+        "security"
+      ],
+      "related": []
+    },
+    {
+      "title": "約12の銀行アプリがGrapheneOSを明示的に許可し始める",
+      "original_title": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "summary": "約12の銀行アプリが、GrapheneOSでの利用を明示的に許可し始めたとGrapheneOSが投稿しました。Hacker Newsで607ポイントを集め、AndroidのOS認証とセキュリティの扱いを考える話題です。",
+      "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50217495",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "Android",
+        "GrapheneOS",
+        "security"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS公式のAIエージェント向けツールキット agent-toolkit-for-aws",
+      "original_title": "aws/agent-toolkit-for-aws",
+      "summary": "AWSがサポートする公式のMCPサーバー、スキル、プラグインをまとめたリポジトリがGitHub Trendingに登場しました。AIエージェントがAWS上で構築を行うための支援を目的としています。",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "MCP",
+        "agent"
+      ],
+      "related": []
+    },
+    {
+      "title": "Samsung TVでrootシェルを取得",
+      "original_title": "Root shell on Samsung TV",
+      "summary": "Samsung TVでrootシェルを取得した事例が共有され、Hacker Newsで476ポイントを集めました。組み込み機器のセキュリティに関する話題です。",
+      "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50218633",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "security",
+        "embedded"
+      ],
+      "related": []
+    },
+    {
+      "title": "分散SQLiteの12年間を振り返る",
+      "original_title": "Twelve years of distributed SQLite",
+      "summary": "分散SQLiteに12年間取り組んできた経験を振り返るブログ記事で、Hacker Newsで352ポイントを集めました。SQLiteを分散データベースとして扱う際の知見に関心がある人向けです。",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50217500",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "SQLite",
+        "distributed"
+      ],
+      "related": []
+    },
+    {
+      "title": "gemini-cli: ターミナルで動くオープンソースAIエージェント",
+      "original_title": "google-gemini/gemini-cli",
+      "summary": "Gemini の機能をターミナルから直接使えるオープンソースのAIエージェントgemini-cliがGitHub Trendingに掲載されています。TypeScript製です。",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Gemini",
+        "CLI",
+        "agent"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI生成らしいデザインを避けるスキル hallmark / impeccable",
+      "original_title": "Nutlope/hallmark",
+      "summary": "Claude Code・Cursor・Codex向けの「AI slop」を避けるデザインスキルhallmarkと、AIハーネスのデザイン力を高めるデザイン言語impeccableがGitHub Trendingに並びました。AIによるUI生成の品質向上に関心が集まっています。",
+      "url": "https://github.com/Nutlope/hallmark",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "design",
+        "CSS"
+      ],
+      "related": [
+        {
+          "source": "github",
+          "url": "https://github.com/pbakaus/impeccable"
+        }
+      ]
+    },
+    {
+      "title": "Claude Codeの視覚的ハウツーガイド claude-howto",
+      "original_title": "luongnv89/claude-howto",
+      "summary": "基本から高度なエージェントまでを、例とコピペ可能なテンプレート付きで解説するClaude Codeのガイドがtrending入りしました。",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "guide"
+      ],
+      "related": []
+    },
+    {
+      "title": "仕組みを理解する動画をClaude Codeに作らせると便利",
+      "original_title": "仕組みを理解する動画を、Claude Codeに作らせると便利すぎる",
+      "summary": "Zennで166いいねを集めた記事で、仕組みを理解するための動画をClaude Codeに作らせる活用法を紹介しています。",
+      "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
+      "source": "zenn",
+      "post_url": null,
+      "author": "explaza",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "セキュリティが心配ならClaude Codeに投げたい20の問いかけ",
+      "original_title": "厳選・セキュリティが心配ならClaude Codeにこの問いかけをコピペするべし20",
+      "summary": "Zennの記事で、セキュリティ面が心配なときにClaude Codeへコピペして使える問いかけを厳選して紹介しています。",
+      "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
+      "source": "zenn",
+      "post_url": null,
+      "author": "yuiseki",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "security"
+      ],
+      "related": []
+    },
+    {
+      "title": "cindy: すぐ使えるオープンソースAIエージェント",
+      "original_title": "makecindy/cindy",
+      "summary": "「Consider it done」を掲げる、箱から出してすぐ動くオープンソースのAIエージェントcindyがGitHub Trendingに登場しました。TypeScript製です。",
+      "url": "https://github.com/makecindy/cindy",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "agent",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "脆弱性管理の仕組みを整えた",
+      "original_title": "脆弱性管理の仕組みを整えた",
+      "summary": "Zennで74いいねを集めた記事で、脆弱性管理の仕組みを整備した取り組みを紹介しています。",
+      "url": "https://zenn.dev/dress_code/articles/be5550254695cd",
+      "source": "zenn",
+      "post_url": null,
+      "author": "dress_code",
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "security",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "prpr: Rust向けのシンプルで高速なParser generator",
+      "original_title": "prpr: Rust 向けのシンプルで高速な Parser generator",
+      "summary": "Zennで紹介された、Rust向けのシンプルかつ高速なParser generator「prpr」の記事です。packratパーサーを扱っています。",
+      "url": "https://zenn.dev/tanakh/articles/prpr-packrat-parser",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Hideyuki Tanaka",
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Rust",
+        "parser"
+      ],
+      "related": []
+    },
+    {
+      "title": "リンカ Wild 0.11.0 リリース",
+      "original_title": "Wild version 0.11.0 released",
+      "summary": "Rust製リンカWildのバージョン0.11.0がリリースされました。",
+      "url": "https://github.com/wild-linker/wild/releases/tag/0.11.0",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/vulvk7/wild_version_0_11_0_released",
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Rust",
+        "linker",
+        "release"
+      ],
+      "related": []
+    },
+    {
+      "title": "S3 Filesのファイルシステム・S3バケット同期時間を計測",
+      "original_title": "【S3 Files】ファイルシステムと S3 バケットの同期にかかる時間を測ってみた",
+      "summary": "2026年4月に登場したAmazon S3 Files(S3汎用バケットをファイルシステムとしてマウントできるサービス)で、同期にかかる時間を実測したQiita記事です。",
+      "url": "https://qiita.com/ryu-ki/items/ac1152359bcf1217c1f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "AWS",
+        "S3"
+      ],
+      "related": []
+    },
+    {
+      "title": "Bitwarden Agent Accessでクラウド上のClaude Codeに認証情報を渡す",
+      "original_title": "BitwardenのAgent Accessで、クラウドのClaude Codeから安全に認証情報を受け取る",
+      "summary": "1Password for Agentsに続き、BitwardenのAgent Accessを使ってクラウドのClaude Codeへ安全に認証情報を渡す方法を紹介したQiita記事です。",
+      "url": "https://qiita.com/getty104/items/583f2f5ecf473ddc4539?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Bitwarden",
+        "Claude Code",
+        "security"
+      ],
+      "related": []
+    }
+  ]
+}
