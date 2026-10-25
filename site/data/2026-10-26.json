@@ -1,0 +1,254 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T07:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIエージェント運用のコストと安全性（プロンプトキャッシュ、フックの実効性）に注目が集まり、大規模モデル基盤の話題も",
+  "items": [
+    {
+      "title": "Cerebras、1兆パラメータ級のAIモデルをデプロイ",
+      "original_title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "summary": "Cerebrasが1兆パラメータ規模のAIモデルを稼働させたと報じられ、Hacker Newsで344ポイントを集めました。大規模モデルの推論・学習基盤の選択肢が広がる動きとして注目されています。",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50227356",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Cerebras",
+        "LLM",
+        "インフラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Qwen3.8-27Bを5つ組み合わせ、GVS5Hハーネスで Fable 5 に匹敵",
+      "original_title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "summary": "27BクラスのQwen3.8モデルを5つ、GVS5Hというハーネスで組み合わせると Fable 5 に匹敵する結果が得られたとする投稿です。小型モデルの組み合わせでフロンティアモデルに迫れるかという議論がHacker Newsで行われています。",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50228167",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Qwen",
+        "LLM",
+        "ハーネス"
+      ],
+      "related": []
+    },
+    {
+      "title": "プロンプトキャッシュの仕組みと実測：保持時間が過ぎるとコスト11倍に",
+      "original_title": "トークン代 9 割減？プロンプトキャッシュの仕組みと効果の実測 — 保持時間が過ぎるとコスト 11 倍に",
+      "summary": "プロンプトキャッシュで入力料金が9割安くなると言われる点を実測した記事です。キャッシュ読み出しは Claude Sonnet 5.5 で通常入力の0.05倍とされる一方、保持時間を過ぎるとコストが11倍になる点を解説しています。関連記事ではファイルやSKILL、AGENTS.mdの活用でトークン課金を削減する方法も試されています。",
+      "url": "https://qiita.com/songchong/items/7144594b0ad9529a168b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "プロンプトキャッシュ",
+        "コスト最適化",
+        "Claude"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/songchong/items/235bed0f8c72f268477e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "Claude Codeの「ブロック済み」を1か月信じていたが、フックは何も止めていなかった",
+      "original_title": "Claude Code の「ブロック済み」を1か月信じていた。フックは何も止めていなかった",
+      "summary": "CLAUDE.mdに「PreToolUse Hookで rm -rf や git push --force、git reset --hard をブロック済み」と書いていたものの、2026-10-25にそれが誤りだったと分かったという体験記です。安全策として設定したフックが実際に効いているかを検証する重要性を示しています。",
+      "url": "https://qiita.com/devoctane/items/eb3ac408041b2f04c780?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "Hooks",
+        "安全性"
+      ],
+      "related": []
+    },
+    {
+      "title": "10年前のCNNが皮膚がん診断でフロンティアLLMを上回る",
+      "original_title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "summary": "10年前に作られたCNNが、皮膚がん診断においてフロンティアLLMより高い性能を示したとする話題です。特化型の小さなモデルが汎用LLMに勝る場面があることを示し、342ポイントを集めました。",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50233779",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "CNN",
+        "LLM",
+        "医療AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "POSIX wordexp(3) は危険である",
+      "original_title": "POSIX wordexp(3) is dangerous",
+      "summary": "POSIXの wordexp(3) 関数がセキュリティ上危険だとする解説がLobstersで共有されています。C言語でシェル風の展開を扱う実装では注意が必要です。",
+      "url": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/tbbiqb/posix_wordexp_3_is_dangerous",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "C",
+        "セキュリティ",
+        "POSIX"
+      ],
+      "related": []
+    },
+    {
+      "title": "eMudhraの中間CA証明書の秘密鍵を求めてみる",
+      "original_title": "eMudhraの中間CA証明書の秘密鍵を求めてみる",
+      "summary": "eMudhraの中間CA証明書に関する秘密鍵を求める試みを扱ったZennの技術記事で、88いいねを集めています。PKIや証明書の安全性を考える題材です。",
+      "url": "https://zenn.dev/herumi/articles/search_bad_emudhra_key",
+      "source": "zenn",
+      "post_url": null,
+      "author": "herumi",
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "PKI",
+        "証明書",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Coolify：Vercel/Heroku/Netlifyのセルフホスト代替PaaS",
+      "original_title": "coollabsio/coolify",
+      "summary": "Coolifyは、静的サイトやデータベース、フルスタックアプリをデプロイできるオープンソースのセルフホスト型PaaSです。Vercel、Heroku、Netlifyの代替を掲げ、GitHub Trendingに入っています。",
+      "url": "https://github.com/coollabsio/coolify",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Coolify",
+        "PaaS",
+        "セルフホスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflareの高速抽出モデル「Clairic」を試す：1枚0.3秒で書類を分類・抽出",
+      "original_title": "1枚0.3秒!!Cloudflareの爆速抽出モデルClairicを試してみた",
+      "summary": "Cloudflareの抽出モデル Clairic を使い、取引文書の画像を一括でアップロードして分類からテキスト抽出まで行う検証記事です。1枚あたり約0.3秒という速度が紹介されています。",
+      "url": "https://qiita.com/kikuziro/items/3f23603152b409d4a6ca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "Clairic",
+        "OCR"
+      ],
+      "related": []
+    },
+    {
+      "title": "HTMX作者がRESTの歴史と「なぜ誤解されたか」を語る",
+      "original_title": "HTMX creator on the history of REST and why he thinks we got it wrong",
+      "summary": "HTMXの作者Carson Gross氏が、RESTが元々どう定義されたかや業界の受け止め方について語ったポッドキャストが共有されています。HTMXの設計思想を理解する手がかりになります。",
+      "url": "https://www.reddit.com/r/programming/comments/1xezyoh/htmx_creator_on_the_history_of_rest_and_why_he/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "HTMX",
+        "REST",
+        "ポッドキャスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "SSR/SSG/ISRとキャッシュを使い分けた技術ブログをNext.js 16で構築",
+      "original_title": "【個人開発】SSR / SSG / ISRとキャッシュを使い分けた技術ブログを作りました【Next.js/TypeScript/microCMS】",
+      "summary": "Next.js 16、microCMS、Vercelで個人の技術ブログを作った感想をまとめた記事です。SSR、SSG、ISRとキャッシュの使い分けが題材になっています。",
+      "url": "https://qiita.com/takahiro_honda/items/19f15f755afbd922afe7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Next.js",
+        "microCMS",
+        "Vercel"
+      ],
+      "related": []
+    },
+    {
+      "title": "クリーンアーキテクチャとは何か、炎上議論はなぜ起きるのか",
+      "original_title": "【解説】クリーンアーキテクチャとは何か？ 炎上議論はなぜ起きるのか？",
+      "summary": "2026年8月末に投稿された「クリーンアーキテクチャでコードが汚くなった」というYouTube動画が議論を呼んだことを受け、クリーンアーキテクチャを解説する記事です。",
+      "url": "https://qiita.com/Sicut_study/items/3c1995d2a3f1695a18a7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "クリーンアーキテクチャ",
+        "設計"
+      ],
+      "related": []
+    },
+    {
+      "title": "エージェントとワークフローが混ざったので責務を分け直した",
+      "original_title": "エージェントとワークフローが混じってしまったので責務を分け直した",
+      "summary": "情報収集やポッドキャスト制作をAIエージェントで自動化する中で、安定動作のために条件や検査を足すうちにエージェントとワークフローが混ざってしまい、責務を分け直した経緯を紹介する記事です。",
+      "url": "https://qiita.com/Tachiuo/items/3c9a6bc9e1eb2b05a346?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "AIエージェント",
+        "ワークフロー"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIが実装してくれる時代こそ、自分の手で実装しよう",
+      "original_title": "AI が実装してくれる時代こそ、自分の手で実装しよう",
+      "summary": "AIが実装を代行してくれる時代だからこそ、自分の手で実装する価値があるという主張のZenn記事です。",
+      "url": "https://zenn.dev/loglass/articles/24b2a4776ce8d4",
+      "source": "zenn",
+      "post_url": null,
+      "author": "loglass",
+      "category": "ai",
+      "score": 3,
+      "tags": [
+        "AI",
+        "学習"
+      ],
+      "related": []
+    }
+  ]
+}
