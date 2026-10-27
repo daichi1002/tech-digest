@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Anthropic S-1とGPT-6.1 Terraが話題に、AIモデルの安全性とオンプレ運用の議論も活発",
+  "items": [
+    {
+      "title": "Anthropic の S-1 が公開される",
+      "original_title": "Anthropic S-1",
+      "summary": "Anthropic の S-1 書類（SEC への提出資料）が公開され、Hacker News で1400ポイント超、1399コメントと大きな注目を集めています。AI業界の主要プレイヤーの動向を把握するうえで重要な一次資料です。",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50242939",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Anthropic",
+        "S-1",
+        "SEC"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI が GPT-6.1 Terra を発表",
+      "original_title": "GPT-6.1 Terra",
+      "summary": "OpenAI の公式サイトで「GPT-6.1 Terra」が紹介され、Hacker News で469ポイントを集めました。同シリーズの GPT-6.1 Sol は CodeRabbit のセキュリティ強化事例でも紹介されており、開発者は新モデルの動向を確認しておきたいところです。",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50248124",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "OpenAI",
+        "GPT-6.1",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "Workers AI の GLM-5.3 でリクエスト間の KV キャッシュ露出が発生、SGLang で修正",
+      "original_title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "summary": "Cloudflare は、Workers AI 上の GLM 5.3 で設定の不一致が SGLang のバグを引き起こし、KV キャッシュのページがリクエスト間で露出したと報告しています。同ブログでは SGLang を用いた対処内容が説明されています。マルチテナントなLLM基盤の運用に関わる教訓を含みます。",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Cloudflare",
+        "Workers AI",
+        "SGLang",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cohere が人気オープンウェイトモデルの懸念される挙動を報告",
+      "original_title": "Concerning behavior from a popular open-weight AI model",
+      "summary": "Cohere が、人気のあるオープンウェイトAIモデルに見られる懸念すべき挙動についてブログで公開し、Hacker News で246ポイントを集めました。オープンモデルを採用・運用するチームは内容を確認しておくべきです。",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50246658",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Cohere",
+        "オープンウェイト",
+        "AI安全性"
+      ],
+      "related": []
+    },
+    {
+      "title": "IBM CEO「オープンウェイトモデルはオンプレで高品質かつ安価になった」",
+      "original_title": "IBM CEO says open weight models are now good and cheap on-prem",
+      "summary": "The Register は、IBM の CEO がオープンウェイトモデルをオンプレミスで使うことが品質・コスト両面で魅力的になったと述べたと報じています。Hacker News で412ポイントを集め、企業のLLM導入方針に関わる議論となっています。",
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50238088",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "IBM",
+        "オープンウェイト",
+        "オンプレ"
+      ],
+      "related": []
+    },
+    {
+      "title": "vLLM のツールコール精度を改善する",
+      "original_title": "Fixing Tool-Call Accuracy in vLLM",
+      "summary": "Ubicloud が vLLM におけるツールコール精度の改善についてブログで解説し、Hacker News で144ポイントを集めました。LLMを自前でホスティングしエージェント用途に使うエンジニア向けの内容です。",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50242870",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "vLLM",
+        "ツールコール",
+        "Ubicloud"
+      ],
+      "related": []
+    },
+    {
+      "title": "侵害された eMudhra 中間 CA について（Apple サポート）",
+      "original_title": "About the compromised eMudhra intermediate CAs",
+      "summary": "Apple のサポート文書が、侵害された eMudhra の中間認証局（CA）について案内しています。Lobsters で44ポイントを集めており、証明書の信頼に関わるセキュリティ情報として確認が推奨されます。",
+      "url": "https://support.apple.com/en-us/149555",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/xzp4m0/about_compromised_emudhra_intermediate",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "CA",
+        "eMudhra",
+        "Apple",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Pylance の Type Server Protocol のドキュメントが公開",
+      "original_title": "Type Server Protocol",
+      "summary": "Microsoft の pylance-release リポジトリに Type Server Protocol のドキュメントが置かれ、Hacker News で178ポイント、132コメントを集めました。Python の型チェック周りのツール連携に関心がある開発者向けです。",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50248371",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Pylance",
+        "Python",
+        "型"
+      ],
+      "related": []
+    },
+    {
+      "title": "CSS-Tricks に新しいオーナー",
+      "original_title": "CSS-Tricks has a new owner",
+      "summary": "フロントエンド系の老舗サイト CSS-Tricks の新オーナーに関する告知が公開され、Hacker News で363ポイントを集めました。Web開発コミュニティにとって馴染み深いメディアの動向です。",
+      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50245831",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "CSS-Tricks",
+        "フロントエンド"
+      ],
+      "related": []
+    },
+    {
+      "title": "Next.js を外してブログの Lighthouse 全項目を100点に",
+      "original_title": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+      "summary": "Next.js を取り除いたことでブログが Lighthouse の全カテゴリで100点になったという記事が、Hacker News で191ポイントを集めました。フレームワーク選定を見直す際の参考になります。",
+      "url": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50237712",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Next.js",
+        "Lighthouse",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Sebastian Raschka の推論モデルをゼロから作る動画コース",
+      "original_title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "summary": "Sebastian Raschka による、推論モデルをスクラッチから構築する動画コースが Hacker News で519ポイントを集めました。LLMの推論能力の仕組みを実装レベルで学びたい人向けです。",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50245138",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Raschka",
+        "推論モデル",
+        "学習"
+      ],
+      "related": []
+    },
+    {
+      "title": "NVIDIA/SkillSpector：AIエージェントのスキル向けセキュリティスキャナ",
+      "original_title": "NVIDIA/SkillSpector",
+      "summary": "Claude Code、Codex、MCP のスキルをインストール前にスキャンし、脆弱性、悪意あるパターン、プロンプトインジェクション、データ流出、サプライチェーンのリスクを検出するツールです。GitHub Trending に登場しました。",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "NVIDIA",
+        "MCP",
+        "セキュリティ",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "後継GPUで倍精度性能が約30分の1に：型番だけでインスタンスを選ぶ危険",
+      "original_title": "後継GPUで倍精度が約30分の1に。インスタンスタイプを型番で選んで大丈夫ですか？",
+      "summary": "Qiita の記事によると、Blackwell 世代の B200 は FP64 性能が40 TFLOPS ですが、後継の Blackwell Ultra（B300）では倍精度演算器が減っています。HPC用途ではインスタンスタイプを型番だけで選ばないよう注意を促しています。",
+      "url": "https://qiita.com/kaga-yasumitsu/items/dce9b08af79ac74c2106?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "NVIDIA",
+        "B300",
+        "GPU",
+        "FP64"
+      ],
+      "related": []
+    },
+    {
+      "title": "CloudFront + AWS WAF のパストラバーサル対策を検証",
+      "original_title": "CloudFront + AWS WAF のパストラバーサル対策 ― パス条件のルールは `../` ですり抜けられるのか検証した",
+      "summary": "Qiita の記事で、CloudFront と AWS WAF の構成において、パス条件のルールが「../」を使ったパストラバーサルをすり抜けられるのかを検証しています。WAFルールを設計する人向けの内容です。",
+      "url": "https://qiita.com/k-matsu516/items/d94caff03976fb8a30f0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AWS",
+        "WAF",
+        "CloudFront",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "「読みにくいDB」はAI開発のコストを1.9倍にする：Claude Code での検証",
+      "original_title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
+      "summary": "Zenn の記事で、DB設計の読みやすさがAIによる開発コストに与える影響を Claude Code で検証し、読みにくいDBではコストが1.9倍になると報告しています。",
+      "url": "https://zenn.dev/actbe_tech/articles/8b4a9991d5365d",
+      "source": "zenn",
+      "post_url": null,
+      "author": "actbe_tech",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "DB設計",
+        "Zenn"
+      ],
+      "related": []
+    }
+  ]
+}
