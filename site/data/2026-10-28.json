@@ -1,0 +1,395 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Ghosttyの新版やPython実験的JITの削除、Apple M6搭載Macの登場など、開発ツールとAIエージェント活用の話題が中心",
+  "items": [
+    {
+      "title": "Ghostty 1.4 が公開",
+      "original_title": "Ghostty 1.4",
+      "summary": "ターミナルエミュレータ Ghostty のバージョン 1.4 が公開され、Hacker News で670ポイントを集めました。日常的に使う開発環境の中核ツールの更新として注目されています。",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50261998",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "Ghostty",
+        "ターミナル",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "Python の実験的 JIT が削除される方向に",
+      "original_title": "Python's experimental JIT to be removed",
+      "summary": "Python の実験的 JIT コンパイラを削除するという話題が Hacker News で431ポイントを集め、225件のコメントが付きました。CPython の性能改善の方向性に関わるため、Python を使う開発者には要チェックの動きです。",
+      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50257419",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "Python",
+        "JIT",
+        "CPython"
+      ],
+      "related": []
+    },
+    {
+      "title": "M6 搭載の新型 iMac が登場",
+      "original_title": "New iMac with M6",
+      "summary": "M6 チップを搭載した新しい iMac が話題になり、Hacker News で297ポイント、357件のコメントを集めました。Apple シリコンの世代更新として、開発機の買い替え判断に関わります。",
+      "url": "https://www.apple.com/imac/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50258538",
+      "author": null,
+      "category": "mobile",
+      "score": 7,
+      "tags": [
+        "Apple",
+        "M6",
+        "iMac"
+      ],
+      "related": []
+    },
+    {
+      "title": "M6 搭載の新型 14インチ MacBook Pro",
+      "original_title": "New 14‑inch MacBook Pro with M6",
+      "summary": "M6 を搭載した14インチ MacBook Pro が発表され、Hacker News では複数のスレッドが立つ注目を集めました。開発用ノートPCの選択肢として関心が高い話題です。",
+      "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50261352",
+      "author": null,
+      "category": "mobile",
+      "score": 7,
+      "tags": [
+        "Apple",
+        "M6",
+        "MacBook Pro"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50258521"
+        }
+      ]
+    },
+    {
+      "title": "AIで仕事が減るはずが、かつてなく働いている",
+      "original_title": "AI promised less work. I've never worked more",
+      "summary": "「AIは仕事を減らすと約束したが、これほど働いたことはない」という記事が613ポイント、608件のコメントで議論になりました。AI活用時代の働き方を考えるうえで、エンジニア自身の実感が集まっています。",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50257325",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "AI",
+        "働き方"
+      ],
+      "related": []
+    },
+    {
+      "title": "PHP2Shell：悪用の試行と対策の動向",
+      "original_title": "PHP2Shell: Exploitation attempts and remediation trends",
+      "summary": "PHP2Shell に関する攻撃の試行状況と修復（対策）の傾向をまとめた記事が181ポイントを集めました。PHP アプリを運用するチームは対策状況の確認が必要です。",
+      "url": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50259343",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "PHP",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Tailscale SSH：調査と対策の最新状況",
+      "original_title": "Tailscale SSH: Investigation and remediation update",
+      "summary": "Tailscale SSH に関する調査と修復の更新情報が公開され、Hacker News で159ポイントを集めました。Tailscale を使うインフラ担当者は内容の確認が望まれます。",
+      "url": "https://tailscale.com/ssh-investigation-update",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50264857",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Tailscale",
+        "SSH",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI時代の『人月の神話』",
+      "original_title": "The Mythical Man-Month in the Age of AI",
+      "summary": "『人月の神話』をAI時代に当てはめて論じる記事が425ポイントを集めました。ソフトウェア開発の生産性とAIエージェントの関係を考える議論として読まれています。",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50255298",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AI",
+        "開発プロセス"
+      ],
+      "related": []
+    },
+    {
+      "title": "エージェントが作業する時代に、人は何を知っておくべきか",
+      "original_title": "Here be monsters: What do you still need to know when agents do the work?",
+      "summary": "「Here be monsters」と題し、エージェントが作業を行う時代に人間が何を知っている必要があるかを問う記事です。Hacker News で145ポイントを集めました。",
+      "url": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50258868",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIエージェント",
+        "開発"
+      ],
+      "related": []
+    },
+    {
+      "title": "Genie 4 が話題に",
+      "original_title": "Genie 4",
+      "summary": "「Genie 4」が Hacker News で668ポイント、407件のコメントと大きな反響を集めました。AIモデル関連の新しい発表として注目されています。",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50261319",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AI",
+        "Genie"
+      ],
+      "related": []
+    },
+    {
+      "title": "2026年Q3にインターネットを停止させた要因（Cloudflare Radar）",
+      "original_title": "What took the Internet offline in Q3 2026",
+      "summary": "Cloudflare Radar が観測した2026年第3四半期の世界的なインターネット障害を分析した記事です。停電や自然災害などが原因として取り上げられています。",
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "障害",
+        "ネットワーク"
+      ],
+      "related": []
+    },
+    {
+      "title": "LFM3 を発表：特化型インテリジェンス向けの全モダリティ対応",
+      "original_title": "Introducing LFM3: Every Modality for Specialized Intelligence",
+      "summary": "「Introducing LFM3: Every Modality for Specialized Intelligence」として LFM3 が紹介され、108ポイントを集めました。特化用途向けのマルチモーダルモデルとして位置づけられています。",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50262229",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "LFM3",
+        "マルチモーダル"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare が PHP の CTF チャレンジを開始",
+      "original_title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "summary": "Cloudflare が、バグバウンティと連動した PHP の Capture the Flag チャレンジを開始しました。WAF の防御を迂回できるかをセキュリティ研究者に試してもらう企画です。",
+      "url": "https://blog.cloudflare.com/php-ctf/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Cloudflare",
+        "WAF",
+        "CTF"
+      ],
+      "related": []
+    },
+    {
+      "title": "Amazon が AI 部門を縮小との報道",
+      "original_title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "summary": "「Amazon は度重なる失敗の末にAI部門を縮小している」とする記事が215ポイントを集めました。AI投資をめぐる大手企業の動向として話題になっています。",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50261589",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Amazon",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "Anthropic が違法入手した書籍で Claude を学習したとの主張",
+      "original_title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "summary": "Anthropic がスタンフォード大学教授らの書籍を違法に入手して Claude を学習させたとする記事が426ポイントを集めました。AIの学習データをめぐる権利問題として議論されています。",
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50260814",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "学習データ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Wikipedia による AI 生成コンテンツの整理",
+      "original_title": "Wikipedia's Cleanup of AI-Generated Content",
+      "summary": "Wikipedia が AI 生成コンテンツの清掃に取り組んでいるという記事が430ポイントを集めました。生成AIがもたらすコンテンツ品質の問題への対応事例です。",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50257326",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Wikipedia",
+        "生成AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "5種類のコーディングエージェントを使い分ける理由",
+      "original_title": "私が5種類のコーディングエージェントを使い分ける理由",
+      "summary": "Zenn の記事で、著者が5種類のコーディングエージェントを使い分けている理由が紹介されています。28 likes を集めています。",
+      "url": "https://zenn.dev/rimon/articles/45c1fd2f015af8",
+      "source": "zenn",
+      "post_url": null,
+      "author": "ミモ  フォワードCTO・CPO",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "コーディングエージェント",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Code 2.1.311 で CLAUDE.md の自動要約まわりの不具合が修正",
+      "original_title": "途中で直した CLAUDE.md が、自動要約のあと古い中身に戻っていた（2.1.310）。それでも新しいルールで動いた",
+      "summary": "Claude Code 2.1.311（2026-10-26）で、会話の途中で修正した CLAUDE.md が自動要約後に古い内容へ戻る不具合が直ったとする記事です。修正前の 2.1.310 での挙動が検証されています。",
+      "url": "https://qiita.com/suwa_nobu/items/d3f0491c9727176dea22?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "CLAUDE.md"
+      ],
+      "related": []
+    },
+    {
+      "title": "AGENTS.md を278行から51行に減らす設計",
+      "original_title": "AGENTS.mdを278行から51行にした：AIエージェントに「必要な分だけ読ませる」ドキュメント設計",
+      "summary": "AIエージェントに必要な分だけ読ませるため、AGENTS.md を278行から51行に削減したドキュメント設計の記事です。Codex や Claude Code などの利用が想定されています。",
+      "url": "https://qiita.com/blackcats-lab/items/069d2640e1e7cf8ce21d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "AGENTS.md",
+        "ドキュメント設計"
+      ],
+      "related": []
+    },
+    {
+      "title": "Dify / LiteLLM Proxy のアプリを OpenTelemetry で監視",
+      "original_title": "Dify / LiteLLM Proxy で作成した生成AIアプリをOpenTelemetryで監視してみた",
+      "summary": "New Relic が OpenTelemetry 標準の生成AIトレースを AI Monitoring に取り込む機能にネイティブ対応しました。Dify や LiteLLM 環境で別途ツールを用意せずに LLM を監視する方法を試した記事です。",
+      "url": "https://qiita.com/nr-mito/items/fcbbd142e1cd7d66666e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "OpenTelemetry",
+        "New Relic",
+        "LLM監視"
+      ],
+      "related": []
+    },
+    {
+      "title": "最近の E2E 戦略（2026年10月現在）",
+      "original_title": "最近の E2E 戦略（2026 年 10 月現在）",
+      "summary": "Zenn で72 likes を集めた、2026年10月時点の E2E テスト戦略をまとめた記事です。",
+      "url": "https://zenn.dev/polyco/articles/26624b38c951b5",
+      "source": "zenn",
+      "post_url": null,
+      "author": "polyco",
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "E2E",
+        "テスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "Zig を4か月使ってみて",
+      "original_title": "Four Months of Zig",
+      "summary": "Lobsters で28ポイントを集めた、Zig を4か月使った体験記です。",
+      "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/qr59sa/four_months_zig",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Zig"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust エコシステム向けの高速で安全な tar パーサ",
+      "original_title": "A fast and secure tar parser for the Rust ecosystem",
+      "summary": "Rust エコシステム向けに、高速かつ安全な tar パーサを紹介する記事が Lobsters で39ポイントを集めました。",
+      "url": "https://astral.sh/blog/tar-codec",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/q7arzy/fast_secure_tar_parser_for_rust_ecosystem",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Rust",
+        "tar"
+      ],
+      "related": []
+    }
+  ]
+}
