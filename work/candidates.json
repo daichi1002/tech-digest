@@ -1,625 +1,675 @@
 {
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "candidates": [
   {
    "id": 0,
    "source": "hn",
-   "title": "Evidence of a spying operation by ICE against left-wing social movements",
-   "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-   "post_url": "https://news.ycombinator.com/item?id=50272749",
-   "snippet": "1083 points, 898 comments"
+   "title": "Patrick Stewart has died",
+   "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+   "post_url": "https://news.ycombinator.com/item?id=50294702",
+   "snippet": "2156 points, 430 comments"
   },
   {
    "id": 1,
    "source": "hn",
-   "title": "Apple's git still trusts the compromised eMudhra certificates",
-   "url": "https://emudhra.we-have-a-problem.com/apple.html",
-   "post_url": "https://news.ycombinator.com/item?id=50271640",
-   "snippet": "1021 points, 375 comments"
+   "title": "We're releasing the weights of Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "post_url": "https://news.ycombinator.com/item?id=50289418",
+   "snippet": "1136 points, 324 comments"
   },
   {
    "id": 2,
    "source": "hn",
-   "title": "Gemini 4 Carbon",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "post_url": "https://news.ycombinator.com/item?id=50276792",
-   "snippet": "765 points, 625 comments"
+   "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+   "url": "https://divagr.com/blog/qwenputer",
+   "post_url": "https://news.ycombinator.com/item?id=50282838",
+   "snippet": "679 points, 143 comments"
   },
   {
    "id": 3,
    "source": "hn",
-   "title": "Why is this fingerprinting script creating bioweapons?",
-   "url": "https://nullpt.rs/fingerprinting-bioweapons",
-   "post_url": "https://news.ycombinator.com/item?id=50276998",
-   "snippet": "733 points, 169 comments"
+   "title": "Claude Code regularly sends each background agent’s transcript to its model",
+   "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "post_url": "https://news.ycombinator.com/item?id=50284255",
+   "snippet": "558 points, 224 comments"
   },
   {
    "id": 4,
    "source": "hn",
-   "title": "MacBook Pro with PROLED XDR Display and Touch",
-   "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
-   "post_url": "https://news.ycombinator.com/item?id=50276940",
-   "snippet": "476 points, 821 comments"
+   "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+   "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+   "post_url": "https://news.ycombinator.com/item?id=50296470",
+   "snippet": "526 points, 289 comments"
   },
   {
    "id": 5,
    "source": "hn",
-   "title": "Git for the US Code",
-   "url": "https://lexifina.com/blog/git-for-the-us-code",
-   "post_url": "https://news.ycombinator.com/item?id=50268380",
-   "snippet": "425 points, 252 comments"
+   "title": "‘You Are Done’: The letter sent to King by the F.B.I (2014)",
+   "url": "https://www.nytimes.com/2014/11/16/magazine/what-an-uncensored-letter-to-mlk-reveals.html",
+   "post_url": "https://news.ycombinator.com/item?id=50288867",
+   "snippet": "404 points, 373 comments"
   },
   {
    "id": 6,
    "source": "hn",
-   "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
-   "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-   "post_url": "https://news.ycombinator.com/item?id=50273396",
-   "snippet": "412 points, 456 comments"
+   "title": "DoorDash to acquire Instacart",
+   "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart",
+   "post_url": "https://news.ycombinator.com/item?id=50287919",
+   "snippet": "399 points, 587 comments"
   },
   {
    "id": 7,
    "source": "hn",
-   "title": "Emacs Turns 50",
-   "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
-   "post_url": "https://news.ycombinator.com/item?id=50273171",
-   "snippet": "393 points, 168 comments"
+   "title": "Google Search is now less than half of Alphabet’s revenue",
+   "url": "https://www.kadoa.com/companies/insights/google-search-below-half",
+   "post_url": "https://news.ycombinator.com/item?id=50291945",
+   "snippet": "384 points, 325 comments"
   },
   {
    "id": 8,
    "source": "hn",
-   "title": "CNC Stone Carving",
-   "url": "https://carmelitegothic.com/cnc-stone-carving/",
-   "post_url": "https://news.ycombinator.com/item?id=50274409",
-   "snippet": "387 points, 112 comments"
+   "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+   "post_url": "https://news.ycombinator.com/item?id=50288019",
+   "snippet": "326 points, 240 comments"
   },
   {
    "id": 9,
    "source": "hn",
-   "title": "Wealth Inequality in America drawn to scale",
-   "url": "https://dreamagainusa.org/",
-   "post_url": "https://news.ycombinator.com/item?id=50270764",
-   "snippet": "324 points, 398 comments"
+   "title": "LLM Voice",
+   "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+   "post_url": "https://news.ycombinator.com/item?id=50290177",
+   "snippet": "315 points, 164 comments"
   },
   {
    "id": 10,
    "source": "hn",
-   "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
-   "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
-   "post_url": "https://news.ycombinator.com/item?id=50280864",
-   "snippet": "253 points, 113 comments"
+   "title": "Zero click, silent, remote Android DoS",
+   "url": "https://smsofdeath.com/",
+   "post_url": "https://news.ycombinator.com/item?id=50285452",
+   "snippet": "314 points, 174 comments"
   },
   {
    "id": 11,
    "source": "hn",
-   "title": "Meta censored the No Kings Instagram account during a nationwide campaign",
-   "url": "https://paulfwalsh.substack.com/p/meta-censored-the-no-kings-instagram",
-   "post_url": "https://news.ycombinator.com/item?id=50275887",
-   "snippet": "251 points, 61 comments"
+   "title": "H.264 Is Magic (2016)",
+   "url": "https://sidbala.com/h-264-is-magic/",
+   "post_url": "https://news.ycombinator.com/item?id=50291054",
+   "snippet": "301 points, 118 comments"
   },
   {
    "id": 12,
    "source": "hn",
-   "title": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
-   "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
-   "post_url": "https://news.ycombinator.com/item?id=50272145",
-   "snippet": "222 points, 100 comments"
+   "title": "I went to Mexico to test-drive the cars Americans can’t buy",
+   "url": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
+   "post_url": "https://news.ycombinator.com/item?id=50290668",
+   "snippet": "276 points, 320 comments"
   },
   {
    "id": 13,
    "source": "hn",
-   "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-   "url": "https://surgehq.ai/blog/dayjob-tax",
-   "post_url": "https://news.ycombinator.com/item?id=50275626",
-   "snippet": "191 points, 113 comments"
+   "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+   "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+   "post_url": "https://news.ycombinator.com/item?id=50286987",
+   "snippet": "272 points, 135 comments"
   },
   {
    "id": 14,
    "source": "hn",
-   "title": "Archive.today links going forward",
-   "url": "https://www.reddit.com/r/Seattle/comments/1xhf6qp/archivetoday_links_going_forward/",
-   "post_url": "https://news.ycombinator.com/item?id=50275373",
-   "snippet": "182 points, 115 comments"
+   "title": "The US added a record 20.2 GWh of battery storage in just 3 months",
+   "url": "https://electrek.co/2026/08/31/the-us-added-a-record-20-2-gwh-of-battery-storage-in-just-3-months/",
+   "post_url": "https://news.ycombinator.com/item?id=50287001",
+   "snippet": "265 points, 186 comments"
   },
   {
    "id": 15,
    "source": "hn",
-   "title": "Two high-speed trains collide near Toledo, Spain",
-   "url": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
-   "post_url": "https://news.ycombinator.com/item?id=50272596",
-   "snippet": "179 points, 199 comments"
+   "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+   "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
+   "post_url": "https://news.ycombinator.com/item?id=50293047",
+   "snippet": "261 points, 177 comments"
   },
   {
    "id": 16,
    "source": "hn",
-   "title": "AlpineBSD",
-   "url": "https://wiki.alpinebsd.org",
-   "post_url": "https://news.ycombinator.com/item?id=50274251",
-   "snippet": "169 points, 151 comments"
+   "title": "Hackers expose the identities of more than 40k DHS employees",
+   "url": "https://text.npr.org/nx-s1-6021497",
+   "post_url": "https://news.ycombinator.com/item?id=50287898",
+   "snippet": "256 points, 74 comments"
   },
   {
    "id": 17,
    "source": "hn",
-   "title": "Google AI gets cagey when asked who won the 2020 elections",
-   "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-   "post_url": "https://news.ycombinator.com/item?id=50280178",
-   "snippet": "119 points, 59 comments"
+   "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+   "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
+   "post_url": "https://news.ycombinator.com/item?id=50285319",
+   "snippet": "228 points, 38 comments"
   },
   {
    "id": 18,
    "source": "hn",
-   "title": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
-   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-   "post_url": "https://news.ycombinator.com/item?id=50275128",
-   "snippet": "106 points, 17 comments"
+   "title": "If IPv4 were land",
+   "url": "https://iptrust.co/blog/if-ipv4-were-land",
+   "post_url": "https://news.ycombinator.com/item?id=50287775",
+   "snippet": "217 points, 276 comments"
   },
   {
    "id": 19,
-   "source": "lobsters",
-   "title": "This is not sustainable",
-   "url": "https://www.netmeister.org/blog/defense-ddos.html",
-   "post_url": "https://lobste.rs/s/cpaibp/this_is_not_sustainable",
-   "snippet": "114 points, tags: security"
+   "source": "hn",
+   "title": "How Google determines the names for bodies of water in Google Earth (2008)",
+   "url": "https://publicpolicy.googleblog.com/2008/04/how-google-determines-names-for-bodies.html",
+   "post_url": "https://news.ycombinator.com/item?id=50287448",
+   "snippet": "216 points, 175 comments"
   },
   {
    "id": 20,
-   "source": "lobsters",
-   "title": "GOTO Considered Totally Sick (for error handling in C)",
-   "url": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
-   "post_url": "https://lobste.rs/s/exwlmn/goto_considered_totally_sick_for_error",
-   "snippet": "29 points, tags: c"
+   "source": "hn",
+   "title": "Tomáš Mikolov awarded the Medal of Merit by the President of the Czech Republic",
+   "url": "https://www.vut.cz/en/but/news-f19528/two-but-graduates-received-state-honors-from-the-president-of-the-republic-d378468",
+   "post_url": "https://news.ycombinator.com/item?id=50292233",
+   "snippet": "160 points, 17 comments"
   },
   {
    "id": 21,
-   "source": "lobsters",
-   "title": "Hoot 0.10.0 released",
-   "url": "https://spritely.institute/news/hoot-0-10-0-released.html",
-   "post_url": "https://lobste.rs/s/m3gsln/hoot_0_10_0_released",
-   "snippet": "26 points, tags: lisp, release"
+   "source": "hn",
+   "title": "NetBSD adds a new text editor called atto",
+   "url": "https://mastodon.sdf.org/@netbsd/117518160563539748",
+   "post_url": "https://news.ycombinator.com/item?id=50287599",
+   "snippet": "159 points, 129 comments"
   },
   {
    "id": 22,
-   "source": "lobsters",
-   "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
-   "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
-   "post_url": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
-   "snippet": "24 points, tags: security"
+   "source": "hn",
+   "title": "We won't \"just hang out\"",
+   "url": "https://borretti.me/article/we-wont-just-hang-out",
+   "post_url": "https://news.ycombinator.com/item?id=50285154",
+   "snippet": "148 points, 239 comments"
   },
   {
    "id": 23,
-   "source": "lobsters",
-   "title": "Start Doing Graph Theory",
-   "url": "https://vertex.degree/",
-   "post_url": "https://lobste.rs/s/46sc07/start_doing_graph_theory",
-   "snippet": "31 points, tags: book, math"
+   "source": "hn",
+   "title": "What we know so far about Spain train crash",
+   "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+   "post_url": "https://news.ycombinator.com/item?id=50286197",
+   "snippet": "137 points, 286 comments"
   },
   {
    "id": 24,
-   "source": "lobsters",
-   "title": "Billion-query-per-second lookup tables in C++",
-   "url": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
-   "post_url": "https://lobste.rs/s/d3ubhd/billion_query_per_second_lookup_tables_c",
-   "snippet": "21 points, tags: c++, programming"
+   "source": "hn",
+   "title": "Zombie stats: Where the numbers AI quotes come from",
+   "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+   "post_url": "https://news.ycombinator.com/item?id=50290283",
+   "snippet": "136 points, 60 comments"
   },
   {
    "id": 25,
-   "source": "lobsters",
-   "title": "GitLab security incident: attempted exploitation of CVE-2026-97229 | Alpine Linux",
-   "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-   "post_url": "https://lobste.rs/s/2zsjwt/gitlab_security_incident_attempted",
-   "snippet": "3 points, tags: linux, security"
+   "source": "hn",
+   "title": "Perspectiva Kogui: A message on artificial intelligence from the Kogui people",
+   "url": "https://sonidoselva.com/perspectiva-kogui",
+   "post_url": "https://news.ycombinator.com/item?id=50287359",
+   "snippet": "122 points, 100 comments"
   },
   {
    "id": 26,
-   "source": "lobsters",
-   "title": "Raspberry Pi Zero 3 W and Pi 4 Model A on the Way?",
-   "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
-   "post_url": "https://lobste.rs/s/hqcvyj/raspberry_pi_zero_3_w_pi_4_model_on_way",
-   "snippet": "13 points, tags: hardware, linux"
+   "source": "hn",
+   "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+   "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+   "post_url": "https://news.ycombinator.com/item?id=50290912",
+   "snippet": "120 points, 21 comments"
   },
   {
    "id": 27,
-   "source": "lobsters",
-   "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
-   "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
-   "post_url": "https://lobste.rs/s/ansfvi/forging_microsoft_edge_full_chain_with",
-   "snippet": "14 points, tags: security"
+   "source": "hn",
+   "title": "Finland investigate Google over destruction of 250k trees",
+   "url": "https://yle.fi/a/74-20254086",
+   "post_url": "https://news.ycombinator.com/item?id=50290170",
+   "snippet": "114 points, 65 comments"
   },
   {
    "id": 28,
-   "source": "lobsters",
-   "title": "The Benchmarking Crisis",
-   "url": "http://databasearchitects.blogspot.com/2026/10/the-benchmarking-crisis.html",
-   "post_url": "https://lobste.rs/s/smtpje/benchmarking_crisis",
-   "snippet": "12 points, tags: ai, databases, performance"
+   "source": "hn",
+   "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+   "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+   "post_url": "https://news.ycombinator.com/item?id=50289692",
+   "snippet": "110 points, 44 comments"
   },
   {
    "id": 29,
    "source": "lobsters",
-   "title": "Pair-coding Lobste.rs feat",
-   "url": "https://lobste.rs/s/mgy3tr/pair_coding_lobste_rs_feat",
-   "post_url": "https://lobste.rs/s/mgy3tr/pair_coding_lobste_rs_feat",
-   "snippet": "18 points, tags: ask, meta, ruby"
+   "title": "What the fox say?",
+   "url": "https://entropicthoughts.com/what-the-fox-say",
+   "post_url": "https://lobste.rs/s/7qaac6/what_fox_say",
+   "snippet": "58 points, tags: games"
   },
   {
    "id": 30,
    "source": "lobsters",
-   "title": "Reminder: Lobsters NYC Meetup Tomorrow 5:30 at Walker's",
-   "url": "https://lobste.rs/s/87iesc/reminder_lobsters_nyc_meetup_tomorrow_5",
-   "post_url": "https://lobste.rs/s/87iesc/reminder_lobsters_nyc_meetup_tomorrow_5",
-   "snippet": "31 points, tags: event"
+   "title": "London meetup",
+   "url": "https://lobste.rs/s/dsrruj/london_meetup",
+   "post_url": "https://lobste.rs/s/dsrruj/london_meetup",
+   "snippet": "14 points, tags: event"
   },
   {
    "id": 31,
    "source": "lobsters",
-   "title": "Scalable Vector Grief",
-   "url": "https://portswigger.net/research/scalable-vector-grief",
-   "post_url": "https://lobste.rs/s/vekgyd/scalable_vector_grief",
-   "snippet": "14 points, tags: security, web"
+   "title": "Shared password manager for families?",
+   "url": "https://lobste.rs/s/eccbci/shared_password_manager_for_families",
+   "post_url": "https://lobste.rs/s/eccbci/shared_password_manager_for_families",
+   "snippet": "25 points, tags: ask, security"
   },
   {
    "id": 32,
    "source": "lobsters",
-   "title": "Who’s 0xabadbabe and why? (2011)",
-   "url": "https://daniel.haxx.se/blog/2011/10/28/whos-0xabadbabe-and-why/",
-   "post_url": "https://lobste.rs/s/ml4m9a/who_s_0xabadbabe_why_2011",
-   "snippet": "12 points, tags: windows"
+   "title": "My favourite PowerMac is a Nintendo Wii",
+   "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+   "post_url": "https://lobste.rs/s/siebde/my_favourite_powermac_is_nintendo_wii",
+   "snippet": "28 points, tags: retrocomputing, reversing"
   },
   {
    "id": 33,
    "source": "lobsters",
-   "title": "Making SIMD Code Scale to Any Vector Width",
-   "url": "https://streamhpc.com/blog/2026-10-28/making-simd-code-scale-to-any-vector-width/",
-   "post_url": "https://lobste.rs/s/3jyfg9/making_simd_code_scale_any_vector_width",
-   "snippet": "5 points, tags: assembly, c++, graphics, performance"
+   "title": "Phorge",
+   "url": "https://www.phorge.it/",
+   "post_url": "https://lobste.rs/s/tw3rsp/phorge",
+   "snippet": "11 points, tags: php, vcs"
   },
   {
    "id": 34,
-   "source": "github",
-   "title": "JetBrains/thinkrail",
-   "url": "https://github.com/JetBrains/thinkrail",
-   "snippet": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need / TypeScript / 1,068 stars today"
+   "source": "lobsters",
+   "title": "Building NixOS using Nixtamal",
+   "url": "https://nixtamal.toast.al/cookbook/nixos-using-nixtamal/",
+   "post_url": "https://lobste.rs/s/4x3ten/building_nixos_using_nixtamal",
+   "snippet": "6 points, tags: nix"
   },
   {
    "id": 35,
-   "source": "github",
-   "title": "elayadesign/ai-design-skills",
-   "url": "https://github.com/elayadesign/ai-design-skills",
-   "snippet": "2,139 stars today"
+   "source": "lobsters",
+   "title": "C2PA's eMudhra Moment",
+   "url": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
+   "post_url": "https://lobste.rs/s/2matgw/c2pa_s_emudhra_moment",
+   "snippet": "4 points, tags: cryptography, security"
   },
   {
    "id": 36,
-   "source": "github",
-   "title": "obra/superpowers",
-   "url": "https://github.com/obra/superpowers",
-   "snippet": "An agentic skills framework & software development methodology that works. / Shell / 1,095 stars today"
+   "source": "lobsters",
+   "title": "The Web Can't Afford a JavaScript Runtime Monoculture",
+   "url": "https://redmonk.com/kholterhoff/2026/10/27/js-runtime-monoculture/",
+   "post_url": "https://lobste.rs/s/x6n380/web_can_t_afford_javascript_runtime",
+   "snippet": "6 points, tags: javascript"
   },
   {
    "id": 37,
-   "source": "github",
-   "title": "HKUDS/DeepTutor",
-   "url": "https://github.com/HKUDS/DeepTutor",
-   "snippet": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/. / Python / 2,371 stars today"
+   "source": "lobsters",
+   "title": "Extremely brief history of PDP computers",
+   "url": "https://entropicthoughts.com/history-of-pdp-computers",
+   "post_url": "https://lobste.rs/s/ldvd3n/extremely_brief_history_pdp_computers",
+   "snippet": "8 points, tags: hardware, historical"
   },
   {
    "id": 38,
-   "source": "github",
-   "title": "macro-inc/macro",
-   "url": "https://github.com/macro-inc/macro",
-   "snippet": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory. / Rust / 117 stars today"
+   "source": "lobsters",
+   "title": "The Future Trait Has A Missing State",
+   "url": "https://blog.yoshuawuyts.com/the-future-trait-has-a-missing-state",
+   "post_url": "https://lobste.rs/s/jmbjlu/future_trait_has_missing_state",
+   "snippet": "21 points, tags: rust"
   },
   {
    "id": 39,
-   "source": "github",
-   "title": "pbakaus/impeccable",
-   "url": "https://github.com/pbakaus/impeccable",
-   "snippet": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships. / Rust / 1,472 stars today"
+   "source": "lobsters",
+   "title": "The case of the 9 bit AES key",
+   "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+   "post_url": "https://lobste.rs/s/dqexzg/case_9_bit_aes_key",
+   "snippet": "38 points, tags: cryptography, reversing"
   },
   {
    "id": 40,
-   "source": "github",
-   "title": "nightly-labs/openbot",
-   "url": "https://github.com/nightly-labs/openbot",
-   "snippet": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration. / TypeScript / 1,054 stars today"
+   "source": "lobsters",
+   "title": "Will Open Firmware Become the Next Big Trend in Electronic Music Gear?",
+   "url": "https://www.synthtopia.com/content/2026/10/28/will-open-firmware-become-the-next-big-trend-in-electronic-music-gear/",
+   "post_url": "https://lobste.rs/s/j4ntsz/will_open_firmware_become_next_big_trend",
+   "snippet": "10 points, tags: art, hardware"
   },
   {
    "id": 41,
-   "source": "github",
-   "title": "togg53192-cmd/jailbreaks",
-   "url": "https://github.com/togg53192-cmd/jailbreaks",
-   "snippet": "LIST OF ALL MY JAILBREAKS / 1,477 stars today"
+   "source": "lobsters",
+   "title": "Nim version 2.4.0 released",
+   "url": "https://nim-lang.org/blog/2026/10/28/nim-240.html",
+   "post_url": "https://lobste.rs/s/vfllme/nim_version_2_4_0_released",
+   "snippet": "9 points, tags: programming"
   },
   {
    "id": 42,
-   "source": "github",
-   "title": "hmjz100/LinkSwift",
-   "url": "https://github.com/hmjz100/LinkSwift",
-   "snippet": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘 / JavaScript / 1,616 stars today"
+   "source": "lobsters",
+   "title": "Redox Ring Buffers Project Summary",
+   "url": "https://www.redox-os.org/news/nlnet-rb-summary/",
+   "post_url": "https://lobste.rs/s/brdwr2/redox_ring_buffers_project_summary",
+   "snippet": "22 points, tags: osdev"
   },
   {
    "id": 43,
-   "source": "github",
-   "title": "expo/skills",
-   "url": "https://github.com/expo/skills",
-   "snippet": "A collection of AI agent skills for working with Expo projects and Expo Application Services / Shell / 90 stars today"
+   "source": "lobsters",
+   "title": "An open format for writing agent-native software requirements",
+   "url": "https://slcr.dev/announcements#2026-10-29-slcr-launches",
+   "post_url": "https://lobste.rs/s/nexvnc/open_format_for_writing_agent_native",
+   "snippet": "2 points, tags: building-ai-tooling, practices, release"
   },
   {
    "id": 44,
    "source": "github",
-   "title": "ruvnet/RuView",
-   "url": "https://github.com/ruvnet/RuView",
-   "snippet": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. / Rust / 557 stars today"
+   "title": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "snippet": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/. / Python / 1,926 stars today"
   },
   {
    "id": 45,
    "source": "github",
-   "title": "xiaolai/the-craft-of-selfteaching",
-   "url": "https://github.com/xiaolai/the-craft-of-selfteaching",
-   "snippet": "One has no future if one couldn't teach themself. / Jupyter Notebook / 148 stars today"
+   "title": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "snippet": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships. / Rust / 2,881 stars today"
   },
   {
    "id": 46,
-   "source": "zenn",
-   "title": "コードを読まずにマージするために必要なこと",
-   "url": "https://zenn.dev/nrs/articles/c777388530aa84",
-   "author": "nrs",
-   "snippet": "118 likes, tech, published 2026-10-27"
+   "source": "github",
+   "title": "JetBrains/thinkrail",
+   "url": "https://github.com/JetBrains/thinkrail",
+   "snippet": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need / TypeScript / 1,116 stars today"
   },
   {
    "id": 47,
+   "source": "github",
+   "title": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "snippet": "Open-source Grok Bot alternative with a virtual machine that bots can use / TypeScript / 1,190 stars today"
+  },
+  {
+   "id": 48,
+   "source": "github",
+   "title": "nightly-labs/openbot",
+   "url": "https://github.com/nightly-labs/openbot",
+   "snippet": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration. / TypeScript / 705 stars today"
+  },
+  {
+   "id": 49,
+   "source": "github",
+   "title": "elayadesign/ai-design-skills",
+   "url": "https://github.com/elayadesign/ai-design-skills",
+   "snippet": "1,178 stars today"
+  },
+  {
+   "id": 50,
+   "source": "github",
+   "title": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "snippet": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More / TypeScript / 459 stars today"
+  },
+  {
+   "id": 51,
+   "source": "github",
+   "title": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "snippet": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent. / TypeScript / 240 stars today"
+  },
+  {
+   "id": 52,
+   "source": "github",
+   "title": "togg53192-cmd/jailbreaks",
+   "url": "https://github.com/togg53192-cmd/jailbreaks",
+   "snippet": "LIST OF ALL MY JAILBREAKS / 1,610 stars today"
+  },
+  {
+   "id": 53,
+   "source": "github",
+   "title": "Donchitos/Claude-Code-Game-Studios",
+   "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+   "snippet": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. / Shell / 538 stars today"
+  },
+  {
+   "id": 54,
    "source": "zenn",
    "title": "AI の謎な説明文を直すスキル",
    "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
    "author": "microsoft",
-   "snippet": "178 likes, tech, published 2026-10-26"
+   "snippet": "231 likes, tech, published 2026-10-26"
   },
   {
-   "id": 48,
+   "id": 55,
    "source": "zenn",
-   "title": "Flutter やめました。電話アプリを Native にした理由",
-   "url": "https://zenn.dev/ivry/articles/d155267331a3ca",
-   "author": "ivry",
-   "snippet": "62 likes, tech, published 2026-10-28"
+   "title": "いいから休め - Black October が終わる今、セキュリティエンジニアがやるべきこと",
+   "url": "https://zenn.dev/nayuta/articles/aec9ab2e11a7b7",
+   "author": "nayuta",
+   "snippet": "58 likes, idea, published 2026-10-28"
   },
   {
-   "id": 49,
+   "id": 56,
+   "source": "zenn",
+   "title": "GitHub Actions で checkout@v7 のようなバージョン指定を書くのはやめよう！ 時代は actions.lock！",
+   "url": "https://zenn.dev/progate/articles/24b1140180300c",
+   "author": "progate",
+   "snippet": "39 likes, tech, published 2026-10-29"
+  },
+  {
+   "id": 57,
    "source": "zenn",
    "title": "学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話",
    "url": "https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm",
    "author": "Atotti",
-   "snippet": "35 likes, tech, published 2026-10-26"
+   "snippet": "39 likes, tech, published 2026-10-26"
   },
   {
-   "id": 50,
+   "id": 58,
    "source": "zenn",
-   "title": "Go で動く新世代の補完プラグイン goda-cmp.vim",
-   "url": "https://zenn.dev/shougo/articles/goda-cmp-vim-beta",
-   "author": "Shougo",
-   "snippet": "22 likes, tech, published 2026-10-27"
+   "title": "人間がコードを読まずにPRをマージする技術 ─ それでも、品質は手放さない",
+   "url": "https://zenn.dev/karamage/articles/ac71f1c89c73ff",
+   "author": "karamage",
+   "snippet": "20 likes, idea, published 2026-10-29"
   },
   {
-   "id": 51,
+   "id": 59,
    "source": "zenn",
    "title": "600人規模のイベント運営を支えたインカムを、学生1人で作った話",
    "url": "https://zenn.dev/kodak_20/articles/3b0ba74333b56c",
    "author": "コダック",
-   "snippet": "69 likes, tech, published 2026-10-25"
-  },
-  {
-   "id": 52,
-   "source": "zenn",
-   "title": "2026年の国内情報漏えい71件を侵入経路で分類してみた",
-   "url": "https://zenn.dev/blackleg/articles/e9ed8b038bcf48",
-   "author": "blackleg",
-   "snippet": "53 likes, tech, published 2026-10-25"
-  },
-  {
-   "id": 53,
-   "source": "rss",
-   "feed": "The GitHub Blog",
-   "title": "GitHub Universe 2026: Evolving every layer of the stack",
-   "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
-   "snippet": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog ."
-  },
-  {
-   "id": 54,
-   "source": "rss",
-   "feed": "The GitHub Blog",
-   "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
-   "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-   "snippet": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog ."
-  },
-  {
-   "id": 55,
-   "source": "rss",
-   "feed": "Latest News - Apple Developer",
-   "title": "Say hello to Touch on Mac",
-   "url": "https://developer.apple.com/news/?id=i9boeiqc",
-   "snippet": "Start getting ready for MacBook Pro with Touch today. Watch new developer videos, sign up for Group Labs, and check out new articles and resources. Explore now"
-  },
-  {
-   "id": 56,
-   "source": "rss",
-   "feed": "OpenAI News",
-   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-   "snippet": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
-  },
-  {
-   "id": 57,
-   "source": "rss",
-   "feed": "OpenAI News",
-   "title": "The future of the firm",
-   "url": "https://openai.com/index/the-future-of-the-firm",
-   "snippet": "How AI might enter the org chart—beneath, beside, and between us."
-  },
-  {
-   "id": 58,
-   "source": "rss",
-   "feed": "OpenAI News",
-   "title": "Legora is building the agentic operating system for legal work",
-   "url": "https://openai.com/index/legora",
-   "snippet": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work."
-  },
-  {
-   "id": 59,
-   "source": "rss",
-   "feed": "Qiita - 人気の記事",
-   "title": "1,000ファイルの言語移行をAIとASTトランスパイラで完遂した話：LLMの「評価の抜け道」とどう戦ったか",
-   "url": "https://qiita.com/dev-hasegawa/items/79f612c5a4e6c874eaa9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "こんにちは！株式会社DearOneの長谷川です。 DearOneのAI推進室でRAGの開発やRAGを使った社内システムの開発に従事しています。 この記事でわかること - 1,000ファイル超の基幹システムでロジックを保ち、AST（抽象構文木）を用いて「言語だけを切り替える」..."
+   "snippet": "74 likes, tech, published 2026-10-25"
   },
   {
    "id": 60,
    "source": "rss",
-   "feed": "Qiita - 人気の記事",
-   "title": "Devinに「超大作プロンプト」を一発で投げてはいけない──初月でACUを溶かして学んだ、AIエージェントとの正しい向き合い方",
-   "url": "https://qiita.com/saematsu/items/caaf0ea803b71ff1ef42?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "1. はじめに 今月、産育休から復帰したら社内で自律型AIエージェント「Devin」が使えるようになっていました。 早速使ってみたところ……あっという間に月間のACU（コンピュートユニット）を大量消費してしまいました。 原因は明確でした。休職前に使い放題だったGitHub..."
+   "feed": "Cloudflare Blog",
+   "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+   "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+   "snippet": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns."
   },
   {
    "id": 61,
    "source": "rss",
-   "feed": "Qiita - 人気の記事",
-   "title": "New Relic アップデート(2026年9月)",
-   "url": "https://qiita.com/nr-mito/items/c659893ddfd2f268b71a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "2026年9月のNew Relic のアップデートをまとめて紹介です！！Google Cloud 統合で連携できるメトリクスが大幅に増えたアップデートや、アラート条件をAND/ORの論理式で組み合わせてより精度の高いアラート設定が実現可能な複合アラートの一般提供など、注目の..."
+   "feed": "Latest News - Apple Developer",
+   "title": "Adjustments to the Taiwan storefront of the App Store on iOS and iPadOS",
+   "url": "https://developer.apple.com/news/?id=w9mxlhek",
+   "snippet": "Apple is making changes to the Taiwan storefront of the App Store, following discussions with the Taiwan Fair Trade Commission. As of October 31, 2026, the commission rate for standard Apple In-App Purchase and paid app transactions will be 26% on the Taiwan storefront of the App Store on iOS and iPadOS. Currently, that rate is 30%. Signing the updated terms by October 31 is not required to receiv"
   },
   {
    "id": 62,
    "source": "rss",
-   "feed": "Qiita - 人気の記事",
-   "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 37",
-   "url": "https://qiita.com/maskot1977/items/b41dcbcdc7a7557e3214?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: ソース動画のタイトルおよびその詳細な内容について解説します。 1. ソース動画のタイトル 本動画のタイトルは 「税金は国の財源ではない : Pythonで学ぶマクロ経..."
+   "feed": "OpenAI News",
+   "title": "An updated Model Spec for more capable and beneficial AI",
+   "url": "https://openai.com/index/updated-model-spec",
+   "snippet": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
   },
   {
    "id": 63,
    "source": "rss",
-   "feed": "Qiita - 人気の記事",
-   "title": "システム設計視点の行動経済学 全50回 総復習",
-   "url": "https://qiita.com/maskot1977/items/77c8714f0c82e56f2cfa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "この記事は、Qiita連載「システム設計視点の行動経済学」の第1回〜第50回を俯瞰する総復習記事です。 第1〜40回の詳細は全40回総復習記事を、第1〜30回は全30回総復習記事を参照してください。 本稿ではArc VI（第41〜50回）を中心に、連載全体の構造と到達..."
+   "feed": "OpenAI News",
+   "title": "How we detect frontier model misalignment",
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "snippet": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
   },
   {
    "id": 64,
    "source": "rss",
-   "feed": "Qiita - 人気の記事",
-   "title": "【脱VSCode】大学鯖が悲鳴を上げているので、Zedへ完全移行する手順をまとめた",
-   "url": "https://qiita.com/ToraMutton/items/6353f1835ab66b1e517f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに こんにちはトラマトです。 突然ですが電通大生の皆さん、最近大学のサーバーにVSCodeでSSH接続しようとして、無限ロードやエラーで弾かれていませんか？ 特にCED、最近かなり不調ですよね。 それもそのはず、最近は大学側の返信でも一部こんな対応が出るレベルなんで..."
+   "feed": "OpenAI News",
+   "title": "How Ropes & Gray is developing AI for transactional diligence",
+   "url": "https://openai.com/index/ropes-gray-ai-diligence",
+   "snippet": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
   },
   {
    "id": 65,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "研修中の僕がSlackに海外のIT情報を運ぶbotを作ったら、だいたい何が起きたか",
-   "url": "https://qiita.com/EricYu/items/147bf8e5fdb1b04f6d54?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに 僕がその会社に入って、二ヶ月が経とうとしていた。まだ研修中の身で、言ってみれば水槽に放り込まれたばかりの魚のようなものだ。泳ぎ方はわかっているが、どこに餌があるのかはまだわからない。 社内のSlackには rss-qiita-zenn というボットがいた。おかげ..."
+   "title": "パスキーはなぜ偽サイトに強い？登録とログインの流れを図で追う",
+   "url": "https://qiita.com/kuma_3838/items/1781531150821e2f0491?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに 弊社の代表から、セキュリティの高いログイン方式であるパスキーについて学んでほしい、と声がかかりました。セキュリティへの意識が高い会社として、取り組みを外にも伝えていきたいという話もありました。 私はそれまで、パスキーの存在は知っていたものの、どういうものかを知り..."
   },
   {
    "id": 66,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "AIエージェントをEnterprise Readyへ：IBM TechXchange 2026 Atlanta ジェネラルセッションまとめ",
-   "url": "https://qiita.com/mizuk1013/items/9d206626286addba08ff?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "IBMのエンジニア向けイベント「IBM TechXchange 2026 Atlanta」に参加しています。 人生2回目の訪米です！ イベントは前日のパートナー向けプログラムから始まり、今日、2026年10月27日から一般参加者向けのセッションが本格的にスタートしました。..."
+   "title": "AIはどれくらい動画編集ができるのか!? Claude CodeでYouTube動画編集した話",
+   "url": "https://qiita.com/tsukasa_japan/items/b8bca096170d087e271d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに こんにちは！株式会社Sapeetでアルゴリズムエンジニアとして働いている堀ノ内です。 これまでSapeetではClaude DesignをテーマにYouTube Liveを行ったりしてきましたが、もっと世の中にSapeetのことを知ってもらいたい！という想いから..."
   },
   {
    "id": 67,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "今週の PHP・LiteLLM の脆弱性を Claude Code に探させたら、Web 検索ありで6回中5回見つけた",
-   "url": "https://qiita.com/suwa_nobu/items/e6b2737d3eddb921e40d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "2026-10-21 に、PHP の重大な脆弱性2件の修正版と、LiteLLM の悪意のある版（1.107.0）が同じ日に出ました。Sonnet 5.5 は自分の知識を「2026年6月まで」と答えます。自分のプロジェクトが当たっているか、Claude Code に聞いたら分..."
+   "title": "Orchestrator型 vs 自己組織化型 ― Microsoft Research の OSS「Agensh」から考える、Agentic Workflow の行き先",
+   "url": "https://qiita.com/shahin0809/items/145266dc899e8b490e59?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに 2026年10月24日、Microsoft Research が Agensh を OSS として公開しました。論文のタイトルは「Agensh: Scaling Organizational Intelligence to 1,024 Agents」で、中央のオ..."
   },
   {
    "id": 68,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "【Delphi】タスクバーボタンにジャンプリストを表示する",
-   "url": "https://qiita.com/ht_deko/items/3d660c9c78d87e6c5b9c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに ジャンプリスト（Jump List） とはタスクバーやスタートメニューにあるアプリのアイコンを「右クリック」したときに表示されるコンテキストメニューのことです。 アプリケーションを起動していない時にも使えるので、タスクバーにピン留めして使うと効果的です。 ジャ..."
+   "title": "偽物のCTOから脱却したい",
+   "url": "https://qiita.com/Tukirukiki/items/82ded3e662e1022ab411?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "現在の自分について こんにちは！イケイケエンタメスタートアップでCTOやってます！ といっても、正直技術力がめちゃくちゃ高いわけでもないし、ビジネスをゴリゴリ進めていける感じではないので、正直肩書きになってしまっていて、それが嫌なんですねー ただ、僕は、肩書きで終わらせた..."
   },
   {
    "id": 69,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "デスクトップに置いて、AIからも操作できるタスク管理アプリを作った",
-   "url": "https://qiita.com/GpAraki/items/6aa0ff0c287486e82960?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "デスクトップに置いて、AIからも操作できるタスク管理アプリを作った 個人開発で、macOS向けのタスク管理アプリ「私の引き出し（Hikidashi）」を作りました。 デスクトップウィジェットでタスクを確認できるほか、Claude CodeやCodexなどのAIからMCP経..."
+   "title": "VS Code 1.144：PC を閉じてもエージェントが働く。Cloud セッションと Cloud Automations を試した",
+   "url": "https://qiita.com/shahin0809/items/26e401dc28c1ca60d8c7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに 最新アップデートを追うのが完全趣味になっているMicrosoft Student Ambassador/Github Copilot User Group Japan運営のロホマン シャヒンです！ この記事が少しでも参考になったら、ぜひいいね・共有をお願い..."
   },
   {
    "id": 70,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "Azure VM サイズ変換～SCSI から NVMe 必須の v6 シリーズへ移行する際の前提と手順～",
-   "url": "https://qiita.com/MasakiKakimoto/items/9356d8820157c32ad955?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "目次 はじめに 本記事で解説する VM 構成 作業前提 作業手順 まとめ 1. はじめに Azure VM の Dds_v6 等の v6 シリーズは、ディスクコントローラーが NVMe 必須 のサイズになっています。 そのため、ディスクコントローラーが SCSI で..."
+   "title": "401と403は何が違う？ Postmanで再現して確かめた認証と認可",
+   "url": "https://qiita.com/sewiihidekikudo/items/d2df7a49770bfe79d6d4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに こんにちは。ソーイ株式会社の工藤です。 業務でPostmanを使い、APIの認可チェックを実施する機会がありました。今回は、開発・保守業務におけるAPIのアクセス制御の確認をきっかけに、認証と認可の基本を整理しました。 APIにリクエストを送信し、返ってきたHT..."
   },
   {
    "id": 71,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "HULFT Square から Google Chat に「終わったよ」と言わせたい（Google Chat API ）",
-   "url": "https://qiita.com/sync_shu/items/752cf0fd34b1e981a386?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "はじめに：バッチは黙って働きすぎる HULFT Square のデータ連携は、今日も黙々と働いています。 深夜に、誰にも見られず、文句ひとつ言わずに。 ……でも、終わったなら終わったと言ってほしい。失敗したならなおさら言ってほしい。 朝イチで実行履歴を開いて「あ、昨日..."
+   "title": "Copilot Studio GitHub Copilot ハーネスのファイル入出力の現在地",
+   "url": "https://qiita.com/Takashi_Masumori/items/0ef4f38910f10829b51f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに 以前、Copilot Studio の新しい UI（GitHub Copilot ハーネス）でファイルの入出力を検証した際は、エージェントが作ったファイルを SharePoint に保存したり、ワークフローに渡したりするところで止まっていました。 あれから..."
   },
   {
    "id": 72,
    "source": "rss",
    "feed": "Qiita - 人気の記事",
-   "title": "異種RDBの論理統合環境を実現するOracle Live AI Hub",
-   "url": "https://qiita.com/ksonoda/items/3604f18af47dd66ab652?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-   "snippet": "AIエージェント時代のデータストアに求められること AIエージェントが正確に状況を認識し、適切に意思決定するには、必要なデータを正確に取得できることが不可欠です。 しかし、データが複数のシステムにサイロ化されている場合、データストアごとに異なるAPIを使い、その都度情報..."
+   "title": "AIと結合テスト自動化で進める、具体と抽象の反復開発",
+   "url": "https://qiita.com/sc-sato/items/f92bcb49308a70633c59?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに こんにちは。Shizen ConnectのSato Toshiakiです。 組み込み開発では、実機や周辺機器との連携、通信状態も含めた確認が必要です。私はこの確認を開発中に繰り返し使えるツールにするため、結合テスト自動化フレームワークを構築して運用しています。 ..."
   },
   {
    "id": 73,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Python jettisons the native JIT, at least for now",
-   "url": "https://www.reddit.com/r/programming/comments/1xhbl06/python_jettisons_the_native_jit_at_least_for_now/",
-   "snippet": "High level summary article More detailed article In June, the Python steering council announced that it was pausing work on the JIT in CPython's main branch until there was an accepted Python Enhancement Proposal (PEP) that addressed concerns about maintenance, compatibility, and set clear success metrics as well as a timeline for completion. [....] After months of discussion, the JIT maintainers "
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "緊急時に、安全に変更を届けられる開発・運用基盤って何だろう",
+   "url": "https://qiita.com/poku_log/items/e57ac8276df88a2a32d1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "1. はじめに 想定読者 Webアプリケーションの開発・運用に携わっている方 CI/CDやコンテナ、GitOpsを利用している、または導入を検討している方 脆弱性対応などの緊急変更を、平時の開発・運用とどう接続するか考えたい方 先日、pixivの脆弱性対応につ..."
   },
   {
    "id": 74,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "A faster way to compute signed 64-bit floor division by constants",
-   "url": "https://www.reddit.com/r/programming/comments/1xhl1jb/a_faster_way_to_compute_signed_64bit_floor/",
-   "snippet": "&#32; submitted by &#32; /u/benjoffe [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "静的解析でTypeScript怒られている時、本当に問題か確認する",
+   "url": "https://qiita.com/J-T_ky2g/items/8c90a50de77b8c1c6315?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに IDEを使っている 問題 IDEのキャッシュで怒られてるが本当は問題ない時があった 解決 npm run buildなどtscが実行されるものでも同じエラーが出るか確認する 終わりに GUIでダメならCLIで確認は他のことにも応用できそう"
   },
   {
    "id": 75,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Making SIMD Code Scale to Any Vector Width",
-   "url": "https://www.reddit.com/r/programming/comments/1xhpagj/making_simd_code_scale_to_any_vector_width/",
-   "snippet": "&#32; submitted by &#32; /u/MyNameIsTrez [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "Oracle AI World 2026、結局何が発表された？ 忙しい人のためのAI・データ・基盤ざっくり整理",
+   "url": "https://qiita.com/mo__mo/items/1476a4dc4d668c164818?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "2026年10月25日〜28日、米国ラスベガスでOracle AI World 2026が開催されました。 さまざまな技術発表がありましたが、中でもAIに関する発表の多さが個人的には印象に残りました。 Oracle AI World 2026公式サイト この記事では、忙しく..."
   },
   {
    "id": 76,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "If-statement that caused HTTP2Shell was itself undisclosed patch of vulnerability",
-   "url": "https://www.reddit.com/r/programming/comments/1xi16s3/ifstatement_that_caused_http2shell_was_itself/",
-   "snippet": "&#32; submitted by &#32; /u/klaasvanschelven [link] &#32; [comments]"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "# 【Python × MT5】日次損失-5%で即失格のプロップファーム(FTMO)に挑む！自律型AIヘッジファンドから派生させた「米国株デイトレ特化AI」の設計と実装全記録",
+   "url": "https://qiita.com/ramuza0113/items/9a7de4fa25bad8916f43?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに 先週、個人開発している自律型AIヘッジファンド『Lumina AI』のアーキテクチャ解説記事をQiitaに投稿したところ、大変ありがたいことに多くの反響とストックをいただきました。 本家のLumina AIは、**「米株・日本株の現物スイングトレード（数日..."
   },
   {
    "id": 77,
-   "source": "reddit",
-   "feed": "top scoring links : programming",
-   "title": "Local-First Means Three Different Things",
-   "url": "https://www.reddit.com/r/programming/comments/1xi3p7g/localfirst_means_three_different_things/",
-   "snippet": "Author here. I've been designing a local-first data layer for most of this year, and I kept having the same conversation. I'd say &quot;local-first&quot; and people would hear ownership, or offline, or speed, depending on where they first ran into the word. So I wrote down where the three meanings come from and why they split. There are five demos in there too, one for each idea. Playing with them"
+   "source": "rss",
+   "feed": "Qiita - 人気の記事",
+   "title": "peer typescript@\">=4.8.4 <6.1.0\" from typescript-eslint@8.72.1",
+   "url": "https://qiita.com/J-T_ky2g/items/67b9ae882aab63fea9a9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+   "snippet": "はじめに React TypeScriptなプロジェクトをviteで立ち上げ中、npm iがこけた 問題 typescript-eslint （eslintをtypescriptのコードに対して有効にするもの）がtsパッケージとバージョン合わず npm i 時エ..."
   },
   {
    "id": 78,
    "source": "reddit",
    "feed": "top scoring links : programming",
-   "title": "Why Don’t We Have Bug Free Code?",
-   "url": "https://www.reddit.com/r/programming/comments/1xhup1w/why_dont_we_have_bug_free_code/",
-   "snippet": "Because people won’t pay for it. This is an issue I know well. I was on the Windows 3.1 team at Microsoft. I wrote the book No Bugs . I founded and built the software company Windward Studios . ... ps - I think this meets the subreddit rules. If it does not, apologies and please delete it. &#32; submitted by &#32; /u/DavidThi303 [link] &#32; [comments]"
+   "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+   "url": "https://www.reddit.com/r/programming/comments/1xiq8we/linux_kernel_tcp_flaw_with_98_cvss_score_affects/",
+   "snippet": "&#32; submitted by &#32; /u/CircumspectCapybara [link] &#32; [comments]"
+  },
+  {
+   "id": 79,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "It's the memory latency, stupid",
+   "url": "https://www.reddit.com/r/programming/comments/1xiopmn/its_the_memory_latency_stupid/",
+   "snippet": "&#32; submitted by &#32; /u/bobbymk10 [link] &#32; [comments]"
+  },
+  {
+   "id": 80,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "The Last Proof of Human Craft: Forging a Microsoft Edge Full Chain with Logic Bugs Only!",
+   "url": "https://www.reddit.com/r/programming/comments/1xiq9r7/the_last_proof_of_human_craft_forging_a_microsoft/",
+   "snippet": "&#32; submitted by &#32; /u/alexeyr [link] &#32; [comments]"
+  },
+  {
+   "id": 81,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "How to Create Your Own Decentralized Messenger Protocol",
+   "url": "https://www.reddit.com/r/programming/comments/1xicwoy/how_to_create_your_own_decentralized_messenger/",
+   "snippet": "&#32; submitted by &#32; /u/fagnerbrack [link] &#32; [comments]"
+  },
+  {
+   "id": 82,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "AMD's ROCm HRX Loom v0.1 released for targeting AMD CPUs, GPUs & NPUs",
+   "url": "https://www.reddit.com/r/programming/comments/1xisevc/amds_rocm_hrx_loom_v01_released_for_targeting_amd/",
+   "snippet": "&#32; submitted by &#32; /u/Fcking_Chuck [link] &#32; [comments]"
+  },
+  {
+   "id": 83,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "email encryption",
+   "url": "https://www.reddit.com/r/programming/comments/1xijb4j/email_encryption/",
+   "snippet": "&#32; submitted by &#32; /u/fagnerbrack [link] &#32; [comments]"
+  },
+  {
+   "id": 84,
+   "source": "reddit",
+   "feed": "top scoring links : programming",
+   "title": "I want to create a Google chrome extension",
+   "url": "https://www.reddit.com/r/programming/comments/1xippf9/i_want_to_create_a_google_chrome_extension/",
+   "snippet": "What do I need to learn in order to do it? I want it to functionally similarly to this but with a different so I can start my portfolio. All advice is appreciated, thanks in advance. &#32; submitted by &#32; /u/FakeGrape823 [link] &#32; [comments]"
   }
  ]
 }
