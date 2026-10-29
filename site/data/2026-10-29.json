@@ -1,0 +1,361 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T10:42+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "GitHub Universe 2026とOctoverseでエージェント開発が加速、Gemini 4 CarbonやCPythonのJIT中断も話題に",
+  "items": [
+    {
+      "title": "GitHub Universe 2026：ソフトウェアデリバリー全体を担うGitHubのビジョンを発表",
+      "original_title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "summary": "GitHubはGitHub Universe 2026で、世界で最も包括的なエンドツーエンドのソフトウェアデリバリーシステムを目指すビジョンを示した。同時に公開されたOctoverse 2026では、コミットとプッシュが過去最高を更新し、エージェントを使った開発が全業種に広がったと報告されている。",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 9,
+      "tags": [
+        "GitHub",
+        "Octoverse",
+        "AIエージェント"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
+        }
+      ]
+    },
+    {
+      "title": "Gemini 4 Carbon が話題に（Hacker News）",
+      "original_title": "Gemini 4 Carbon",
+      "summary": "「Gemini 4 Carbon」がHacker Newsで765ポイント、625コメントを集め、本日最も議論を呼んだ話題の一つになっている。候補データから得られる詳細は少ないため、仕様や性能は元記事で確認したい。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50276792",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Gemini",
+        "LLM",
+        "Google"
+      ],
+      "related": []
+    },
+    {
+      "title": "PythonがネイティブJITを一旦見送り",
+      "original_title": "Python jettisons the native JIT, at least for now",
+      "summary": "Pythonのsteering councilは6月、CPythonのmainブランチにおけるJITの作業を一時停止すると発表していた。今回の記事はその流れを受け、ネイティブJITを少なくとも当面は外す方針を報じている。",
+      "url": "https://www.reddit.com/r/programming/comments/1xhbl06/python_jettisons_the_native_jit_at_least_for_now/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "Python",
+        "CPython",
+        "JIT"
+      ],
+      "related": []
+    },
+    {
+      "title": "UEFIファームウェアにコード実行の脆弱性、ほとんどのサーバーに影響",
+      "original_title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+      "summary": "UEFIファームウェアにコード実行の欠陥が見つかり、地球上のほとんどのサーバーに影響すると報じられている。サーバーを運用するエンジニアはファームウェア更新の動向を確認しておきたい。",
+      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "UEFI",
+        "セキュリティ",
+        "サーバー"
+      ],
+      "related": []
+    },
+    {
+      "title": "Alpine LinuxがGitLabのセキュリティインシデントを公表：CVE-2026-97229の悪用未遂",
+      "original_title": "GitLab security incident: attempted exploitation of CVE-2026-97229 | Alpine Linux",
+      "summary": "Alpine Linuxが、GitLabにおけるCVE-2026-97229の悪用が試みられたセキュリティインシデントを公表した。GitLabを自前運用している場合は該当脆弱性への対応状況を確認したい。",
+      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/2zsjwt/gitlab_security_incident_attempted",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "GitLab",
+        "Alpine Linux",
+        "CVE"
+      ],
+      "related": []
+    },
+    {
+      "title": "Appleのgitが、侵害されたeMudhra証明書を今も信頼している",
+      "original_title": "Apple's git still trusts the compromised eMudhra certificates",
+      "summary": "Appleのgitが、侵害されたeMudhraの証明書を依然として信頼しているという指摘がHacker Newsで1,021ポイントを集めた。証明書の信頼ストア管理の問題として注目されている。",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50271640",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "証明書",
+        "git",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "HTTP2Shellの原因となったif文は、それ自体が非公開の脆弱性パッチだった",
+      "original_title": "If-statement that caused HTTP2Shell was itself undisclosed patch of vulnerability",
+      "summary": "HTTP2Shellを引き起こしたif文は、それ自体が脆弱性の非公開パッチだったという記事がRedditで共有された。サイレントパッチが後続の脆弱性にどうつながったかを考える材料になる。",
+      "url": "https://www.reddit.com/r/programming/comments/1xi16s3/ifstatement_that_caused_http2shell_was_itself/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "HTTP/2",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "今週のPHP・LiteLLMの脆弱性をClaude Codeに探させたら、Web検索ありで6回中5回見つけた",
+      "original_title": "今週の PHP・LiteLLM の脆弱性を Claude Code に探させたら、Web 検索ありで6回中5回見つけた",
+      "summary": "2026-10-21にPHPの重大な脆弱性2件の修正版と、LiteLLMの悪意あるバージョン1.107.0が同日に出た。Claude Codeに自分のプロジェクトが該当するか調べさせた実験で、Web検索ありなら6回中5回で見つけられたという。",
+      "url": "https://qiita.com/suwa_nobu/items/e6b2737d3eddb921e40d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "LiteLLM",
+        "PHP"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAIとServiceNowが提携を拡大",
+      "original_title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "summary": "OpenAIとServiceNowが提携を拡大し、OpenAIのモデルとエージェントをServiceNowに、ServiceNowのワークフローをChatGPTとCodexに取り込む。エンタープライズ業務へのAIエージェント統合が進む動きだ。",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "OpenAI",
+        "ServiceNow",
+        "Codex"
+      ],
+      "related": []
+    },
+    {
+      "title": "Dayjob: Tax――50件の実務税務課題でAIエージェントを評価",
+      "original_title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "summary": "50件の専門的な税務業務課題を使ってAIエージェントを評価するベンチマーク「Dayjob: Tax」が公開された。Hacker Newsで191ポイントを集めている。",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50275626",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "ベンチマーク",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Nvidia Nemotron 3.5 Transcribe：40言語対応のオープンASR",
+      "original_title": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
+      "summary": "Nvidiaが40言語に対応するオープンな音声認識モデル「Nemotron 3.5 Transcribe」を公開した。",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50275128",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Nvidia",
+        "ASR",
+        "音声認識"
+      ],
+      "related": []
+    },
+    {
+      "title": "PROLED XDRディスプレイとTouchを備えたMacBook Pro、開発者向けの準備情報も公開",
+      "original_title": "MacBook Pro with PROLED XDR Display and Touch",
+      "summary": "PROLED XDRディスプレイとTouchを備えたMacBook Proが話題で、Hacker Newsで476ポイント、821コメントを集めた。Appleはデベロッパー向けに動画、Group Labs、記事などを公開し、Touch on Macへの準備を促している。",
+      "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50276940",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "Apple",
+        "Mac",
+        "Touch"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://developer.apple.com/news/?id=i9boeiqc"
+        }
+      ]
+    },
+    {
+      "title": "1,000ファイルの言語移行をAIとASTトランスパイラで完遂――LLMの「評価の抜け道」との戦い",
+      "original_title": "1,000ファイルの言語移行をAIとASTトランスパイラで完遂した話：LLMの「評価の抜け道」とどう戦ったか",
+      "summary": "DearOneのAI推進室が、1,000ファイル超の基幹システムでロジックを保ったまま言語だけを切り替えるため、AST（抽象構文木）を用いたトランスパイラとAIを組み合わせた事例を紹介している。LLMの評価の抜け道への対処も論点になっている。",
+      "url": "https://qiita.com/dev-hasegawa/items/79f612c5a4e6c874eaa9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "AST",
+        "LLM",
+        "言語移行"
+      ],
+      "related": []
+    },
+    {
+      "title": "Devinに「超大作プロンプト」を一発で投げてはいけない",
+      "original_title": "Devinに「超大作プロンプト」を一発で投げてはいけない──初月でACUを溶かして学んだ、AIエージェントとの正しい向き合い方",
+      "summary": "自律型AIエージェントDevinを使い始めた直後に、月間のACU（コンピュートユニット）を大量消費した体験談。原因と、AIエージェントとの正しい付き合い方がまとめられている。",
+      "url": "https://qiita.com/saematsu/items/caaf0ea803b71ff1ef42?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Devin",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "コードを読まずにマージするために必要なこと",
+      "original_title": "コードを読まずにマージするために必要なこと",
+      "summary": "Zennで118いいねを集めた記事で、コードを読まずにマージするために必要なことを論じている。AIが生成するコードのレビューをどう設計するかを考えるきっかけになる。",
+      "url": "https://zenn.dev/nrs/articles/c777388530aa84",
+      "source": "zenn",
+      "post_url": null,
+      "author": "nrs",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "コードレビュー",
+        "AI開発"
+      ],
+      "related": []
+    },
+    {
+      "title": "Flutterをやめた：電話アプリをNativeにした理由",
+      "original_title": "Flutter やめました。電話アプリを Native にした理由",
+      "summary": "Zennの記事で、電話アプリをFlutterからNativeに移行した理由が語られている。クロスプラットフォームとネイティブの選択を考える際の実例になる。",
+      "url": "https://zenn.dev/ivry/articles/d155267331a3ca",
+      "source": "zenn",
+      "post_url": null,
+      "author": "ivry",
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "Flutter",
+        "ネイティブ",
+        "モバイル"
+      ],
+      "related": []
+    },
+    {
+      "title": "VSCodeからZedへ完全移行する手順（大学サーバーのSSH負荷対策）",
+      "original_title": "【脱VSCode】大学鯖が悲鳴を上げているので、Zedへ完全移行する手順をまとめた",
+      "summary": "大学のサーバーにVSCodeでSSH接続すると無限ロードやエラーが起きやすいため、Zedへ完全移行する手順をまとめた記事。",
+      "url": "https://qiita.com/ToraMutton/items/6353f1835ab66b1e517f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Zed",
+        "VSCode",
+        "SSH"
+      ],
+      "related": []
+    },
+    {
+      "title": "Azure VMのサイズ変換：SCSIからNVMe必須のv6シリーズへ移行する前提と手順",
+      "original_title": "Azure VM サイズ変換～SCSI から NVMe 必須の v6 シリーズへ移行する際の前提と手順～",
+      "summary": "Azure VMのDds_v6などv6シリーズはディスクコントローラーがNVMe必須で、SCSIの構成からは移行に前提確認が要る。その前提と作業手順が解説されている。",
+      "url": "https://qiita.com/MasakiKakimoto/items/9356d8820157c32ad955?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Azure",
+        "NVMe",
+        "VM"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending：obra/superpowers――エージェント向けスキルフレームワーク",
+      "original_title": "obra/superpowers",
+      "summary": "obra/superpowersは、エージェント型のスキルフレームワークでありソフトウェア開発の方法論でもあるシェルベースのリポジトリで、本日1,095スターを獲得した。",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "GitHub Trending",
+        "エージェント",
+        "スキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending：expo/skills――Expo向けAIエージェントスキル集",
+      "original_title": "expo/skills",
+      "summary": "Expoプロジェクトと Expo Application Services を扱うためのAIエージェント用スキル集がexpo/skillsとして公開され、トレンド入りした。",
+      "url": "https://github.com/expo/skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "Expo",
+        "AIエージェント",
+        "スキル"
+      ],
+      "related": []
+    }
+  ]
+}
