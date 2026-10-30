@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Mistral Large 4の重みが公開され、Gemini 4 Carbonが指標で首位に。LLM競争とセキュリティ事案が目立つ一日",
+  "items": [
+    {
+      "title": "Mistral Large 4のウェイトを公開",
+      "original_title": "We're releasing the weights of Mistral Large 4",
+      "summary": "Mistralが「Mistral Large 4」のモデルウェイトを公開したと発表しました。Hacker Newsで1,100ポイント超を集め、大きな注目を浴びています。オープンウェイトの大型モデルとして、自前運用やファインチューニングを検討する開発者にとって重要なニュースです。",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50289418",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Mistral",
+        "LLM",
+        "オープンウェイト"
+      ],
+      "related": []
+    },
+    {
+      "title": "Gemini 4 CarbonがArtificial Analysis Intelligence Index v5で首位に",
+      "original_title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "summary": "Artificial Analysisの記事によると、Gemini 4 Carbonが Intelligence Index v5で新たに1位となりました。主要LLMの性能比較で順位が入れ替わったことを示しており、モデル選定の参考になります。",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50288019",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Gemini",
+        "ベンチマーク",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "CVSS 9.8のLinuxカーネルTCPの脆弱性、UbuntuやRed Hatなどに影響",
+      "original_title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "summary": "CVSSスコア9.8とされるLinuxカーネルのTCPの欠陥が、UbuntuやRed Hatなど複数のディストリビューションに影響すると報じられています。サーバー運用者はディストリビューションからの情報とパッチ提供状況を確認する必要があります。",
+      "url": "https://www.reddit.com/r/programming/comments/1xiq8we/linux_kernel_tcp_flaw_with_98_cvss_score_affects/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Linux",
+        "脆弱性",
+        "TCP"
+      ],
+      "related": []
+    },
+    {
+      "title": "ゼロクリックでリモートから実行できるサイレントなAndroid DoSの報告",
+      "original_title": "Zero click, silent, remote Android DoS",
+      "summary": "ユーザー操作なしでリモートからAndroid端末をサービス不能にできるという「Zero click, silent, remote Android DoS」が公開され、Hacker Newsで300ポイント超を集めています。Androidを扱う開発者やセキュリティ担当者は詳細を確認しておく価値があります。",
+      "url": "https://smsofdeath.com/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50285452",
+      "author": null,
+      "category": "mobile",
+      "score": 7,
+      "tags": [
+        "Android",
+        "セキュリティ",
+        "DoS"
+      ],
+      "related": []
+    },
+    {
+      "title": "連鎖するPHP2Shellエクスプロイトで米政府を含む25台のサーバーが掌握",
+      "original_title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+      "summary": "複数の脆弱性を連鎖させる「PHP2Shell」エクスプロイトにより、米政府のサーバーを含む25台が root 権限を奪われたと報告されています。PHPアプリケーションを運用している場合は、自環境への影響を確認すべき事案です。",
+      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50286987",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "PHP",
+        "セキュリティ",
+        "エクスプロイト"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeがバックグラウンドエージェントのトランスクリプトを定期的にモデルへ送信すると指摘",
+      "original_title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "summary": "Claude Codeが各バックグラウンドエージェントのトランスクリプトを定期的にモデルへ送っているとするGistが公開され、Hacker Newsで議論になっています。エージェント型ツールのコンテキスト送信の挙動やコストを把握するうえで参考になります。",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50284255",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude Code",
+        "エージェント",
+        "コンテキスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare 2026年Q3 DDoS脅威レポート：小規模で高頻度の攻撃が増加",
+      "original_title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "summary": "CloudflareのQ3 2026レポートによると、1時間あたり8,200件超のDDoS攻撃を緩和しました。攻撃は短時間で高頻度な形へ移行し、CLDAPを使った手法は大きく減少、ボットネットの摘発も影響したとされています。",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "DDoS",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Grace Blackwellには新しいスケジューラが必要：同じラックで使えるGPUが27%増",
+      "original_title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+      "summary": "SkyPilotが、Grace Blackwell向けに新しいスケジューラを用いることで、同じラックから使えるGPUを27%増やせると紹介しています。GPUクラスタの利用効率を高めたいインフラ担当者向けの内容です。",
+      "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50290912",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "GPU",
+        "スケジューラ",
+        "SkyPilot"
+      ],
+      "related": []
+    },
+    {
+      "title": "VS Code 1.144：PCを閉じてもエージェントが動くCloudセッションとCloud Automations",
+      "original_title": "VS Code 1.144：PC を閉じてもエージェントが働く。Cloud セッションと Cloud Automations を試した",
+      "summary": "VS Code 1.144で追加されたCloudセッションとCloud Automationsを試したQiita記事です。PCを閉じてもエージェントが作業を続けられる点が取り上げられています。",
+      "url": "https://qiita.com/shahin0809/items/26e401dc28c1ca60d8c7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "VS Code",
+        "エージェント",
+        "Qiita"
+      ],
+      "related": []
+    },
+    {
+      "title": "Microsoft ResearchのOSS「Agensh」から考えるAgentic Workflowの行き先",
+      "original_title": "Orchestrator型 vs 自己組織化型 ― Microsoft Research の OSS「Agensh」から考える、Agentic Workflow の行き先",
+      "summary": "Microsoft Researchが2026年10月24日にOSSとして公開したAgenshを題材に、Orchestrator型と自己組織化型のワークフローを比較する記事です。論文は1,024エージェントへの組織的知能のスケーリングを扱っているとされています。",
+      "url": "https://qiita.com/shahin0809/items/145266dc899e8b490e59?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Agensh",
+        "Microsoft Research",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Actionsのバージョン指定をやめてactions.lockを使おう",
+      "original_title": "GitHub Actions で checkout@v7 のようなバージョン指定を書くのはやめよう！ 時代は actions.lock！",
+      "summary": "checkout@v7のようなバージョン指定ではなく、actions.lockを使うことを勧めるZenn記事です。CIの依存を固定する運用の参考になります。",
+      "url": "https://zenn.dev/progate/articles/24b1140180300c",
+      "source": "zenn",
+      "post_url": null,
+      "author": "progate",
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "GitHub Actions",
+        "CI",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAIがModel Specを更新、フロンティアモデルの不整合検出手法も公開",
+      "original_title": "An updated Model Spec for more capable and beneficial AI",
+      "summary": "OpenAIは、人間の主体性や意図への忠実さを含む5つの中核的価値を示す更新版Model Specを公開しました。あわせて、階層的な監視によってフロンティアモデルの不整合やエージェントの無許可の挙動を検出する取り組みも紹介しています。",
+      "url": "https://openai.com/index/updated-model-spec",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "OpenAI",
+        "Model Spec",
+        "AI安全性"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+        }
+      ]
+    },
+    {
+      "title": "ロジックバグのみでMicrosoft Edgeのフルチェーンを構築した手法",
+      "original_title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "summary": "メモリ破壊ではなくロジックバグだけを連鎖させてMicrosoft Edgeのフルチェーンエクスプロイトを作る手法を解説した記事です。HackerNewsとRedditの両方で取り上げられています。",
+      "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50285319",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Edge",
+        "ブラウザ",
+        "セキュリティ"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xiq9r7/the_last_proof_of_human_craft_forging_a_microsoft/"
+        }
+      ]
+    },
+    {
+      "title": "Nim 2.4.0がリリース",
+      "original_title": "Nim version 2.4.0 released",
+      "summary": "プログラミング言語Nimのバージョン2.4.0がリリースされました。Lobstersで共有されています。",
+      "url": "https://nim-lang.org/blog/2026/10/28/nim-240.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/vfllme/nim_version_2_4_0_released",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Nim",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "AMDのROCm HRX Loom v0.1が公開、CPU・GPU・NPUを対象に",
+      "original_title": "AMD's ROCm HRX Loom v0.1 released for targeting AMD CPUs, GPUs & NPUs",
+      "summary": "AMDがAMDのCPU、GPU、NPUを対象とするROCm HRX Loomのv0.1を公開しました。",
+      "url": "https://www.reddit.com/r/programming/comments/1xisevc/amds_rocm_hrx_loom_v01_released_for_targeting_amd/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "AMD",
+        "ROCm",
+        "GPU"
+      ],
+      "related": []
+    }
+  ]
+}
