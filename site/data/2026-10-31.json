@@ -1,0 +1,487 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Claude Code拡張機能のバックドア報道と、Northflank・Bunny CDN・Linodeなど相次ぐインフラ系セキュリティインシデントが話題",
+  "items": [
+    {
+      "title": "Cursor Marketplace上のClaude Code for VS Code拡張にバックドアが見つかる",
+      "original_title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "summary": "Cursor Marketplaceで公開されていたClaude Code for VS Code拡張機能にバックドアが含まれていたと報告され、Hacker Newsで700ポイント超の注目を集めた。関連して公式のClaude Code拡張にもバックドアがあるとする投稿も上がっている。AIコーディングツールの拡張機能の供給網リスクを再確認させる話題。",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50300683",
+      "author": null,
+      "category": "ai",
+      "score": 10,
+      "tags": [
+        "Claude Code",
+        "VS Code",
+        "Cursor",
+        "セキュリティ"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50302334"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50301983"
+        }
+      ]
+    },
+    {
+      "title": "Northflankで侵害が発生",
+      "original_title": "Northflank Breached",
+      "summary": "クラウドデプロイ基盤のNorthflankが侵害を受けたとする投稿がHacker Newsで337ポイントを集めた。利用者は公式の発表内容を確認し、認証情報のローテーションなど必要な対応を検討したい。",
+      "url": "https://status.northflank.com",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50305025",
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "Northflank",
+        "セキュリティインシデント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Azureの弱点: テナント間の完全な侵害が5件確認された",
+      "original_title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "summary": "「Azure's Weakest Link」と題した記事で、Azureにおけるクロステナントの完全な侵害が5件報告されている。マルチテナントのクラウド基盤におけるテナント分離の重要性を示す内容としてHacker Newsで256ポイントを獲得した。",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50301854",
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "Azure",
+        "クラウド",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Bunny CDNでセキュリティインシデントが発生",
+      "original_title": "Bunny CDN Security Incident",
+      "summary": "CDNサービスBunny CDNがセキュリティインシデントを公表し、Hacker Newsで187ポイントを集めた。CDNを利用しているサイト運営者は告知の詳細を確認しておきたい。",
+      "url": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50308697",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Bunny CDN",
+        "CDN",
+        "セキュリティインシデント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Linodeでセキュリティインシデントが発生",
+      "original_title": "Linode Security Incident",
+      "summary": "クラウドプロバイダのLinodeがセキュリティインシデントを公表した。Hacker Newsで114ポイントを集めており、利用者は影響範囲と推奨対応の確認が必要。",
+      "url": "https://status.linode.com/incidents/nt58zhx3pmgm",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50310687",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Linode",
+        "セキュリティインシデント"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHubでActions・Pages・Webhooksに障害",
+      "original_title": "GitHub Incident with Actions, Pages, and Webhooks",
+      "summary": "GitHubでActions、Pages、Webhooksに影響するインシデントが発生した。CI/CDやWebhook連携に依存するチームは、ステータスページで復旧状況を確認したい。",
+      "url": "https://www.githubstatus.com/incidents/pwxsjgnvrk6b",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50307723",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "GitHub",
+        "Actions",
+        "障害"
+      ],
+      "related": []
+    },
+    {
+      "title": "eMudhra証明書の脆弱な鍵の悪用とパッチ適用状況を追跡",
+      "original_title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "summary": "eMudhra発行の証明書を使う未パッチの接続は、わずか4つの鍵で破られうるとする調査記事。脆弱な鍵が実際に悪用されパッチが適用される状況を追跡している。",
+      "url": "https://blog.cloudflare.com/emudhra-patching/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "eMudhra",
+        "証明書",
+        "TLS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare、プライベートオリジン向けサービスが一般提供に",
+      "original_title": "Cloudflare services for private origins is now generally available",
+      "summary": "Cloudflareが、プライベートオリジンへの公開トラフィックにWAF、ボット管理、キャッシュ、Workersを適用できる機能を、Cloudflare Oneを利用する全顧客向けに一般提供開始した。",
+      "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "WAF",
+        "Workers"
+      ],
+      "related": []
+    },
+    {
+      "title": "Polymarketがベンダー侵害により1時間停止、影響ユーザーは補償へ",
+      "original_title": "Polymarket 1h halt after vendor compromise; affected users will be 'made whole'",
+      "summary": "Polymarketがベンダーのコンプロマイズをうけてサービスを1時間停止した。影響を受けたユーザーには「made whole」、つまり損失の補填を行うとしている。",
+      "url": "https://www.nbcnews.com/business/consumer/polymarket-trading-halt-hack-wallets-rcna606405",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50305225",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Polymarket",
+        "サプライチェーン",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI、AI学習に関する設定を示す共通のrobots.txtシグナルを尊重へ",
+      "original_title": "Making it easier for websites to express AI training preferences",
+      "summary": "OpenAIは、ウェブサイト運営者がAI学習への意向を示せる共通のrobots.txtシグナルを、参加するプロバイダとともに尊重すると発表した。",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "OpenAI",
+        "robots.txt",
+        "AI学習"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIコストへの懸念で米テック株が急落",
+      "original_title": "US tech stocks see sharp falls over AI cost fears",
+      "summary": "AI関連のコストへの懸念から米国のテック株が大きく下落したと報じられ、Hacker Newsで229ポイントを集めた。",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50306008",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AI",
+        "市場"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIはSREを置き換えるのではなく、スキルを衰えさせている",
+      "original_title": "AI isn't replacing SREs, it's deskilling them",
+      "summary": "「AI isn't replacing SREs, it's deskilling them」と題した記事がHacker Newsで476ポイント、355コメントを集めた。運用現場でのAI依存が技能に与える影響を論じている。",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50305693",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "SRE",
+        "AI",
+        "運用"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI、ChatGPTの暴力防止策とティーン向け保護を強化",
+      "original_title": "Community safety report and new protections for teens",
+      "summary": "OpenAIがChatGPTにおける暴力防止の安全対策を拡充し、より早い段階での介入と、ティーン向けの新たな保護策、公的な安全への取り組みを発表した。",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "安全性"
+      ],
+      "related": []
+    },
+    {
+      "title": "Anthropic、IPO後も投資適格格付けは難しいとBlackstoneが指摘",
+      "original_title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "summary": "BlackstoneがAnthropicについて、IPO後に投資適格の格付けを得られない可能性があると述べたと伝えられ、Hacker Newsで269ポイントを集めた。",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50307219",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Anthropic",
+        "IPO"
+      ],
+      "related": []
+    },
+    {
+      "title": "Pico CSSのメンテナンスが終了",
+      "original_title": "Pico CSS is no longer maintained",
+      "summary": "軽量CSSフレームワークのPico CSSがメンテナンスされなくなったと告知された。利用中のプロジェクトは代替の検討が必要になる。",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50298964",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Pico CSS",
+        "CSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "連合型コードフォージという構想",
+      "original_title": "The federated code forge",
+      "summary": "「The federated code forge」と題した記事がHacker Newsで213ポイントを集めた。分散・連合型のコードホスティングについて論じている。",
+      "url": "https://tangled.org/blog/forge/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50305573",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "コードフォージ",
+        "分散"
+      ],
+      "related": []
+    },
+    {
+      "title": "Herdrがネイティブアプリをリリース",
+      "original_title": "Herdr has released native app",
+      "summary": "HerdrがネイティブアプリをリリースしたとしてHacker Newsで346ポイントを集めた。",
+      "url": "https://github.com/herdrdev/herdr-app",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50298436",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Herdr"
+      ],
+      "related": []
+    },
+    {
+      "title": "Auto mode時代のClaude Codeを守る検証済み10キットのセキュリティ対策",
+      "original_title": "Auto mode時代のClaude Codeを守る。検証済み10キットで始めるセキュリティ対策【全員・チーム・組織別】",
+      "summary": "Zennの記事で、Auto modeのClaude Codeを守るための検証済み10キットを、全員・チーム・組織の単位に分けて紹介している。",
+      "url": "https://zenn.dev/sonicmoov/articles/67aaeb49be69ec",
+      "source": "zenn",
+      "post_url": null,
+      "author": "sonicmoov",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "VS Code 1.144: Customizationsの新ホームBrowseとCopilot connectors",
+      "original_title": "VS Code 1.144：Customizations の新ホーム Browse と Copilot connectors。探す・つなぐ・整える・配るを整理する",
+      "summary": "VS Code 1.144の更新を扱った記事。Customizationsの新しいホームとなるBrowseと、Copilot connectorsを取り上げている。",
+      "url": "https://qiita.com/shahin0809/items/12a7dd1fd077fd6169fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "VS Code",
+        "Copilot"
+      ],
+      "related": []
+    },
+    {
+      "title": "AgentCore GatewayのターゲットにStep Functionsを指定可能に",
+      "original_title": "AgentCore GatewayのターゲットにStep Functionsを指定できるようになりました",
+      "summary": "AgentCore GatewayのターゲットとしてStep Functionsが選べるようになった。既存のステートマシンをそのままMCPツールとしてエージェントに渡せる。",
+      "url": "https://qiita.com/har1101/items/de6104e8057452ebd720?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AWS",
+        "AgentCore",
+        "Step Functions",
+        "MCP"
+      ],
+      "related": []
+    },
+    {
+      "title": "WordPressの脆弱性「wp2shell」を狙った攻撃の観測",
+      "original_title": "WordPressの脆弱性「wp2shell」を狙った攻撃の観測",
+      "summary": "三菱電機の情報技術総合研究所が、IoT家電ハニーポットでWordPressの脆弱性「wp2shell」を狙った攻撃を観測したと報告している。",
+      "url": "https://qiita.com/melkihara/items/8bb5e61321066be53d83?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "WordPress",
+        "wp2shell",
+        "ハニーポット"
+      ],
+      "related": []
+    },
+    {
+      "title": "PostgreSQLで子テーブルへのINSERT後にFOR UPDATEするとデッドロックする理由",
+      "original_title": "PostgreSQLで子テーブルへのINSERT後にFOR UPDATEすると、外部キーのロックでデッドロックする理由",
+      "summary": "子テーブルへのINSERT後に、外部キーで参照する親の行をFOR UPDATEするとデッドロックが起きる理由を解説した記事。対処法としてFOR NO KEY UPDATEの利用も紹介している。",
+      "url": "https://qiita.com/shusaku009/items/eb96123c2a0a9008c431?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "PostgreSQL",
+        "デッドロック"
+      ],
+      "related": []
+    },
+    {
+      "title": "RDS Data APIでNAT不要の構成にする",
+      "original_title": "RDS Data APIを使ってNAT不要構成にしてみた",
+      "summary": "VPC外のLambdaからプライベートサブネットのAuroraを使う構成で、RDS Data APIを利用してNATを不要にした事例を紹介している。",
+      "url": "https://qiita.com/j-yasukawa/items/bd3785861c0e0bfc2f7e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "AWS",
+        "RDS",
+        "Lambda"
+      ],
+      "related": []
+    },
+    {
+      "title": "SSM Session Managerを使ってDBに接続する",
+      "original_title": "SSM Session Managerを使ってDBに接続する",
+      "summary": "プライベートサブネットのRDS/Auroraへ、踏み台EC2とSSHトンネルの代わりにSession Managerで接続する方法を紹介した記事。",
+      "url": "https://qiita.com/j-yasukawa/items/701554f14fe8b02ff34e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "AWS",
+        "SSM",
+        "RDS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Go 1.28のHTTP/2 Parkingによるメモリ削減を計測",
+      "original_title": "Go 1.28's HTTP/2 Parking: Measuring Memory Savings",
+      "summary": "Go 1.28のHTTP/2 Parkingによるメモリ削減効果を計測した記事。",
+      "url": "https://abdolirad.me/articles/go-1-28-http2-parking-memory/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/mhmqky/go_1_28_s_http_2_parking_measuring_memory",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Go",
+        "HTTP/2"
+      ],
+      "related": []
+    },
+    {
+      "title": "CVE-2026-98432への対策(Go)",
+      "original_title": "Protecting against CVE-2026-98432",
+      "summary": "Go関連のセキュリティ脆弱性CVE-2026-98432への対策を扱った記事。",
+      "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Go",
+        "CVE"
+      ],
+      "related": []
+    },
+    {
+      "title": "border-shapeでCSSシェイプを使いこなす",
+      "original_title": "Mastering CSS Shapes with border-shape for Dynamic Designs",
+      "summary": "CSSのborder-shapeを使って動的なデザインを作る方法を取り上げた記事。",
+      "url": "https://www.reddit.com/r/programming/comments/1xjj2n5/mastering_css_shapes_with_bordershape_for_dynamic/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "CSS",
+        "border-shape"
+      ],
+      "related": []
+    },
+    {
+      "title": "Lightpanda: AIと自動化向けのヘッドレスブラウザ",
+      "original_title": "lightpanda-io/browser",
+      "summary": "Zig製のヘッドレスブラウザLightpandaがGitHub Trendingに登場した。AIと自動化向けに設計されている。",
+      "url": "https://github.com/lightpanda-io/browser",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Lightpanda",
+        "Zig",
+        "ヘッドレスブラウザ"
+      ],
+      "related": []
+    }
+  ]
+}
