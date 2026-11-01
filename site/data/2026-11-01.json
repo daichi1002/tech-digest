@@ -1,0 +1,405 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AI・セキュリティ関連の話題が中心：ChatGPTアカウント乗っ取り、LLMを使うマルウェア、TCPの重大脆弱性、AIエージェント開発手法が注目",
+  "items": [
+    {
+      "title": "TCPのuse-after-free脆弱性 CVE-2026-98432（CVSS 9.8）",
+      "original_title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "summary": "TCPに関するuse-after-free脆弱性 CVE-2026-98432 が CVSS 9.8 の深刻度で報告され、Hacker Newsで256ポイントを集めました。ネットワークスタックを扱うインフラ担当者は、影響範囲と修正の有無を確認しておく必要があります。",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50319143",
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "セキュリティ",
+        "TCP",
+        "CVE",
+        "脆弱性"
+      ],
+      "related": []
+    },
+    {
+      "title": "LLMを使って被害者の価値を格付けするマルウェア",
+      "original_title": "Malware uses LLMs to rank victims by how much they're worth",
+      "summary": "マルウェアがLLMを用いて、感染した被害者がどれだけ価値があるかをランク付けしているという話題です。攻撃側によるLLM活用の具体例として、Hacker Newsで225ポイントを集めました。",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50316531",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "マルウェア",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "ChatGPTアカウントを乗っ取った手法の解説「Do the math」",
+      "original_title": "Do the math: How we took over ChatGPT accounts",
+      "summary": "ChatGPTアカウントの乗っ取りに至った経緯と手法を解説する記事が、Hacker Newsで294ポイントを集めました。主要AIサービスのアカウント保護を考えるうえで参照価値があります。",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50314699",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "アカウント乗っ取り"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI、300億ドルの目標の半分未満しか調達できず",
+      "original_title": "OpenAI raises less than half of $30B target",
+      "summary": "OpenAIが目標としていた300億ドルの半分に満たない額しか調達できていないと報じられ、Hacker Newsで議論になっています。AI業界の資金動向を見るうえで注目のニュースです。",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50312922",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "OpenAI",
+        "資金調達"
+      ],
+      "related": []
+    },
+    {
+      "title": "GPT-5.6 SolがFactorioをピースフルモードでクリア可能に",
+      "original_title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "summary": "GPT-5.6 Sol が Factorio をピースフルモードでクリアできるという話題が、Hacker Newsで148ポイントを集めました。長い工程の計画・実行を伴うタスクでのLLMエージェント能力を示す事例として注目されています。",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50318871",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "GPT-5.6",
+        "エージェント",
+        "Factorio"
+      ],
+      "related": []
+    },
+    {
+      "title": "Anthropic、より大きなモデルの学習に関わる用途を行うユーザーをブロックとの報告",
+      "original_title": "Anthropic blocks users for anything touching training larger models",
+      "summary": "Anthropicが、より大きなモデルの学習に関わるあらゆる用途のユーザーをブロックしているという投稿がHacker Newsで話題になっています。APIの利用規約や用途制限に関わる点として、開発者は確認しておくとよいでしょう。",
+      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50319358",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Anthropic",
+        "利用規約"
+      ],
+      "related": []
+    },
+    {
+      "title": "Scribdで情報漏えいが発生との報告（Tell HN）",
+      "original_title": "Tell HN: Scribd Breached",
+      "summary": "Scribdが侵害を受けたとする投稿がHacker Newsで334ポイントを集めました。同サービスのアカウントを利用している場合は、公式の案内を確認して対応を検討してください。",
+      "url": "https://news.ycombinator.com/item?id=50312756",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50312756",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "セキュリティ",
+        "情報漏えい",
+        "Scribd"
+      ],
+      "related": []
+    },
+    {
+      "title": "Signalフォーク「Molly」が3か月更新されず脆弱との指摘",
+      "original_title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+      "summary": "Signalのフォークである Molly が3か月間更新されておらず、脆弱な状態にあるとの指摘がHacker Newsで291ポイントを集めました。フォーク系アプリの更新状況を確認する重要性を示しています。",
+      "url": "https://piefed.world/post/1503394",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50314666",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "Signal",
+        "Molly",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "新しいコーディングハーネス「Prospero」",
+      "original_title": "Prospero: A new coding harness for a more civilized age",
+      "summary": "Prospero は「より文明的な時代のための新しいコーディングハーネス」として紹介され、Hacker Newsで180ポイントを集めました。AIコーディング環境の新たな選択肢として注目されています。",
+      "url": "https://nullprogram.com/blog/2026/10/31/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50315226",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "コーディングエージェント",
+        "Prospero"
+      ],
+      "related": []
+    },
+    {
+      "title": "Jepsen: ParticleDB 1.1.4 の検証結果",
+      "original_title": "Jepsen: ParticleDB 1.1.4",
+      "summary": "分散システムの整合性検証で知られるJepsenが ParticleDB 1.1.4 を分析しました。Hacker Newsで171ポイントを集めており、データベース選定の参考になります。",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50316100",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Jepsen",
+        "データベース",
+        "ParticleDB"
+      ],
+      "related": []
+    },
+    {
+      "title": "GCCにおけるswitch文の最適化（Switch Lowering）",
+      "original_title": "Switch Lowering in GCC",
+      "summary": "GCCがswitch文をどのように低レベルに変換するかを扱った記事で、Hacker Newsで195ポイントを集めました。コンパイラの最適化を理解したい人向けの内容です。",
+      "url": "https://xoranth.net/gcc-switch/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50314085",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "GCC",
+        "コンパイラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "pbakaus/impeccable：コーディングエージェント向けのデザイン語彙",
+      "original_title": "pbakaus/impeccable",
+      "summary": "コーディングエージェントにデザイン上の指示を与えるための語彙を提供するプロジェクトで、polish や bolder で調整し、critique や audit でレビューできるとされています。本日GitHub Trendingで1,339スターを獲得しました。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "GitHub",
+        "コーディングエージェント",
+        "デザイン"
+      ],
+      "related": []
+    },
+    {
+      "title": "mattpocock/skills：開発者向けエージェントスキル集",
+      "original_title": "mattpocock/skills",
+      "summary": "作者の .agents ディレクトリにあるスキルをまとめたリポジトリで、シェルで書かれています。本日882スターを獲得しGitHub Trendingに入りました。",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "GitHub",
+        "エージェントスキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "claude-mem：エージェントのセッションをまたぐ永続コンテキスト",
+      "original_title": "thedotmack/claude-mem",
+      "summary": "エージェントがセッション中に行った内容をAIで圧縮し、関連するコンテキストを後続のセッションに注入するツールです。GitHub Trendingに入っています。",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "GitHub",
+        "Claude Code",
+        "コンテキスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "人間がコードを読まずにPRをマージする技術 ─ それでも品質は手放さない",
+      "original_title": "人間がコードを読まずにPRをマージする技術 ─ それでも、品質は手放さない",
+      "summary": "Zennで50いいねを集めた記事で、人間がコードを読まずにPRをマージしながらも品質を維持する方法を扱っています。AI生成コードが増える中でのレビュー運用を考える材料になります。",
+      "url": "https://zenn.dev/karamage/articles/ac71f1c89c73ff",
+      "source": "zenn",
+      "post_url": null,
+      "author": "karamage",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Zenn",
+        "コードレビュー",
+        "AI開発"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？",
+      "original_title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？？",
+      "summary": "設計書レビューをAIエージェントに任せた経験をもとに、レビュワーの負担軽減と現場の実態について考察したZenn記事です。",
+      "url": "https://zenn.dev/nttdata_tech/articles/6a06f484ebfab7",
+      "source": "zenn",
+      "post_url": null,
+      "author": "nttdata_tech",
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Zenn",
+        "AIエージェント",
+        "設計レビュー"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIにありがちな「イマイチなコードコメント」9パターン",
+      "original_title": "AIにありがちな「イマイチなコードコメント」9パターン",
+      "summary": "AIにコードを書かせると、アプリケーションコード以上にコードコメントとテストコードがイマイチになりがち、という問題意識から、コメントの典型的な悪い例を9パターンにまとめた記事です。",
+      "url": "https://qiita.com/jnchito/items/636c519c0b1d347c79b7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "コードコメント",
+        "AIコーディング"
+      ],
+      "related": []
+    },
+    {
+      "title": "ADRを書いてAIに「Why」を理解させよう",
+      "original_title": "ADRを書いて、AIに \"Why\" を理解させよう【Architecture Decision Record】",
+      "summary": "コードからは「何が」実装されているかは分かっても「なぜ」そうなったかは分からないため、Architecture Decision Record を書いてAIエージェントに理由を伝えることを提案する記事です。",
+      "url": "https://qiita.com/tetsuro731/items/65590daa94499e705850?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "ADR",
+        "AIエージェント",
+        "設計"
+      ],
+      "related": []
+    },
+    {
+      "title": "統合リポのClaude Codeにサブリポを横断レビューさせる",
+      "original_title": "1案件4セッション - 統合リポのClaude Codeにサブリポを横断レビューさせる",
+      "summary": "統合リポジトリ配下に5つのサブリポがある構成で、案件で触るリポごとにClaude Codeのセッションを並べて開発するワークフローを紹介しています。最近の案件では4セッションを使用したとのことです。",
+      "url": "https://qiita.com/zucky-quest/items/74ed4d7fd676dd5f5556?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Claude Code",
+        "モノレポ",
+        "コードレビュー"
+      ],
+      "related": []
+    },
+    {
+      "title": "Jetpack Compose 1.13のComputedStateとderivedStateOfの使い分け",
+      "original_title": "computedStateOf と derivedStateOf の使い分け",
+      "summary": "Jetpack Compose 1.13 で追加される ComputedState (computedStateOf) と DerivedState (derivedStateOf) の違いと使い分けを解説する記事です。関連して、UIレイヤーを超えて状態を共有できる Jetpack AppState の解説記事も公開されています。",
+      "url": "https://qiita.com/Nabe1216/items/3951528497672fc8a757?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "Jetpack Compose",
+        "Android",
+        "Kotlin"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/Nabe1216/items/cf6dec7247169b4a881b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "PHPを使わずにPHPを使ったwebサーバーを立てる",
+      "original_title": "PHPを使わずにPHPを使ったwebサーバーを立てる",
+      "summary": "2026年10月にはphp2shellが話題となり、PHPの脆弱性が広く取り上げられたと触れつつ、PHPを使わずにPHPベースのwebサーバーを立てる方法を紹介する記事です。",
+      "url": "https://qiita.com/plotter/items/af837f20deba162b2955?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "PHP",
+        "php2shell",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "WASIとは別のインターフェース「WALI」という提案",
+      "original_title": "WASIじゃない、もう一つのインターフェース「WALI」という提案",
+      "summary": "WebAssemblyのシステムインターフェースとしてWASIとは異なる選択肢「WALI」を提案するZenn記事です。",
+      "url": "https://zenn.dev/progate/articles/wali-webassembly-linux-interface",
+      "source": "zenn",
+      "post_url": null,
+      "author": "progate",
+      "category": "infra",
+      "score": 3,
+      "tags": [
+        "WebAssembly",
+        "WALI",
+        "WASI"
+      ],
+      "related": []
+    },
+    {
+      "title": "【Docker入門】Ubuntu 24.04コンテナ環境構築",
+      "original_title": "【Docker入門】Ubuntu 24.04コンテナ環境構築",
+      "summary": "Windows 11上でDocker DesktopとWSL2を使い、Ubuntu 24.04コンテナを起動して各項目を検証する入門記事です。",
+      "url": "https://qiita.com/NoguchiHikaru/items/dccd98d85a31c0cec279?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 3,
+      "tags": [
+        "Docker",
+        "WSL2",
+        "Ubuntu"
+      ],
+      "related": []
+    }
+  ]
+}
