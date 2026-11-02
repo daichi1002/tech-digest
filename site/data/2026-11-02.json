@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T10:41+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIエージェント開発の実践知とセキュリティ・信頼性への関心が高まる一日",
+  "items": [
+    {
+      "title": "Lenovoの「暗号化」指紋USBは、実は暗号化されていないSDカードだった",
+      "original_title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "summary": "Lenovoの「encrypted」をうたう指紋認証USBが、実際には暗号化されていないSDカードをケースに入れただけの製品だと指摘されています。Hacker Newsで363ポイントを集め、セキュリティ製品の表示を鵜呑みにしないことの重要性を示す話題です。",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50326099",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "セキュリティ",
+        "ハードウェア",
+        "暗号化"
+      ],
+      "related": []
+    },
+    {
+      "title": "ブラジルの裁判所、訴状にプロンプトインジェクションを仕込んだ弁護士を制裁",
+      "original_title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "summary": "ブラジルの裁判所が、裁判所提出書類にプロンプトインジェクションを含めた弁護士らに制裁を科したと報じられています。LLMが文書処理に使われる場面で、プロンプトインジェクションが現実の法的問題になりつつあることを示しています。",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50322173",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "プロンプトインジェクション",
+        "LLM",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "JavaScriptフレームワークの「AIコスト」",
+      "original_title": "The AI cost of JavaScript frameworks",
+      "summary": "JavaScriptフレームワークがAI支援開発に与えるコストを論じた記事で、Hacker Newsで277ポイント、217コメントと活発に議論されています。AIコーディングが前提になる中で、フレームワーク選定の新しい判断軸を考えさせる話題です。",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50323088",
+      "author": null,
+      "category": "web",
+      "score": 8,
+      "tags": [
+        "JavaScript",
+        "フレームワーク",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "Frontier Airlinesに侵害の可能性",
+      "original_title": "Frontier Airlines Likely Breached",
+      "summary": "Frontier Airlinesが侵害を受けた可能性が高いと報じられています。Hacker Newsで159ポイントを集めており、詳細は元記事の続報の確認が必要です。",
+      "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50327266",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "セキュリティ",
+        "インシデント"
+      ],
+      "related": []
+    },
+    {
+      "title": "警察署長、契約解除を無視したFlockのカメラを抜く",
+      "original_title": "Police chief unplugs cameras after Flock ignores contract cancellation",
+      "summary": "Flockが契約解除を無視したとして、警察署長がカメラの電源を抜いたと報じられています。監視システムのベンダー契約とデータ管理のあり方を考えさせる話題で、407ポイントを集めました。",
+      "url": "https://www.thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50326118",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "プライバシー",
+        "監視"
+      ],
+      "related": []
+    },
+    {
+      "title": "RAMの電波を使ってエアギャップ環境から秘密を漏洩させる手法（2024）",
+      "original_title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+      "summary": "RAMが発する無線信号に文字を「綴らせる」ことで、エアギャップされたコンピュータから秘密を漏洩させる手法の研究です。2024年の研究ですが、物理的に隔離された環境でも情報漏洩の経路があり得ることを示しています。",
+      "url": "https://arxiv.org/abs/2409.02292",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50322022",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "エアギャップ",
+        "研究"
+      ],
+      "related": []
+    },
+    {
+      "title": "MinecraftのAIエージェント群は文明を築けず、官僚主義に溺れた",
+      "original_title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+      "summary": "Minecraft上で多数のAIエージェントに文明を築かせる実験が、官僚主義的な調整コストに飲まれて失敗したと報じられています。マルチエージェント設計における協調の難しさを示す事例として注目されています。",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50325662",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIエージェント",
+        "マルチエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "3人それぞれのClaude CodeをSlackでつないでISUCON2026に参加（207,039点）",
+      "original_title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
+      "summary": "3人がそれぞれのClaude CodeをSlackでつなぎ、ISUCON2026に参加して207,039点を記録した体験記です。複数のAIエージェントとチーム競技を進める実践例として参考になります。",
+      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+      "source": "zenn",
+      "post_url": null,
+      "author": "kauche",
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "ISUCON",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "compactの使い方次第でトークン代が2.75倍？Claude Codeで測った5つの結論",
+      "original_title": "compact の使い方、間違えるとトークン代 2.75 倍？ Claude Code で測ってわかった 5 つの結論【2026年版】",
+      "summary": "Claude Codeでプロンプトキャッシュを踏まえたcompactの使い方を測定し、5つの結論をまとめた記事です。タイトルでは使い方を誤るとトークン代が2.75倍になりうると示されており、エージェント運用のコスト最適化に役立ちます。",
+      "url": "https://qiita.com/songchong/items/ac9779bb8e8838b546b9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "プロンプトキャッシュ",
+        "コスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIに証明を書かせて安全に開発する言語「Tauto」をリリース",
+      "original_title": "AIに証明を書かせてセキュアに開発する言語 Tauto をリリースしました！",
+      "summary": "AIが書いたコードの差分を全部読むのは限界で、テスト未記載のケースも不安という課題に対し、AIに証明を書かせる言語Tautoがリリースされました。AI生成コードの正しさをどう担保するかという課題への一つのアプローチです。",
+      "url": "https://qiita.com/ryo33/items/3a1a9d1ba2b289b23244?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Tauto",
+        "形式検証",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "今後のセキュリティの考え方",
+      "original_title": "今後のセキュリティの考え方",
+      "summary": "Zennで191いいねを集めたセキュリティの考え方に関する記事です。AI時代の開発におけるセキュリティの捉え方を整理する内容として注目されています。",
+      "url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
+      "source": "zenn",
+      "post_url": null,
+      "author": "cscloud_blog",
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "セキュリティ",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "Ai Workforce事業部のリモートコーディングエージェント環境「yoro」の紹介",
+      "original_title": "yoroによろしくぅ！Ai Workforce 事業部のリモートコーディングエージェント環境 yoro のご紹介",
+      "summary": "Ai Workforce事業部が社内で使うリモートコーディングエージェント環境「yoro」を紹介する記事です。コーディングエージェントを組織で運用するための環境設計の事例として読めます。",
+      "url": "https://zenn.dev/layerx/articles/a277f83a93d300",
+      "source": "zenn",
+      "post_url": null,
+      "author": "layerx",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "コーディングエージェント",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "オフラインで動く音声入力アプリ（Handy、hex）がGitHub Trendingに",
+      "original_title": "anomalyco/hex",
+      "summary": "ローカルで動作する音声入力（音声認識）アプリのhex（Mac・Windows・Linux対応）とHandy（完全オフラインで動作、オープンソース）が、どちらもRustで書かれGitHub Trendingに入っています。ローカル音声入力への関心の高さがうかがえます。",
+      "url": "https://github.com/anomalyco/hex",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Rust",
+        "音声入力",
+        "OSS"
+      ],
+      "related": [
+        {
+          "source": "github",
+          "url": "https://github.com/cjpais/Handy"
+        }
+      ]
+    },
+    {
+      "title": "JepsenがParticleDBを検証：「Full ACID」の主張は時期尚早",
+      "original_title": "Jepsen on ParticleDB: \"We tested versions 1.1.4 through 1.1.18.11.rc-22 and found that ParticleDB’s claims of “Full ACID” were somewhat premature\"",
+      "summary": "JepsenがParticleDBのバージョン1.1.4から1.1.18.11.rc-22までを検証し、「Full ACID」という主張は時期尚早だったと結論づけました。データベース選定時に整合性の主張を独立検証で確認する重要性を示す結果です。",
+      "url": "https://www.reddit.com/r/programming/comments/1xl8d57/jepsen_on_particledb_we_tested_versions_114/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Jepsen",
+        "データベース",
+        "ACID"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust製の高速なコンテンツ認識型Gitデルタツール「OmniDiff」",
+      "original_title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "summary": "OmniDiffは、Rustで書かれたオープンソースの高速なコンテンツ認識型Git difftoolとしてShow HNで公開されました。差分表示の改善を求める開発者に注目されています。",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50325253",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Rust",
+        "Git",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "KDE向けの新しいターミナルエミュレータ「Kwi」",
+      "original_title": "Introducing Kwi, a new KDE terminal emulator",
+      "summary": "KDE向けの新しいターミナルエミュレータKwiが紹介され、Lobstersで97ポイントを集めました。Linuxデスクトップ環境のターミナル選択肢が増える話題です。",
+      "url": "https://blogs.kde.org/2026/11/01/introducing-kwi/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/lt44rt/introducing_kwi_new_kde_terminal",
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Linux",
+        "KDE",
+        "ターミナル"
+      ],
+      "related": []
+    }
+  ]
+}
