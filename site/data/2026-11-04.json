@@ -1,0 +1,337 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIツールの透明性とセキュリティ、そしてSiri AIの開発者開放が話題に",
+  "items": [
+    {
+      "title": "PostmanがAIプラグインを無断で自動インストール、API全データの共有を試みるとの指摘",
+      "original_title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "summary": "Hacker Newsで989ポイント・328コメントを集めた投稿で、PostmanがAIプラグインをユーザーに知らせず自動インストールし、API関連の全データを共有しようとしたと指摘されています。API設計・テストに日常的に使うツールだけに、機密情報の扱いと同意のない機能追加という観点で注目を集めています。",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50354960",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Postman",
+        "AI",
+        "セキュリティ",
+        "プライバシー"
+      ],
+      "related": []
+    },
+    {
+      "title": "Siri AIが全開発者に開放、iOS 27.3ベータからDeveloper Preview開始",
+      "original_title": "Siri AI is now open to all developers",
+      "summary": "Appleは、iOS 27.3・iPadOS 27.3・macOS 27.3・visionOS 27.3のベータから、新しいDeveloper PreviewでSiri AIをすべての開発者に開放すると発表しました。iOSアプリからSiriのAI機能を扱えるようになるかが今後の焦点で、モバイル開発者は早めに確認しておく価値があります。",
+      "url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 9,
+      "tags": [
+        "Siri",
+        "iOS 27.3",
+        "Apple",
+        "Developer Preview"
+      ],
+      "related": []
+    },
+    {
+      "title": "「AstraがQwenの重みを読み書きして改善する」という投稿は誤解を招くとの指摘",
+      "original_title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "summary": "Hacker Newsで882ポイントを集め、「Astraが Qwen の重みを読み書きして改善する」との投稿は誤解を招くという指摘が議論されています。関連して、ノートPC上でQwen 3.8 27Bがモデルの重みを解釈できるという投稿も469ポイントを獲得しており、モデル解釈の主張を検証する動きが広がっています。",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50351111",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Qwen",
+        "LLM",
+        "解釈可能性"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50355251"
+        }
+      ]
+    },
+    {
+      "title": "RevolutがセルフホストのGLMへ移行",
+      "original_title": "Revolut moves to self-hosted GLM",
+      "summary": "金融サービスのRevolutが、セルフホストしたGLMモデルへ移行するとして、Hacker Newsで185ポイント・155コメントを集めました。商用APIに頼らずオープンウェイトモデルを自社運用する流れを示す事例として、LLM基盤の選定の参考になります。",
+      "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50350004",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Revolut",
+        "GLM",
+        "セルフホスト",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "Safari 27.3にAdaptive Dark Modeが導入",
+      "original_title": "Safari introduces Adaptive Dark Mode in 27.3",
+      "summary": "Safari 27.3でAdaptive Dark Modeが導入されたと伝えられ、Hacker Newsで250ポイント・151コメントを集めています。ダークモード対応サイトの表示やCSSの扱いに影響する可能性があり、フロントエンド開発者は挙動の確認が必要です。",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50358562",
+      "author": null,
+      "category": "web",
+      "score": 7,
+      "tags": [
+        "Safari",
+        "ダークモード",
+        "ブラウザ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare、重大な脆弱性を調査するハブ「Zero Wire」を公開",
+      "original_title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "summary": "CloudflareはCloudflare Radar上に、重大なインターネット脆弱性を調べるためのハブ「Zero Wire」を公開しました。平易な言葉の解説と世界規模の攻撃テレメトリ、対策手順を組み合わせて提供するとされています。",
+      "url": "https://blog.cloudflare.com/zero-wire/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "Zero Wire",
+        "脆弱性",
+        "Radar"
+      ],
+      "related": []
+    },
+    {
+      "title": "Amazon Textractが日本語に対応、東京リージョンでも利用可能に",
+      "original_title": "[AWS]日本語OCRがついにきちゃー！ ~Textractにいろいろ読ませてみた~",
+      "summary": "2026年11月2日にAmazon Textractが日本語に対応し、東京リージョンでも使えるようになったと、Textractで各種文書を読ませて試した記事が紹介しています。日本語文書のOCRをAWS内で完結できるようになる点が注目されます。",
+      "url": "https://qiita.com/kikuziro/items/9aff0fefe89cfa13192e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "AWS",
+        "Textract",
+        "OCR",
+        "東京リージョン"
+      ],
+      "related": []
+    },
+    {
+      "title": "vercel-labs/agent-desktop：AIエージェント向けコンピュータ操作CLI",
+      "original_title": "vercel-labs/agent-desktop",
+      "summary": "vercel-labsのagent-desktopは、AIエージェント向けのコンピュータ操作（computer use）用CLIで、Rust製です。GitHub Trendingで本日3,791スターを獲得しました。",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Vercel",
+        "computer use",
+        "Rust",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "ISUCON2026で優勝しました（当日編）",
+      "original_title": "ISUCON2026 で優勝しました（当日編）",
+      "summary": "Zennで650いいねを集めた、ISUCON2026優勝の当日の体験記です。性能改善コンテストでの取り組みが共有されています。",
+      "url": "https://zenn.dev/luvtechno/articles/isucon2026-competition-day",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Yoshinori Kawasaki",
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "ISUCON",
+        "性能改善",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "XSLTにいよいよ終わりが来る",
+      "original_title": "Death comes for XSLT",
+      "summary": "Lobstersで61ポイントを集めた記事「Death comes for XSLT」は、ブラウザにおけるXSLTの行方を扱っています。ブラウザ・Webのタグが付けられており、XSLTに依存するサイトを持つ開発者は動向を確認しておくとよいでしょう。",
+      "url": "https://dbushell.com/2026/11/03/xslt-rip/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/chypzr/death_comes_for_xslt",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "XSLT",
+        "ブラウザ",
+        "Web標準"
+      ],
+      "related": []
+    },
+    {
+      "title": "Ubuntu 26.04のRust製sudoは標準のsudoと互換性がない",
+      "original_title": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
+      "summary": "Lobstersで48ポイントを集めた記事で、Ubuntu 26.04に採用されたRust製sudoが標準のsudoと互換でないと指摘されています。運用スクリプトや設定の移行時に挙動の差異が問題になる可能性があります。",
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/e201eb/ubuntu_26_04_rust_sudo_is_not_compatible",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Ubuntu",
+        "sudo",
+        "Rust",
+        "Linux"
+      ],
+      "related": []
+    },
+    {
+      "title": "Postgres 19のREPACK：組み込みのオンラインテーブル肥大化解消",
+      "original_title": "Postgres 19 REPACK: Built-In Online Table Bloat Cleanup",
+      "summary": "Postgres 19に追加されるREPACKにより、オンラインでテーブルの肥大化（bloat）を解消できると紹介されています。LobstersとRedditの両方で共有されており、PostgreSQL運用者にとって関心の高い機能です。",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/uutnr5/postgres_19_repack_built_online_table",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "PostgreSQL",
+        "Postgres 19",
+        "REPACK"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xn9jr2/postgres_19_repack_builtin_online_table_bloat/"
+        }
+      ]
+    },
+    {
+      "title": "Worktrunk：並列AIエージェント向けのGit worktree管理CLI",
+      "original_title": "max-sixty/worktrunk",
+      "summary": "max-sixty/worktrunkは、並列でAIエージェントを動かすワークフロー向けに設計されたGit worktree管理のCLIで、Rust製です。GitHub Trendingで本日438スターを獲得しています。",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Git",
+        "worktree",
+        "Rust",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "floci：無料のAWSローカルエミュレータ",
+      "original_title": "floci-io/floci",
+      "summary": "floci-io/flociは「Light, fluffy, and always free」を掲げるAWSローカルエミュレータの代替で、Java製です。GitHub Trendingで本日482スターを獲得しました。",
+      "url": "https://github.com/floci-io/floci",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "エミュレータ",
+        "Java"
+      ],
+      "related": []
+    },
+    {
+      "title": "Agent DX：AI時代にフレームワークHonoは必要か",
+      "original_title": "Agent DX 〜 AI時代にフレームワークHonoは必要か",
+      "summary": "Zennの記事「Agent DX 〜 AI時代にフレームワークHonoは必要か」は、AIエージェントが開発に関わる時代にWebフレームワークHonoが必要かを考察しています。59いいねを獲得しています。",
+      "url": "https://zenn.dev/yusukebe/articles/3d3dc6605ca1b1",
+      "source": "zenn",
+      "post_url": null,
+      "author": "yusukebe",
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Hono",
+        "Agent DX",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "「しないで」は効かない？AIエージェントの危険行動を制限する5つの方法",
+      "original_title": "「⚪︎⚪︎はしないで」は効かない？AI Agent の危険行動を制限する 5 つの方法と守られる強さで比べた",
+      "summary": "AIエージェントに「⚪︎⚪︎はしないで」と書くだけでは守られないことがあったとして、危険な行動を制限する5つの方法を、守られる強さで比較した記事です。エージェント運用の安全設計の参考になります。",
+      "url": "https://qiita.com/songchong/items/945479177d4dcbb80f69?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIエージェント",
+        "安全性",
+        "ガードレール"
+      ],
+      "related": []
+    },
+    {
+      "title": "ウェアハウスをDuckDBから移行する理由",
+      "original_title": "Why we're moving our warehouse off DuckDB",
+      "summary": "「Why we're moving our warehouse off DuckDB」は、データウェアハウスをDuckDBから移す判断について書かれた記事です。データベースのタグが付けられ、Lobstersで7ポイントを獲得しています。",
+      "url": "https://posthog.com/blog/moving-off-duckdb",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/wpahfd/why_we_re_moving_our_warehouse_off_duckdb",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "DuckDB",
+        "データウェアハウス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Jestのテストが数十分かかる・固まる原因はiCloudだった",
+      "original_title": "テストが数十分かかる・固まる原因はiCloudだった",
+      "summary": "React + TypeScriptプロジェクトでJestが終わらない、または十数分〜二十分以上かかる問題を追ったところ、プロジェクトを~/Desktopなどに置いていたことでiCloudが原因になっていたという事例です。",
+      "url": "https://qiita.com/hiroshi_buildup/items/4204953f2439f58425b6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Jest",
+        "iCloud",
+        "TypeScript"
+      ],
+      "related": []
+    }
+  ]
+}
