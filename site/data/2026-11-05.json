@@ -1,0 +1,451 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T10:42+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Kimi K3.1 Pro・Hy4・Ripple-65Bなどオープンウェイトモデルが相次ぎ登場、OpenAIはLinuxカーネルの権限昇格脆弱性948件を自動検出",
+  "items": [
+    {
+      "title": "Kimi K3.1 Proのモデルウェイトが公開",
+      "original_title": "Kimi K3.1 Pro model weights are out",
+      "summary": "Moonshot AIのKimi K3.1 ProのウェイトがHugging Faceで公開され、Hacker NewsとRedditで大きな話題になっている。関連してKimi K3をC99で単一CPU・8.24GB RAMで動かすリポジトリも注目を集めた。一方でRedditにはベンチマーク対策の疑いを指摘する投稿もあり、評価は分かれている。",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50366999",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Kimi",
+        "オープンウェイト",
+        "LLM"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights/"
+        },
+        {
+          "source": "github",
+          "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnu6y1/kimi_k31_is_likely_benchmaxxed_with_some_proof/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI、Linuxカーネルのローカル権限昇格脆弱性948件を自動検出・検証・パッチ生成",
+      "original_title": "A thousand fewer paths to root",
+      "summary": "OpenAIは、脆弱性の発見、検証、パッチ生成までを自律的に行うパイプラインを構築し、Linuxカーネルの権限昇格脆弱性948件に対応したと発表した。AIによる脆弱性対応の自動化が実用規模に達していることを示す事例として注目される。",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "OpenAI",
+        "Linux",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Ricursive Intelligence、65B密モデル「Ripple-65B Preview」を公開",
+      "original_title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "summary": "Ricursive Intelligenceが65Bの密（dense）モデルRipple-65B Previewを公開した。Hacker Newsではエージェント的コーディングにおける米国発オープンウェイトのSOTAとして紹介され、Hugging Faceでも配布されている。",
+      "url": "https://www.ricursive.com/ripple",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50369925",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Ripple",
+        "オープンウェイト",
+        "コーディング"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnx3cs/ricursiveairipple65bpreview_hugging_face/"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/"
+        }
+      ]
+    },
+    {
+      "title": "Tencentが新モデル「Hy4」を発表、ウェイトは近日公開予定",
+      "original_title": "Tencent Hy4",
+      "summary": "TencentがHy4を発表し、最良クラスのオープンモデルだと主張している。Reddit上の報道によるとコンピュータ操作のベンチマークではClaude Opus 5.5やKimi K3.1 Proに近い数値が示されているが、ウェイトはまだ公開されていない。",
+      "url": "https://hy.tencent.ai/research/hy4",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50365780",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Tencent",
+        "Hy4",
+        "LLM"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnnr3k/tencent_says_hy4_ranks_among_the_best_open_models/"
+        }
+      ]
+    },
+    {
+      "title": "GitHubでPull Request・Git操作・Issueに障害が発生",
+      "original_title": "Incident with Pull Requests, Git Operations and Issues",
+      "summary": "GitHubのステータスページにPull Requests、Git Operations、Issuesに関するインシデントが掲載され、Hacker Newsで議論になった。開発ワークフロー全般に影響し得る障害として注意が必要。",
+      "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50363378",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "GitHub",
+        "障害"
+      ],
+      "related": []
+    },
+    {
+      "title": "Goの新しいJSON API（encoding/json/v2）が公開",
+      "original_title": "A new Go API for JSON",
+      "summary": "Go公式ブログがJSON処理のための新しいAPIを紹介した。Hacker Newsで213ポイントを集めており、Goで開発するバックエンドエンジニアにとって標準ライブラリの方向性を知るうえで重要な内容。",
+      "url": "https://go.dev/blog/jsonv2",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50369106",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "Go",
+        "JSON",
+        "標準ライブラリ"
+      ],
+      "related": []
+    },
+    {
+      "title": "ZigのlibcリライトでSQLiteが12,000倍遅くなった事例",
+      "original_title": "Shlemiel the Painter Is Back: How Zig’s libc Rewrite Made SQLite Slower",
+      "summary": "Zigのlibc書き換えによりSQLiteが約12,000倍遅くなったことを解説する記事がLobstersとRedditで話題になった。タイトルは「Shlemiel the Painter」のアルゴリズム的な性能劣化を想起させ、低レイヤ実装の性能落とし穴を学べる事例。",
+      "url": "https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/lh1j0e/shlemiel_painter_is_back_how_zig_s_libc",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Zig",
+        "SQLite",
+        "パフォーマンス"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xnq1xx/shlemiel_the_painter_is_back_how_zigs_libc/"
+        }
+      ]
+    },
+    {
+      "title": "C++26がISO各国代表団体により承認されず",
+      "original_title": "C++26 Disapproved",
+      "summary": "C++26がISOの各国代表団体に承認されなかったと報じられ、LobstersとRedditで議論になった。関連ブログではC++が今後どう存続するかが論じられている。",
+      "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/xvtufg/c_26_disapproved",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "C++",
+        "標準化"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xnucc3/c26_disapproved_by_the_iso_national_bodies/"
+        }
+      ]
+    },
+    {
+      "title": "Daybreak RedがAWS GovCloud (US-East)で利用可能に",
+      "original_title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "summary": "Daybreak RedがAWS GovCloud (US-East)で提供開始された。Amazon Bedrock経由で、承認された顧客がサイバーセキュリティ業務にGPT-5.6 Cyberを利用できる。",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "GovCloud"
+      ],
+      "related": []
+    },
+    {
+      "title": "Amazon S3 Tables、HiveテーブルからIcebergへのマネージド移行に対応",
+      "original_title": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
+      "summary": "S3上の既存Apache Hiveデータセットを、フルマネージドのApache IcebergテーブルへS3 Tablesで移行できるようになった。パイプライン構築や計算リソースのプロビジョニングは不要で、本番ワークロードを稼働させたまま移行できる。",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "S3 Tables",
+        "Iceberg"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare、パーソナルAIエージェントの可視化と制御機能を発表",
+      "original_title": "See the agents, set the terms: new visibility and control for personal agents",
+      "summary": "パーソナルAIエージェントによりWebの自動トラフィックと人間のトラフィックの境界が曖昧になっている。Cloudflareはサイト運営者がエージェントのアクセスを可視化し制御できる仕組みを紹介している。",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Debianがaptのセキュリティ更新（中間者攻撃関連）を公開",
+      "original_title": "Debian apt security update (man-in-the-middle)",
+      "summary": "Debianのセキュリティ告知としてaptの中間者攻撃（man-in-the-middle）に関する更新が出され、Hacker Newsで取り上げられた。Debian系環境の管理者は告知を確認して更新すべき。",
+      "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50366575",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Debian",
+        "apt",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "2026年10月下旬、PHP・Node.js・Chrome・Goなどの脆弱性修正が集中",
+      "original_title": "【脆弱性ラッシュ】PHP2Shell・Brotli(HTTP2Shell)・Node・Chrome・Goが同時に来た週に、サーバーの「放置」が露呈した話",
+      "summary": "PHP、Node.js、Chrome、Goの重大な更新が立て続けに公開され、サポート切れのphp7.4-fpmやNode 18が放置されていた事例が報告されている。関連記事ではCISAがPHPの脆弱性2件（通称PHP2Shell）をKEVに追加し、Firefox 159が1つのアドバイザリで167件のCVEを修正したことも触れられている。",
+      "url": "https://qiita.com/ysmreg1/items/d9f14d2da0ad57303036?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "PHP",
+        "Node.js"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/figueiredoluiz/items/4021ff4e6281b73f2d86?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "日本の全法令をgitの履歴として管理する試み",
+      "original_title": "日本の全法令を git の履歴にしてみた",
+      "summary": "日本の全法令をgitの履歴として扱えるようにしたZenn記事で、235いいねを集めた。法令の改正をコミット履歴として追えるという発想が注目された。",
+      "url": "https://zenn.dev/koheiwada/articles/houritsu-japanese-laws-as-git",
+      "source": "zenn",
+      "post_url": null,
+      "author": "kohei",
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "git",
+        "法令",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "Zig 0.17.1がリリース",
+      "original_title": "Zig 0.17.1 Released",
+      "summary": "Zig 0.17.1のリリースが公式サイトで告知された。",
+      "url": "https://ziglang.org/news/0.17.1-released/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/pa1411/zig_0_17_1_released",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Zig",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI、Pierre Computer Companyの買収を発表",
+      "original_title": "OpenAI to acquire Pierre Computer Company",
+      "summary": "OpenAIがPierre Computer Companyを買収する計画を公式に発表し、Hacker Newsで171ポイントを集めた。",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50366863",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "OpenAI",
+        "買収"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIが書くADRの読みづらさへの対策とADRのlint",
+      "original_title": "AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った",
+      "summary": "AIが書く読みづらいADRに対応するためガイドラインを作成した記事が147いいねを集めた。関連してADRをregoでlintする記事も公開されている。",
+      "url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline",
+      "source": "zenn",
+      "post_url": null,
+      "author": "tokium_dev",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "ADR",
+        "Rego",
+        "AI"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/babarot/articles/regomark-adr-checker"
+        }
+      ]
+    },
+    {
+      "title": "Claude Codeの実装のクセと、モデルの使い分け運用",
+      "original_title": "バイブコーディングで機能を継ぎ足していて見えてきたClaudeCodeの実装のクセ",
+      "summary": "バイブコーディングで機能を継ぎ足す中で見えたClaude Codeの実装上の傾向をまとめたZenn記事。関連してopusplanと/advisor fableで計画・助言・実装を3モデルに振り分ける運用の体験談も出ている。",
+      "url": "https://zenn.dev/uguisu_blog/articles/45d1f446ece415",
+      "source": "zenn",
+      "post_url": null,
+      "author": "uguisu_blog",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "AIコーディング"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/inoyu-qiita/items/d486f85b8333d5b324d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテスト",
+      "original_title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
+      "summary": "OpenCode、Docker、GitHub Actionsを組み合わせて、AIによるペネトレーションテストを全自動で回す取り組みを紹介するZenn記事。",
+      "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "source": "zenn",
+      "post_url": null,
+      "author": "team_zenn",
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "GitHub Actions",
+        "Docker",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "ターミナルエミュレータKitty 0.50がリリース",
+      "original_title": "Kitty 0.50",
+      "summary": "Kitty 0.50のチェンジログが公開され、Hacker Newsで357ポイントを集めた。",
+      "url": "https://sw.kovidgoyal.net/kitty/changelog/#",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50362980",
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Kitty",
+        "ターミナル"
+      ],
+      "related": []
+    },
+    {
+      "title": "2026年11月時点のRustコンパイラ高速化の取り組み",
+      "original_title": "How to speed up the Rust compiler in November 2026",
+      "summary": "Nicholas Nethercoteが2026年11月時点でのRustコンパイラの高速化の進捗をまとめた記事を公開した。",
+      "url": "https://nnethercote.github.io/2026/11/04/how-to-speed-up-the-rust-compiler-in-november-2026.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/ecrqpy/how_speed_up_rust_compiler_november_2026",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Rust",
+        "コンパイラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "DNSビルド遅延を半減、メモリ使用量を85%削減した事例",
+      "original_title": "How we halved DNS build delay and cut memory use by 85%",
+      "summary": "DNSのビルド遅延を半分にし、メモリ使用量を85%削減した取り組みを紹介する記事がRedditで共有された。",
+      "url": "https://www.reddit.com/r/programming/comments/1xnzyh6/how_we_halved_dns_build_delay_and_cut_memory_use/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "DNS",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "DuckDB.NET 1.5.6.1、日付の追加が最大27倍高速に",
+      "original_title": "DuckDB.NET 1.5.6.1: Appending Dates Up to 27× Faster",
+      "summary": "DuckDB.NET 1.5.6.1がリリースされ、日付の追加（Append）が最大27倍高速になったと紹介されている。",
+      "url": "https://www.reddit.com/r/programming/comments/1xnmntq/duckdbnet_1561_appending_dates_up_to_27_faster/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "DuckDB",
+        ".NET"
+      ],
+      "related": []
+    }
+  ]
+}
