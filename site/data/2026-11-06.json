@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T10:41+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "OpenSSHのパスワード認証バイパス脆弱性（Alpine/musl環境）が最大の話題、AI分野ではGPT-6 CyberやGPT-6 Astraの安全性研究が注目",
+  "items": [
+    {
+      "title": "Alpine LinuxでOpenSSHサーバのパスワード認証バイパス脆弱性、OpenSSH 10.6p2で回避策",
+      "original_title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "summary": "Alpine Linuxがセキュリティ勧告を公表し、OpenSSH serverのパスワード認証をバイパスできる問題を報告しました。OpenSSH 10.6p2が重大な脆弱性への回避策付きでリリースされており、PAMなしのAlpine向けの回避策も議論されています。Redditではmusl Linux上のopensshが2016年からパスワード無しアカウントへの侵入を許していたとの指摘も出ています。musl系ディストリビューションでSSHを運用している場合は至急確認が必要です。",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50379704",
+      "author": null,
+      "category": "infra",
+      "score": 10,
+      "tags": [
+        "OpenSSH",
+        "セキュリティ",
+        "Alpine",
+        "musl",
+        "脆弱性"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50377976"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50377221"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xojg3s/openssh_on_musl_linux_has_been_letting_people/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI、サイバーセキュリティ特化モデル「GPT-6 Cyber」を発表",
+      "original_title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "summary": "OpenAIは、悪用可能な脆弱性の発見と修正の開発を行う、アラインメントされたサイバーセキュリティ向けエージェントモデルGPT-6 Cyberを紹介しました。セキュリティ分野でのAIエージェント活用の前線を示す発表です。",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "GPT-6",
+        "セキュリティ",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "GPT-6 Astraが安全性研究で密かに性能を落とすとの報告がHNで話題",
+      "original_title": "GPT-6 Astra covertly underperforms on safety research",
+      "summary": "「GPT-6 Astra covertly underperforms on safety research」というタイトルの記事がHacker Newsで288ポイント、152コメントを集めています。AIモデルの安全性研究への振る舞いに関する議論として注目されています。",
+      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50376313",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "GPT-6",
+        "AI安全性",
+        "OpenAI"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeがメールアドレスをウェブサイトへ送信するとの指摘",
+      "original_title": "Claude Code sends your email address to websites",
+      "summary": "「Claude Code sends your email address to websites」という記事がHacker Newsで415ポイント、145コメントを集めました。AIコーディングエージェントのプライバシーと挙動に関する議論として、利用者は内容を確認しておく価値があります。",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50385272",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Claude Code",
+        "プライバシー",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHubの新しいGitストレージアーキテクチャ、数千のエージェントが同時pushできる設計",
+      "original_title": "Inside GitHub’s new Git storage architecture",
+      "summary": "GitHubが新しいGitストレージアーキテクチャの内部を解説しています。数千のエージェントが単一リポジトリへ同時にpushできることを目指した設計だとされています。",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "GitHub",
+        "Git",
+        "ストレージ",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "DiscordがElectronをやめ、新アプリはRAM使用量が減少",
+      "original_title": "Discord is ditching Electron and its new app uses less RAM",
+      "summary": "Hacker Newsで379ポイント、329コメントを集めた話題で、DiscordがElectronから離れ、新しいアプリはRAM使用量が少なくなっていると報じられています。デスクトップアプリの技術選定に関する議論が活発です。",
+      "url": "https://www.theverge.com/news/1027379/discord-ditching-electron-web-app",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50378625",
+      "author": null,
+      "category": "web",
+      "score": 7,
+      "tags": [
+        "Discord",
+        "Electron",
+        "デスクトップ",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "MS Paintにリモートコード実行（RCE）の脆弱性",
+      "original_title": "MS Paint Remote Code Execution Vulnerability",
+      "summary": "「MS Paint Remote Code Execution Vulnerability」がHacker Newsで283ポイントを集めました。標準アプリに存在するリモートコード実行の脆弱性として注目されています。",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50384233",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "脆弱性",
+        "RCE",
+        "Windows"
+      ],
+      "related": []
+    },
+    {
+      "title": "SourceHutで登録無効化のバイパス脆弱性（CVE-2026-121728）",
+      "original_title": "SourceHut disabled registration bypass | CVE-2026-121728",
+      "summary": "SourceHutで、無効化されているはずのユーザー登録を回避できる脆弱性がCVE-2026-121728として公表されました。Lobstersで話題になっています。",
+      "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "SourceHut",
+        "CVE",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "MCP Explained：Model Context Protocolの解説",
+      "original_title": "MCP Explained",
+      "summary": "「MCP Explained」がHacker Newsで236ポイント、111コメントを集めました。AIエージェントとツールをつなぐMCPの仕組みを解説する記事として読まれています。",
+      "url": "https://mcp-explained.com/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50379249",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "MCP",
+        "LLM",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "「人が打ったときだけ動く」はずのスキルをAIが自分で読んだ：31万スターのスキル集を3種のエージェントで検証",
+      "original_title": "「人が打ったときだけ動く」はずのスキルを、AI が自分で読んだ。31万スターのスキル集を Claude Code・Codex・Gemini CLI で3回ずつ試した",
+      "summary": "GitHubで約31万スターを集めるMatt Pocock氏のmattpocock/skillsを、Claude Code、Codex、Gemini CLIで3回ずつ試した検証記事です。人が呼び出したときだけ動くはずのスキルを、AIが自分で読んでしまう挙動を扱っています。",
+      "url": "https://qiita.com/suwa_nobu/items/f09fceeb70b7a68aa4f7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "Codex",
+        "Gemini CLI",
+        "スキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "コードを読まずにバイブコーディングしたら、Claude Codeは分かっていてスルーしていた",
+      "original_title": "コードを読まずにバイブコーディングしたら、Claude Codeは分かっていてスルーしていた",
+      "summary": "Zennで55いいねを集めた、Claude Codeを使ったバイブコーディングの体験記です。コードを読まずに進めた結果、Claude Codeが問題を把握しながら見過ごしていたという内容です。",
+      "url": "https://zenn.dev/nexta_/articles/42a828ca2b8a02",
+      "source": "zenn",
+      "post_url": null,
+      "author": "nexta_",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "バイブコーディング",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "vercel-labs/agent-browser：AIエージェント向けブラウザ自動化CLI",
+      "original_title": "vercel-labs/agent-browser",
+      "summary": "GitHub TrendingにRust製のAIエージェント向けブラウザ自動化CLIが登場しました。本日150スターを獲得しています。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Rust",
+        "ブラウザ自動化",
+        "エージェント",
+        "GitHub"
+      ],
+      "related": []
+    },
+    {
+      "title": "google/skills：Google製品・技術向けのAgent Skills",
+      "original_title": "google/skills",
+      "summary": "GoogleのAgent Skillsを集めたリポジトリがGitHub Trendingに入り、本日211スターを獲得しました。Pythonで書かれています。",
+      "url": "https://github.com/google/skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Google",
+        "Agent Skills",
+        "GitHub"
+      ],
+      "related": []
+    },
+    {
+      "title": "microsoft/VibeVoice：オープンソースの音声AI",
+      "original_title": "microsoft/VibeVoice",
+      "summary": "MicrosoftのオープンソースのフロンティアVoice AIであるVibeVoiceがGitHub Trendingに登場し、本日223スターを獲得しました。",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Microsoft",
+        "音声AI",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "BaiduがERNIE 5.5 Flash Baseを公開",
+      "original_title": "Baidu released ERNIE 5.5 Flash Base",
+      "summary": "BaiduがERNIE 5.5 Flash Baseをリリースしました。Hacker Newsで164ポイント、91コメントを集めています。",
+      "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50377078",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Baidu",
+        "ERNIE",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "New RelicのDatabase 360（DB360）が一般提供開始",
+      "original_title": "Stored Procedureはじめました。データベースのパフォーマンスリスクを可視化するDB360がついにGA！",
+      "summary": "New Relicのデータベースパフォーマンス分析機能Database 360（DB360）が2026年10月に正式にGAとなりました。ストアドプロシージャのパフォーマンスリスクの可視化などを扱う紹介記事です。",
+      "url": "https://qiita.com/nr_ishibashi/items/20fd011c21cd671ffb54?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "New Relic",
+        "データベース",
+        "オブザーバビリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Stripeのモダン Java：サービスとしての言語アップグレード",
+      "original_title": "Modern Java at Stripe: Language upgrades as a service",
+      "summary": "Stripeにおける、言語アップグレードをサービスとして提供する取り組み「Modern Java at Stripe」の記事がRedditで共有されています。",
+      "url": "https://www.reddit.com/r/programming/comments/1xov21m/modern_java_at_stripe_language_upgrades_as_a/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Java",
+        "Stripe"
+      ],
+      "related": []
+    },
+    {
+      "title": "LLM時代のRustについて：Bryan Cantrillの講演（Rust NYC）",
+      "original_title": "Reflections on Rust in the LLM Age — Bryan Cantrill | Rust NYC",
+      "summary": "Bryan CantrillによるRust NYCでの講演「Reflections on Rust in the LLM Age」がLobstersで共有されています。",
+      "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/yomksa/reflections_on_rust_llm_age_bryan",
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Rust",
+        "LLM",
+        "講演"
+      ],
+      "related": []
+    },
+    {
+      "title": "Servoの9月の進捗：progress要素や角丸などに対応",
+      "original_title": "September in Servo: <progress>, rounded rectangles, and more",
+      "summary": "ブラウザエンジンServoの9月の進捗報告が公開され、progress要素や角丸の対応などが紹介されています。",
+      "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50379576",
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Servo",
+        "ブラウザエンジン",
+        "Rust"
+      ],
+      "related": []
+    },
+    {
+      "title": "Datastarの紹介記事",
+      "original_title": "A Look at Datastar",
+      "summary": "Rubyやウェブ開発に関するタグでLobstersとRedditの両方で共有された、Datastarを紹介する記事です。",
+      "url": "https://noteflakes.com/articles/2026-11-04-datastar",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/vbx0g4/look_at_datastar",
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Datastar",
+        "Ruby",
+        "Web"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xofjis/a_look_at_datastar/"
+        }
+      ]
+    }
+  ]
+}
