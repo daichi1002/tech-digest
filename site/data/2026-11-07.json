@@ -1,0 +1,387 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AI研究の加速とAI活用開発の実践論が議論を集め、Gemini Omni 1.2 Flashなど新モデルにも注目",
+  "items": [
+    {
+      "title": "Gemini Omni 1.2 Flash が公開",
+      "original_title": "Gemini Omni 1.2 Flash",
+      "summary": "Gemini Omni 1.2 Flash が Hacker News で290ポイント、216コメントを集め話題になっています。候補データに詳細な仕様はありませんが、Google の Gemini 系の新モデルとして注目されています。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50392118",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Gemini",
+        "LLM",
+        "Google"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIがAI研究を劇的に加速しているという議論",
+      "original_title": "AI is dramatically accelerating AI research",
+      "summary": "「AI is dramatically accelerating AI research」が Hacker News で167ポイント、129コメントを集めました。関連して「AI R&D は本当に独創的なのか」と疑問を呈する投稿も議論になっており、AI による研究開発の実態をめぐる見方が分かれています。",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50397994",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "AI研究",
+        "LLM"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50388513"
+        }
+      ]
+    },
+    {
+      "title": "Opus に相談できる Jev で、Opus 単体より4倍低コストで同等精度",
+      "original_title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "summary": "「Opus に助けを求められる Jev は、Opus の精度を4分の1のコストで得られる」という投稿が Hacker News で287ポイントを集めました。必要なときだけ強力なモデルに相談させる構成でコストを抑える手法として注目されています。",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50397429",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Opus",
+        "LLM",
+        "コスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "コード生成の先へ：エージェンティックエンジニアリング開発者ガイド",
+      "original_title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "summary": "GitHub の記事で、コードを書く速度は上がったがその周辺の作業は変わっていないという課題を取り上げています。GitHub Copilot を使い、計画、コーディング、変更レビュー、本番の調査までを進める方法を解説しています。",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "GitHub Copilot",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "cloudflare/security-audit-skill：コーディングエージェント向けセキュリティ監査スキル",
+      "original_title": "cloudflare/security-audit-skill",
+      "summary": "Cloudflare が公開した、多段階のセキュリティ監査を行うコーディングエージェント向けスキルで、独立に検証された機械可読な検出結果を出力します。GitHub Trending で本日2,548スターを獲得しています。",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "セキュリティ",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Firecracker VM エスケープ：PwnEscape Part 2",
+      "original_title": "Firecracker VM Escape: PwnEscape Part 2",
+      "summary": "Firecracker の VM エスケープを扱う「PwnEscape Part 2」が Hacker News で147ポイントを集めました。マイクロVM を使うクラウド基盤のセキュリティに関わる話題です。",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50397219",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Firecracker",
+        "セキュリティ",
+        "仮想化"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI が Hacktron と提携し自社システムの脆弱性を探索",
+      "original_title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "summary": "OpenAI は Hacktron と提携し、脆弱性の発見やサードパーティサービスとの接続のテストを行い、フロンティア AI で防御を強化すると発表しました。",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "OpenAI",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "感染した1.5万サイトをどう通知するか",
+      "original_title": "We know 15k websites are infected. how do we tell them?",
+      "summary": "1.5万のウェブサイトが感染していることを把握しているが、それをサイト運営者へどう伝えるかという問いが Hacker News で138ポイント、121コメントを集めました。",
+      "url": "https://scotthelme.co.uk/we-know-15-579-websites-are-infected-how-do-we-tell-them/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50396064",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "マルウェア"
+      ],
+      "related": []
+    },
+    {
+      "title": "オランダの ASN 銀行、GrapheneOS など Google 以外の Android をブロック",
+      "original_title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+      "summary": "オランダの ASN 銀行が、GrapheneOS を含む非 Google の Android 端末をブロックしていることが Hacker News で614ポイント、404コメントを集めました。銀行アプリの端末制限が議論になっています。",
+      "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50390124",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "Android",
+        "GrapheneOS",
+        "銀行アプリ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Nvidia Kubernetes Engine (NVKE)",
+      "original_title": "Nvidia Kubernetes Engine (NVKE)",
+      "summary": "Nvidia Kubernetes Engine (NVKE) が Hacker News で120ポイントを集めました。Nvidia による Kubernetes サービスとして注目されています。詳細は候補データにはありません。",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50387738",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Kubernetes",
+        "Nvidia"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rune：Rust 製のネイティブ GPU レンダリング UI フレームワーク",
+      "original_title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
+      "summary": "Rune は macOS、Windows、Linux、Web に対応する Rust 製のネイティブ GPU レンダリング UI フレームワークで、Hacker News で144ポイントを集めました。関連して「Blender の UI とランタイムは GPUI よりはるかに高速」という投稿も話題になっています。",
+      "url": "https://github.com/anomalyco/rune",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50394569",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Rust",
+        "GUI",
+        "GPU"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50389333"
+        }
+      ]
+    },
+    {
+      "title": "Go 1.27：encoding/json/v2 と、nil スライスが [] になる変更",
+      "original_title": "Go 1.27: encoding/json/v2, Stricter Defaults, and Finally [] for Nil Slices · cekrem.github.io",
+      "summary": "Go 1.27 に関する記事で、encoding/json/v2、より厳格なデフォルト、nil スライスが [] として出力される変更が取り上げられています。",
+      "url": "https://www.reddit.com/r/programming/comments/1xp8b96/go_127_encodingjsonv2_stricter_defaults_and/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Go",
+        "JSON"
+      ],
+      "related": []
+    },
+    {
+      "title": "Anthropic の IPO 購入希望者は評価額を最低1.1兆ドルと見る",
+      "original_title": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "summary": "Anthropic の IPO について、購入希望者が評価額を最低で1.1兆ドル程度と見ているという報道が Hacker News で205ポイント、459コメントを集めました。AI 企業の評価をめぐる議論が活発です。",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50394906",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Anthropic",
+        "IPO"
+      ],
+      "related": []
+    },
+    {
+      "title": "大学図書館が AI ボットの大量アクセスに晒され公開アクセスが危機に",
+      "original_title": "University libraries are being swarmed by AI bots, putting public access at risk",
+      "summary": "大学図書館が AI ボットに殺到され、一般への公開アクセスが脅かされているという報道が Hacker News で123ポイントを集めました。",
+      "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50392499",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AIボット",
+        "クローラー"
+      ],
+      "related": []
+    },
+    {
+      "title": "Libghostty 1.0",
+      "original_title": "Libghostty 1.0",
+      "summary": "Libghostty 1.0 のリリースが Lobsters で共有されました。C、Zig 関連のタグが付いています。",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/0ouxwf/libghostty_1_0",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Libghostty",
+        "Zig",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "VS Code 1.145 の Remote browser proxy でリモートエージェントの dev server をローカルでプレビュー",
+      "original_title": "リモートのエージェントが起動した dev server を手元でプレビュー：VS Code 1.145 の Remote browser proxy を試した",
+      "summary": "VS Code 1.145 の Remote browser proxy を試し、リモートのエージェントが起動した dev server を手元でプレビューする方法を紹介する記事です。",
+      "url": "https://qiita.com/shahin0809/items/a1bd931855f392806ee6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "VS Code",
+        "dev server"
+      ],
+      "related": []
+    },
+    {
+      "title": "AgentCore Runtime と Bedrock ガードレールで機密情報がどのログに残るか",
+      "original_title": "AgentCore Runtime と Bedrock ガードレールを使ったアプリで機密情報がどのログに残るのか調べてみた",
+      "summary": "AgentCore Runtime と Bedrock ガードレールを使ったアプリで、ユーザーが機密情報を入力した場合にどのログへ残るのかを調べた記事です。前回はガードレールによる機密情報の検出範囲を調べています。",
+      "url": "https://qiita.com/takeda_h/items/704ce614cc51f67b863c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "ログ"
+      ],
+      "related": []
+    },
+    {
+      "title": "ポスト量子時代のウェブプライバシー",
+      "original_title": "The post-quantum future of web privacy",
+      "summary": "Privacy Pass などの暗号プロトコルは、ユーザーのプライバシーを守りつつサイトを不正利用から守ります。この記事は量子コンピュータの脅威について解説しています。",
+      "url": "https://blog.cloudflare.com/vole-mole/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "暗号",
+        "プライバシー",
+        "耐量子"
+      ],
+      "related": []
+    },
+    {
+      "title": "明治時代の開始日が変更され単体テストが失敗した件",
+      "original_title": "[破壊的変更] 明治時代の開始日が変更になって単体テストが失敗した件",
+      "summary": "明治時代の開始日が変更になったことで単体テストが失敗した事例を紹介する Zenn の記事で、37いいねを集めています。",
+      "url": "https://zenn.dev/xin9le/articles/9a1cf8e10494d6",
+      "source": "zenn",
+      "post_url": null,
+      "author": "xin9le",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "テスト",
+        "日付",
+        "破壊的変更"
+      ],
+      "related": []
+    },
+    {
+      "title": "最近の HTML の新機能の紹介（2026年版）",
+      "original_title": "最近の HTML の新機能の紹介（2026 年版）",
+      "summary": "2026年版として最近の HTML の新機能をまとめた Zenn の記事で、40いいねを集めています。",
+      "url": "https://zenn.dev/socialplus/articles/50221eafb8a55a",
+      "source": "zenn",
+      "post_url": null,
+      "author": "socialplus",
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "HTML",
+        "フロントエンド"
+      ],
+      "related": []
+    },
+    {
+      "title": "Figma のリアルタイム同期を Node.js + WebSocket の最小構成で実装",
+      "original_title": "Figmaのリアルタイム同期の仕組みを、Node.js + WebSocketの最小構成で実装してみた",
+      "summary": "CRDT に着想を得た Figma の同期設計について、Node.js と WebSocket の最小構成で実際に実装してみた記事です。",
+      "url": "https://qiita.com/keishin_nishiura/items/b13d72afb085891e4fc9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "WebSocket",
+        "Node.js",
+        "CRDT"
+      ],
+      "related": []
+    },
+    {
+      "title": "Number.isNaN の否定で文字列が通る理由を Node.js で実測",
+      "original_title": "Number.isNaNの否定で文字列が通る理由：isNaNとの違いをNode.jsで実測",
+      "summary": "!Number.isNaN(value) は数値入力のチェックとしては不十分で、\"abc\" や null も通ります。number 型の有限値だけを受け付けたい場合は Number.isFinite(value) を使うと説明しています。",
+      "url": "https://qiita.com/ennagara128/items/20a66228e9424c28c6e1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "JavaScript",
+        "Node.js"
+      ],
+      "related": []
+    }
+  ]
+}
