@@ -1,0 +1,432 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIエージェント関連の話題（Microsoft ResearchのAI Frontiers終了、エージェントのメモリ、Agent Skills）が目立つ一日",
+  "items": [
+    {
+      "title": "Microsoft ResearchのAI Frontiersグループが終了",
+      "original_title": "The end of Microsoft Research's AI Frontiers group",
+      "summary": "Hacker NewsでMicrosoft ResearchのAI Frontiersグループの終了が話題になり、323ポイント・179コメントを集めた。AI研究の体制変化として注目されている。",
+      "url": "https://hunch.net/?p=13764006",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50406563",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Microsoft",
+        "AI",
+        "研究"
+      ],
+      "related": []
+    },
+    {
+      "title": "エージェントメモリの構成要素",
+      "original_title": "The Components of Agent Memory",
+      "summary": "AIエージェントのメモリを構成する要素を扱った記事で、Hacker Newsで147ポイント・73コメントを獲得した。エージェント設計の参考になる。",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50402212",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "エージェント",
+        "メモリ",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "MaxxBench：DeepSWEスコアは本当に信頼できるか",
+      "original_title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "summary": "「Nice DeepSWE score. But is it true?」を掲げるMaxxBenchがHacker Newsで165ポイントを集めた。コーディングエージェントのベンチマーク結果の検証を扱う内容とみられる。",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50406222",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "ベンチマーク",
+        "DeepSWE",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "anthropics/skills：Agent Skills公式リポジトリがGitHubトレンドに",
+      "original_title": "anthropics/skills",
+      "summary": "Agent Skillsを公開するanthropics/skills（Python）が、GitHub Trendingで本日386スターを獲得した。",
+      "url": "https://github.com/anthropics/skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Agent Skills",
+        "Anthropic",
+        "GitHub"
+      ],
+      "related": []
+    },
+    {
+      "title": "Windows 11アプリはElectronをやめるべき——Discordが示した理由",
+      "original_title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "summary": "Discordの事例を引き合いに、Windows 11の各アプリはElectronをやめるべきだと主張する記事。Hacker Newsで187ポイント・187コメントと議論になっている。",
+      "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50403507",
+      "author": null,
+      "category": "web",
+      "score": 7,
+      "tags": [
+        "Electron",
+        "Discord",
+        "Windows"
+      ],
+      "related": []
+    },
+    {
+      "title": "PDFに隠されたプロンプトインジェクションを検出する",
+      "original_title": "Catching prompt injections hidden in PDFs",
+      "summary": "PDFに仕込まれたプロンプトインジェクションを検出する方法を扱った記事。Lobstersでai・pdf・securityなどのタグが付けられている。",
+      "url": "https://tomclancy.info/joshua-judges-ruth.html",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/hreu0b/catching_prompt_injections_hidden_pdfs",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "プロンプトインジェクション",
+        "PDF",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Meridian：ServoとGPUIで作る実験的Webブラウザ",
+      "original_title": "Meridian — an experimental web browser built on Servo and GPUI",
+      "summary": "ServoとGPUIを土台にした実験的なWebブラウザMeridianが紹介された。Lobstersでbrowsersとrustのタグが付いている。",
+      "url": "https://op.tngl.io/meridian/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/j63dme/meridian_experimental_web_browser_built",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Servo",
+        "Rust",
+        "ブラウザ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Libghostty 1.0",
+      "original_title": "Libghostty 1.0",
+      "summary": "Libghostty 1.0がRedditで共有された。候補データには本文の詳細は含まれていない。",
+      "url": "https://www.reddit.com/r/programming/comments/1xptemt/libghostty_10/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Libghostty",
+        "ターミナル"
+      ],
+      "related": []
+    },
+    {
+      "title": "WebフレームワークはForwardedヘッダを信用しすぎている",
+      "original_title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
+      "summary": "Forwardedヘッダを巡り、Webフレームワークが過度に信頼している問題を扱ったセキュリティ記事。Lobstersで9ポイントを得ている。",
+      "url": "https://www.lkoskela.fi/blog/2026-11-05-forwarded-without-question/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/m5kism/forwarded_without_question_how_web",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "HTTP",
+        "Webフレームワーク"
+      ],
+      "related": []
+    },
+    {
+      "title": "asyncioの内部構造",
+      "original_title": "Internals of asyncio",
+      "summary": "Python標準ライブラリasyncioの内部をデバッグの観点から掘り下げた解説記事がRedditで共有された。",
+      "url": "https://www.reddit.com/r/programming/comments/1xq391t/internals_of_asyncio/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Python",
+        "asyncio"
+      ],
+      "related": []
+    },
+    {
+      "title": "prometheus/prometheus がGitHubトレンドに",
+      "original_title": "prometheus/prometheus",
+      "summary": "監視システム兼時系列データベースのprometheus/prometheus（Go）が、GitHub Trendingで本日325スターを獲得した。",
+      "url": "https://github.com/prometheus/prometheus",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Prometheus",
+        "監視",
+        "Go"
+      ],
+      "related": []
+    },
+    {
+      "title": "スクリプタブルなGeoDNS：AWSからBunnyへ移行",
+      "original_title": "Scriptable GeoDNS: leaving AWS for Bunny",
+      "summary": "スクリプトで制御できるGeoDNSを使い、AWSからBunnyへ移行した事例。Lobstersでperformanceとwebのタグが付いている。",
+      "url": "https://vincent.bernat.ch/en/blog/2026-bunny-geodns",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/jsvlfm/scriptable_geodns_leaving_aws_for_bunny",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "DNS",
+        "Bunny",
+        "AWS"
+      ],
+      "related": []
+    },
+    {
+      "title": "GhostMap：アプリを開く前にスマホをクラッシュさせるAndroidの欠陥",
+      "original_title": "GhostMap: The Android flaw that crashes your phone before you open the app",
+      "summary": "アプリを開く前にスマートフォンをクラッシュさせるというAndroidの欠陥GhostMapを扱った記事。Lobstersでandroid・securityのタグが付いている。",
+      "url": "https://www.bitdefender.com/en-us/blog/labs/ghostmap-android",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/c99mdx/ghostmap_android_flaw_crashes_your_phone",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "Android",
+        "セキュリティ",
+        "脆弱性"
+      ],
+      "related": []
+    },
+    {
+      "title": "[TypeScript] パスエイリアスにはSubpath Importsを使いたい",
+      "original_title": "[TypeScript] パスエイリアスには Subpath Imports を使いたい",
+      "summary": "TypeScriptのパスエイリアスにSubpath Importsを使う案を紹介するZennの記事で、30いいねを獲得している。",
+      "url": "https://zenn.dev/mediba/articles/167e2a3f663889",
+      "source": "zenn",
+      "post_url": null,
+      "author": "mediba",
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "TypeScript",
+        "Subpath Imports"
+      ],
+      "related": []
+    },
+    {
+      "title": "tailwindlabs/tailwindcss がGitHubトレンドに",
+      "original_title": "tailwindlabs/tailwindcss",
+      "summary": "ユーティリティファーストのCSSフレームワークtailwindlabs/tailwindcssが、GitHub Trendingで本日181スターを獲得した。",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Tailwind CSS",
+        "CSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "meta/astryx：エージェント対応のオープンソースデザインシステム",
+      "original_title": "meta/astryx",
+      "summary": "完全にカスタマイズ可能でagent readyをうたうオープンソースのデザインシステム（TypeScript）。GitHub Trendingで本日185スターを獲得した。",
+      "url": "https://github.com/meta/astryx",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "デザインシステム",
+        "TypeScript",
+        "Meta"
+      ],
+      "related": []
+    },
+    {
+      "title": "astral-sh/ruff がGitHubトレンドに",
+      "original_title": "astral-sh/ruff",
+      "summary": "Rust製の高速なPythonリンター兼フォーマッタastral-sh/ruffが、GitHub Trendingで本日350スターを獲得した。",
+      "url": "https://github.com/astral-sh/ruff",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Python",
+        "Ruff",
+        "Rust"
+      ],
+      "related": []
+    },
+    {
+      "title": "SSAベースの.NET IL最適化コンパイラーを作ってみた",
+      "original_title": "SSA ベースの .NET IL 最適化コンパイラーを作ってみた",
+      "summary": "C#がRoslynとJITの2段階でコンパイルされる点を踏まえ、SSAベースの.NET IL最適化コンパイラーを自作した記事。",
+      "url": "https://qiita.com/hez2010/items/70fe879c1a37379f020c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        ".NET",
+        "C#",
+        "コンパイラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "集約をどこまで機械的に導けるか——形式手法ベースのドメインモデリング",
+      "original_title": "集約をどこまで機械的に導けるか――形式手法をベースとしたドメインモデリング",
+      "summary": "形式手法をベースに、ドメインモデリングの集約をどこまで機械的に導けるかを探るZennの記事で、63いいねを獲得している。",
+      "url": "https://zenn.dev/nrs/articles/33ba79c8b2542e",
+      "source": "zenn",
+      "post_url": null,
+      "author": "nrs",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "DDD",
+        "形式手法",
+        "ドメインモデリング"
+      ],
+      "related": []
+    },
+    {
+      "title": "ADRをregoでlintする",
+      "original_title": "ADRをregoでlintする",
+      "summary": "ADR（Architecture Decision Record）をregoでlintする方法を紹介するZennの記事で、60いいねを獲得している。",
+      "url": "https://zenn.dev/babarot/articles/regomark-adr-checker",
+      "source": "zenn",
+      "post_url": null,
+      "author": "babarot",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "ADR",
+        "rego",
+        "lint"
+      ],
+      "related": []
+    },
+    {
+      "title": "OCI DatabaseのマネージドMCPサーバーをCodexから使ってみた",
+      "original_title": "OCI Database ServicesのマネージドMCPサーバーをCodexから使ってみた",
+      "summary": "2026年10月にOCI Database Servicesで利用可能になったマネージドMCPサーバーを、Codexから試した記事。MCP対応クライアントから自然言語でDB環境の構成や状態を確認できるという。",
+      "url": "https://qiita.com/mo__mo/items/4a8b7100b6b65a582889?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "OCI",
+        "MCP",
+        "Codex"
+      ],
+      "related": []
+    },
+    {
+      "title": "Asahi Linuxの進捗：Linux 7.3",
+      "original_title": "Asahi Linux Progress Linux 7.3",
+      "summary": "Asahi LinuxのLinux 7.3に向けた進捗レポートで、Hacker Newsで298ポイント・242コメントを集めた。",
+      "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50401867",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Asahi Linux",
+        "Linux",
+        "Apple Silicon"
+      ],
+      "related": []
+    },
+    {
+      "title": "Appleのグレーリスト：iPhoneが綴り補完を拒む語句",
+      "original_title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "summary": "iPhoneが入力補助をしない単語やフレーズの「グレーリスト」を取り上げた記事で、Hacker Newsで302ポイント・209コメントを獲得した。",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50406111",
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "iPhone",
+        "Apple",
+        "キーボード"
+      ],
+      "related": []
+    },
+    {
+      "title": "Macには文書化されていないファミリー分類器が入っている",
+      "original_title": "Every Mac comes with an (undocumented) family member classifier",
+      "summary": "すべてのMacに、文書化されていない「ファミリー分類器」が付属しているという記事。Hacker Newsで562ポイント・328コメントを集めた。",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50403097",
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "macOS",
+        "Apple"
+      ],
+      "related": []
+    },
+    {
+      "title": "Amutable Foundations：技術概要",
+      "original_title": "Amutable Foundations: A Technical Overview",
+      "summary": "Amutable Foundationsの技術概要を紹介する記事で、Lobstersではlinuxタグが付いている。",
+      "url": "https://amutable.com/blog/amutable-foundations-technical-overview",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/soxqxp/amutable_foundations_technical",
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Linux"
+      ],
+      "related": []
+    }
+  ]
+}
