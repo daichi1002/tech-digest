@@ -1,0 +1,318 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T10:41+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIコーディングツールの採用見直しとOpenAIの巨額調達、GitHub障害が話題に",
+  "items": [
+    {
+      "title": "OpenAIが評価額1.25兆ドルで110億ドルを調達",
+      "original_title": "OpenAI raises $11B at a $1.25T valuation",
+      "summary": "OpenAIが評価額1.25兆ドルで110億ドルを調達したと報じられ、Hacker Newsで179ポイント・199コメントと注目を集めています。AI業界の資金動向と競争環境を左右するニュースです。",
+      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50413822",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "OpenAI",
+        "資金調達"
+      ],
+      "related": []
+    },
+    {
+      "title": "Goldman SachsがバンカーとトレーダーからClaude Codeを引き揚げ",
+      "original_title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "summary": "Goldman Sachsが行員やトレーダー向けのClaude Codeの提供を取りやめると報じられました。Hacker Newsで533ポイント・322コメントと議論が活発で、企業におけるAIコーディングツール導入のあり方を考える材料になります。",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50415628",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Claude Code",
+        "企業導入"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claudeに別れを告げ、Piへ移行する",
+      "original_title": "Goodbye Claude, hello Pi",
+      "summary": "「Goodbye Claude, hello Pi」と題した投稿がHacker Newsで671ポイント・424コメントを集めました。AIコーディング環境の乗り換えをめぐる議論として関心が高い話題です。",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50410107",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Claude",
+        "AIツール"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHubがまた障害か、Hacker Newsで話題に",
+      "original_title": "GitHub Down Again?",
+      "summary": "「GitHub Down Again?」というスレッドがHacker Newsで119ポイント・127コメントを集めています。開発ワークフローとCIがGitHubに依存している場合、障害時の備えを見直すきっかけになります。",
+      "url": "https://github.com/torvalds/linux",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50411818",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "GitHub",
+        "障害"
+      ],
+      "related": []
+    },
+    {
+      "title": "Llama-modchip:GPUなし・64GB RAMで284B DeepSeekを動かす",
+      "original_title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "summary": "Llama-modchipは、284BのDeepSeekモデルをGPUなしの64GB RAM環境で動かすというプロジェクトです。Hacker Newsで342ポイントを集め、ローカルでの大規模モデル実行に関心が集まっています。",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50411961",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "DeepSeek",
+        "ローカルLLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "Outlook.comがDMARC未設定ドメインのメールを静かに拒否",
+      "original_title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "summary": "Outlook.comがDMARCを設定していないドメインからのメールを静かに拒否していると報告されています。自前でメール送信を行うサービスは、SPF・DKIM・DMARCの設定確認が必要です。",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50416158",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "メール",
+        "DMARC"
+      ],
+      "related": []
+    },
+    {
+      "title": "エージェントのメモリにはOpenTelemetryのような標準が必要",
+      "original_title": "Agent memory needs its OpenTelemetry moment",
+      "summary": "「Agent memory needs its OpenTelemetry moment」は、AIエージェントのメモリ管理にも標準化が必要だと論じる記事です。Hacker Newsで164ポイント・102コメントを集めています。",
+      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50411467",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "AIエージェント",
+        "OpenTelemetry"
+      ],
+      "related": []
+    },
+    {
+      "title": "コーディングにLLMを使わない理由",
+      "original_title": "Why I will not be using LLMs in my coding",
+      "summary": "「Why I will not be using LLMs in my coding」は、コーディングでLLMを使わない立場を述べた記事です。Hacker Newsで216コメントが付き、AI支援開発への賛否が分かれています。",
+      "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50412591",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "LLM",
+        "開発手法"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIによる「ブレインフライ」とどう向き合うか",
+      "original_title": "How I Fight AI Brain Fry",
+      "summary": "「How I Fight AI Brain Fry」は、AIツールを使う開発で生じる疲労への対処法を扱う投稿です。Hacker Newsで125ポイント・111コメントを集めています。",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50416363",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AI",
+        "生産性"
+      ],
+      "related": []
+    },
+    {
+      "title": "Nspawn 3.0:systemd-nspawn向けDocker互換Engine API",
+      "original_title": "Nspawn 3.0: A Docker-compatible Engine API for systemd-nspawn containers",
+      "summary": "Nspawn 3.0は、systemd-nspawnコンテナ向けにDocker互換のEngine APIを提供するリリースです。Lobstersで紹介されています。",
+      "url": "https://blog.nspawn.org/posts/nspawn-3-0-a-docker-compatible-engine-api-for-systemd-nspawn-containers/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/lh0qbr/nspawn_3_0_docker_compatible_engine_api",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "systemd",
+        "コンテナ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Slack最大顧客向けのUnified Gridアーキテクチャ再設計",
+      "original_title": "Unified Grid: How We Re-Architected Slack for Our Largest Customers",
+      "summary": "「Unified Grid: How We Re-Architected Slack for Our Largest Customers」は、Slackが大規模顧客向けにアーキテクチャを再設計した事例を紹介する記事です。Redditで共有されました。",
+      "url": "https://www.reddit.com/r/programming/comments/1xqklmx/unified_grid_how_we_rearchitected_slack_for_our/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Slack",
+        "アーキテクチャ"
+      ],
+      "related": []
+    },
+    {
+      "title": "脆弱性情報は間に合っているか:悪用された74件の調査",
+      "original_title": "脆弱性の情報は間に合っている？ 英語は 2 時間以内、悪用は 4 割が 1 日以内、日本語は中央値 4.6 日後。悪用された 74 件を調べて分かった",
+      "summary": "悪用された74件の脆弱性を調べた記事です。英語の情報は2時間以内に出る一方、日本語は中央値4.6日後で、悪用の約4割は1日以内に起きたとされています。AIを使った攻撃で、公表から悪用までの時間が短くなっている点が背景です。",
+      "url": "https://qiita.com/songchong/items/b3c6c879f03f9bb665d3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "systemdとRust",
+      "original_title": "systemd loves Rust",
+      "summary": "「systemd loves Rust」がLobstersで32ポイントを集めました。rustおよびsystemdタグの付いた投稿で、システム基盤でのRust活用の動向を示します。",
+      "url": "https://amutable.com/blog/systemd-loves-rust",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/62loik/systemd_loves_rust",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Rust",
+        "systemd"
+      ],
+      "related": []
+    },
+    {
+      "title": "部品の脆弱性の波及範囲:OpenSSLは20、SQLiteは16製品に",
+      "original_title": "部品の脆弱性は、どこまで広がるのか？ 主要 64 製品と 8 部品の依存関係をたどったら、OpenSSL は 20、SQLite は 16、PHP は 11 だった",
+      "summary": "主要64製品と8部品の依存関係をたどった調査で、OpenSSLは20、SQLiteは16、PHPは11製品に影響が及ぶとされています。GoogleのAIエージェントBig SleepがSQLiteの脆弱性を見つけた例も触れられています。",
+      "url": "https://qiita.com/songchong/items/41a88eb41845af761b19?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "脆弱性",
+        "依存関係"
+      ],
+      "related": []
+    },
+    {
+      "title": "AgentCoreのWeb SearchとWeb Answerの使い分け",
+      "original_title": "【AWS】結果を返すか、答えを返すか。Web SearchとWeb Answerの使い分け【AgentCore】",
+      "summary": "Amazon Bedrock AgentCoreで、AIエージェントに最新のウェブ情報を渡す際のWeb SearchとWeb Answerの使い分けを解説した記事です。検索・取得・要約・出典付けのパイプラインを自作する手間が減る点が焦点です。",
+      "url": "https://qiita.com/Nana_777/items/6e466fb974972a79a323?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AWS",
+        "AgentCore"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIエージェントのためのgit worktreeの使い方",
+      "original_title": "AIエージェントのための git worktree の使い方",
+      "summary": "複数のAIエージェントセッションを並列で動かすと、同じファイルを編集して内容が上書きされる問題が起きます。この記事はgit worktreeでその衝突を避ける使い方を解説しています。",
+      "url": "https://qiita.com/sf-12/items/34ddfb7d7f245085fb2b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "git worktree",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Copilot appでme.mdを作り自分の文脈を管理する",
+      "original_title": "GitHub Copilot app で「自分の文脈」を管理してみる。me.md を作って常に参照させるまで",
+      "summary": "GitHub Copilot appで、me.mdを作成して常に参照させ、自分の文脈を管理する方法を紹介する記事です。",
+      "url": "https://qiita.com/carol0226/items/3e52fd2570c246b6cf0c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "GitHub Copilot",
+        "コンテキスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "Reactの再レンダリングが起きるタイミングとmemo/useCallbackでの防止",
+      "original_title": "【React】再レンダリングが起きるタイミングと memo / useCallback で防ぐ方法",
+      "summary": "Reactの再レンダリングがいつ起きるかと、memoおよびuseCallbackで不要な再レンダリングを防ぐ方法を、コード例で確かめながらまとめた記事です。",
+      "url": "https://qiita.com/Tukirukiki/items/583d75fdee91bc129610?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "React",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflare・GitHub Actions・Claudeで公開サーバーの脆弱性チェックを自動化",
+      "original_title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+      "summary": "Cloudflare Zero Wire、GitHub Actions、Claudeを組み合わせて、公開サーバーの脆弱性チェックを自動化する取り組みを紹介するZenn記事です。",
+      "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+      "source": "zenn",
+      "post_url": null,
+      "author": "tomi",
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Cloudflare",
+        "GitHub Actions"
+      ],
+      "related": []
+    }
+  ]
+}
