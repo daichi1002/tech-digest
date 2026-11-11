@@ -1,0 +1,574 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T10:41+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Gitの6件の脆弱性修正とFireworks AIの情報漏えいが注目を集め、AIコーディング活用の功罪を巡る議論も続く一日",
+  "items": [
+    {
+      "title": "Git、再帰クローンや参照処理などに関わる6件の脆弱性を修正",
+      "original_title": "Git security vulnerabilities announced",
+      "summary": "Gitが、再帰的クローン、リファレンス処理、マージ、バイナリパッチ、インポートに影響する6件のセキュリティ脆弱性に対応した更新をリリースすると発表した。Gitを日常的に使う開発者やCI環境では、早めのアップデートの検討が必要になる。",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "Git",
+        "セキュリティ",
+        "脆弱性"
+      ],
+      "related": []
+    },
+    {
+      "title": "Fireworks AIでセキュリティ侵害、Notionとその顧客にも影響",
+      "original_title": "Fireworks AI security breach impacts Notion and their customers",
+      "summary": "Fireworks AIのセキュリティ侵害がNotionおよびその顧客に影響を及ぼしたと報じられ、Hacker Newsで159ポイントを集めた。AI推論基盤を外部に依存するサービスのサプライチェーンリスクを考えさせる事案である。",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50437106",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "セキュリティ",
+        "Fireworks AI",
+        "Notion"
+      ],
+      "related": []
+    },
+    {
+      "title": "Gemini 4 Carbonが利用可能に",
+      "original_title": "Gemini 4 Carbon is now available",
+      "summary": "「Gemini 4 Carbon」が利用可能になったことがHacker Newsで話題となり、272ポイント、146コメントを集めた。詳細な仕様は候補データに含まれていないため、一次情報での確認が必要である。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50442303",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Gemini",
+        "LLM"
+      ],
+      "related": []
+    },
+    {
+      "title": "AmazonがSonnet 4.6をStrands Deciderに置き換え、数百万ドルを節約",
+      "original_title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+      "summary": "AmazonがSonnet 4.6をStrands Deciderに置き換えることで数百万ドル規模のコスト削減を実現したとする記事が、Hacker Newsで684ポイントと大きな反響を呼んだ。LLM運用コストの最適化に関心のあるエンジニアにとって参考になる事例である。",
+      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50436640",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "コスト最適化",
+        "Strands"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Whiteboards、Claude Sheets、Claude Data",
+      "original_title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "summary": "「Claude Whiteboards」「Claude Sheets」「Claude Data」という新たな名称が登場し、Hacker Newsで153ポイント、122コメントの議論になった。Claudeの利用範囲がコーディング以外にも広がる動きとして注目される。",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50443716",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Claude",
+        "Anthropic"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI利用は脆いコードベースを生み出すのか",
+      "original_title": "AI usage generates a fragile codebase",
+      "summary": "「AI usage generates a fragile codebase」と題した記事が352ポイント、391コメントと多くの議論を呼んだ。AIコーディング支援の普及に伴うコード品質や保守性への懸念を扱っており、チーム運用を考えるうえで示唆がある。",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50438318",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "AIコーディング",
+        "コード品質"
+      ],
+      "related": []
+    },
+    {
+      "title": "AlphaProof Code",
+      "original_title": "AlphaProof Code",
+      "summary": "「AlphaProof Code」がHacker Newsで569ポイント、174コメントを集めた。候補データには詳細な内容が含まれていないため、技術的な中身は元記事での確認が必要である。",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50439193",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "AlphaProof",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": ".NET 11が公開、ランタイムの新機能も紹介",
+      "original_title": "What's new in the .NET 11 runtime",
+      "summary": ".NET 11の公開が発表され、Lobsters、Reddit、Hacker Newsで同時に話題になった。Hacker Newsでは「What's new in the .NET 11 runtime」としてランタイムの変更点が238ポイントを集めている。",
+      "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50439284",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        ".NET",
+        "リリース",
+        "ランタイム"
+      ],
+      "related": [
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/zingk1/announcing_net_11"
+        },
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xstxzv/announcing_net_11/"
+        }
+      ]
+    },
+    {
+      "title": "Glasswing、7か月後にメンテナを圧倒する低品質な検出結果が課題に",
+      "original_title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+      "summary": "「Glasswing」が7か月後に、価値の低い検出結果でメンテナを圧倒していると指摘する記事が135ポイントを集めた。自動化されたバグ報告がOSSメンテナの負担になるという問題を示している。",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50447074",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "OSS",
+        "セキュリティ",
+        "メンテナ"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenSSHが本来拒否すべきパスワードを受け入れる理由",
+      "original_title": "Why OpenSSH Accepts a Password It Shouldn’t | Patch Notes",
+      "summary": "「Why OpenSSH Accepts a Password It Shouldn't」と題するPatch Notesの記事がRedditで共有された。OpenSSHの認証挙動に関する技術解説と見られ、SSHサーバーを運用する開発者は確認しておきたい。",
+      "url": "https://www.reddit.com/r/programming/comments/1xsqsrb/why_openssh_accepts_a_password_it_shouldnt_patch/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "OpenSSH",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust標準ライブラリにおけるメモリ安全性のバグ",
+      "original_title": "Memory Safety Bugs in Rust Standard Library",
+      "summary": "Rust標準ライブラリで見つかったメモリ安全性に関するバグを扱う記事がLobstersで共有された。メモリ安全を売りにするRustでもunsafeコード由来の問題が起こり得ることを示す内容である。",
+      "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/plreds/memory_safety_bugs_rust_standard_library",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Rust",
+        "メモリ安全性"
+      ],
+      "related": []
+    },
+    {
+      "title": "Val Townがサービス終了へ",
+      "original_title": "Val Town is winding down",
+      "summary": "ブラウザ上でコードを書いて公開できるVal Townが事業を終了する(winding down)ことが明らかになり、Hacker Newsで295ポイントを集めた。同サービスを利用していた開発者は移行を検討する必要がある。",
+      "url": "https://blog.val.town/winding-down",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50443427",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "Val Town",
+        "サービス終了"
+      ],
+      "related": []
+    },
+    {
+      "title": "コーディングエージェントを2019年頃のJavaScriptから脱却させるShow HN",
+      "original_title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "summary": "コーディングエージェントが古いJavaScriptを書きがちな問題に対し、モダンなWebプラットフォーム機能を使わせることを目指すプロジェクトがShow HNで公開され、247ポイントを集めた。",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50443812",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "JavaScript",
+        "AIエージェント",
+        "Show HN"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWSから4.3億円の請求が届いたときにまずやること",
+      "original_title": "AWSから4.3億円の課金が...バグと思われる高額請求された際にまずすること",
+      "summary": "バグと思われる高額請求がAWSから届いた際に最初に取るべき対応を解説するZenn記事で、57 likesを獲得している。クラウド課金の事故対応を事前に把握しておくうえで参考になる。",
+      "url": "https://zenn.dev/tsumita7/articles/aoss-intelligent-ingestion-billing-202610",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Yuki Tsumita",
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "課金",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeで最近使っているTips【2026/11】",
+      "original_title": "Claude Codeで最近使っているTips【2026/11】",
+      "summary": "Claude Codeの最新の活用Tipsをまとめた日本語のZenn記事で、96 likesを獲得している。日々の開発でClaude Codeを使うエンジニアにとって実践的な内容と思われる。",
+      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Oikon",
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude Code",
+        "Zenn",
+        "Tips"
+      ],
+      "related": []
+    },
+    {
+      "title": "脆弱性問題を解決するためにRustへ移行すべきか",
+      "original_title": "脆弱性問題を解決するためにRustに移行するべきなのか？",
+      "summary": "脆弱性対策としてRustへ移行するべきかを検討するZenn記事で、31 likesを獲得している。言語移行の判断材料として読む価値がある。",
+      "url": "https://zenn.dev/garasubo/articles/72340052cdd871",
+      "source": "zenn",
+      "post_url": null,
+      "author": "ガラスボー",
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Rust",
+        "セキュリティ",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "25時間の1日が引き起こしたChromiumのバグ",
+      "original_title": "A Chromium Bug Caused by a 25-Hour Day",
+      "summary": "「A Chromium Bug Caused by a 25-Hour Day」と題する記事がRedditで共有された。時刻処理に起因するブラウザのバグ事例であり、日時計算の落とし穴を学べる。",
+      "url": "https://www.reddit.com/r/programming/comments/1xsvulu/a_chromium_bug_caused_by_a_25hour_day/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Chromium",
+        "バグ",
+        "日時処理"
+      ],
+      "related": []
+    },
+    {
+      "title": "Queens Public Libraryがランサムウェア攻撃を受ける",
+      "original_title": "Queens Public Library under ransomware attack",
+      "summary": "Queens Public Libraryがランサムウェア攻撃を受けたと報じられ、Hacker Newsで191ポイントを集めた。公共機関に対するサイバー攻撃の継続的な脅威を示す事例である。",
+      "url": "https://connect.queenslibrary.org/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50437790",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "ランサムウェア",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "CoreWeaveの債券利回りが16%超、AI関連の信用不安が拡大",
+      "original_title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "summary": "AI向けクラウド事業者CoreWeaveの債券利回りが16%を超え、AI関連の信用ストレスが高まっていると報じられた。AIインフラ投資の資金調達環境を測る指標として注目される。",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50435660",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "CoreWeave",
+        "AIインフラ"
+      ],
+      "related": []
+    },
+    {
+      "title": "SSH鍵をすべて削除した話",
+      "original_title": "I deleted all my SSH keys",
+      "summary": "「I deleted all my SSH keys」と題する記事がLobstersでhardwareとsecurityのタグ付きで共有された。SSH鍵の管理方法を見直すきっかけになる内容と見られる。",
+      "url": "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/sdtcvv/i_deleted_all_my_ssh_keys",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "SSH",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "退屈なCoding AgentはMuseにやらせよう",
+      "original_title": "退屈なCoding AgentはMuseにやらせよう",
+      "summary": "退屈な作業をMuseに任せるというZenn記事で、107 likesを集めた。コーディングエージェントを使った作業の自動化事例として参考になる。",
+      "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+      "source": "zenn",
+      "post_url": null,
+      "author": "watany",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "AIエージェント",
+        "Muse",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "ModelとEffortの使い分けでClaudeの週間制限を3日から5日へ延ばした話",
+      "original_title": "週間制限に3日で到達していたClaudeが、ModelとEffortの使い分けで5日持つようになった話",
+      "summary": "週間制限に3日で到達していたClaudeの利用を、ModelとEffortを使い分けることで5日持つようにした経験を共有するZenn記事。利用枠を効率よく使うヒントになる。",
+      "url": "https://zenn.dev/sun_asterisk/articles/1d1c65b1fe409a",
+      "source": "zenn",
+      "post_url": null,
+      "author": "sun_asterisk",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude",
+        "利用制限",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "mixi2はなぜiPhone Duoの発売初日から最適化できたのか",
+      "original_title": "なぜ mixi2 は iPhone Duo の発売初日から最適化できたのか？",
+      "summary": "mixi2がiPhone Duoの発売初日から対応・最適化できた理由を解説するZenn記事で、42 likesを獲得している。新デバイスへの素早い対応を目指すモバイル開発者に参考になる。",
+      "url": "https://zenn.dev/mixi/articles/b0ea64fded9503",
+      "source": "zenn",
+      "post_url": null,
+      "author": "mixi",
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "iOS",
+        "mixi2",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending: mattpocock/skills",
+      "original_title": "mattpocock/skills",
+      "summary": "開発者向けのエージェント用スキル集で、本日1,225スターを獲得してGitHub Trendingに入った。実務で使うスキルの整理方法の参考になる。",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "GitHub",
+        "スキル",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending: addyosmani/agent-skills",
+      "original_title": "addyosmani/agent-skills",
+      "summary": "AIコーディングエージェント向けの本番品質のエンジニアリングスキルを集めたリポジトリで、本日465スターを獲得した。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "GitHub",
+        "AIエージェント",
+        "スキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "AstroとTypstでOpen Graph画像を生成する",
+      "original_title": "Open Graph images with Astro and Typst",
+      "summary": "AstroとTypstを組み合わせてOpen Graph画像を生成する方法を紹介する記事がLobstersで共有された。静的サイトのOGP画像を自動化したい開発者向けの内容である。",
+      "url": "https://eaj.no/posts/open-graph-images-with-typst/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/gj5obq/open_graph_images_with_astro_typst",
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Astro",
+        "Typst",
+        "OGP"
+      ],
+      "related": []
+    },
+    {
+      "title": "TailscaleのDNS IPv6アドレスが「Tailscale」と読める",
+      "original_title": "Tailscale's DNS IPv6 spells out \"Tailscale\"",
+      "summary": "TailscaleのDNS用IPv6アドレスが「Tailscale」の文字列を表しているという小ネタがHacker Newsで124ポイントを集めた。ネットワーク運用者向けの話題である。",
+      "url": "https://www.reddit.com/r/Tailscale/comments/1xsr24r/tailscales_dns_ipv6_spells_out_tailscale_easter/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50442691",
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Tailscale",
+        "IPv6",
+        "DNS"
+      ],
+      "related": []
+    },
+    {
+      "title": "危ないPRだけ人間が見る、AI自動レビューツールを作った",
+      "original_title": "危ないPRだけ人間が見て、レビューはAIにお任せ。AI自動レビューツール作りました",
+      "summary": "リスクの高いPRのみ人間がレビューし、他はAIに任せる自動レビューツールを作った事例を紹介するZenn記事。コードレビューの効率化を考える際の参考になる。",
+      "url": "https://zenn.dev/karamage/articles/f59f4109030d93",
+      "source": "zenn",
+      "post_url": null,
+      "author": "karamage",
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "コードレビュー",
+        "AI",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "Apple siliconでのiOSビルド、コア数より新しいチップが有利",
+      "original_title": "Benchmarking iOS builds on Apple silicon: newer chips beat extra cores",
+      "summary": "Apple silicon上でiOSビルドをベンチマークした結果、コア数が多いことよりも新しい世代のチップのほうが速いとする記事がRedditで共有された。ビルド環境の選定に役立つ。",
+      "url": "https://www.reddit.com/r/programming/comments/1xsuvp3/benchmarking_ios_builds_on_apple_silicon_newer/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "iOS",
+        "Apple silicon",
+        "ベンチマーク"
+      ],
+      "related": []
+    },
+    {
+      "title": "Fable 5.2で作るブラウザ版「GTA 6風 大阪」",
+      "original_title": "Fable 5.2でGTA 6 Osaka Cityを作ってみた",
+      "summary": "Claude Fable 5.2を使い、通天閣や新世界、天王寺、あべのハルカス周辺を歩いたり車で走ったりできるオープンワールド風ゲームをブラウザ上で作った事例の紹介。",
+      "url": "https://qiita.com/7mpy/items/5710fef43ba0e59204c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Claude",
+        "ゲーム開発",
+        "ブラウザ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Haiku 5.5がDuktape 2.0をメンテナの2.2.0リリース以上に高速化",
+      "original_title": "Haiku 5.5 sped up Duktape 2.0 more than the maintainers' 2.2.0 release did",
+      "summary": "Haiku 5.5によってDuktape 2.0の速度が、メンテナの2.2.0リリースよりも大きく向上したとする投稿がRedditで共有された。AIによるコード最適化の一例として興味深い。",
+      "url": "https://www.reddit.com/r/programming/comments/1xsg8z5/haiku_55_sped_up_duktape_20_more_than_the/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Haiku",
+        "Duktape",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending: tokio-rs/topcoat",
+      "original_title": "tokio-rs/topcoat",
+      "summary": "tokio-rsによる、バッテリー同梱型のWebアプリ構築フレームワークtopcoat。Rust製で、本日192スターを獲得した。",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 4,
+      "tags": [
+        "Rust",
+        "フレームワーク",
+        "tokio"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending: ha-mcp、Home AssistantをAIアシスタントから操作",
+      "original_title": "homeassistant-ai/ha-mcp",
+      "summary": "ClaudeやChatGPTなどのAIアシスタントからHome Assistantを設定・自動化できるMCPサーバーで、本日790スターを獲得した。",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "MCP",
+        "Home Assistant",
+        "GitHub"
+      ],
+      "related": []
+    }
+  ]
+}
