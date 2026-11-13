@@ -1,0 +1,403 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Apache HTTP ServerとPostgreSQLの重大な脆弱性、Microsoft 365/Azureの障害、Gemini 4とAnthropic IPOが話題",
+  "items": [
+    {
+      "title": "Apache HTTP Serverに重大なRCE脆弱性",
+      "original_title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "summary": "Apache HTTP Serverにリモートコード実行(RCE)につながる重大な脆弱性が報告され、Hacker Newsで354ポイントを集めて議論になっています。Webサーバとして広く使われているため、利用者は公式の修正情報を確認する必要があります。",
+      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50462177",
+      "author": null,
+      "category": "backend",
+      "score": 9,
+      "tags": [
+        "Apache",
+        "セキュリティ",
+        "RCE"
+      ],
+      "related": []
+    },
+    {
+      "title": "22年前のPostgreSQLのバグがリモートコード実行に発展",
+      "original_title": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
+      "summary": "22年前から存在するPostgreSQLのcomposite-type関連の脆弱性を悪用してリモートコード実行を達成する手法が公開されました。あわせてPostgreSQL 18.7、17.12、16.16、15.20、14.25および19 RC 2がリリースされており、利用者は更新内容の確認が必要です。",
+      "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50471761",
+      "author": null,
+      "category": "backend",
+      "score": 9,
+      "tags": [
+        "PostgreSQL",
+        "セキュリティ",
+        "RCE"
+      ],
+      "related": [
+        {
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/programming/comments/1xuk4d5/exploit_a_22_years_old_postgresql_compositetype/"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50467763"
+        }
+      ]
+    },
+    {
+      "title": "Gemini 4 Hydrogenが登場",
+      "original_title": "Gemini 4 Hydrogen",
+      "summary": "「Gemini 4 Hydrogen」とOrchestratorに関する発表がHacker Newsで453ポイントを集め、大きな注目を浴びています。Googleの次世代モデルとして、開発者のモデル選定に影響する可能性があります。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50471431",
+      "author": null,
+      "category": "ai",
+      "score": 9,
+      "tags": [
+        "Gemini",
+        "LLM",
+        "Google"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50472260"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft 365とAzureでサービス障害",
+      "original_title": "Service degradation on Microsoft 365",
+      "summary": "Microsoft 365でサービス劣化が発生し、Azureにも障害が起きているのではないかとHacker Newsで議論になりました。クラウドに依存するシステムでは、フェイルオーバーや障害時の運用手順の見直し材料になります。",
+      "url": "https://status.cloud.microsoft/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50471731",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Microsoft 365",
+        "Azure",
+        "障害"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50471668"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic IPOの話題がHacker Newsで急上昇",
+      "original_title": "Anthropic IPO",
+      "summary": "Anthropic IPOに関する話題が809ポイント、801コメントと大きな議論を呼んでいます。AI業界の主要プレイヤーの動向として、今後のモデル提供やエコシステムに関心を持つエンジニアにとって注目の動きです。",
+      "url": "https://ipo.anthropic.com/us/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50465829",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI業界"
+      ],
+      "related": []
+    },
+    {
+      "title": "NvidiaのJensen Huang氏がCEOを辞任",
+      "original_title": "Jensen Huang resigns",
+      "summary": "Jensen Huang氏がNvidia CEOを即時辞任したと報じられ、Hacker Newsで2895ポイントと非常に大きな反響がありました。一部報道では、私生活に関するスキャンダルの深刻化が背景とされています。AIインフラを支えるGPU企業の経営体制の変化として注視されます。",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50467087",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Nvidia",
+        "GPU",
+        "経営"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50467132"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50467139"
+        }
+      ]
+    },
+    {
+      "title": "Rust 1.100がリリース",
+      "original_title": "Rust 1.100",
+      "summary": "Rust 1.100のリリースが告知され、Hacker Newsで394ポイントを集めました。Rustを使う開発者はリリースノートで新機能や変更点を確認するとよいでしょう。",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50472038",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Rust",
+        "リリース"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50471793"
+        }
+      ]
+    },
+    {
+      "title": "Humble Bundleがバイブコーディングでセキュリティを損なったとの指摘",
+      "original_title": "\"Humble Bundle just killed most of their security through vibecoding\"",
+      "summary": "「Humble Bundleはバイブコーディングによって、セキュリティの大半を台無しにした」とする投稿が368ポイントを集めました。AI生成コードをレビューなしで本番に出すリスクを考えさせる事例として議論されています。",
+      "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50463899",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "AIコーディング"
+      ],
+      "related": []
+    },
+    {
+      "title": "Go 1.27.4セキュリティリリース：cgoフラグとnet/httpの修正",
+      "original_title": "Go 1.27.4 security release: cgo flags and a net/http fix",
+      "summary": "Go 1.27.4がセキュリティリリースとして公開され、cgoフラグとnet/httpに関する修正が含まれています。Goでサービスを運用している場合は更新を検討してください。",
+      "url": "https://www.reddit.com/r/programming/comments/1xu0jb5/go_1274_security_release_cgo_flags_and_a_nethttp/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Go",
+        "セキュリティ",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "Databricksが第2世代Genieを発表、常時稼働の自律エージェントへ",
+      "original_title": "新Genieの発表を受けて、Genieファミリーの変遷と構成、今後の方向性を整理する",
+      "summary": "2026年11月11日、Databricksが第2世代のGenieを発表しました。Genieは質問に答えるアシスタントから、仕事を引き受けて裏で動き続ける常時稼働の自律エージェントへと変わるとされています。",
+      "url": "https://qiita.com/taka_yayoi/items/49129c0d657364f3bd04?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Databricks",
+        "Genie",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "VS CodeのLocal harnessは2027年2月に削除、Copilot harnessへの移行手順",
+      "original_title": "VS Code の Local harness は2027年2月に削除：Copilot harness へ移行する手順とつまずきポイント",
+      "summary": "VS CodeのLocal harnessが2027年2月に削除される予定で、Copilot harnessへ移行する手順とつまずきやすい点を解説した記事です。該当機能を利用している開発者は早めの移行準備が必要です。",
+      "url": "https://qiita.com/shahin0809/items/ccb8a8ddf11d6cb4113d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "VS Code",
+        "GitHub Copilot"
+      ],
+      "related": []
+    },
+    {
+      "title": "VS Code 1.146の新機能Compare Modelsを試す",
+      "original_title": "VSCodeのCompare Modelsが面白そうなので試してみた",
+      "summary": "11月11日にStable版が配信されたVS Code 1.146のリリースノートにあるCompare Models機能の解説と、実際に試した記録です。複数モデルの出力を比較する用途が想定されます。",
+      "url": "https://qiita.com/shivvvvvv/items/c1feef6d2ad5ff7f8f73?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "VS Code",
+        "Compare Models"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHubの2026年10月の可用性レポート",
+      "original_title": "GitHub availability report: October 2026",
+      "summary": "GitHubは10月に8件のインシデントが発生し、各種サービスの性能劣化があったと報告しました。GitHubに依存するCI/CDを運用するチームは内容の確認をおすすめします。",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "GitHub",
+        "可用性"
+      ],
+      "related": []
+    },
+    {
+      "title": "IAPでアプリに届く前に未ログインのリクエストを遮断する",
+      "original_title": "お漏らししまくりの今だからこそIAPを再度推していく",
+      "summary": "アプリ側のログイン判定は「アプリに届いてから」行われるため、言語やフレームワークの脆弱性には無力だと指摘する記事です。IAPなら認証前の攻撃リクエストがPHPまで到達しないため、その有効性を再評価しています。",
+      "url": "https://qiita.com/hokutoh/items/873f5117f8507123d509?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "IAP",
+        "セキュリティ",
+        "認証"
+      ],
+      "related": []
+    },
+    {
+      "title": "エージェントスキルの実践ガイド：一度作ればどのエージェントでも動く",
+      "original_title": "Build once, run on any agent: A practical guide to agent skills",
+      "summary": "エージェントスキルは、繰り返し行うエンジニアリング作業をチームでレビュー・再利用できるファイルとして記述するものだと紹介する実践ガイドです。ツールやプロジェクトの文脈と組み合わせて使う考え方が示されています。",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "エージェントスキル",
+        "AIエージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAIがCodex Security CLIとTypeScript SDKを公開",
+      "original_title": "openai/codex-security",
+      "summary": "openai/codex-securityはセキュリティ脆弱性の発見・検証・修正を行うCLIとTypeScript SDKです。GitHub Trendingに登場しました。",
+      "url": "https://github.com/openai/codex-security",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "GoogleChrome/modern-web-guidance-src：コーディングエージェントに最新のWebベストプラクティスを",
+      "original_title": "GoogleChrome/modern-web-guidance-src",
+      "summary": "コーディングエージェントを最新のWebベストプラクティスに追従させるためのTypeScriptリポジトリで、本日739スターを獲得しGitHub Trendingに入りました。",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Chrome",
+        "AIエージェント",
+        "ベストプラクティス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust製Expoの新フレームワーク「Exact」を試す",
+      "original_title": "Rustで作られたExpoの新フレームワーク「Exact」で、モバイル・Web・デスクトップアプリを作ってみた",
+      "summary": "Rustで作られたExpoの新しいフレームワーク「Exact」で、モバイル・Web・デスクトップアプリを作ってみたという記事です。クロスプラットフォーム開発の新たな選択肢を検証しています。",
+      "url": "https://zenn.dev/tellernovel_inc/articles/expo-exact-first-impression",
+      "source": "zenn",
+      "post_url": null,
+      "author": "tellernovel_inc",
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "Expo",
+        "Rust",
+        "クロスプラットフォーム"
+      ],
+      "related": []
+    },
+    {
+      "title": "Appleの Foundation Models framework",
+      "original_title": "Foundation Models framework",
+      "summary": "Foundation Models frameworkに関するページがHacker Newsで116ポイントを集めました。iOS/macOSアプリでのオンデバイスAI活用に関心がある開発者向けのトピックです。",
+      "url": "https://developer.apple.com/foundation-models-framework/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50474361",
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "Apple",
+        "Foundation Models",
+        "iOS"
+      ],
+      "related": []
+    },
+    {
+      "title": "NativePHPアプリにOTAアップデートが対応",
+      "original_title": "Over-the-air updates come to NativePHP apps",
+      "summary": "NativePHPアプリでOver-the-air updatesが利用可能になったという記事です。PHPでモバイルアプリを開発するチームにとって、配布の手間を減らす選択肢になります。",
+      "url": "https://www.reddit.com/r/programming/comments/1xu8mlk/overtheair_updates_come_to_nativephp_apps/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "NativePHP",
+        "OTA",
+        "PHP"
+      ],
+      "related": []
+    },
+    {
+      "title": "小型・旧式デバイスでLLMを動かす取り組み",
+      "original_title": "I'm making LLMs work on small and old devices",
+      "summary": "小型で古いデバイス上でLLMを動かす取り組みがHacker Newsで276ポイントを集めました。関連して、Metal・CUDA・Vulkan向けのLLM推論エンジンTensorFoldもGitHub Trendingに登場しています。",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50468888",
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "LLM",
+        "推論",
+        "エッジ"
+      ],
+      "related": [
+        {
+          "source": "github",
+          "url": "https://github.com/ashhart/TensorFold"
+        }
+      ]
+    }
+  ]
+}
