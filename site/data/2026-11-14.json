@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "Microsoft 365の大規模障害とClaude関連のエラー増加で、クラウド依存のリスクが改めて浮き彫りに",
+  "items": [
+    {
+      "title": "Microsoft Outlook/365の障害が12時間以上継続、世界規模の停止に",
+      "original_title": "Microsoft Outlook/365 still down after 12 hours",
+      "summary": "Microsoft Outlook/365が12時間以上経っても復旧しない状態が続き、グローバルなMicrosoft障害として話題になっている。単一ベンダーへの依存が業務に与える影響の大きさを示す事例として議論されている。",
+      "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50478609",
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "Microsoft 365",
+        "障害",
+        "クラウド"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50479098"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50487688"
+        }
+      ]
+    },
+    {
+      "title": "claude.ai・Claude Code・platform.claude.comでエラー率が上昇",
+      "original_title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "summary": "claude.ai、Claude Code、platform.claude.comでエラーの増加が報告され、「Claude Is Down」というスレッドも立った。AIコーディングツールへの依存が高まるなか、サービス停止時の影響が注目されている。",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50481187",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Claude",
+        "障害",
+        "Claude Code"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50481220"
+        }
+      ]
+    },
+    {
+      "title": "OpenAIがChatGPT Walletを発表、エージェントがユーザー承認のもとで購入を実行",
+      "original_title": "Introducing ChatGPT Wallet",
+      "summary": "OpenAIはChatGPT Walletを発表した。ChatGPT Work、Codexなどのエージェントが、ユーザーの承認を得たうえで購入を完了できる仕組みとされている。",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Brave Search APIがx402プロトコルによるエージェント決済に対応",
+      "original_title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "summary": "Brave Search APIがx402プロトコルを使ったエージェントによる支払いを受け付けるようになった。AIエージェントがAPIを自律的に利用・課金する流れを示す動きで、Hacker Newsで256ポイントを集めた。",
+      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50477649",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Brave Search",
+        "x402",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rust 1.100.0がリリース",
+      "original_title": "Announcing Rust 1.100.0",
+      "summary": "Rust 1.100.0の公式アナウンスが公開された。Rustユーザーはリリースノートで変更点を確認しておきたい。",
+      "url": "https://www.reddit.com/r/programming/comments/1xvixj7/announcing_rust_11000/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "Rust",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIエージェント向け実験的ブラウザエンジン「Kitesurf」がオープンソース化",
+      "original_title": "Kitesurf is now open source",
+      "summary": "AIエージェント向けの実験的ブラウザエンジンKitesurfがオープンソースとして公開された。コードの確認、ローカルでの実行、自前でのデプロイが可能とされている。",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Kitesurf",
+        "ブラウザ",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Cloudflareが利用上限を設定できるSpend Managementを導入",
+      "original_title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "summary": "CloudflareはWorkersとDurable Objects向けに、任意で設定できる利用額の上限とアラート機能「Spend Management」を発表した。今後ほかの製品にも拡大される予定。",
+      "url": "https://blog.cloudflare.com/spend-management/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Cloudflare",
+        "Workers",
+        "コスト管理"
+      ],
+      "related": []
+    },
+    {
+      "title": "CloudflareがリーダーレスなコンセンサスアルゴリズムQuePaxaを採用",
+      "original_title": "How Cloudflare uses QuePaxa—a leaderless, fault-detection-free consensus algorithm—for its global control plane",
+      "summary": "Cloudflareがリーダーレスで障害検知を必要としないコンセンサスアルゴリズムQuePaxaをどのように利用しているかを解説する記事が公開された。",
+      "url": "https://www.reddit.com/r/programming/comments/1xuv4ux/how_cloudflare_uses_quepaxaa_leaderless/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Cloudflare",
+        "分散システム",
+        "コンセンサス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Fable 5.2はOpusの単価2倍でも1タスクのコストは約半額か",
+      "original_title": "Claude Fable 5.2はOpusの単価2倍、でも1タスクは約半額!? Mythos5.2との違いと使いどころ",
+      "summary": "Claude Fable 5.2はOpusの2倍の単価ながら、1タスクあたりでは約半額になる可能性があるとする技術ブログ記事。Mythos 5.2との違いと使いどころも整理している。",
+      "url": "https://qiita.com/ryosuke_ohori/items/17995524b433cf04fd55?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Claude",
+        "Fable 5.2",
+        "コスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAIがロボティクスチームを解散、汎用モデルがロボット制御を担い始める",
+      "original_title": "OpenAI disbands its robotics team as its general models start running robots",
+      "summary": "OpenAIはロボティクスチームを解散したと報じられた。タイトルによれば、汎用モデルがロボットを動かし始めたことが背景にあるとされる。",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50487184",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "OpenAI",
+        "ロボティクス"
+      ],
+      "related": []
+    },
+    {
+      "title": "22年前から存在するPostgreSQLのcomposite型の脆弱性を悪用",
+      "original_title": "exploit a 22 years old PostgreSQL composite-type vulnerability",
+      "summary": "PostgreSQLに22年間存在していたcomposite型に関する脆弱性を悪用する手法を扱った記事が共有された。PostgreSQLを運用する開発者は内容を確認しておきたい。",
+      "url": "https://www.reddit.com/r/programming/comments/1xv1i5m/exploit_a_22_years_old_postgresql_compositetype/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "PostgreSQL",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "ChromeDevTools/chrome-devtools-mcp：コーディングエージェント向けChrome DevTools",
+      "original_title": "ChromeDevTools/chrome-devtools-mcp",
+      "summary": "コーディングエージェントからChrome DevToolsを利用できるようにするTypeScript製のMCPサーバーで、GitHub Trendingに登場した。本日67スターを獲得している。",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "MCP",
+        "Chrome DevTools",
+        "GitHub"
+      ],
+      "related": []
+    },
+    {
+      "title": "ブラジルCaixaの保険会社で情報漏えい、760万人の氏名と納税者番号が流出",
+      "original_title": "Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers",
+      "summary": "ブラジルのCaixaの保険会社で情報漏えいが発生し、全顧客760万人分の氏名と納税者番号が露出したと報じられた。",
+      "url": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50485295",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "情報漏えい",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "uptime-kuma：セルフホスト型の監視ツールがトレンド入り",
+      "original_title": "louislam/uptime-kuma",
+      "summary": "セルフホスト可能な監視ツールuptime-kumaがGitHub Trendingに入った。JavaScript製で、本日71スターを獲得している。",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "uptime-kuma",
+        "監視",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "tailscale/tailcat：Tailscaleのデータプレーン上で動くnetcat風ツール",
+      "original_title": "tailscale/tailcat",
+      "summary": "tailcatはnetcatのようなツールで、Tailscaleのコントロールプレーンを使わずにデータプレーン上で通信できるGo製ツール。本日256スターを獲得した。",
+      "url": "https://github.com/tailscale/tailcat",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Tailscale",
+        "Go",
+        "ネットワーク"
+      ],
+      "related": []
+    },
+    {
+      "title": "Ubieの内製クラウドエージェント基盤：全社の仕事をAI-Nativeにする取り組み",
+      "original_title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+      "summary": "Zennで151いいねを集めた記事で、Ubieが社内向けに構築したクラウドエージェント基盤を紹介している。Software Factoryの先として、全社の業務をAI-Nativeにする構想を扱っている。",
+      "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+      "source": "zenn",
+      "post_url": null,
+      "author": "ubie_dev",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "AIエージェント",
+        "Ubie",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "2500万行のコードベースを一晩でフォーマットした rubyfmt の事例",
+      "original_title": "Formatting an entire 25 million line codebase overnight: the rubyfmt story",
+      "summary": "rubyfmtを使って2500万行規模のコードベースを一晩でフォーマットした経緯を紹介する記事が共有された。",
+      "url": "https://www.reddit.com/r/programming/comments/1xv8oe9/formatting_an_entire_25_million_line_codebase/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Ruby",
+        "rubyfmt"
+      ],
+      "related": []
+    },
+    {
+      "title": "Uberのレートリミットシステム",
+      "original_title": "Uber’s Rate Limiting System",
+      "summary": "Uberのレートリミットシステムについて解説した記事が共有された。大規模サービスにおけるレート制限設計の参考になる。",
+      "url": "https://www.reddit.com/r/programming/comments/1xvmjn4/ubers_rate_limiting_system/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Uber",
+        "レートリミット"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIエージェントが決定を勝手に変えてしまう5つのパターンと対策",
+      "original_title": "AIエージェントが決定を勝手に変えてしまった5つのパターンと工夫",
+      "summary": "AIエージェントが決定事項を勝手に変更してしまう5つのパターンと、その対処の工夫をまとめたZennの記事。",
+      "url": "https://zenn.dev/dress_code/articles/568fd547315abe",
+      "source": "zenn",
+      "post_url": null,
+      "author": "dress_code",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "AIエージェント",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "モバイルに「第三の選択肢」が必要だという議論",
+      "original_title": "The need for at least a third option",
+      "summary": "Lobstersで、AndroidとiOSに加えて少なくとも第三の選択肢が必要だとする記事が共有された。",
+      "url": "https://blog.ovalerio.net/archives/3359",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/9oq6fr/need_for_at_least_third_option",
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "Android",
+        "iOS",
+        "モバイル"
+      ],
+      "related": []
+    }
+  ]
+}
