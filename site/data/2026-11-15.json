@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T10:41+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AWS Emulatorの一般提供でローカル/CI開発が変わる一方、Lovableの情報漏えいなどAI時代のセキュリティが焦点に",
+  "items": [
+    {
+      "title": "Lovableで作られたアプリからパスポート情報や20万件超の非公開メッセージが露出",
+      "original_title": "Lovable apps expose passport details and more than 200K private messages",
+      "summary": "Lovableで作成されたアプリが、パスポートの詳細情報や20万件を超える非公開メッセージを外部に露出していたと報じられました。Hacker Newsでは583ポイント、239コメントと大きな議論になっています。AIでアプリを生成する開発スタイルにおけるセキュリティ確認の重要性を示す事例です。",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50499017",
+      "author": null,
+      "category": "web",
+      "score": 9,
+      "tags": [
+        "セキュリティ",
+        "Lovable",
+        "情報漏えい"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS Emulatorが一般提供開始、ローカルやCIでS3などを利用可能に",
+      "original_title": "AWS Emulatorが一般提供されたので、ローカルでS3バケットを作成してみた",
+      "summary": "2026年11月11日にAWSがローカルで動かせるエミュレーター「AWS Emulator」を発表し、一般提供が始まりました。AWS SDKやAWS CLIの呼び出しをAWSアカウントなしでローカルやCI上のエミュレーターに向けられ、ローカルでのS3バケット作成やPRごとの結合テストをGitHub Actionsで回す事例も紹介されています。",
+      "url": "https://qiita.com/moyomoyomoyo/items/522ba880ff37971aa969?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "AWS",
+        "AWS Emulator",
+        "CI",
+        "テスト"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/Nana_777/items/6be40f2779bb25e69484?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "NvidiaがAIスタートアップに出資し自社GPUを買わせ、品薄を演出していたとの指摘",
+      "original_title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "summary": "Nvidiaが、AIスタートアップへ出資して自社GPUを購入させることで意図的に品薄状況を作り出していたとする疑惑が報じられ、Hacker Newsで1022ポイントを集めました。関連して、Nvidiaの取締役が約10億ドル相当の株を売却していたとの話題も注目されています。",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50493251",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "Nvidia",
+        "GPU",
+        "AI業界"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50492993"
+        }
+      ]
+    },
+    {
+      "title": "ggml v1.0.0 がリリース",
+      "original_title": "Ggml v1.0.0",
+      "summary": "ローカルLLM推論の基盤として知られるggmlのv1.0.0が公開され、Hacker Newsで398ポイントを獲得しました。1.0到達はライブラリの節目として注目されています。",
+      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50493062",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "ggml",
+        "ローカルLLM",
+        "推論"
+      ],
+      "related": []
+    },
+    {
+      "title": "PyPIのプロジェクトページが刷新、セキュリティ関連の表示がより明確に",
+      "original_title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "summary": "PyPIが再設計したプロジェクトページを公開し、セキュリティに関するシグナルをより分かりやすく表示するようになりました。パッケージ選定時の安全性確認に役立つ変更です。",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50497892",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "PyPI",
+        "Python",
+        "サプライチェーン"
+      ],
+      "related": []
+    },
+    {
+      "title": "Project Zero、報告から90日後に脆弱性を公開する方針",
+      "original_title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+      "summary": "Project Zeroが、脆弱性を報告してから90日後に開示する方針を示しました。脆弱性対応のタイムラインに関わる話題として、Hacker Newsで129ポイントを集めています。",
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50496051",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "Project Zero",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "UnslothがQwen3.8-27Bの量子化版（Dynamic v3.1）を更新",
+      "original_title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+      "summary": "UnslothがQwen3.8-27B向けの量子化モデルをDynamic v3.1へ更新しました。ローカルでオープンウェイトモデルを動かしたい開発者に関係する更新です。",
+      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50491980",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Unsloth",
+        "Qwen",
+        "量子化"
+      ],
+      "related": []
+    },
+    {
+      "title": "GLM-5.3をNvidia DGX 2台とvLLMで毎秒607.8トークンで提供",
+      "original_title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+      "summary": "GLM-5.3を2台のNvidia DGX Station上でvLLMにより提供し、607.8 tok/sのスループットを出したという事例が共有されました。大規模モデルの自前サービングに関する参考情報です。",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50497155",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "vLLM",
+        "GLM",
+        "推論"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI駆動開発で実装が速くなりCI待ちが最大のボトルネックに",
+      "original_title": "AI駆動開発で実装が速くなったら、CI待ちが一番長くなった——品質を落とさずCIを軽くする",
+      "summary": "AIにコードを書かせると1時間以内に成果物が出る一方、CIの待ち時間が最も長くなったという課題を取り上げ、品質を落とさずにCIを軽くする方法を紹介する記事です。",
+      "url": "https://qiita.com/ktdatascience/items/b129d5eee1bc9077f085?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "CI",
+        "AI駆動開発"
+      ],
+      "related": []
+    },
+    {
+      "title": "DigitalOceanによるKimi K3の提供内部を解説",
+      "original_title": "Under the Hood: Serving Kimi K3 | DigitalOcean",
+      "summary": "DigitalOceanがKimi K3をどのように提供しているかを説明する技術記事「Under the Hood: Serving Kimi K3」が公開されました。",
+      "url": "https://www.reddit.com/r/programming/comments/1xw3jy7/under_the_hood_serving_kimi_k3_digitalocean/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Kimi",
+        "モデルサービング"
+      ],
+      "related": []
+    },
+    {
+      "title": "agentgatewayで始めるMCP管理",
+      "original_title": "agentgatewayで始めるMCP管理",
+      "summary": "AIエージェントが接続するMCPサーバーが増えると通信の監視やトラフィック制御が煩雑になるため、agentgatewayでそれらを管理する方法を紹介する記事です。",
+      "url": "https://qiita.com/licux/items/cd639f2ae807b35b6697?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "MCP",
+        "agentgateway"
+      ],
+      "related": []
+    },
+    {
+      "title": "進化を続けるClaude APIを改めて整理",
+      "original_title": "ちょっと見ない間にClaude APIが進化してた！",
+      "summary": "Pythonの公式SDKを使い、Claude APIが単なるモデル呼び出しにとどまらず進化していることを確認していく入門的な記事です。",
+      "url": "https://qiita.com/moritalous/items/9e7c02b749037238b2bc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude API",
+        "Python"
+      ],
+      "related": []
+    },
+    {
+      "title": "caveman：コーディングエージェントのトークンを65%削減するスキル",
+      "original_title": "JuliusBrussee/caveman",
+      "summary": "GitHub Trendingに登場したcavemanは、原始人のように簡潔に話すことでコーディングエージェントのトークンを約65%削減するとされるスキル兼プロキシです。Go製で、本日227スターを獲得しています。",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "コーディングエージェント",
+        "トークン削減",
+        "GitHub"
+      ],
+      "related": []
+    },
+    {
+      "title": "QwenLM/qwen-code：ターミナルで動くオープンソースのAIコーディングエージェント",
+      "original_title": "QwenLM/qwen-code",
+      "summary": "QwenLMが公開するqwen-codeは、ターミナル上で動作するオープンソースのAIコーディングエージェントです。TypeScript製で、本日116スターを集めました。",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "qwen-code",
+        "AIエージェント",
+        "OSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Javaではユニコードエスケープでコメントが実行可能コードになり得る",
+      "original_title": "A Unicode Escape Can Turn a Java Comment Into Executable Code",
+      "summary": "Javaのユニコードエスケープを使うと、コメントに見える部分が実行可能なコードに変わり得るという挙動を取り上げた記事です。コードレビューや静的解析での見落としに注意が必要です。",
+      "url": "https://www.reddit.com/r/programming/comments/1xw63wj/a_unicode_escape_can_turn_a_java_comment_into/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Java",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "二重払い出しを防ぐ設計：タイムアウト、Unknown状態、冪等性",
+      "original_title": "Designing payouts that never payout twice: timeouts, an \"Unknown\" state, and idempotency in cross-border payments",
+      "summary": "国際送金プラットフォームの払い出し側を構築した筆者が、タイムアウトや「Unknown」状態、冪等性を使って二重に払い出さないための設計を共有しています。",
+      "url": "https://www.reddit.com/r/programming/comments/1xw8tdv/designing_payouts_that_never_payout_twice/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "決済",
+        "冪等性",
+        "設計"
+      ],
+      "related": []
+    }
+  ]
+}
