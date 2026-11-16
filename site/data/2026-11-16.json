@@ -1,0 +1,343 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AI生成コードのOSS化論争とAIエージェント周辺ツールの急増、Microsoft 365障害の現実世界への影響が話題",
+  "items": [
+    {
+      "title": "AIが生成したコードはすべてオープンソースであるべきだ、という主張",
+      "original_title": "All AI-generated code should be Open Source",
+      "summary": "「All AI-generated code should be Open Source」と題する記事がHacker Newsで1052ポイント・573コメントを集め、大きな議論になっています。AI生成コードの扱いやライセンスをめぐる論点として、開発者が注目しているテーマです。",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50507303",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "AI",
+        "OSS",
+        "ライセンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Microsoft 365の障害がホテル宿泊客15人の塩素ガス中毒につながる",
+      "original_title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "summary": "Microsoft 365の障害が、ホテル宿泊客15人の塩素ガス中毒に結びついたと報じられ、Hacker Newsで333ポイントを集めました。クラウドサービスの障害が物理的な安全にまで影響しうることを示す事例で、依存設計や障害時の代替手段を考える材料になります。",
+      "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50509411",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Microsoft 365",
+        "障害",
+        "クラウド"
+      ],
+      "related": []
+    },
+    {
+      "title": "今週対応すべき脆弱性6件：Outlook・Chrome・Edge・VPN機器は悪用確認済み",
+      "original_title": "今週中に対応すべき脆弱性 6 つ。Outlook・Chrome・Edge・VPN 機器は悪用あり、iPhone・Mac・SonicWall は今週が期限（11/16〜11/22）",
+      "summary": "IT連携マップが11月16〜22日に対応すべき脆弱性を6件に絞って紹介しています。Outlook、Chrome、Edge、VPN機器の4件はすでに悪用が確認されており、優先して対応するよう勧めています。iPhone・Mac・SonicWallは今週が対応期限とされています。Outlookの脆弱性についてはMicrosoftが悪用を確認したと公表しています。",
+      "url": "https://qiita.com/songchong/items/75bf50a67ca5370ec6bf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "セキュリティ",
+        "脆弱性",
+        "Outlook",
+        "Chrome"
+      ],
+      "related": []
+    },
+    {
+      "title": "Skillsを持つ単一エージェントはサブエージェント構成より品質で上回ることが多い",
+      "original_title": "Skills を持つ単一エージェントは、サブエージェント構成より品質で上回ることが多い — Anthropic が示す移行の手順",
+      "summary": "Zennの記事で、Anthropicが示したとされる、サブエージェント構成からSkillsを持つ単一エージェントへ移行する手順が解説されています。単一エージェントのほうが品質面で上回ることが多いという主張です。エージェント設計を見直す際の参考になります。",
+      "url": "https://zenn.dev/happy_elements/articles/201519107f93de",
+      "source": "zenn",
+      "post_url": null,
+      "author": "happy_elements",
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "Agent Skills",
+        "エージェント",
+        "Anthropic"
+      ],
+      "related": []
+    },
+    {
+      "title": "【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え",
+      "original_title": "【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え",
+      "summary": "AIにコードを敵対的にレビューさせるのではなく、トークンを検証に使うべきだと主張するZenn記事です。69 likesを集めており、AIコーディングにおけるレビュー運用の考え方として注目されています。",
+      "url": "https://zenn.dev/karamage/articles/5c3f8370b2b370",
+      "source": "zenn",
+      "post_url": null,
+      "author": "karamage",
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AI",
+        "コードレビュー",
+        "pstack"
+      ],
+      "related": []
+    },
+    {
+      "title": "AG-UI：エージェントをフロントエンドアプリに組み込むプロトコル",
+      "original_title": "ag-ui-protocol/ag-ui",
+      "summary": "ag-ui-protocol/ag-uiは、Agent-User Interaction Protocol（AG-UI）としてエージェントをフロントエンドアプリケーションに組み込むためのプロトコルです。TypeScriptで書かれ、GitHub Trendingで本日393スターを獲得しています。",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "AG-UI",
+        "TypeScript",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Alibaba「open-code-review」：決定論的パイプラインとLLMエージェントのハイブリッドなコードレビュー",
+      "original_title": "alibaba/open-code-review",
+      "summary": "alibaba/open-code-reviewは、決定論的なパイプラインとLLMエージェントを組み合わせたハイブリッド構成のコードレビューツールです。行単位の精密なコメントを特徴とし、Alibabaの規模で実績があるとうたっています。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "コードレビュー",
+        "LLM",
+        "Alibaba"
+      ],
+      "related": []
+    },
+    {
+      "title": "古いBitlyリンクが乗っ取られている",
+      "original_title": "Old Bitly Links Are Being Hijacked",
+      "summary": "「Old Bitly Links Are Being Hijacked」がHacker Newsで104ポイントを集めました。過去に発行された古い短縮リンクが乗っ取られているという内容で、短縮URLに依存した資料やドキュメントのリンク切れ・悪用リスクの確認が必要になりそうです。",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50511395",
+      "author": null,
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "セキュリティ",
+        "Bitly",
+        "URL"
+      ],
+      "related": []
+    },
+    {
+      "title": "Python 3.12以降で標準モジュールをimportできない未保守PyPIパッケージが月1億DL超",
+      "original_title": "544 unmaintained PyPI packages with imports that fail on Python 3.12+ still get 100M+ downloads a month",
+      "summary": "Python 3.12と3.13でdistutils、imp、cgi、pipes、telnetlibなど25の標準モジュールが削除されました。PyPIをスキャンした調査では、これらをいまだにimportするプロジェクトが1,623件見つかり、未保守でimportが失敗するパッケージ544件が月間1億回以上ダウンロードされているとされています。",
+      "url": "https://www.reddit.com/r/programming/comments/1xwyhpm/544_unmaintained_pypi_packages_with_imports_that/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Python",
+        "PyPI",
+        "依存関係"
+      ],
+      "related": []
+    },
+    {
+      "title": "Tencent「LoopForge」：コーディングエージェント向けセルフホスト型ワークフロー",
+      "original_title": "Tencent/LoopForge",
+      "summary": "Tencent/LoopForgeは、CodeBuddy、Codex、Claude Codeを人間の承認ゲート付きスクリプトで編成する、セルフホスト型のワークフローです。関連してplannotatorも、エージェントの作業を計画・レビューし、フィードバックを一括で送るワークスペースとして注目されています。",
+      "url": "https://github.com/Tencent/LoopForge",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "コーディングエージェント",
+        "Claude Code",
+        "ワークフロー"
+      ],
+      "related": [
+        {
+          "source": "github",
+          "url": "https://github.com/backnotprop/plannotator"
+        }
+      ]
+    },
+    {
+      "title": "Go 1.27のジェネリックメソッドでORMが実現できること",
+      "original_title": "What Go 1.27’s generic methods made possible for ORMs. Compile-checked columns with no generated code",
+      "summary": "Go 1.27のジェネリックメソッドにより、コード生成なしでコンパイル時にカラムをチェックできるORMが可能になったという記事です。Goでのデータアクセス層の設計に影響しそうな話題です。",
+      "url": "https://www.reddit.com/r/programming/comments/1xwtfmr/what_go_127s_generic_methods_made_possible_for/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Go",
+        "ORM",
+        "ジェネリクス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Slackのセルラーアーキテクチャへの移行",
+      "original_title": "Slack’s Migration to a Cellular Architecture",
+      "summary": "「Slack's Migration to a Cellular Architecture」がRedditで共有されました。大規模サービスにおけるセルラーアーキテクチャ移行の事例として、障害の影響範囲を抑える設計の参考になります。",
+      "url": "https://www.reddit.com/r/programming/comments/1xwsbxo/slacks_migration_to_a_cellular_architecture/",
+      "source": "reddit",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Slack",
+        "アーキテクチャ",
+        "セルラー"
+      ],
+      "related": []
+    },
+    {
+      "title": "C# 15に網羅性検査付きunionが導入、四則演算処理系で試す",
+      "original_title": "C#にもとうとうunionが来たので、四則演算処理系を書いてみる",
+      "summary": "C# 15に網羅性検査のあるunion機能が入ったことを受け、四則演算の処理系を書いて試す記事です。AIエージェントのCodexが執筆し、人間のレビューを経て公開されたと明記されています。",
+      "url": "https://qiita.com/yuchiki1000yen/items/775afcd1e683e66a957f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "C#",
+        "union",
+        "C# 15"
+      ],
+      "related": []
+    },
+    {
+      "title": "Amazon CognitoのOAuth 2.0トークン交換でRAGの権限管理を行う",
+      "original_title": "【AWS】Cognitoのトークン交換を活用したRAGにおける権限管理について",
+      "summary": "Amazon CognitoにOAuth 2.0のトークン交換が追加されたアップデートを取り上げ、エージェントが「誰の代わりに」動いているかをトークンで表現できるようになると解説しています。AgentCore GatewayやManaged Knowledge Baseと組み合わせたRAGの権限管理が題材です。",
+      "url": "https://qiita.com/yakumo_09/items/d6e092dbb566decee632?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "AWS",
+        "Cognito",
+        "RAG",
+        "OAuth"
+      ],
+      "related": []
+    },
+    {
+      "title": "10年超の個人ブログをWordPressからAstro + Cloudflare Workersへ移行しPageSpeed 100点に",
+      "original_title": "脱WordPress：10年超の個人ブログをAstro + Cloudflare Workersへ移行しPageSpeed 100点を実現",
+      "summary": "10年以上運用してきた個人ブログをWordPressからAstroとCloudflare Workersへ移行し、PageSpeedで100点を達成した記録です。静的サイトとエッジ配信の組み合わせによる移行例として参考になります。",
+      "url": "https://zenn.dev/unsoluble_sugar/articles/8cdf1efc01e6cb",
+      "source": "zenn",
+      "post_url": null,
+      "author": "星影",
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Astro",
+        "Cloudflare Workers",
+        "WordPress"
+      ],
+      "related": []
+    },
+    {
+      "title": "ボタンへのcursor:pointer指定をめぐる議論",
+      "original_title": "cursor:pointer on buttons",
+      "summary": "Lobstersで「cursor:pointer on buttons」が話題になっています。a11y・CSS・Webのタグが付けられており、ボタンのカーソル指定がUXとアクセシビリティに与える影響を考える内容です。",
+      "url": "https://blog.kizu.dev/cursors/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/h8tghc/cursor_pointer_on_buttons",
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "CSS",
+        "a11y"
+      ],
+      "related": []
+    },
+    {
+      "title": "MacBook ProのOLEDにおけるPWM問題",
+      "original_title": "The MacBook Pro's OLED PWM problem",
+      "summary": "「The MacBook Pro's OLED PWM problem」がHacker Newsで397ポイント・221コメントを集めました。MacBook ProのOLEDディスプレイのPWM（調光方式）に関する問題が議論されています。",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50506719",
+      "author": null,
+      "category": "mobile",
+      "score": 4,
+      "tags": [
+        "MacBook Pro",
+        "OLED",
+        "PWM"
+      ],
+      "related": []
+    },
+    {
+      "title": "Qwen3.8 Flash Nextに混ざる中国語を出力層の書き換えで27%→0%に",
+      "original_title": "Qwen3.8 Flash Nextに混ざる中国語を、出力層の書き換えで消した: 27%→0%、他の重みは1バイトも変えずに",
+      "summary": "Qwen3.8 Flash Nextの出力に混ざる中国語を、出力層の書き換えだけで27%から0%に減らしたというZenn記事です。他の重みは1バイトも変更していないとされています。",
+      "url": "https://zenn.dev/caphtech/articles/qwen38-zh-ban",
+      "source": "zenn",
+      "post_url": null,
+      "author": "caphtech",
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Qwen",
+        "LLM",
+        "ファインチューニング"
+      ],
+      "related": []
+    },
+    {
+      "title": "最新LLMにおける位置埋め込み（Positional Embeddings）の理解",
+      "original_title": "Understanding Positional Embeddings in Modern LLMs",
+      "summary": "「Understanding Positional Embeddings in Modern LLMs」がHacker Newsで191ポイントを集めました。現代のLLMで使われる位置埋め込みの仕組みを解説する内容です。",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50506376",
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "LLM",
+        "Transformer",
+        "位置埋め込み"
+      ],
+      "related": []
+    }
+  ]
+}
