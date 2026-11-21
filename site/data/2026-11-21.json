@@ -1,0 +1,466 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "OpenSSL・nginx・PHP・Rails の重大脆弱性が相次ぎ、PostgreSQL 19 と FFmpeg 9.1 のリリースも話題に",
+  "items": [
+    {
+      "title": "OpenSSL の EVP_EncodeBlock() にバッファオーバーフロー（CVE-2026-121481, CVSS 9.8）",
+      "original_title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "summary": "OpenSSL の EVP_EncodeBlock() にバッファオーバーフローの脆弱性が報告され、CVE-2026-121481 として CVSS 9.8 の深刻度が付けられた。Hacker News で 364 ポイントを集め注目されている。OpenSSL を利用する環境では、修正状況の確認が必要になる。",
+      "url": "https://github.com/openssl/openssl/pull/33652",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50569226",
+      "author": null,
+      "category": "backend",
+      "score": 9,
+      "tags": [
+        "OpenSSL",
+        "CVE",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "nginx に 5 件のメモリ破壊脆弱性（nginx2root）、Cloudflare が防御を解説",
+      "original_title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "summary": "nginx2root と呼ばれる 5 件のメモリ破壊バグにより、認証なしの攻撃者がサーバー上でコードを実行できる可能性がある。Cloudflare がその仕組みと、オリジンサーバーを守る方法を解説している。nginx を運用している場合は優先して確認したい。",
+      "url": "https://blog.cloudflare.com/nginx2root/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 9,
+      "tags": [
+        "nginx",
+        "Cloudflare",
+        "脆弱性"
+      ],
+      "related": []
+    },
+    {
+      "title": "Rails・Sinatra の既定構成に影響する ruby2shell（CVE-2026-132825）と Cloudflare WAF の対応",
+      "original_title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+      "summary": "ruby2shell は、既定構成の Rails および Sinatra アプリでログイン不要でメモリを破壊できる脆弱性である。Cloudflare WAF は Free プランを含む全顧客に対してこれを遮断すると説明している。",
+      "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "Rails",
+        "Sinatra",
+        "Cloudflare",
+        "CVE"
+      ],
+      "related": []
+    },
+    {
+      "title": "PHP のセッションハンドラに重大な脆弱性（phpAfterShell）、修正版の配布状況も話題に",
+      "original_title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "summary": "phpAfterShell は PHP の既定のセッションハンドラに存在する重大な欠陥で、コード実行につながる可能性がある。Cloudflare WAF は全顧客に対して防御を提供している。別の記事では、公開から 9 時間時点で Ubuntu と brew install php には修正版がまだ届いていなかったと報告されている。",
+      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "PHP",
+        "脆弱性",
+        "Cloudflare"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/suwa_nobu/items/83e35e3be86b236cc807?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "PostgreSQL 19 がリリース、組み込みのテーブル肥大化クリーンアップ（Repack）も",
+      "original_title": "PostgreSQL 19",
+      "summary": "PostgreSQL 19 が公開された。関連記事では、テーブルの肥大化（bloat）を解消する組み込みの Repack 機能が紹介されている。PostgreSQL を運用するバックエンドエンジニアは、変更点の確認が望ましい。",
+      "url": "https://www.postgresql.org/docs/release/19.0/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50569890",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "PostgreSQL",
+        "リリース"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50569516"
+        }
+      ]
+    },
+    {
+      "title": "言語モデルが自身の重みを書き換えられるとする研究",
+      "original_title": "Language Models Can Rewrite Their Own Weights",
+      "summary": "「Language Models Can Rewrite Their Own Weights」と題された研究が Hacker News で 337 ポイントを集めている。LLM が自らの重みを更新するという方向性で、モデル改善手法の議論に関わる。",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50577265",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "LLM",
+        "研究"
+      ],
+      "related": []
+    },
+    {
+      "title": "AI が発見・設計・検証した新 CPU アーキテクチャ「Frostbite」",
+      "original_title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "summary": "Frostbite は AI によって発見・設計・検証されたとされる新しい CPU アーキテクチャで、Hacker News で 625 ポイントを集めた。関連して、推論チップを vibecoding で作る試みも共有されている。",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50572503",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "AI",
+        "CPU",
+        "ハードウェア"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50579297"
+        }
+      ]
+    },
+    {
+      "title": "モバイル OS で AI エージェントによるデータ取得を制限する提案",
+      "original_title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+      "summary": "モバイル OS プラットフォームにおいて、AI エージェントが画面などのデータを取得することを制限する提案が議論を呼び、Hacker News で 508 ポイントを集めた。",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50572348",
+      "author": null,
+      "category": "mobile",
+      "score": 7,
+      "tags": [
+        "モバイル",
+        "AIエージェント",
+        "プライバシー"
+      ],
+      "related": []
+    },
+    {
+      "title": "FFmpeg 9.1「Gauss」がリリース",
+      "original_title": "FFmpeg 9.1 'Gauss'",
+      "summary": "FFmpeg の新バージョン 9.1「Gauss」が公開された。Hacker News で 289 ポイントを集めている。動画・音声処理に FFmpeg を使うプロジェクトでは、更新内容の確認が推奨される。",
+      "url": "https://ffmpeg.org/download.html#release_9.1",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50569998",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "FFmpeg",
+        "リリース"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenAI が敵対的蒸留への多層的な対策を公開",
+      "original_title": "Combatting adversarial distillation",
+      "summary": "OpenAI は、モデル訓練、安全対策、検知、執行を組み合わせた多層的な手法で、敵対的蒸留による能力の抽出に対抗すると説明している。",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "OpenAI",
+        "蒸留",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "Anthropic の IPO 後も AI 関連株の売りが止まらず、Nasdaq は 2026 年の上昇分を消す",
+      "original_title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "summary": "Anthropic の記録的な IPO にもかかわらず、世界の株式市場は AI 関連株の売りで下落し、Nasdaq は 2026 年の上昇分をすべて失ったと報じられている。IPO 後の Anthropic の株価も下落した。",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50574383",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "市場"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50578794"
+        },
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50583254"
+        }
+      ]
+    },
+    {
+      "title": "Google が OEM に GrapheneOS やブートローダーのアンロックへの対抗を促しているとの指摘",
+      "original_title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+      "summary": "Google が OEM に対し、GrapheneOS やブートローダーのアンロックに対抗するよう圧力をかけているとの記事が、Hacker News で 477 ポイントを集めた。",
+      "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50570479",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "Android",
+        "GrapheneOS"
+      ],
+      "related": []
+    },
+    {
+      "title": "iOS に WebKit 以外のブラウザがまだ存在しない理由",
+      "original_title": "Why there are still no non-WebKit browsers on iOS",
+      "summary": "iOS で WebKit 以外のブラウザエンジンがいまだに登場していない理由を論じた記事で、Hacker News で 331 ポイントを集めた。",
+      "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50575644",
+      "author": null,
+      "category": "mobile",
+      "score": 6,
+      "tags": [
+        "iOS",
+        "WebKit",
+        "ブラウザ"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Issue に HTML や Markdown を Artifact として添付できるように",
+      "original_title": "GitHub IssueにArtifactとしてHTMLとMarkdownを添付できるようになった",
+      "summary": "GitHub Issue に HTML と Markdown を Artifact として添付できるようになったことを紹介する Zenn の記事。84 いいねを集めている。",
+      "url": "https://zenn.dev/kesin11/articles/20261114_github_issue_artifact",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Kesin11",
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "GitHub",
+        "Artifact"
+      ],
+      "related": []
+    },
+    {
+      "title": "tsrs 導入で oxlint の type-aware linting と typecheck が高速化",
+      "original_title": "tsrs を導入したら oxlint の type-aware linting と typecheck が爆速になった話",
+      "summary": "tsrs を導入したところ、oxlint の type-aware linting と typecheck が非常に高速になったという Zenn の体験記。",
+      "url": "https://zenn.dev/dress_code/articles/6c179ae5129131",
+      "source": "zenn",
+      "post_url": null,
+      "author": "dress_code",
+      "category": "web",
+      "score": 6,
+      "tags": [
+        "oxlint",
+        "tsrs",
+        "TypeScript"
+      ],
+      "related": []
+    },
+    {
+      "title": "ミューテーションテストでテスト品質を測る",
+      "original_title": "おい、 Mutation Test をやれ。テスト品質を、測るために",
+      "summary": "Mutation Test でテスト品質を測ることを勧める Zenn の記事で、442 いいねを集めた。関連して mizchi/mutator を導入した体験記も公開されている。",
+      "url": "https://zenn.dev/mizchi/articles/mutation-test-quality",
+      "source": "zenn",
+      "post_url": null,
+      "author": "mizchi",
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "テスト",
+        "Mutation Test"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/polyco/articles/e05cb28c569801"
+        }
+      ]
+    },
+    {
+      "title": "相次ぐ OSS 脆弱性にはクラウド WAF と Rootless コンテナが有効",
+      "original_title": "相次ぐOSSの脆弱性に、とりあえずクラウドWAF入れるだけでだいぶ違う話+Rootlessコンテナもいいぞ",
+      "summary": "相次ぐ OSS の脆弱性への対策として、クラウド WAF を入れるだけでも効果があり、Rootless コンテナも有効だと紹介する Zenn の記事。",
+      "url": "https://zenn.dev/kusuke/articles/98e178e6824cac",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Yusuke Kawabata",
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "WAF",
+        "コンテナ",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "米 SEC の Nvidia 調査、会計上の問題の可能性を検討",
+      "original_title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+      "summary": "関係者の話として、米 SEC による Nvidia の調査では、会計処理に関する問題の可能性が検討されていると報じられた。",
+      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50581438",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Nvidia",
+        "SEC"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Code と Codex で作る自律改善ハーネス",
+      "original_title": "自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス",
+      "summary": "自分の代わりに動く Agent を目指し、Claude Code と Codex で自律改善ハーネスを構築する方法を紹介する Zenn の記事。",
+      "url": "https://zenn.dev/nttdata_tech/articles/9562962cc181a1",
+      "source": "zenn",
+      "post_url": null,
+      "author": "nttdata_tech",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "Codex",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "コードを書かなくなるとレビュー力も落ちる",
+      "original_title": "If you stop writing code, you also get worse at reviewing it",
+      "summary": "コードを書かなくなるとレビューの能力も低下するという議論が Hacker News で話題になった。日本でも、コードを真面目に読まなくなったという Zenn の記事が共感を集めている。",
+      "url": "https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50573886",
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "AIコーディング",
+        "コードレビュー"
+      ],
+      "related": [
+        {
+          "source": "zenn",
+          "url": "https://zenn.dev/hiromoo/articles/reading-less-preparing-more"
+        }
+      ]
+    },
+    {
+      "title": "Jujutsu の入門記事と、ライブ同期ツール jj-musubi の公開",
+      "original_title": "Jujutsu Primer",
+      "summary": "バージョン管理ツール Jujutsu の入門記事が注目を集めた。Lobsters では、Jujutsu 向けのライブ同期ツール jj-musubi も発表されている。",
+      "url": "https://ethanlowman.com/posts/jj-primer/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50570628",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Jujutsu",
+        "VCS"
+      ],
+      "related": [
+        {
+          "source": "lobsters",
+          "url": "https://lobste.rs/s/tj1j4b/announcing_jj_musubi_live_sync_for"
+        }
+      ]
+    },
+    {
+      "title": "firecrawl：エージェント向けの検索・スクレイピング API",
+      "original_title": "firecrawl/firecrawl",
+      "summary": "firecrawl は、検索、スクレイピング、550 以上のデータプロバイダーへのアクセスを 1 つの API で提供する、エージェント向けの知識基盤。GitHub Trending で 1 日 1,241 スター。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "firecrawl",
+        "GitHub Trending"
+      ],
+      "related": []
+    },
+    {
+      "title": "obra/superpowers：エージェント向けスキルフレームワーク",
+      "original_title": "obra/superpowers",
+      "summary": "agentic なスキルフレームワークとソフトウェア開発手法を提供するシェル製プロジェクト。GitHub Trending で 1 日 890 スター。",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "superpowers",
+        "GitHub Trending"
+      ],
+      "related": []
+    },
+    {
+      "title": "minimind：2 時間で 64M の LLM をゼロから学習",
+      "original_title": "jingyaogong/minimind",
+      "summary": "2 時間で 64M パラメータの LLM をゼロから訓練できるとうたうプロジェクト。GitHub Trending で 1 日 847 スター。",
+      "url": "https://github.com/jingyaogong/minimind",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "LLM",
+        "GitHub Trending"
+      ],
+      "related": []
+    },
+    {
+      "title": "訪問済みリンクは紫色にしよう",
+      "original_title": "Visited links are purple",
+      "summary": "Lobsters で共有された、a11y と Web に関する記事。訪問済みリンクの色について論じている。",
+      "url": "https://dbushell.com/2026/11/16/visited-links/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/hcahbx/visited_links_are_purple",
+      "author": null,
+      "category": "web",
+      "score": 3,
+      "tags": [
+        "a11y",
+        "CSS"
+      ],
+      "related": []
+    }
+  ]
+}
