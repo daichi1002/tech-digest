@@ -1,0 +1,346 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "GnuPGのRCE報告とFBI犯罪データベース侵害の報道、Microsoft 365障害の報告など、セキュリティと信頼性が話題の一日",
+  "items": [
+    {
+      "title": "GnuPGにリモートコード実行(RCE)の脆弱性",
+      "original_title": "RCE in Gnupg",
+      "summary": "「RCE in Gnupg」と題する記事がHacker Newsで226ポイントを集めました。広く使われる暗号化ツールGnuPGにリモートコード実行の問題が報告されており、利用者は詳細と修正状況を確認する必要があります。",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50587208",
+      "author": null,
+      "category": "backend",
+      "score": 9,
+      "tags": [
+        "GnuPG",
+        "RCE",
+        "セキュリティ"
+      ],
+      "related": []
+    },
+    {
+      "title": "FBIの犯罪データベースが侵害された可能性、捜査中と報道",
+      "original_title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "FBIが自身の犯罪データベースへの不正アクセスの疑いを調査していると報じられ、Hacker Newsで167ポイントを獲得しました。公的機関のデータ基盤に対するセキュリティ事案として注目されています。",
+      "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50587859",
+      "author": null,
+      "category": "backend",
+      "score": 8,
+      "tags": [
+        "セキュリティ",
+        "FBI",
+        "インシデント"
+      ],
+      "related": []
+    },
+    {
+      "title": "Microsoft 365障害のインシデント事後報告書が公開",
+      "original_title": "Microsoft 365 Outage - Post Incident Report",
+      "summary": "Microsoft 365の障害に関するPost Incident Reportが公開され、Lobstersで共有されました。分散システムの障害原因と再発防止策を学べる資料です。",
+      "url": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/becitz/microsoft_365_outage_post_incident",
+      "author": null,
+      "category": "infra",
+      "score": 8,
+      "tags": [
+        "Microsoft 365",
+        "障害",
+        "ポストモーテム"
+      ],
+      "related": []
+    },
+    {
+      "title": "Inkling-2-Miniを5.4GBのメモリで動作させる",
+      "original_title": "Inkling-2-Mini in 5.4 GB Memory",
+      "summary": "「Inkling-2-Mini in 5.4 GB Memory」がHacker Newsで331ポイントを集めました。モデルを少ないメモリで動かす取り組みで、ローカル推論に関心のあるエンジニアに参考になります。",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50591853",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "ローカルLLM",
+        "省メモリ",
+        "推論"
+      ],
+      "related": []
+    },
+    {
+      "title": "Astra 6.2とSol 6.2がSimple Benchで低調との報告",
+      "original_title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
+      "summary": "Astra 6.2とSol 6.2がSimple Benchで振るわなかったという記事が、Hacker Newsで159ポイント・155コメントと議論を呼びました。モデル選定時のベンチマーク評価の読み方を考える材料になります。",
+      "url": "https://simple-bench.com/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50588916",
+      "author": null,
+      "category": "ai",
+      "score": 7,
+      "tags": [
+        "LLM",
+        "ベンチマーク",
+        "Simple Bench"
+      ],
+      "related": []
+    },
+    {
+      "title": "C++26が(再び)完成、2026年11月ISO C++標準化会議の報告",
+      "original_title": "C++26 is done (again)! — Trip report: November 2026 ISO C++ standards meeting (Búzios, Brazil)",
+      "summary": "ブラジルのブジオスで開かれた2026年11月のISO C++標準化会議のトリップレポートで、「C++26 is done (again)」と報告されています。C++の次期標準の動向を追う人向けの記事です。",
+      "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/fjueso/c_26_is_done_again_trip_report_november",
+      "author": null,
+      "category": "backend",
+      "score": 7,
+      "tags": [
+        "C++",
+        "C++26",
+        "標準化"
+      ],
+      "related": []
+    },
+    {
+      "title": "ClawDOS: DOS上で動くAIコーディングエージェント",
+      "original_title": "ClawDOS – An AI coding agent for DOS",
+      "summary": "DOS向けのAIコーディングエージェント「ClawDOS」が紹介され、Hacker Newsで157ポイントを獲得しました。レトロな環境でエージェントを動かすユニークな試みです。",
+      "url": "http://ricapar.net/ClawDOS/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50586292",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIエージェント",
+        "DOS",
+        "コーディング"
+      ],
+      "related": []
+    },
+    {
+      "title": "Show HN: ランタイムもGCもないC#「Zero C#」",
+      "original_title": "Show HN: Zero C# – C# without a runtime or GC",
+      "summary": "ランタイムとGCなしで動作するC#を謳う「Zero C#」がShow HNで公開され、122ポイントを集めました。C#の実行モデルに関する新しい試みとして注目されます。",
+      "url": "https://onurgumus.github.io/zero-csharp/index.html",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50590279",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "C#",
+        "GCなし",
+        "言語処理系"
+      ],
+      "related": []
+    },
+    {
+      "title": "PostgreSQLを単一バイナリに収めた方法／Goによる拡張開発",
+      "original_title": "How I Got Postgres into a Single Binary",
+      "summary": "「How I Got Postgres into a Single Binary」がLobstersで共有されました。関連してHacker NewsではGoでPostgreSQL拡張を書く記事も話題になっており、Postgres周辺の組み込み・拡張の動向がうかがえます。",
+      "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/pvylnk/how_i_got_postgres_into_single_binary",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "PostgreSQL",
+        "Go",
+        "データベース"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50591260"
+        }
+      ]
+    },
+    {
+      "title": "pgvectorのHNSWでテナント絞り込みすると検索が0件になる問題と対策",
+      "original_title": "pgvectorのHNSWでテナント絞り込みすると検索が0件になる問題と対策",
+      "summary": "マルチテナントのRAGでpgvectorのHNSWインデックスにWHERE tenant_id = ...を付けると、LIMITより少ない件数しか返らないことがあります。記事ではその仕組みと、再現・対策・検知の方法をコードで示しています。",
+      "url": "https://qiita.com/takumi_engineer/items/142ca7088f13f006da82?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "pgvector",
+        "HNSW",
+        "RAG"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWS: AgentCore Gatewayのアクセス制御とメタデータフィルタリング",
+      "original_title": "【AWS】AgentCore Gatewayにおけるアクセスコントロールとメタデータフィルタリング",
+      "summary": "Managed Knowledge BaseはAgentCore GatewayのConnector Targetとしてエージェントから呼べ、Retrieveツールの引数でメタデータフィルタも指定できます。部署ごとの文書絞り込みなどのアクセス制御を扱う記事です。pre:Invent期にAWSのAIエージェント認証が進化しているというまとめ記事も出ています。",
+      "url": "https://qiita.com/yakumo_09/items/ea2debc1e73e27caa6a0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "AWS",
+        "AgentCore",
+        "MCP"
+      ],
+      "related": [
+        {
+          "source": "rss",
+          "url": "https://qiita.com/minorun365/items/bd6091f2599a0f37326b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+        }
+      ]
+    },
+    {
+      "title": "Valkeyのソート済みセットをスキップリストからB+木へ、メモリ効率を改善",
+      "original_title": "From Skiplists to B+ Trees: Making Valkey Sorted Sets More Memory Efficient",
+      "summary": "「From Skiplists to B+ Trees」と題し、Valkeyのソート済みセットのメモリ効率を高める取り組みがLobstersで紹介されています。データ構造の変更によるパフォーマンス改善の事例です。",
+      "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/ixhrac/from_skiplists_b_trees_making_valkey",
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "Valkey",
+        "B+木",
+        "データ構造"
+      ],
+      "related": []
+    },
+    {
+      "title": "Gitを水平にスケールさせる: Multi-Raftを超えた移行",
+      "original_title": "Scaling Git horizontally: how we moved beyond Multi-Raft",
+      "summary": "「Scaling Git horizontally: how we moved beyond Multi-Raft」がLobstersで共有されました。Gitホスティング基盤のスケーリングにおけるアーキテクチャ移行の事例です。",
+      "url": "https://enroute.sh/blog/scaling-horizontally-how-we-moved-beyond-multi-raft",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/79x708/scaling_git_horizontally_how_we_moved",
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Git",
+        "Raft",
+        "スケーリング"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Codeのセッション名を日本語にするTips",
+      "original_title": "Claude Codeのセッション名を日本語にするTips。自動生成の設定と /rename の使い方",
+      "summary": "/resumeで表示されるセッション名が英語で分かりにくい問題に対し、自動生成の設定と/renameの使い方を紹介する記事です。",
+      "url": "https://qiita.com/inoyu-qiita/items/ddd888c6be89c5e35016?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Code",
+        "Tips"
+      ],
+      "related": []
+    },
+    {
+      "title": "mise + gh skillでdotfilesからAgent Skillsを管理する",
+      "original_title": "mise + gh skill で、dotfiles から Agent Skills を管理する",
+      "summary": "miseとgh skillを使い、dotfilesからAgent Skillsを管理する方法をまとめたZenn記事です。",
+      "url": "https://zenn.dev/dress_code/articles/30bd78e1a67f87",
+      "source": "zenn",
+      "post_url": null,
+      "author": "dress_code",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Agent Skills",
+        "mise",
+        "dotfiles"
+      ],
+      "related": []
+    },
+    {
+      "title": "【TLA+】AIにテストケースを書かせず、ルールを書け",
+      "original_title": "【TLA+】AIにテストケースを書かせるな。ルールを書け",
+      "summary": "AIにテストケースを書かせるのではなく、仕様となるルールをTLA+で書くというアプローチを提案するZenn記事です。",
+      "url": "https://zenn.dev/karamage/articles/73027ee36796dc",
+      "source": "zenn",
+      "post_url": null,
+      "author": "karamage",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "TLA+",
+        "テスト",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "CSSでは書きにくいアニメーションをWeb Animations APIで書く",
+      "original_title": "CSS では書きにくいアニメーションを Web Animations API で書く",
+      "summary": "CSSでは表現しにくいアニメーションをWeb Animations APIで実装する方法を扱ったZenn記事です(47 likes)。",
+      "url": "https://zenn.dev/omu_tryangle/articles/b5817393592229",
+      "source": "zenn",
+      "post_url": null,
+      "author": "omu_tryangle",
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "Web Animations API",
+        "CSS",
+        "フロントエンド"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending: Cursorプラグイン仕様と公式プラグイン",
+      "original_title": "cursor/plugins",
+      "summary": "cursor/pluginsはCursorのプラグイン仕様と公式プラグインを収めたTypeScriptのリポジトリで、本日260スターを獲得しました。",
+      "url": "https://github.com/cursor/plugins",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Cursor",
+        "プラグイン",
+        "GitHub"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Trending: CLI-Anything — あらゆるソフトをエージェントネイティブに",
+      "original_title": "HKUDS/CLI-Anything",
+      "summary": "HKUDS/CLI-Anythingは「全てのソフトウェアをエージェントネイティブにする」ことを掲げるPythonプロジェクトで、本日769スターを集めました。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "AIエージェント",
+        "CLI",
+        "GitHub"
+      ],
+      "related": []
+    }
+  ]
+}
