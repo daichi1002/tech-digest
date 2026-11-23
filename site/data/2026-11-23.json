@@ -1,0 +1,484 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T10:40+09:00",
+  "categories": {
+    "ai": "AI / LLM",
+    "web": "Web / Frontend",
+    "backend": "Backend",
+    "infra": "Infra / Cloud",
+    "mobile": "Mobile / iOS"
+  },
+  "headline": "AIエージェントの実運用とAIインフラの電力・データ取扱いリスクが話題の中心",
+  "items": [
+    {
+      "title": "推論プロバイダにおけるデータ処理インシデント",
+      "original_title": "Data Processing Incidents on Inference Providers",
+      "summary": "推論プロバイダで起きたデータ処理に関するインシデントを扱った記事が、Hacker Newsで279ポイントを集めました。LLM推論をAPI経由で利用する際、入力データがどう扱われるかを確認する必要性を示す話題です。",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50595554",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "推論API",
+        "プライバシー"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIサプライチェーンに200万個のカナリアを仕込んだ研究者、プライバシー上の問題が発覚",
+      "original_title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
+      "summary": "ある研究者がAIサプライチェーンに200万個のカナリアを仕込み、プライバシー上の問題が表面化したと報じられています。Lobstersで108ポイントを集め、セキュリティタグが付けられています。",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai",
+      "author": null,
+      "category": "ai",
+      "score": 8,
+      "tags": [
+        "セキュリティ",
+        "AIサプライチェーン",
+        "プライバシー"
+      ],
+      "related": []
+    },
+    {
+      "title": "2028年のAnthropicの電力の87%はガス、11%は石炭になる",
+      "original_title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "summary": "2028年にAnthropicが使う電力の87%がガス、11%が石炭由来になるとする記事が、Hacker Newsで874ポイント・882コメントと大きな議論を呼んでいます。AI向けデータセンターの電力調達が注目されています。",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50597612",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "AI",
+        "データセンター",
+        "電力"
+      ],
+      "related": []
+    },
+    {
+      "title": "GitHub Actionsは不正なYAMLを受け入れる",
+      "original_title": "GitHub Actions accepts invalid YAML",
+      "summary": "GitHub Actionsが無効なYAMLを受け入れてしまうという指摘が取り上げられています。ワークフロー定義を書く開発者にとって、仕様との挙動の差を知っておく価値がある話題です。",
+      "url": "https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/leqwqu/github_actions_accepts_invalid_yaml",
+      "author": null,
+      "category": "infra",
+      "score": 7,
+      "tags": [
+        "GitHub Actions",
+        "YAML",
+        "CI/CD"
+      ],
+      "related": []
+    },
+    {
+      "title": "Perplexityとインテリジェンス",
+      "original_title": "Perplexity and Intelligence",
+      "summary": "「Perplexity and Intelligence」と題した記事が、Hacker Newsで467ポイント・320コメントを集めました。AI検索サービスPerplexityを巡る議論として注目されています。",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50601525",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "Perplexity",
+        "AI"
+      ],
+      "related": []
+    },
+    {
+      "title": "Fast-Anything：全部をRustで書き直すのではなく、遅い5%だけを書き直す",
+      "original_title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+      "summary": "「Rustで全部書き直すのではなく、遅い5%だけを書き直す」という方針を示す記事が、Hacker Newsで177ポイントを集めました。ボトルネックに絞った性能改善の考え方として参考になります。",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50596155",
+      "author": null,
+      "category": "backend",
+      "score": 6,
+      "tags": [
+        "Rust",
+        "パフォーマンス"
+      ],
+      "related": []
+    },
+    {
+      "title": "Inkling、Qwen、Unslothで始めるローカルAI入門ガイド",
+      "original_title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "summary": "Inkling、Qwen、Unslothを使ってローカルでAIを動かす初心者向けガイドです。Hacker Newsで173ポイントを集めています。",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50603845",
+      "author": null,
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "ローカルLLM",
+        "Qwen",
+        "Unsloth"
+      ],
+      "related": []
+    },
+    {
+      "title": "Backblaze、ポリシー更新でユーザーが個人データの販売・共有を懸念",
+      "original_title": "Backblaze customers worried of personal data sale/sharing after policy update",
+      "summary": "Backblazeのポリシー更新を受け、顧客が個人データの販売や共有を心配していると報じられています。ストレージ事業者を選ぶ際のデータ取扱い確認の重要性を示す話題で、Hacker Newsで146ポイントを集めました。",
+      "url": "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50600435",
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "Backblaze",
+        "プライバシー",
+        "ストレージ"
+      ],
+      "related": []
+    },
+    {
+      "title": "opensre：CI/CDの信頼性を高めるオープンソースエージェント",
+      "original_title": "Tracer-Cloud/opensre",
+      "summary": "Tracer-Cloud/opensreは、CI/CDの信頼性向上を目的としたオープンソースのエージェントです。Pythonで書かれ、GitHub Trendingで本日399スターを獲得しました。",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 6,
+      "tags": [
+        "SRE",
+        "CI/CD",
+        "エージェント"
+      ],
+      "related": []
+    },
+    {
+      "title": "毎月6,000件のAI Agentsを捌くためにキーボードを捨てた話",
+      "original_title": "毎月6,000 AI Agentsを捌くためにキーボードを捨てた話",
+      "summary": "毎月6,000件のAI Agentsを扱うためにキーボード操作から離れた体験を語るZenn記事で、198いいねを集めています。AIエージェントを大量に運用する際のワークフローの変化が主題です。",
+      "url": "https://zenn.dev/andoshin11/articles/ba68b39ef9a8ce",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Andy",
+      "category": "ai",
+      "score": 6,
+      "tags": [
+        "AIエージェント",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "Open Social Web Alliance",
+      "original_title": "Open Social Web Alliance",
+      "summary": "「Open Social Web Alliance」に関する話題が、Hacker Newsで218ポイント・213コメントを集めました。オープンなソーシャルウェブを巡る動きとして注目されています。",
+      "url": "https://osw-alliance.net/en/",
+      "source": "hn",
+      "post_url": "https://news.ycombinator.com/item?id=50600511",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "分散SNS",
+        "オープンWeb"
+      ],
+      "related": []
+    },
+    {
+      "title": "ATProtoについてプログラマが信じている誤解",
+      "original_title": "Falsehoods Programmers Believe About ATProto",
+      "summary": "ATProtoに関して開発者が抱きがちな誤解をまとめた記事です。Lobstersで25ポイントを集め、APIタグが付けられています。",
+      "url": "https://reiver.link/atproto/falsehoods-programmers-believe/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/bjoete/falsehoods_programmers_believe_about",
+      "author": null,
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "ATProto",
+        "API"
+      ],
+      "related": []
+    },
+    {
+      "title": "OpenVINO：AI推論の最適化とデプロイのためのツールキット",
+      "original_title": "openvinotoolkit/openvino",
+      "summary": "openvinotoolkit/openvinoは、AI推論の最適化とデプロイのためのオープンソースツールキットです。C++製で、GitHub Trendingで本日158スターを獲得しました。",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "OpenVINO",
+        "推論",
+        "C++"
+      ],
+      "related": []
+    },
+    {
+      "title": "last30days-skill：複数のサイトを調べて要約するAIエージェントスキル",
+      "original_title": "mvanhorn/last30days-skill",
+      "summary": "mvanhorn/last30days-skillは、Reddit、X、YouTube、HN、Polymarket、Webを横断して任意のトピックを調べ、根拠付きで要約するAIエージェントスキルです。Python製で本日668スターを獲得しました。",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "エージェントスキル",
+        "リサーチ"
+      ],
+      "related": []
+    },
+    {
+      "title": "app-store-compliance：App StoreとGoogle Playのリジェクト回避プレイブック",
+      "original_title": "mjmirza/app-store-compliance",
+      "summary": "mjmirza/app-store-complianceは、App StoreやGoogle Playでの審査落ちを避けるためのオープンなプレイブックです。124件の文書化されたリジェクトパターンと対処法、プライバシーマニフェストやData safetyの確認項目を含みます。",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "mobile",
+      "score": 5,
+      "tags": [
+        "App Store",
+        "Google Play",
+        "審査"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude Desktop 開発のすゝめ",
+      "original_title": "Claude Desktop 開発のすゝめ",
+      "summary": "Claude Desktopを使った開発を勧めるZenn記事で、83いいねを集めています。",
+      "url": "https://zenn.dev/peoplex_blog/articles/vscode-to-claude-desktop",
+      "source": "zenn",
+      "post_url": null,
+      "author": "peoplex_blog",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Claude Desktop",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "ローカルLLM入門",
+      "original_title": "ローカルLLM入門",
+      "summary": "ローカルLLMの入門を扱うZenn記事で、83いいねを集めています。",
+      "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+      "source": "zenn",
+      "post_url": null,
+      "author": "port_inc",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "ローカルLLM",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "mizchi/mutator を入れてみた",
+      "original_title": "mizchi/mutator を入れてみた",
+      "summary": "mizchi/mutatorを導入してみた体験を紹介するZenn記事で、70いいねを集めています。",
+      "url": "https://zenn.dev/polyco/articles/e05cb28c569801",
+      "source": "zenn",
+      "post_url": null,
+      "author": "polyco",
+      "category": "web",
+      "score": 5,
+      "tags": [
+        "mutator",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "最近、コードを真面目に読まなくなった",
+      "original_title": "最近、コードを真面目に読まなくなった",
+      "summary": "AI時代にコードを丁寧に読まなくなった変化を語るZennのエッセイで、88いいねを集めています。",
+      "url": "https://zenn.dev/hiromoo/articles/reading-less-preparing-more",
+      "source": "zenn",
+      "post_url": null,
+      "author": "むた",
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "AI開発",
+        "Zenn"
+      ],
+      "related": []
+    },
+    {
+      "title": "脆弱性の「CVSS 9.8」って結局なに？CVSSの読み方を理解する",
+      "original_title": "脆弱性の「CVSS 9.8」って結局なに？CVSSの読み方をちゃんと理解する",
+      "summary": "DependabotのアラートなどでよくみるCVSSスコアと、CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:Hといったベクタ表記の読み方を解説する記事です。",
+      "url": "https://qiita.com/heki-dm/items/77ecaacd592d1c4459df?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "backend",
+      "score": 5,
+      "tags": [
+        "CVSS",
+        "脆弱性",
+        "Dependabot"
+      ],
+      "related": []
+    },
+    {
+      "title": "Amazon Bedrock AgentCoreの1年を振り返り、re:Invent 2026を予測する",
+      "original_title": "Amazon Bedrock AgentCoreの1年をたどると、クラウドの十数年と同じ道だった ― re:Invent 2026を\"勝手に\"予測する",
+      "summary": "Amazon Bedrock AgentCoreのこの1年の歩みをたどり、re:Invent 2026を予測する記事です。AIエージェントを本番運用する難しさがクラウドの歴史と重なるという視点で語られています。",
+      "url": "https://qiita.com/somasun_aws/items/6d10711b34636a4a2f30?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "infra",
+      "score": 5,
+      "tags": [
+        "Bedrock AgentCore",
+        "AWS",
+        "re:Invent"
+      ],
+      "related": []
+    },
+    {
+      "title": "リーマン予想のLean形式検証とは？Claudeと独立証明チェッカーの仕組み",
+      "original_title": "リーマン予想のLean形式検証とは？Claudeと独立証明チェッカーの仕組み",
+      "summary": "リーマン予想のLeanによる形式検証を、Claudeと独立した証明チェッカーの仕組みとともに解説する記事です。関連してLeanによる形式化の進捗マップもHacker Newsで話題になっています。",
+      "url": "https://qiita.com/sponge841841/items/22a73af83a4e3528e6bf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "source": "rss",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 5,
+      "tags": [
+        "Lean",
+        "Claude",
+        "形式検証"
+      ],
+      "related": [
+        {
+          "source": "hn",
+          "url": "https://news.ycombinator.com/item?id=50605045"
+        }
+      ]
+    },
+    {
+      "title": "もしNetscapeがSSLをHTTP流に設計していたら？",
+      "original_title": "What If Netscape Did SSL the HTTP Way?",
+      "summary": "Netscapeが仮にSSLをHTTPの流儀で設計していたらどうなったかを考察する記事です。暗号とWebのタグが付いており、Lobstersで8ポイントでした。",
+      "url": "https://owl.billpg.com/what-if-netscape-did-ssl-the-http-way/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/yhl0jk/what_if_netscape_did_ssl_http_way",
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "SSL",
+        "HTTP",
+        "暗号"
+      ],
+      "related": []
+    },
+    {
+      "title": "AWSエミュレータでTerraformをテストする",
+      "original_title": "Testing Terraform with AWS Emulator",
+      "summary": "AWSエミュレータを使ってTerraformコードをテストする方法を紹介する記事です。Lobstersで3ポイントを集めました。",
+      "url": "https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/g5msf2/testing_terraform_with_aws_emulator",
+      "author": null,
+      "category": "infra",
+      "score": 4,
+      "tags": [
+        "Terraform",
+        "AWS",
+        "テスト"
+      ],
+      "related": []
+    },
+    {
+      "title": "GoogleのFeedburner問題と、半端にしか効かないキャッシュの修正",
+      "original_title": "Fixing Google’s Feedburner problem, and caching that half works",
+      "summary": "Googleのフィード配信サービスFeedburnerに関する問題と、中途半端にしか機能しないキャッシュへの対処を扱った記事です。Lobstersで8ポイントを集めました。",
+      "url": "https://joshua.hu/fixing-google-feedburner-cache-problem-atom-rss",
+      "source": "lobsters",
+      "post_url": "https://lobste.rs/s/nbtm5j/fixing_google_s_feedburner_problem",
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "Feedburner",
+        "キャッシュ",
+        "RSS"
+      ],
+      "related": []
+    },
+    {
+      "title": "Claude-BugHunter：バグ探索向けのClaude Codeスキル集",
+      "original_title": "elementalsouls/Claude-BugHunter",
+      "summary": "elementalsouls/Claude-BugHunterは、バグハンティングや外部レッドチーム向けのClaude Codeスキル集です。82のスキルと15のスラッシュコマンド、24の脆弱性クラスにわたる681件の報告パターンを含みます。",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "Claude Code",
+        "セキュリティ",
+        "スキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "diagram-design：Claude Codeなど向けの図解デザインスキル",
+      "original_title": "cathrynlavery/diagram-design",
+      "summary": "cathrynlavery/diagram-designは、Claude CodeやCodex、GitHub Copilot、Cursorなど向けの図解デザインスキルです。45種類の図に対応し、自己完結したHTMLとSVGで出力します。",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "source": "github",
+      "post_url": null,
+      "author": null,
+      "category": "web",
+      "score": 4,
+      "tags": [
+        "SVG",
+        "図解",
+        "エージェントスキル"
+      ],
+      "related": []
+    },
+    {
+      "title": "AIが爆速で開発する時代の、自動テストとの向き合い方",
+      "original_title": "AIが爆速で開発する時代の、自動テストとの向き合い方",
+      "summary": "AIによる高速な開発が進む中での自動テストとの向き合い方を扱うZenn記事で、20いいねを集めています。",
+      "url": "https://zenn.dev/daiaoki/articles/webterm-ai-era-testing",
+      "source": "zenn",
+      "post_url": null,
+      "author": "Dai",
+      "category": "ai",
+      "score": 4,
+      "tags": [
+        "自動テスト",
+        "AI開発"
+      ],
+      "related": []
+    }
+  ]
+}
